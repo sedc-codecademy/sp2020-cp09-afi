@@ -155,14 +155,14 @@ box-shadow: 5px 10px 8px #888888;
 .cards {
 display:contents;
 position: relative;
-top: 690px;
+top: 670px;
 
 }
 
 
 .cardd {
 position: relative;
-top: 360px;
+top: 370px;
 margin-left: 102px;
 width: 140px;
 
@@ -172,8 +172,8 @@ width: 140px;
 font-family: 'Roboto', sans-serif;
 position: relative;
 color: black;
-top: 365px;
-margin-left: 97px;
+top: 405px;
+margin-left: 96px;
 font-weight: bolder;
 font-size: 17px;
 
@@ -183,7 +183,7 @@ font-size: 17px;
 font-family: 'Roboto', sans-serif;
 
 position: relative;
-bottom: 230px;
+bottom: 150px;
 font-size: 60px;
 left:500px;
 }
@@ -191,7 +191,7 @@ left:500px;
 .slogan1 {
 font-family: 'Roboto', sans-serif;
 position: relative;
-bottom: 230px;
+bottom: 150px;
 font-size: 60px;
 left:511px;
 color: #4DA3B4;
@@ -204,7 +204,7 @@ position: relative;
 background: white;
 color: #AA1A75;
 left:-10px;
-top: 850px;
+top: 910px;
 font-size: 30px;
 font-weight: bolder;
 border-radius: 18px;
@@ -217,7 +217,7 @@ box-shadow: 5px 10px 8px #888888;
 .footer-text {
 font-family: 'Roboto', sans-serif;
 position: relative;
-top: 1200px;
+top: 1234px;
  right: 400px;
 font-size: 18px;
 color: white;
@@ -226,7 +226,7 @@ color: white;
 .footer-text-1 {
 font-family: 'Roboto', sans-serif;
 position: relative;
-top: 1150px;
+top: 1230px;
 left: 500px;
 font-size: 20px;
 color:white;
@@ -235,7 +235,7 @@ color:white;
 .footer-text-2 {
 font-family: 'Roboto', sans-serif;
 position: relative;
-top: 1150px;
+top: 1235px;
 left: 500px;
 font-size: 20px;
 color: white;
@@ -243,18 +243,18 @@ color: white;
 
 .instagram {
 position: relative;
-top: 1200px;
+top: 1230px;
 height: 40px;
 color: #4DA3B4;
-background-color: pink;
+background-color: #4DA3B4;
 border-radius: 50%;
 right: 350px;
 }
 
 .facebook {
 position: relative;
-top: 1200px;
-background-color:pink;
+top: 1230px;
+background-color:#4DA3B4;
 right: 440px;
 height: 40px;
 border-radius: 50%;
@@ -262,7 +262,7 @@ border-radius: 50%;
 
 .columnss {
 position: relative;
-top: 900px;
+top: 1000px;
 float: left;
 width: 45%;
 padding: 0 10px;
@@ -302,6 +302,6 @@ font-family: 'Roboto', sans-serif;
 margin-left: 100px;
 padding: 20px;
 
-
 }
+
 
