@@ -6,7 +6,9 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: whitesmoke ; 
-
+  background-image: url("./photo_image_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 
     }
 
@@ -18,7 +20,7 @@ body {
 
   .main-top {
       height: calc(100vh - -2309px);
-      background: url("./background.jpg");
+      background: url("./home_page_bez_slika.png");
       background-repeat: no-repeat;
       background-size: 100%;
       background-position: center;
@@ -55,7 +57,7 @@ body {
   position: relative;
   bottom: 30px;
    max-height: 250px;
-   left: 0%;
+   left: 2%;
 }
 
 .search {
@@ -158,24 +160,34 @@ position: relative;
 top: 670px;
 
 }
+#Layer_1 {
+  top: 400px;
+  position: relative;
+  height: 200px;
+  left: 70px;
+  padding: 20px;
+  width: 240px;
 
-
-.cardd {
-position: relative;
-top: 370px;
-margin-left: 102px;
-width: 140px;
+  
 
 }
+
+.imageinhouse {
+  position: relative;
+  width: 112%;
+  height: 102%;
+}
+
+
 
 .card-name {
 font-family: 'Roboto', sans-serif;
 position: relative;
 color: black;
 top: 405px;
-margin-left: 96px;
+margin-left: 113px;
 font-weight: bolder;
-font-size: 17px;
+font-size: 15px;
 
 }
 
@@ -183,17 +195,17 @@ font-size: 17px;
 font-family: 'Roboto', sans-serif;
 
 position: relative;
-bottom: 150px;
+bottom: 200px;
 font-size: 60px;
-left:500px;
+left:480px;
 }
 
 .slogan1 {
 font-family: 'Roboto', sans-serif;
 position: relative;
-bottom: 150px;
+bottom: 200px;
 font-size: 60px;
-left:511px;
+left:495px;
 color: #4DA3B4;
 }
 
@@ -204,7 +216,7 @@ position: relative;
 background: white;
 color: #AA1A75;
 left:-10px;
-top: 910px;
+top: 870px;
 font-size: 30px;
 font-weight: bolder;
 border-radius: 18px;
@@ -217,7 +229,7 @@ box-shadow: 5px 10px 8px #888888;
 .footer-text {
 font-family: 'Roboto', sans-serif;
 position: relative;
-top: 1234px;
+top: 1119px;
  right: 400px;
 font-size: 18px;
 color: white;
@@ -226,7 +238,7 @@ color: white;
 .footer-text-1 {
 font-family: 'Roboto', sans-serif;
 position: relative;
-top: 1230px;
+top: 1130px;
 left: 500px;
 font-size: 20px;
 color:white;
@@ -235,7 +247,7 @@ color:white;
 .footer-text-2 {
 font-family: 'Roboto', sans-serif;
 position: relative;
-top: 1235px;
+top: 1135px;
 left: 500px;
 font-size: 20px;
 color: white;
@@ -243,7 +255,7 @@ color: white;
 
 .instagram {
 position: relative;
-top: 1230px;
+top: 1130px;
 height: 40px;
 color: #4DA3B4;
 background-color: #4DA3B4;
@@ -253,7 +265,7 @@ right: 350px;
 
 .facebook {
 position: relative;
-top: 1230px;
+top: 1130px;
 background-color:#4DA3B4;
 right: 440px;
 height: 40px;
@@ -269,7 +281,6 @@ padding: 0 10px;
 }
 
 
-.rowss {margin: 0 -5px;}
 
 
 .rowss:after {
@@ -282,7 +293,7 @@ clear: both;
 .cardo {
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
 position: relative;
-margin-left: 100px;
+margin-left: 145px;
 padding: 80px;
 text-align: left;
 color:  rgb(0, 195, 255);
@@ -299,7 +310,7 @@ color: #4DA3B4;
 font-size: 30px;
 font-weight: bolder;
 font-family: 'Roboto', sans-serif;
-margin-left: 100px;
+margin-left: 140px;
 padding: 20px;
 
 }
