@@ -1,0 +1,57 @@
+body {
+    @font-face {
+        font-family: myFirstFont;
+        src: url(DINPro-Bold tr.ttf);
+    }
+    div {
+        font-family: myFirstFont;
+    }
+}
+
+#theback {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none!important;
+}
+
+li {
+    margin: 10px;
+}
+
+.form-group input,
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid darkblue;
+    outline: none;
+    border-radius: 2;
+}
+
+.btn {
+    margin: 10px;
+    padding: 5px;
+}
+
+select {
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+h1,
+h3 {
+    color: #138aa4;
+    padding: 10px;
+}
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
