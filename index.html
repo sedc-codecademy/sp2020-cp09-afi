@@ -1,82 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="style/user-profile-assets/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/user-profile-assets/user-profile-style.css">
+  <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
-    <div class="main-top content-padding flex-center">
-        <div class="row">
-            <div class="flex-center">
-                    <h3 class="main-top-heading">
-                      <a href="" class="heading-najava">Најави се</a>
-                      <a href="" class="heading-registracija">Регистрирај се</a>    
-                      <img src="./style/roommates_logo.svg" class="logo">
-                    </h3>  
-    
-                  <div class="search">
-                    <h1 class="text">Најди цимер по мерка.</h1>
-                    <div class="dropdown">
-                      <a class="btn btn-secondar dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Барам цимер со простор
-                      </a>
-                    
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Барам цимер</a>
-                        <a class="dropdown-item" href="#">Барам простор</a>
-                        <a class="dropdown-item" href="#">Барам цимер со простор</a>
-                      </div>
-                    </div>
-                      <div class="dropdown2">
-                        <button class="btn btn-secondary-2 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Локација
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Карпош</a>
-                          <a class="dropdown-item" href="#">Кисела Вода</a>
-                          <a class="dropdown-item" href="#">Центар</a>
-                        </div>
-                      </div>
-                      <button type="button" class="btn btn-light">Најди</button>
-                  </div>
-          
-                  </div>
-                    
-                    <div class="cards">
-                     
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSpMsxZshemLNLQYC7rhwJfmHAyhEobldsUS-46zzE4WC78VEFJ&usqp=CAU" class="cardd"alt="Avatar">
-    
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSpMsxZshemLNLQYC7rhwJfmHAyhEobldsUS-46zzE4WC78VEFJ&usqp=CAU"class="cardd" alt="Avatar">
-                    
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSpMsxZshemLNLQYC7rhwJfmHAyhEobldsUS-46zzE4WC78VEFJ&usqp=CAU"class="cardd" alt="Avatar">
-                    
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSpMsxZshemLNLQYC7rhwJfmHAyhEobldsUS-46zzE4WC78VEFJ&usqp=CAU"class="cardd" alt="Avatar">
-                    
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSpMsxZshemLNLQYC7rhwJfmHAyhEobldsUS-46zzE4WC78VEFJ&usqp=CAU" class="cardd"alt="Avatar">
-    
-                        <p class="card-name">Марко Марковски</p>
-                        <p class="card-name">Марко Марковски</p>
-                        <p class="card-name">Марко Марковски</p>
-                        <p class="card-name">Марко Марковски</p>
-                        <p class="card-name">Марко Марковски</p>
-                     </div>
-      
-               <p class="slogan">Зошто <p class="slogan1">roommates.mk?</p></p>
-               <div class="footer">  
-                <p class="footer-text">FOLLOW US</p>
-                <p class="footer-text-1">2020 Roommates.mk</p>
-                <p class="footer-text-2">Mobile App |Terms |Privacy |Contact </p>
-                <button type="button" class="btn btn-dark">РЕГИСТРИРАЈ СЕ!</button>
-    
-        </div>
-        
+  <div class="main-top ">
+    <div class="row">
+      <div class="">
+        <h3 class="main-top-heading">
+          <a href="" class="heading-najava">Најави се</a>
+          <a href="" class="heading-registracija">Регистрирај се</a>
+          <img src="./style/roommates_logo.svg" class="logo">
+        </h3>
+        <div class="search">
+          <h1 class="text">Најди цимер по мерка.</h1>
+          <div class="dropdown">
+            <a class="btn btn-secondar dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Барам цимер со простор
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Барам цимер</a>
+              <a class="dropdown-item" href="#">Барам простор</a>
+              <a class="dropdown-item" href="#">Барам цимер со простор</a>
             </div>
+          </div>
+          <div class="dropdown2">
+            <button class="btn btn-secondary-2 dropdown-toggle" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Локација
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Карпош</a>
+              <a class="dropdown-item" href="#">Кисела Вода</a>
+              <a class="dropdown-item" href="#">Центар</a>
+            </div>
+          </div>
+          <button type="button" class="btn btn-light">Најди</button>
         </div>
       </div>
-    <script src="./script/script.js"></script>
+  
+      <div class="cards">
+      
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 203.89 171.94"><defs>
+          <clipPath id="House"> 
+          <style>.cls-1{fill:none;stroke:#ab2176;stroke-miterlimit:10;stroke-width:8px;}</style>
+          <polygon class="cls-1"  points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+          </clipPath>
+        </defs>
+        <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+        <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+        </svg>
+
+
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+        <clipPath id="House">
+
+        <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+        <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+
+        </clipPath>
+      </defs>
+      <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+
+      <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+
+    </svg>   
+    
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+      <clipPath id="House">
+
+      <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+      <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+
+      </clipPath>
+    </defs>
+    <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+
+    <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+
+  </svg>   <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+    <clipPath id="House">
+
+    <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+    <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+
+    </clipPath>
+  </defs>
+  <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+
+  <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+
+</svg>   <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+  <clipPath id="House">
+
+  <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+  <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+
+  </clipPath>
+</defs>
+<polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+
+<image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+
+</svg>  
+
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+<clipPath id="House">
+
+<style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+<polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+
+</clipPath>
+</defs>
+<polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+
+<image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+
+</svg> 
+
+        <p class="card-name">Мариja Марковска</p>
+        <p class="card-name">Марко Марковски</p>
+        <p class="card-name">Мариja Марковска</p>
+        <p class="card-name">Марко Марковски</p>
+        <p class="card-name">Мариja Марковска</p>
+        <p class="card-name">Марко Марковски</p>
+        
+      </div>
+        <div class="rowss">
+          <div class="columnss">
+            <ul> Бесплатен акаунт засекогаш. </ul>
+            <div class="cardo">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                exercitationem dolores praesentium at omnis ipsam magnam mollitia
+
+                cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+                optio similique quos eligendi?</p>
+            </div>
+          </div>
+          <div class="columnss">
+            <ul>Најди цимер по мерка.</ul>
+            <div class="cardo">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                exercitationem dolores praesentium at omnis ipsam magnam mollitia
+
+                cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+                optio similique quos eligendi?</p>
+            </div>
+          </div>
+        </div>
+        <div class="columnss">
+          <ul>Најди простор по мерка.</ul>
+          <div class="cardo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              exercitationem dolores praesentium at omnis ipsam magnam mollitia
+
+              cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+              optio similique quos eligendi?</p>
+          </div>
+        </div>
+        <div class="columnss">
+          <ul>Едноставно и брзо поврзување.</ul>
+          <div class="cardo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              exercitationem dolores praesentium at omnis ipsam magnam mollitia
+
+              cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+              optio similique quos eligendi?</p>
+          </div>
+
+        </div>
+
+        <p class="slogan">Зошто
+        <p class="slogan1">roommates.mk?</p>
+        </p>
+        <div class="footer">
+          <p class="footer-text">FOLLOW US</p>
+          <img src="./style/instagram.svg" class="instagram">
+          <img src="./style/facebook.svg" class="facebook">
+          <p class="footer-text-1">2020 Roommates.mk</p>
+          <p class="footer-text-2">Mobile App |Terms |Privacy |Contact </p>
+          <button type="button" class="btn btn-dark-1">РЕГИСТРИРАЈ СЕ!</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- USER PROFILE -->
+
+  
+ <!--  <div class="container-user-profile">
+    
+    <header>
+        <div class="logo-top-left">
+            <img src="style/user-profile-assets/images/roommates_logo_white.svg" alt="roommates.mk" class="logo-top-left-image">
+        </div>
+
+
+        <div class="box"></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link">Најди цимер</a></li>
+                <li><a href="#" class="nav-link">Пораки</a></li>
+                <li><a href="#" class="nav-link">Мој контакти</a></li>
+            </ul>
+        </nav>
+        
+        <div class="top-right-user-box">
+            <div class="top-right-house-logo">
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user image" class="img-user">
+            </div>
+            
+            <div class="house-icon">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+                    <defs><style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style></defs>
+                    <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    
+    
+    <div class="main-content">
+        <div class="main-content-image-left">
+            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user profile picture" class="user-profile-picture">
+        </div>
+
+        <div class="main-content-right">
+            <span class="name-surname">Име и Презиме</span>
+
+            <div class="location-box">
+                <i class="fas fa-map-marker-alt location-box-icon"></i>
+                <span class="location-box-text">Локација</span>
+            </div>
+
+            <div class="info-user">
+                <span class="info-user-text">Студент/Работник</span>
+            </div>
+
+            <div class="characteristics">
+                <span class="characteristics-text">Карактеристики</span>
+                <ul class="characteristics-list">
+                    <li class="characteristics-list-item">Текст</li>
+                    <li class="characteristics-list-item">Текст</li>
+                    <li class="characteristics-list-item">Текст</li>
+                    <li class="characteristics-list-item">Текст</li>
+                    <li class="characteristics-list-item">Текст</li>
+                    <li class="characteristics-list-item">Текст</li>
+                </ul>
+            </div>
+
+            <div class="send-message">
+                <i class="fas fa-comment message-icon"></i>
+                <span class="send-message-text">Испрати порака</span>
+            </div>
+
+            <div class="main-content-right-about">
+                <i class="fas fa-user about-icon"></i>
+                <span class="about-text">Опис</span>
+            </div>
+        </div>
+    </div>
+
+   
+    <br>
+    <hr class="line-1">
+
+    
+
+    <div class="main-content-2">
+        <div class="main-content-2-left">
+            <span class="description">Дескрипција</span>
+
+            <div class="main-content-2-textarea">
+                <textarea rows="16" cols="43" name="comment" form="usrform" class="main-content-2-textarea-text">Внеси текст...</textarea>
+            </div>
+
+            <div class="main-content-2-button">
+                <span class="main-content-2-button-text">Деактивирај Акаунт</span>
+            </div>
+        </div>
+
+        
+        <div class="main-content-2-right">
+            <div class="main-content-2-header">
+                <span class="opacity">Контакт Информации</span>
+            </div>
+
+            <div class="main-content-2-right-left-part">
+                <div class="main-content-2-left-part-phone-number-text">
+                    <span class="main-content-2-left-part">Мобилен:</span>
+                </div>
+
+                <div class="main-content-2-left-part-address-text">
+                    <span class="main-content-2-left-part">Адреса:</span>
+                </div>
+
+                <div class="main-content-2-left-part-email-address-text">
+                    <span class="main-content-2-left-part">Е-маил:</span>
+                </div>
+
+                <div class="main-content-2-left-part-site-text">
+                    <span class="main-content-2-left-part">Сајт:</span>
+                </div>
+                
+                
+
+                <div class="main-content-2-header-2">
+                    <span class="opacity">Основни Информации</span>
+                </div>
+
+                <div class="main-content-2-left-part-birthday-text">
+                    <span class="main-content-2-left-part">Роденден:</span>
+                </div>
+
+                <div class="main-content-2-left-part-gender-text">
+                    <span class="main-content-2-left-part">Пол:</span>
+                </div>
+            </div>
+
+            
+            <div class="main-content-2-right-right-part">
+                <div class="main-content-2-right-part-phone-number">
+                    <span class="main-content-2-right-part">+389 78 442 555</span>
+                </div>
+
+                <div class="main-content-2-right-part-address-text">
+                    <span class="main-content-2-right-part">Ул. Иван Козаров бр.50</span>
+                </div>
+
+                <div class="main-content-2-right-part-email-address-text">
+                    <span class="main-content-2-right-part">user@gmail.com</span>
+                </div>
+
+                <div class="main-content-2-right-part-site-text">
+                    <span class="main-content-2-right-part">www.facebook.com/User/</span>
+                </div>
+
+                
+
+                <div class="main-content-2-right-part-birthday-text">
+                    <span class="main-content-2-right-part">5 Јуни, 1992</span>
+                </div>
+
+                <div class="main-content-2-right-part-gender-text">
+                    <span class="main-content-2-right-part">Маж</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- SCRIPTS -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+    integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
