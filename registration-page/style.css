@@ -55,3 +55,79 @@ h3 {
     font-weight: bold;
 }
 
+.baramcimer{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: 35px;
+    height: 55px;
+    width: 190px;
+    color: #AA1A75;
+    font-size: 29px;
+    margin-left: 39%;
+    border-radius: 18px;
+    box-shadow: 5px 10px 8px #888888;
+  
+}
+
+.registracija {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 10%;
+    padding: 10px;
+    margin-top: 70px;
+    width: 910px;
+    height: 330px;
+    border-radius: 45px;
+    font-size: 25px;
+    background:rgba(1,1,1,0.3);
+}
+
+.text-insearchbox {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 160px;
+    font-size: 53px;
+}
+
+#baram{
+   font-family: 'Roboto', sans-serif;
+   position: relative;
+   background-color: white;
+   color: #AA1A75;
+   font-size: 23px;
+   top: 49px;
+   font-weight: bolder;
+   margin-left: 60px;
+   width: 360px;
+   border-radius: 18px;
+   box-shadow: 5px 10px 8px #888888;
+   position: relative;
+   margin-left: -45%;
+   box-shadow: 5px 10px 8px #888888;
+}
+
+#izdavam{
+   font-family: 'Roboto', sans-serif;
+   position: relative;
+   background-color: white;
+   color: #AA1A75;
+   font-size: 23px;
+   top: -4px;
+   font-weight: bolder;
+   margin-right: -5%;
+   width: 360px;
+   border-radius: 18px;
+   box-shadow: 5px 10px 8px #888888;
+}
+
+.hideContent {
+    display: none;
+}
