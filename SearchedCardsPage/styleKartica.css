@@ -5,7 +5,16 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    @font-face {
+        font-family: DINPro-Bold tr.ttf;
+        src: url(DINPro-Bold tr.ttf);
+    }
+}
+
+body {
+    font-family: DINPro-Bold ;
+    font-weight: bold;
+
     width: 100%;
     height: 120vh;
 }
@@ -17,7 +26,6 @@ header {
     height: auto;
     display: flex;
     align-items: center;
-    
     padding-left: 1%;
     
 }
@@ -47,10 +55,15 @@ nav {
     list-style-type: none;  
     justify-content: space-evenly;
 }
+
 .nav-link {
     font-size: 19px;
     color: white;
     text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #4da3b4;
 }
 
 .top-right-user-box {
@@ -175,6 +188,13 @@ nav {
     border-radius: 10px;
 }
 
+.paging-numbers {
+    position: relative;
+    display: inline-flex;
+    list-style: none;
+}
+
+
 .footer{
     border: solid white;
     background-image: url("./Images/footer.jpg");
@@ -192,8 +212,6 @@ nav {
      
   }
   
-
-
 .logo-footer-text-1 > p {    
     margin-left: 82%;
     font-size: 20px;  
@@ -208,14 +226,21 @@ nav {
     border-radius: 50%;
   }
  
-.instagram{
+.instagram1{
+    margin-top: 20px;
     margin-left:10%;
+}
+
+.facebook1 {
+    margin-top: 20px;
+    margin-left: 1%;
 }
 
 .footer-text-2 {
     
-    margin-left: 78%; 
+    margin-left: 73%; 
     color: white;
     font-weight: bold;
+    font-size: 20px;
   }
 
