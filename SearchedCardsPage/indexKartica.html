@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styleKartica.css">
     
@@ -21,7 +21,7 @@
         <nav>
             <ul class="nav-links">
                 <li><a href="#" class="nav-link">Совпаѓања</a></li>
-                <li><a href="#" class="nav-link">Пребарај</a></li>
+                <li><a href="#" id = "search-btn" class="nav-link">Пребарај</a></li>
                 <li><a href="#" class="nav-link">Пораки</a></li>
                 <li><a href="#" class="nav-link">Профил</a></li>
             </ul>
@@ -37,6 +37,41 @@
           </div>
         </div>
     </header>
+
+    <div class= "filter-button-div">
+      
+      <button id ="filter-btn"><img src="./Images/filter-icon.svg" id = "img-filter">Филтри</button>
+    </div>
+
+    <div class= "filters-container">
+      <div class = basic-filters>
+        <div class ="filters-sub"> <img src="./Images/filter-icon.svg" id = "img-filters"> Филтри</div>
+        <div class ="filters-sub"> <img src="./Images/filter-icon.svg" id = "img-filters">Основни филтри</div>
+        <button id ="filters-btn"><img src="./Images/icon-smoker.svg" id = "img-filters">Пушач</button>
+        <button id ="filters-btn"><img src="./Images/icon-nonSmoker.svg" id = "img-filters">Непушач</button>
+        <button id ="filters-btn"><img src="./Images/icon-pet.svg" id = "img-filters">Миленик</button>
+        <button id ="filters-btn"><img src="./Images/icon-noPet.svg" id = "img-filters">Без миленик</button>
+      </div>
+      <div class="interest-filters">
+        <div class ="filters-sub"> <img src="./Images/filter-icon.svg" id = "img-filters">Интереси</div>
+        <button id ="filters-btn"><img src="./Images/icon-sport.svg" id = "img-filters">Спортист</button>
+        <button id ="filters-btn"><img src="./Images/icon-movie.svg" id = "img-filters">Филм</button>
+        <button id ="filters-btn"><img src="./Images/icon-music.svg" id = "img-filters">Музика</button>
+        <button id ="filters-btn"><img src="./Images/icon-books.svg" id = "img-filters">Книги</button>
+        <button id ="filters-btn"><img src="./Images/icon-food.svg" id = "img-filters">Здрава храна</button>
+      </div>
+      <div class="montly-payment-filter">
+        <button id ="filters-btn"><img src="./Images/icon-money.svg" id = "img-filters">Месечен износ</button>
+        
+               
+        <div class="range-slider">
+          <input class="range-slider__range" type="range" value="250" min="0" max="500" step="50">
+          <span class="range-slider__value">0</span>
+        </div>
+         
+      </div>
+      
+    </div>
 
     <div class="card-wrapper">
 
@@ -56,9 +91,10 @@
         </div>
       </div>
 
+
       <div class="card card-color-1">
         <div class="card-house-icon">
-          <img src="images/magenta (1).png" alt="" class="card-house-image">
+          <img src="images/magenta.png" alt="" class="card-house-image">
         </div>
 
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
@@ -74,7 +110,7 @@
 
        <div class="card card-color-1">
         <div class="card-house-icon">
-          <img src="images/magenta (1).png" alt="" class="card-house-image">
+          <img src="images/magenta.png" alt="" class="card-house-image">
         </div>
 
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
@@ -90,39 +126,7 @@
 
       <div class="card card-color-1">
         <div class="card-house-icon">
-          <img src="images/magenta (1).png" alt="" class="card-house-image">
-        </div>
-
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
-          <image  class="imageinhouse" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU" clip-path="url(#House)" />
-        </svg>
-        
-        <div class="card-body">
-          <h4 class="card-title-1">Марија Митевска</h4>
-          <span class="card-text-1">25, Aеродром</span><br>
-          <a href="#" class="btn btn-primary girl">Порака</a>
-        </div>
-      </div>
-
-      <div class="card card-color-2">
-        <div class="card-house-icon">
-          <img src="images/tirkizna3.png" alt="" class="card-house-image">
-        </div>
-
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
-          <image  class="imageinhouse" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU clip-path="url(#House)" />
-        </svg>
-        
-        <div class="card-body">
-          <h4 class="card-title-2">Марко Марковски</h4>
-          <span class="card-text-2">23, Карпош 3</span><br>
-          <a href="#" class="btn btn-primary">Порака</a>
-        </div>
-      </div>
-
-      <div class="card card-color-1">
-        <div class="card-house-icon">
-          <img src="images/magenta (1).png" alt="" class="card-house-image">
+          <img src="images/magenta.png" alt="" class="card-house-image">
         </div>
 
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
@@ -154,7 +158,39 @@
 
       <div class="card card-color-1">
         <div class="card-house-icon">
-          <img src="images/magenta (1).png" alt="" class="card-house-image">
+          <img src="images/magenta.png" alt="" class="card-house-image">
+        </div>
+
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+          <image  class="imageinhouse" xlink:href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU" clip-path="url(#House)" />
+        </svg>
+        
+        <div class="card-body">
+          <h4 class="card-title-1">Марија Митевска</h4>
+          <span class="card-text-1">25, Aеродром</span><br>
+          <a href="#" class="btn btn-primary girl">Порака</a>
+        </div>
+      </div>
+
+      <div class="card card-color-2">
+        <div class="card-house-icon">
+          <img src="images/tirkizna3.png" alt="" class="card-house-image">
+        </div>
+
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+          <image  class="imageinhouse" xlink:href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU" clip-path="url(#House)" />
+        </svg>
+        
+        <div class="card-body">
+          <h4 class="card-title-2">Марко Марковски</h4>
+          <span class="card-text-2">23, Карпош 3</span><br>
+          <a href="#" class="btn btn-primary">Порака</a>
+        </div>
+      </div>
+
+      <div class="card card-color-1">
+        <div class="card-house-icon">
+          <img src="images/magenta.png" alt="" class="card-house-image">
         </div>
         
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
@@ -172,6 +208,7 @@
           <a href="#" class="btn btn-primary girl">Порака</a>
         </div>
       </div>
+      
       </div>
 
       <nav aria-label="Page navigation example">
@@ -206,7 +243,7 @@
 
     </div>
     
-
+<script src="userRepository.js"></script>
       
 </body>
 </html>

@@ -91,6 +91,59 @@ nav {
     height: 160px;
 }           
 
+.filter-button-div{
+
+   height: 10%;
+
+}
+
+#filter-btn{
+    background-color: #aa1a75;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 19px;
+    height: 35%;
+    width: 7%;
+    margin-top: 20px;
+    margin-left: 88%;
+    
+}
+#filters-btn{    
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 19px;
+    height: 10%;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 5%;
+    
+}
+#img-filter{
+    width: 35%;
+    height: 35%;
+}
+
+#img-filters{
+    width: 15%;
+    height: 15%;
+}
+
+.filters-sub{
+    font-size: 22px;
+    margin-left: 5%;
+    color: lightslategray;
+}
+.filters-container{
+    height: 72%;
+    border: solid black 1px;
+    background-color: rgb(119, 136, 153, 0.3);
+    margin-right: 0%;
+    margin-left: 80%
+    
+}
+
+
 .card-wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -237,4 +290,5 @@ nav {
     font-weight: bold;
     font-size: 20px;
   }
+
 
