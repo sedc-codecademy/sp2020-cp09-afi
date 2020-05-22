@@ -51,7 +51,7 @@ nav {
 }
 .nav-links {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap-reverse;
     list-style-type: none;  
     justify-content: space-evenly;
 }
@@ -97,7 +97,13 @@ nav {
 
 }
 
-#filter-btn{
+
+#content {
+    display: none;
+}
+
+
+#filter{
     background-color: #aa1a75;
     color: white;
     border-radius: 10px;
@@ -122,6 +128,7 @@ nav {
 #img-filter{
     width: 35%;
     height: 35%;
+    
 }
 
 #img-filters{
@@ -135,23 +142,28 @@ nav {
     color: lightslategray;
 }
 .filters-container{
-    height: 72%;
+    position: absolute;
+    display: flex;
+    height: 92%;
     border: solid black 1px;
     background-color: rgb(119, 136, 153, 0.3);
     margin-right: 0%;
-    margin-left: 80%
+    margin-left: 80%;
     
 }
 
 
 .card-wrapper{
-    display: flex;
-    flex-wrap: wrap;
+    
+    display: inline-flex;
+    flex-wrap: wrap-reverse;
     margin:auto;
-    margin-top: 10%;
+    margin-top: 3%;
     margin-left: 5%;
 }
 .card {
+
+    
     width: 290px;
     border-radius: 25px;
     margin-bottom: 3%;
@@ -290,5 +302,3 @@ nav {
     font-weight: bold;
     font-size: 20px;
   }
-
-

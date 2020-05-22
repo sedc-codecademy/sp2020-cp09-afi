@@ -2,58 +2,54 @@
   box-sizing:border-box;
 }
 
-body {
-    @font-face {
-        font-family: DINPro-Bold tr.ttf;
-        src: url(DINPro-Bold tr.ttf);
-    }
-}
-
-
-body {
-     
+.section1{
+     position: relative;
   background-image: url("./photo_image_background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: -46px;
+
     }
 
 
 
   .all-content{
-      height: calc(100vh - -2279px);
+    position: relative;
+      height: calc(100vh - -2232px);
       background: url("./home_page_bez_slika.png");
       background-repeat: no-repeat;
-      background-size: 100%;      
+      background-size: 100%;     
+       
   }
 
 
+   #najava {
+     position: relative;
+    bottom:160px;
+    left: 68%;
+  font-size: 30px;
+     color: white;
+     position: relative;
+     font-weight: bold;
+     border: none;
+   }
 
-  .kopche-najava {
-      font-family: DINPro-Bold;
-    bottom:140px;
-     left: 70%;
-   font-size: 32px;
-      color: white;
-      position: relative;
-      font-weight: bold;
-    
-  }
-  .kopche-najava:hover{
+  #najava:hover{
       color:#4DA3B4 ;
       text-decoration: none;
   }
 
-  .kopche-registracija{
-      font-family: DINPro-Bold;
-      left: 73%;
-      bottom: 140px;
+  #registriraj{
+      left: 71%;
+      bottom: 160px;
     position: relative;
-    font-size: 32px;
+    font-size: 30px;
     color: white;
     font-weight: bold;
   }
 
-  .kopche-registracija:hover {
+  #registriraj:hover {
       color: #4DA3B4;
       text-decoration: none;
   }
@@ -62,13 +58,13 @@ body {
 .logo {
   position: relative;
   top: 95px;
-   max-height: 180px;
+   max-height: 230px;
    margin-left: 10px;
 }
 
 .search {
     position: relative;
-    top: 200px;
+    top: 150px;
   color: white;
   padding: 10px;
  width: 910px;
@@ -82,12 +78,11 @@ body {
 }
 
 .btn-secondar{
-  font-family: DINPro-Bold;
   position: relative;
  background-color: white;
  color: #AA1A75;
- font-size: 26px;
- top: 49px;
+ font-size: 20px;
+ top: 15px;
 font-weight: bold;
  left: 30px;
  width: 360px;
@@ -100,20 +95,19 @@ font-weight: bold;
 }
 
 
-.btn-secondary-2{
-  font-family: DINPro-Bold;
+.btn-secondary-2c{
   position: relative;
  background-color: white;
  color: #AA1A75;
- font-size: 26px;
- top: 0px;
+ font-size: 20px;
+ top: -45px;
  font-weight: bold;
  left: 490px;
  width: 360px;
  border-radius: 18px;
  box-shadow: 5px 10px 8px #888888;
 }
-.btn-secondary-2:hover {
+.btn-secondary-2c:hover {
     color: #4DA3B4;
 
 }
@@ -144,23 +138,21 @@ box-shadow: 5px 10px 8px #888888;
     color: #4DA3B4;
 }
 .text-insearchbox{
-  font-family: DINPro-Bold;
   font-weight: bold;
   margin-top: 20px;
   position: relative;
-  left: 149px;
+  left: 19px;
   font-size: 54px;
 }
 
 .btn-light-search{
-font-family: DINPro-Bold ;
 font-weight: bolder;
 position: relative;
-top: 35px;
+top: -15px;
 height: 55px;
 width: 199px;
 color: #AA1A75;
-font-size: 30px;
+font-size: 20px;
  left:37%;
 border-radius: 18px;
 box-shadow: 5px 10px 8px #888888;
@@ -173,9 +165,9 @@ background-color: white;
 }
 
 #Layer_1 {
-  top: 510px;
+  top: 400px;
   position: relative;
-  height: 190px;
+  height: 180px;
   width: 230px;
   padding: 25px;
   left: 60px;
@@ -195,12 +187,12 @@ background-color: white;
   font-family: DINPro-Bold ;
   position: relative;
 color: black;
-top: 468px;
+top: 358px;
 font-weight: bold;
-font-size: 18px;
-padding: 40px;
+font-size: 17px;
+padding: 43px;
 display: -webkit-inline-flex;
-left: 43px;
+left: 51px;
 
 }
 
@@ -210,7 +202,7 @@ left: 43px;
 position: relative;
 font-size: 60px;
 margin-left: 500px;
-top: -210px;
+top: -290px;
 }
 
 .slogan1 {
@@ -218,7 +210,7 @@ top: -210px;
   font-weight: bold;
   position: relative;
 font-size: 54px;
-top: -310px;
+top: -390px;
 color: #4DA3B4;
 margin-left: 680px;
 }
@@ -226,7 +218,7 @@ margin-left: 680px;
  
 .cards-columns {
   position: relative;
-  top: 880px;
+  top: 830px;
   float: left;
   width: 45%;
   padding: 0 7px;
@@ -249,7 +241,7 @@ margin-left: 680px;
       text-align: left;
       color:  rgb(0, 195, 255);
       background-color: white;
-      opacity: 0.6;
+      opacity: 0.5;
       border-radius: 8%;
       box-shadow: 5px 10px 8px #888888;
   
@@ -261,10 +253,10 @@ margin-left: 680px;
       font-family: DINPro-Bold;
       padding-top: 59px;
       font-size: 33px;
-      left: -4px;
+      left: 59px;
       position: relative;
       color: #4DA3B4;
-      margin-left: 134px;
+      margin-left: 94px;
       font-weight: bold;
   }
   
@@ -274,8 +266,8 @@ margin-left: 680px;
   position: relative;
 background: white;
 color: #AA1A75;
-top: 630px;
-left: 37%;
+top: 480px;
+left: 38%;
 font-size: 30px;
 font-weight: bold;
 border-radius: 18px;
@@ -290,10 +282,10 @@ box-shadow: 5px 10px 8px #888888;
 .footer-text {
   font-family: DINPro-Bold ;
   position: relative;
-  top: 975px;
+  top: 825px;
   font-weight: bold;
-font-size: 18px;
-margin-left: 150px;
+font-size: 14px;
+margin-left: 160px;
 color: white;
 }
 
@@ -301,7 +293,7 @@ color: white;
   font-family: DINPro-Bold;
   font-weight: bold;
   position: relative;
-  top: 899px;
+  top: 775px;
 font-size: 20px;
 margin-left: 1250px;
 color:white;
@@ -310,7 +302,7 @@ color:white;
 .footer-text-2 {
   font-family: DINPro-Bold;
   position: relative;
-top: 905px;
+top: 762px;
 font-size: 20px;
 margin-left: 1100px;
 color: white;
@@ -319,8 +311,8 @@ font-weight: bold;
 
 .instagram {
 position: relative;
-top: 980px;
-height: 50px;
+top: 840px;
+height: 55px;
 left: 140px;
 color: #4DA3B4;
 background-color: #4DA3B4;
@@ -329,9 +321,12 @@ border-radius: 50%;
 
 .facebook {
 position: relative;
-top: 980px;
+top: 840px;
 background-color:#4DA3B4;
-height: 50px;
-left: 160px;
+height: 55px;
+left: 150px;
 border-radius: 50%;
 }
+
+
+

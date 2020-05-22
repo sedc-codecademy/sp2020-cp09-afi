@@ -37,31 +37,35 @@
           </div>
         </div>
     </header>
-
-    <div class= "filter-button-div">
+  
+    <div class= "filter-button-div" id="filter-button">
       
-      <button id ="filter-btn"><img src="./Images/filter-icon.svg" id = "img-filter">Филтри</button>
+      <a onclick="filters()" type="button" id="filter" class="kopche-najava"><img src="./Images/filter- icon.svg" id = "img-filter">Филтри</a>
+  
     </div>
 
-    <div class= "filters-container">
+    <div class= "filters-container" id="content">
       <div class = basic-filters>
-        <div class ="filters-sub"> <img src="./Images/filter-icon.svg" id = "img-filters"> Филтри</div>
-        <div class ="filters-sub"> <img src="./Images/filter-icon.svg" id = "img-filters">Основни филтри</div>
-        <button id ="filters-btn"><img src="./Images/icon-smoker.svg" id = "img-filters">Пушач</button>
-        <button id ="filters-btn"><img src="./Images/icon-nonSmoker.svg" id = "img-filters">Непушач</button>
-        <button id ="filters-btn"><img src="./Images/icon-pet.svg" id = "img-filters">Миленик</button>
-        <button id ="filters-btn"><img src="./Images/icon-noPet.svg" id = "img-filters">Без миленик</button>
+        <div class ="filters-sub"> <img src="./Images/filter- icon.svg" id = "img-filters"> Филтри</div>
+        <div class ="filters-sub"> <img src="./Images/filter- icon.svg" id = "img-filters">Основни филтри</div>
+        <button id ="filters-btn"><img src="./Images/icon - smoker.svg" id = "img-filters">Пушач</button>
+        <button id ="filters-btn"><img src="./Images/icon -non smoker.svg" id = "img-filters">Непушач</button>
+        <button id ="filters-btn"><img src="./Images/icon- pet.svg" id = "img-filters">Миленик</button>
+        <button id ="filters-btn"><img src="./Images/icon- no pet.svg" id = "img-filters">Без миленик</button>
       </div>
-      <div class="interest-filters">
-        <div class ="filters-sub"> <img src="./Images/filter-icon.svg" id = "img-filters">Интереси</div>
-        <button id ="filters-btn"><img src="./Images/icon-sport.svg" id = "img-filters">Спортист</button>
-        <button id ="filters-btn"><img src="./Images/icon-movie.svg" id = "img-filters">Филм</button>
-        <button id ="filters-btn"><img src="./Images/icon-music.svg" id = "img-filters">Музика</button>
+      <div class="interest-filters" id="content2">
+        <div class ="filters-sub"> <img src="./Images/filter- icon.svg" id = "img-filters">Интереси</div>
+        <button id ="filters-btn"><img src="./Images/icon- sport.svg" id = "img-filters">Спортист</button>
+        <button id ="filters-btn"><img src="./Images/icon- movie.svg" id = "img-filters">Филм</button>
+        <button id ="filters-btn"><img src="./Images/icon - music.svg" id = "img-filters">Музика</button>
         <button id ="filters-btn"><img src="./Images/icon-books.svg" id = "img-filters">Книги</button>
         <button id ="filters-btn"><img src="./Images/icon-food.svg" id = "img-filters">Здрава храна</button>
       </div>
       <div class="montly-payment-filter">
-        <button id ="filters-btn"><img src="./Images/icon-money.svg" id = "img-filters">Месечен износ</button>
+        <button id ="filters-btn"><img src="./Images/icon- money.svg" id = "img-filters">Месечен износ</button>
+        <a onclick="goback()" type="button" id="back" class="kopche-najava"><img src="./Images/filter-icon.svg" id = "img-filter">Back</a>
+
+
         
                
         <div class="range-slider">
@@ -73,9 +77,9 @@
       
     </div>
 
-    <div class="card-wrapper">
+    <div class="card-wrapper" >
 
-      <div class="card card-color-2">
+      <div class="card card-color-2" id="getthisone">
         <div class="card-house-icon">
           <img src="images/tirkizna3.png" alt="" class="card-house-image">
         </div>
@@ -108,7 +112,7 @@
         </div>
       </div>
 
-       <div class="card card-color-1">
+       <div class="card card-color-1" >
         <div class="card-house-icon">
           <img src="images/magenta.png" alt="" class="card-house-image">
         </div>
@@ -140,7 +144,7 @@
         </div>
       </div>
 
-      <div class="card card-color-2">
+      <div class="card card-color-2" >
         <div class="card-house-icon">
           <img src="images/tirkizna3.png" alt="" class="card-house-image">
         </div>
@@ -188,7 +192,7 @@
         </div>
       </div>
 
-      <div class="card card-color-1">
+      <div class="card card-color-1"  id="filterthiscard">
         <div class="card-house-icon">
           <img src="images/magenta.png" alt="" class="card-house-image">
         </div>
@@ -242,8 +246,7 @@
       
 
     </div>
-    
-<script src="userRepository.js"></script>
-      
+    <script src="userRepository.js"></script>
+    <script src="searchcards.js"></script>
 </body>
 </html>
