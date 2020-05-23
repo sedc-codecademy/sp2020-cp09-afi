@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Registration page</title>
 </head>
-<body>
     <!-- <div class="main-top content-padding flex-center">
         <div class="row">
             <div class="flex-center">
@@ -35,7 +34,7 @@
     <h1>Барам цимер/простор:</h1>
     <h3>Креирање на профил</h3>
     <h3>Прикачете до 3 слики!</h3>
-    <input type="file" accept="image/*">
+    <input type="file" id="prikaci" accept="image/*">
     <h3>Лични информации:</h3>
     <form class="text-center">
         <div class="">
@@ -81,14 +80,12 @@
     <ul style="list-style-type:none" style="list-style-type:none;">
         <li><input type="checkbox" name="agree">Се согласувам моите податоци да бидат ко</li>
         <li><input type="checkbox" name="agree1">Се согласувам за промотивни цели</li>
-
         <li><input type="checkbox" name="save">Зачувај ги податоците</li>
-
-        <li><button onclick="izmeni()" class="btn btn-light">Измени!</button></li>
-
-        <li><button onclick="prodolzi1()"class="btn btn-light" id="prodolzi1">Продолжи</button></li>
-
     </ul style="list-style-type:none">
+    <div id="kopcinja1">
+        <button onclick="izmeni()" class="kopcinja">Измени!</button>
+        <button onclick="prodolzi1()"class="kopcinja" id="prodolzi1">Продолжи</button>
+    </div>
     </div>
     <div id="div2" class="hideContent">
         <h1>Општи информации:</h1>
@@ -152,16 +149,21 @@
                 <input type="text" placeholder="Прашање">
             </li>
         </ul style="list-style-type:none">
-        <button onclick="nazad1()" class="btn btn-light">Назад</button>
-        <button onclick="prodolzi2()" id="prodolzi2" class="btn btn-light">Продолжи</button>
+        <div id="kopcinja1">
+            <button onclick="nazad1()" class="kopcinja">Назад</button>
+            <button onclick="prodolzi2()" id="prodolzi2" class="kopcinja">Продолжи</button>
+        </div>
     </div>
     <div id="div3" class="hideContent">
         <h1>Прашања поврзани со просторот</h1>
-        <p>Дали имаш простор?
-            <button onclick="da()" class="btn btn-light">Да</button>
-            <button onclick="ne()" class="btn btn-light">Не</button>
-        </p>
-        <button onclick="nazad2()" class="btn btn-light">Назад</button>
+        <p>Дали имаш простор?</p>
+        <div id="kopcinja1">
+            <button onclick="da()" class="kopcinja">Да</button>
+            <button onclick="ne()" class="kopcinja">Не</button>
+        </div>
+        <div id="kopcinja1">
+            <button onclick="nazad2()" class="kopcinja">Назад</button>
+        </div>
     </div>
         <div id="div3_1" class="hideContent">
             <!-- Prasanja dokolku kliknal DA -->
@@ -291,8 +293,10 @@
                     </select>
                 </li>
             </ul style="list-style-type:none">
-        <button onclick="nazad3_1()" class="btn btn-light">Назад</button>
-        <button onclick="prodolzi3()" id="prodolzi2" class="btn btn-light">Продолжи</button>
+        <div id="kopcinja1">
+            <button onclick="nazad3_1()" class="kopcinja">Назад</button>
+            <button onclick="prodolzi3()" id="prodolzi2" class="kopcinja">Продолжи</button>
+        </div>
         </div>
         <div id="div3_2" class="hideContent">
             <!-- Prasanja dokolku kliknal NE -->
@@ -381,8 +385,10 @@
                     <input type="radio" name="yes_no">Не
                 </li>
             </ul style="list-style-type:none">
-        <button onclick="nazad3_2()" class="btn btn-light">Назад</button>
-        <button onclick="prodolzi3_1()" id="prodolzi2" class="btn btn-light">Продолжи</button>
+        <div id="kopcinja1">
+            <button onclick="nazad3_2()" class="kopcinja">Назад</button>
+            <button onclick="prodolzi3_1()" id="prodolzi2" class="kopcinja">Продолжи</button>
+        </div>
         </div>
     <div id="div4" class="hideContent">
         <h1>Што бараш?</h1>
@@ -391,7 +397,9 @@
             <li><input type="checkbox">Барам цимер со простор</li>
             <li><input type="checkbox">Барам простор</li>
         </ul style="list-style-type:none">
-        <button onclick="prodolzi6()" id="prodolzi2" class="btn btn-light">Продолжи</button>
+        <div id="kopcinja1">
+            <button onclick="prodolzi6()" id="prodolzi2" class="kopcinja">Продолжи</button>
+        </div>
     </div>
     <div id="div10" class="hideContent">
         <li>
@@ -435,13 +443,13 @@
             До колкав износ очекуваш да покрива месечно твојот цимер?
             <input type="range" min="2000" max="30000" value="2000">
         </li>
-        <div>
-        <button onclick="nazad4()" class="btn btn-light">Назад</button>
-        <button class="btn btn-light">Комплетирај го профилот!</button>
+        <div id="kopcinja1">
+        <button onclick="nazad4()" class="kopcinja">Назад</button>
+        <button class="kopcinja">Комплетирај го профилот!</button>
         </div>
-        <div>
+        <div id="div15">
         <input type="text" placeholder="Напиши нешто...">
-        <button class="btn btn-light" type="submit">Барај!</button>
+        <button class="kopcinja" type="submit">Барај!</button>
         </div>
     </div>
     <!-- Izdavam prostor -->
@@ -489,8 +497,10 @@
                 </div>
             </div>
         </form>
-        <button onclick="nazad5()" class="btn btn-light">Назад</button>
-        <button onclick="prodolzi4()" id="prodolzi2" class="btn btn-light">Продолжи</button>
+        <div id="kopcinja1">
+            <button onclick="nazad5()" class="kopcinja">Назад</button>
+            <button onclick="prodolzi4()" id="prodolzi2" class="kopcinja">Продолжи</button>
+        </div>
     </div>
 
         <div id="div7" class="hideContent">
@@ -629,19 +639,21 @@
                     <option value="">Делумно</option>
                 </select>
             </li>
-            <button onclick="nazad6()" class="btn btn-light">Назад</button>
-            <button onclick="prodolzi5()" id="prodolzi2" class="btn btn-light">Продолжи</button>
+            <div id="kopcinja1">
+                <button onclick="nazad6()" class="kopcinja">Назад</button>
+                <button onclick="prodolzi5()" id="prodolzi2" class="kopcinja">Продолжи</button>
+            </div>
         </div>
         <div id="div7_1" class="hideContent">
             <h3>Прикачи фотографии</h3>
-            <input type="file" accept="image/*">
-            <div>
-            <button onclick="nazad7()" class="btn btn-light">Назад</button>
-            <button class="btn btn-light">Комплетирај го профилот!</button>
+            <input type="file" id="prikaci" accept="image/*">
+            <div id="kopcinja1">
+            <button onclick="nazad7()" class="kopcinja">Назад</button>
+            <button class="kopcinja">Комплетирај го профилот!</button>
             </div>
             <div id="div7_2" class="hideContent">
                 <input type="text" placeholder="Напиши нешто...">
-                <button class="btn btn-light" type="submit">Барај!</button>
+                <button class="kopcinja" type="submit">Барај!</button>
              </div>
         </div>
     <div id="div8" class="hideContent">
