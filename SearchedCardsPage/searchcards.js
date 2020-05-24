@@ -22,3 +22,7 @@ function goback(){
     getcard.style.display = "block";
     allfilter.style.display = "none";
 }
+
+$('#range').on("input", function() {
+    $('.output').val(this.value +"  eur" );
+    }).trigger("change");
