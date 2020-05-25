@@ -1,6 +1,8 @@
 * {
   box-sizing:border-box;
   font-family: 'DinPro';
+  margin: 0em;
+  padding: 0em;
 
 
 }
@@ -28,6 +30,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: -46px;
+  overflow: hidden;
 
     }
 
@@ -36,10 +39,10 @@
   .all-content{
 
     position: relative;
-      height: calc(100vh - -2232px);
+      height: calc(100vh - -2782px);
       background: url("./home_page_bez_slika.png");
       background-repeat: no-repeat;
-      background-size: 100%;     
+      background-size: 100%; 
        
   }
 
@@ -47,8 +50,8 @@
    #najava {
      position: relative;
     bottom:160px;
-    left: 74%;
-  font-size: 40px;
+    left: 75%;
+  font-size: 42px;
      color: white;
      position: relative;
      border: none;
@@ -60,10 +63,10 @@
   }
 
   #registriraj{
-      left: 76%;
+      left: 78%;
       bottom: 160px;
     position: relative;
-    font-size: 40px;
+    font-size: 42px;
     color: white;
   }
 
@@ -75,19 +78,19 @@
   
 .logo {
   position: relative;
-  top: 95px;
-   max-height: 230px;
+  top: 125px;
+   max-height: 260px;
    margin-left: 10px;
 }
 
 .search {
     position: relative;
-    top: 150px;
+    top: 250px;
   color: white;
   padding: 10px;
- width: 910px;
-  height: 340px;
-  left: 20%;
+ width: 1100px;
+  height: 400px;
+  left: 22%;
   border-radius: 45px;
   font-size: 25px;
   background:rgba(1,1,1,0.3);
@@ -101,12 +104,12 @@
 
  background-color: white;
  color: #AA1A75;
- font-size: 30px;
+ font-size: 40px;
  top: 15px;
 font-weight: bold;
  left: 30px;
- width: 360px;
- border-radius: 18px;
+ width: 460px;
+ border-radius: 20px;
  box-shadow: 5px 10px 8px #888888;
 
 }
@@ -121,12 +124,12 @@ font-weight: bold;
 
  background-color: white;
  color: #AA1A75;
- font-size: 30px;
- top: -63px;
+ font-size: 40px;
+ top: -75px;
  font-weight: bolder;
- left: 490px;
- width: 360px;
- border-radius: 18px;
+ left: 590px;
+ width: 420px;
+ border-radius: 20px;
  box-shadow: 5px 10px 8px #888888;
 }
 .btn-secondary-2c:hover {
@@ -162,13 +165,12 @@ box-shadow: 5px 10px 8px #888888;
 .text-insearchbox{
   position: relative;
   font-family: 'DinPro';
-
   color: white;
   font-weight: bolder;
   margin-top: -20px;
   position: relative;
-  left: 19px;
-  font-size: 64px;
+  left: 289px;
+  font-size: 66px;
 }
 
 .btn-light-search{
@@ -176,10 +178,10 @@ box-shadow: 5px 10px 8px #888888;
 font-weight:bolder;
 position: relative;
 top: -41px;
-height: 50px;
-width: 199px;
+height: 70px;
+width: 249px;
 color: #AA1A75;
-font-size: 34px;
+font-size: 40px;
  left:37%;
 border-radius: 18px;
 box-shadow: 5px 10px 8px #888888;
@@ -192,12 +194,12 @@ background-color: white;
 }
 
 #Layer_1 {
-  top: 400px;
+  top: 630px;
   position: relative;
-  height: 180px;
-  width: 230px;
+  height: 200px;
+  width: 260px;
   padding: 25px;
-  left: 60px;
+  left: 40px;
 
   
 }
@@ -214,12 +216,12 @@ background-color: white;
   font-family: 'DinPro';
   position: relative;
 color: black;
-top: 356px;
+top: 576px;
 font-weight: bold;
-font-size: 24px;
-padding: 47px;
+font-size: 26px;
+padding: 57px;
 display: -webkit-inline-flex;
-left: 56px;
+left: 35px;
 
 }
 
@@ -227,28 +229,29 @@ left: 56px;
   font-family: 'DinPro';
   font-weight: bolder;
 position: relative;
-font-size: 80px;
-margin-left: 500px;
-top: -330px;
+font-size: 97px;
+margin-left: 630px;
+top: -200px;
 }
 
 .slogan1 {
   font-family: 'DinPro';
   font-weight: bolder;
   position: relative;
-font-size: 75px;
-top: -463px;
+font-size: 95px;
+top: -360px;
 color: #4DA3B4;
-margin-left: 670px;
+margin-left: 830px;
 }
 
  
 .cards-columns {
   position: relative;
-  top: 800px;
+  top:1150px;
+  left: 10px;
   float: left;
-  width: 45%;
-  padding: 0 7px;
+  width: 44%;
+  padding: 0 9px;
   }
   
   .card-rows:after {
@@ -263,8 +266,8 @@ margin-left: 670px;
       position: relative;
       font-family: 'DinPro';
       font-weight: bolder;
-      margin-left: 145px;
-      padding: 80px;
+      margin-left: 195px;
+      padding: 120px;
       text-align: left;
       color:  rgb(0, 195, 255);
       background-color: white;
@@ -279,8 +282,8 @@ margin-left: 670px;
   .card-title {
     font-family: 'DinPro';
     padding-top: 59px;
-      font-size: 47px;
-      left: 59px;
+      font-size: 58px;
+      left: 110px;
       position: relative;
       color: #4DA3B4;
       margin-left: 94px;
@@ -293,11 +296,12 @@ margin-left: 670px;
   position: relative;
 background: white;
 color: #AA1A75;
-top: 380px;
+top: 750px;
 left: 40%;
-font-size: 40px;
+font-size: 42px;
 font-weight: bolder;
-border-radius: 18px;
+border-radius: 20px;
+width:  330px;
 box-shadow: 5px 10px 8px #888888;  
 }
 
@@ -309,10 +313,10 @@ box-shadow: 5px 10px 8px #888888;
 .footer-text {
   font-family: 'DinPro';
   position: relative;
-  top: 725px;
+  top: 1200px;
   font-weight: bolder;
 font-size: 24px;
-margin-left: 160px;
+margin-left: 215px;
 color: white;
 }
 
@@ -320,9 +324,9 @@ color: white;
   font-family: 'DinPro';
   font-weight: bolder;
   position: relative;
-  top: 680px;
+  top: 1120px;
 font-size: 30px;
-margin-left: 1250px;
+margin-left: 1550px;
 color:white;
 }
 
@@ -330,18 +334,18 @@ color:white;
   font-family: 'DinPro';
 
   position: relative;
-top: 680px;
+top: 1120px;
 font-size: 30px;
-margin-left: 1100px;
+margin-left: 1400px;
 color: white;
 font-weight: bolder;
 }
 
 .instagram {
 position: relative;
-top: 740px;
+top: 1200px;
 height: 55px;
-left: 140px;
+left: 190px;
 color: #4DA3B4;
 background-color: #4DA3B4;
 border-radius: 50%;
@@ -349,10 +353,10 @@ border-radius: 50%;
 
 .facebook {
 position: relative;
-top: 740px;
+top: 1200px;
 background-color:#4DA3B4;
 height: 55px;
-left: 150px;
+left: 200px;
 border-radius: 50%;
 }
 
