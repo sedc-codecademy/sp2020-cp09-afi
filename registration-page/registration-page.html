@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration page</title>
+</head>
+    <!-- <div class="main-top content-padding flex-center">
+        <div class="row">
+            <div class="flex-center">
+                    <h3 class="main-top-heading">
+                      <a href="" class="heading-najava">Најави се</a>
+                      <a href="" class="heading-registracija">Регистрирај се</a>    
+                      <img src="roommates_logo.svg" class="logo">
+                    </h3>
+            </div>
+        </div>
+    </div> -->
+<body id="theback" class="container text-center">
+    <div id="reg" class="registracija">
+          <h1 class="text-insearchbox">Регистрација</h1>
+            <div class="register">
+                <button onclick="baramcimer()" type="button" id="baram" class="baramcimer">Барам цимер простор</button>
+            </div>
+            <div class="register">
+                <button onclick="izdavam()" type="button" id="izdavam" class="baramcimer">Издавам простор</button>
+            </div>
+        </div>
+    <div id="div1" class="hideContent">
+    <h1>Барам цимер/простор:</h1>
+    <h3>Креирање на профил</h3>
+    <h3>Прикачете до 3 слики!</h3>
+    <input type="file" id="prikaci" accept="image/*">
+    <h3>Лични информации:</h3>
+    <form class="text-center">
+        <div class="">
+            <div class="form-group">
+                <label for=" name ">
+                <input id="test"type="text " name="name " placeholder="Име: " required>
+              </label>
+            </div>
+            <div class="form-group ">
+                <label for="lastname ">
+                <input type="text " name="lastname " placeholder="Презиме: " required>
+            </label>
+            </div>
+            <div class="form-group ">
+                <select name=" " id=" ">
+                <option value="пол " selected disabled>Пол</option>
+                <option value="маж ">Маж</option>
+                <option value="жена ">Жена</option>
+            </select>
+            </div>
+            <div class="form-group ">
+                <label for="age ">
+                <input type="number " name="age " placeholder="Години: " required>
+            </label>
+            </div>
+            <div class="form-group ">
+                <label for="email ">
+                <input type="email " name="email " placeholder="Емаил: " required>
+            </label>
+            </div>
+            <div class="form-group ">
+                <label for="tel ">
+                <input type="tel " name="tel " placeholder="Телефон: " required>
+            </label>
+            </div>
+            <div class="form-group ">
+                <label for="adres ">
+                <input type="text " name="adres " placeholder="Адреса на живеење по лична карта: " required>
+            </label>
+            </div>
+        </div>
+    </form>
+    <ul style="list-style-type:none" style="list-style-type:none;">
+        <li><input type="checkbox" name="agree">Се согласувам моите податоци да бидат ко</li>
+        <li><input type="checkbox" name="agree1">Се согласувам за промотивни цели</li>
+        <li><input type="checkbox" name="save">Зачувај ги податоците</li>
+    </ul style="list-style-type:none">
+    <div id="kopcinja1">
+        <button onclick="izmeni()" class="kopcinja">Измени!</button>
+        <button onclick="prodolzi1()"class="kopcinja" id="prodolzi1">Продолжи</button>
+    </div>
+    </div>
+    <div id="div2" class="hideContent">
+        <h1>Општи информации:</h1>
+        <ul style="list-style-type:none">
+            <li>Дали си пушач?
+                <input type="radio" name="yes_no">Да
+                <input type="radio" name="yes_no">Не
+            </li>
+            <li>Дали би пушел цигари само во отворен простор, доколку такво барање има твојот потенцијален цимер?
+                <input type="radio" name="yes_no">Да
+                <input type="radio" name="yes_no">Не
+            </li>
+            <li>
+                Дали си љубител на животни?
+                <input type="radio" name="yes_no">Да
+                <input type="radio" name="yes_no">Не
+            </li>
+            <li>
+                Дали имаш свое милениче?
+                <input type="radio" name="yes_no">Да
+                <input type="radio" name="yes_no">Не
+            </li>
+            <li>
+                Доколку да, какво милениче чуваш?
+                <input type="text" name="pet" placeholder="Милениче:">
+            </li>
+            <li>
+                Дали би ти пречело ако твојот потенцијален цимер чува милениче?
+                <select mul style="list-style-type:none" tiple>
+                    <option value="da">Да</option>
+                    <option value="ne">Не</option>
+                    <option value="ne1">Не, ако е мачка!</option>
+                    <option value="ne2">Не, ако е куче со среден раст!</option>
+                    <option value="ne3">Не, ако е куче со мал раст!</option>
+                </select>
+            </li>
+            <li>
+                Интереси:
+                <select mul style="list-style-type:none" tiple>
+                    <option value="">Спорт</option>
+                    <option value="">Филм</option>
+                    <option value="">Музика</option>
+                    <option value="">Уметност</option>
+                    <option value="">Видео игри</option>
+                    <option value="">Технологија</option>
+                    <option value="">Книги</option>
+                    <option value="">Храна</option>
+                    <option value="">Здрава исхрана</option>
+                    <option value="">Веганска исхрана</option>
+                    <option value="">Вегетеријанец</option>
+                    <option value="">Активен спортист</option>
+                </select>
+            </li>
+            <li>
+                Дали би сакал да му поставиш други прашања на твојот цимер?
+                <input type="radio" name="yes_no">Да
+                <input type="radio" name="yes_no">Не
+            </li>
+            <li>
+                Доколку да, кои се тие?
+                <input type="text" placeholder="Прашање">
+            </li>
+        </ul style="list-style-type:none">
+        <div id="kopcinja1">
+            <button onclick="nazad1()" class="kopcinja">Назад</button>
+            <button onclick="prodolzi2()" id="prodolzi2" class="kopcinja">Продолжи</button>
+        </div>
+    </div>
+    <div id="div3" class="hideContent">
+        <h1>Прашања поврзани со просторот</h1>
+        <p>Дали имаш простор?</p>
+        <div id="kopcinja1">
+            <button onclick="da()" class="kopcinja">Да</button>
+            <button onclick="ne()" class="kopcinja">Не</button>
+        </div>
+        <div id="kopcinja1">
+            <button onclick="nazad2()" class="kopcinja">Назад</button>
+        </div>
+    </div>
+        <div id="div3_1" class="hideContent">
+            <!-- Prasanja dokolku kliknal DA -->
+            <ul style="list-style-type:none">
+                <li>Во кој регион се наоѓа?
+                    <select mul style="list-style-type:none" tiple>
+                        <option selected disabled>Општина</option>
+                    </select>
+                </li>
+                <li>
+                    Колкав износ за кирија и режиски трошоци?
+                    <input type="range" min="2000" max="30000" value="2000">
+                </li>
+                <li>
+                    Дали во просторот има обезбедено интернет?
+                    <input type="radio" name="yes_no">Да
+                    <input type="radio" name="yes_no">Не
+                </li>
+                <li>
+                    На кој оператор е интернетот?
+                    <select>
+                        <option value="" selected disabled>Провајдер:</option>
+                        <option value="">Телеком</option>
+                        <option value="">Телекабел</option>
+                        <option value="">А1</option>
+                    </select>
+                </li>
+                <li>
+                    Дали во просторот има телевизија?
+                    <input type="radio" name="yes_no">Да
+                    <input type="radio" name="yes_no">Не
+                </li>
+                <li>
+                    На кој оператор е телевизијата?
+                    <select>
+                        <option value="" selected disabled>Провајдер:</option>
+                        <option value="">Телеком</option>
+                        <option value="">Телекабел</option>
+                        <option value="">А1</option>
+                    </select>
+                </li>
+                <li>
+                    Колкава квадратура е просторот?
+                    <select>
+                        <option value="" selected disabled>m²</option>
+                        <option value="">30-40m²</option>
+                        <option value="">41-50m²</option>
+                        <option value="">51-60m²</option>
+                        <option value="">61-70m²</option>
+                        <option value="">71-80m²</option>
+                        <option value="">81-90m²</option>
+                        <option value="">91-100m²</option>
+                    </select>
+                </li>
+                <li>
+                    Каков тип на греење има во просторот?
+                    <select>
+                        <option value="" selected disabled>Тип на греење:</option>
+                        <option value="">Струја</option>
+                        <option value="">Градско парно</option>
+                        <option value="">Сопствено парно</option>
+                        <option value="">Струја и сопствено парно</option>
+                        <option value="">Нафта</option>
+                        <option value="">Дрва</option>
+                    </select>
+                </li>
+                <li>
+                    Колку соби има просторот?
+                    <select>
+                        <option value="" selected disabled>Број на соби:</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">Повеќе од 4</option>
+                    </select>
+                </li>
+                <li>
+                    Дали во просторот има две посебни спални соби?
+                    <select>
+                        <option value="">Да</option>
+                        <option value="">Не</option>
+                        <option value="">Спална</option>
+                        <option value="">Дневна која може да биде и спална</option>
+                    </select>
+                </li>
+                <li>
+                    Доколку се спални соби, дали се комплетно опремени?
+                    <select>
+                        <option value="">Да</option>
+                        <option value="">Не</option>
+                        <option value="">Делумно</option>
+                    </select>
+                </li>
+                <li>
+                    Дали во просторот е дозволено пушење?
+                    <input type="radio" name="yes_no">Да
+                    <input type="radio" name="yes_no">Не
+                </li>
+                <li>
+                    Дали во просторот има кујна?
+                    <input type="radio" name="yes_no">Да
+                    <input type="radio" name="yes_no">Не
+                </li>
+                <li>
+                    Дали кујната е комплетно опремена?
+                    <select>
+                        <option value="">Да</option>
+                        <option value="">Не</option>
+                        <option value="">Делумно</option>
+                    </select>
+                </li>
+                <li>
+                    Дали тоалетот е комплетно опремен?
+                    <select>
+                        <option value="">Да</option>
+                        <option value="">Не</option>
+                        <option value="">Делумно</option>
+                    </select>
+                </li>
+                <li>
+                    Дали дневната соба е комплетно опремена?
+                    <select>
+                        <option value="">Да</option>
+                        <option value="">Не</option>
+                        <option value="">Делумно</option>
+                    </select>
+                </li>
+            </ul style="list-style-type:none">
+        <div id="kopcinja1">
+            <button onclick="nazad3_1()" class="kopcinja">Назад</button>
+            <button onclick="prodolzi3()" id="prodolzi2" class="kopcinja">Продолжи</button>
+        </div>
+        </div>
+        <div id="div3_2" class="hideContent">
+            <!-- Prasanja dokolku kliknal NE -->
+            <ul style="list-style-type:none">
+                <li>
+                    Во кој регион бараш?
+                    <select mul style="list-style-type:none" tiple>
+                        <option selected disabled>Општина</option>
+                    </select>
+                </li>
+                <li>
+                    Колкав износ си спремен да плаќаш месечно?
+                    <input type="range" min="2000" max="30000" value="2000">
+                </li>
+                <li>
+                    Дали бараш посебна спална соба?
+                    <select>
+                        <option value="">Да</option>
+                        <option value="">Не</option>
+                        <option value="">Не ми е толку важно</option>
+                    </select>
+                </li>
+                <li>
+                    Колкава квадратура на простор бараш?
+                    <select>
+                        <option value="" selected disabled>m²</option>
+                        <option value="">30-40m²</option>
+                        <option value="">41-50m²</option>
+                        <option value="">51-60m²</option>
+                        <option value="">61-70m²</option>
+                        <option value="">71-80m²</option>
+                        <option value="">81-90m²</option>
+                        <option value="">91-100m²</option>
+                    </select>
+                </li>
+                <li>
+                    Каков тип на греење преферираш?
+                    <select>
+                        <option value="" selected disabled>Тип на греење:</option>
+                        <option value="">Струја</option>
+                        <option value="">Градско парно</option>
+                        <option value="">Сопствено парно</option>
+                        <option value="">Струја и сопствено парно</option>
+                        <option value="">Нафта</option>
+                        <option value="">Дрва</option>
+                    </select>
+                </li>
+                <li>
+                    Колку соби би сакал да има во просторот?
+                    <select>
+                        <option value="" selected disabled>Број на соби:</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">Повеќе од 4</option>
+                    </select>
+                </li>
+                <li>
+                    Дали треба кујната да биде целосно опремена?
+                    <select>
+                        <option value="">Да</option>
+                        <option value="">Не</option>
+                        <option value="">Делумно</option>
+                    </select>
+                </li>
+                <li>
+                    Дали треба спалната да биде целосно опремена?
+                    <select>
+                        <option value="">Да</option>
+                        tion value="">Не</option>
+                        <option value="">Делумно</option>
+                    </select>
+                </li>
+                <li>
+                    Дали тоалетот треба да биде целосно опремен?
+                    <select>
+                        <option value="">Да</option>
+                        <option value="">Не</option>
+                        <option value="">Делумно</option>
+                    </select>
+                </li>
+                <li>
+                    Дали бараш простор во кој пушењето на цигари е дозволено?
+                    <input type="radio" name="yes_no">Да
+                    <input type="radio" name="yes_no">Не
+                </li>
+            </ul style="list-style-type:none">
+        <div id="kopcinja1">
+            <button onclick="nazad3_2()" class="kopcinja">Назад</button>
+            <button onclick="prodolzi3_1()" id="prodolzi2" class="kopcinja">Продолжи</button>
+        </div>
+        </div>
+    <div id="div4" class="hideContent">
+        <h1>Што бараш?</h1>
+        <ul style="list-style-type:none" style="list-style-type:none;">
+            <li><input type="checkbox">Барам цимер без простор</li>
+            <li><input type="checkbox">Барам цимер со простор</li>
+            <li><input type="checkbox">Барам простор</li>
+        </ul style="list-style-type:none">
+        <div id="kopcinja1">
+            <button onclick="prodolzi6()" id="prodolzi2" class="kopcinja">Продолжи</button>
+        </div>
+    </div>
+    <div id="div10" class="hideContent">
+        <li>
+            Дали би ти пречело ако твојот цимер пуши цигари само во отворен?
+            <input type="radio" name="yes_no">Да
+            <input type="radio" name="yes_no">Не
+        </li>
+
+        <li>
+            Дали твјот цимер треба да е љубител на животни?
+            <input type="radio" name="yes_no">Да
+            <input type="radio" name="yes_no">Не
+        </li>
+
+        <li>
+            Дали би ти пречело ако твојот потенцијален цимер чува милениче?
+            <select>
+                <option value="">Да</option>
+                <option value="">Не</option>
+                <option value="">Не ако е мачка </option>
+                <option value="">Не, ако е куче со среден раст </option>
+                <option value="">Не, ако е куче со мал раст. </option>
+            </select>
+        </li>
+        Интереси
+        <select mul style="list-style-type:none" tiple name="" id="">
+            <option selected>спорт</option>
+            <option selected>филм</option>
+            <option selected>музика</option>
+            <option selected>уметност</option>
+            <option selected>видеоигри</option>
+            <option selected>технологија</option>
+            <option selected>храна</option>
+            <option selected>книги</option>
+            <option selected>здрава исхрана</option>
+            <option selected>веганска исхрана</option>
+            <option selected>вегетеријанец</option>
+            <option selected>активен спортист</option>
+        </select>
+        <li>
+            До колкав износ очекуваш да покрива месечно твојот цимер?
+            <input type="range" min="2000" max="30000" value="2000">
+        </li>
+        <div id="kopcinja1">
+        <button onclick="nazad4()" class="kopcinja">Назад</button>
+        <button class="kopcinja">Комплетирај го профилот!</button>
+        </div>
+        <div id="div15">
+        <input type="text" placeholder="Напиши нешто...">
+        <button class="kopcinja" type="submit">Барај!</button>
+        </div>
+    </div>
+    <!-- Izdavam prostor -->
+    <div id="div6" class="hideContent">
+        <h1>Издавам Простор</h1>
+        <h3>Лични информации:</h3>
+        <form class="text-center">
+            <div class="">
+                <div class="form-group">
+                    <label for=" name ">
+                    <input type="text " name="name " placeholder="Име: " required>
+                  </label>
+                </div>
+                <div class="form-group ">
+                    <label for="lastname ">
+                    <input type="text " name="lastname " placeholder="Презиме: " required>
+                </label>
+                </div>
+                <div class="form-group ">
+                    <select name=" " id=" ">
+                    <option value="пол " selected disabled>Пол</option>
+                    <option value="маж ">Маж</option>
+                    <option value="жена ">Жена</option>
+                </select>
+                </div>
+                <div class="form-group ">
+                    <label for="age ">
+                    <input type="number " name="age " placeholder="Години: " required>
+                </label>
+                </div>
+                <div class="form-group ">
+                    <label for="email ">
+                    <input type="email " name="email " placeholder="Емаил: " required>
+                </label>
+                </div>
+                <div class="form-group ">
+                    <label for="tel ">
+                    <input type="tel " name="tel " placeholder="Телефон: " required>
+                </label>
+                </div>
+                <div class="form-group ">
+                    <label for="adres ">
+                    <input type="text " name="adres " placeholder="Адреса на живеење по лична карта: " required>
+                </label>
+                </div>
+            </div>
+        </form>
+        <div id="kopcinja1">
+            <button onclick="nazad5()" class="kopcinja">Назад</button>
+            <button onclick="prodolzi4()" id="prodolzi2" class="kopcinja">Продолжи</button>
+        </div>
+    </div>
+
+        <div id="div7" class="hideContent">
+        <ul style="list-style-type:none">
+            <li>Во кој регион се наоѓа?
+                <select mul style="list-style-type:none" tiple>
+                    <option selected disabled>Општина</option>
+                </select>
+            </li>
+
+            <li>
+                Колкав е месечниот паушал за изнајмување?
+                <input type="range" min="2000" max="30000" value="2000">
+            </li>
+
+            <li>
+                Дали во просторот има обезбедено интернет?
+                <input type="radio" name="yes_no">Да
+                <input type="radio" name="yes_no">Не
+            </li>
+            <li>
+                На кој оператор е интернетот?
+                <select>
+                    <option value="" selected disabled>Провајдер:</option>
+                    <option value="">Телеком</option>
+                    <option value="">Телекабел</option>
+                    <option value="">А1</option>
+                </select>
+            </li>
+            <li>
+                Дали во просторот има телевизија?
+                <input type="radio" name="yes_no">Да
+                <input type="radio" name="yes_no">Не
+            </li>
+            <li>
+                На кој оператор е телевизијата?
+                <select>
+                    <option value="" selected disabled>Провајдер:</option>
+                    <option value="">Телеком</option>
+                    <option value="">Телекабел</option>
+                    <option value="">А1</option>
+                </select>
+            </li>
+
+            <li>
+                Колкава квадратура е просторот?
+                <select>
+                    <option value="" selected disabled>m²</option>
+                    <option value="">30-40m²</option>
+                    <option value="">41-50m²</option>
+                    <option value="">51-60m²</option>
+                    <option value="">61-70m²</option>
+                    <option value="">71-80m²</option>
+                    <option value="">81-90m²</option>
+                    <option value="">91-100m²</option>
+                </select>
+            </li>
+
+            <li>
+                Каков тип на греење има во просторот?
+                <select>
+                    <option value="" selected disabled>Тип на греење:</option>
+                    <option value="">Струја</option>
+                    <option value="">Градско парно</option>
+                    <option value="">Сопствено парно</option>
+                    <option value="">Струја и сопствено парно</option>
+                    <option value="">Нафта</option>
+                    <option value="">Дрва</option>
+                </select>
+            </li>
+
+            <li>
+                Колку соби има во просторот?
+                <select>
+                    <option value="" selected disabled>Број на соби:</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">Повеќе од 4</option>
+                </select>
+            </li>
+
+            <li>
+                Дали во просторот има две спални соби?
+                <select>
+                    <option value="">Да</option>
+                    <option value="">Не</option>
+                    <option value="">Спална и дневна која може да биде спална</option>
+                </select>
+            </li>
+
+            <li>
+                Доколку се посебни спални соби, дали се комплетно опремени?
+                <select>
+                    <option value="">Да</option>
+                    <option value="">Не</option>
+                    <option value="">Делумно</option>
+                </select>
+            </li>
+
+            <li>
+                Дали во просторот е дозволено пушење?
+                <input type="radio" name="yes_no">Да
+                <input type="radio" name="yes_no">Не
+            </li>
+
+            <li>
+                Дали во просторот има кујна?
+                <input type="radio" name="yes_no">Да
+                <input type="radio" name="yes_no">Не
+            </li>
+            <li>
+                Дали кујната е комплетно опремена?
+                <select>
+                    <option value="">Да</option>
+                    <option value="">Не</option>
+                    <option value="">Делумно</option>
+                </select>
+            </li>
+
+            <li>
+                Дали купатилото е комплетно опремено?
+                <select>
+                    <option value="">Да</option>
+                    <option value="">Не</option>
+                    <option value="">Делумно</option>
+                </select>
+            </li>
+
+            <li>
+                Дали дневната е комплетно опремена?
+                <select>
+                    <option value="">Да</option>
+                    <option value="">Не</option>
+                    <option value="">Делумно</option>
+                </select>
+            </li>
+            <div id="kopcinja1">
+                <button onclick="nazad6()" class="kopcinja">Назад</button>
+                <button onclick="prodolzi5()" id="prodolzi2" class="kopcinja">Продолжи</button>
+            </div>
+        </div>
+        <div id="div7_1" class="hideContent">
+            <h3>Прикачи фотографии</h3>
+            <input type="file" id="prikaci" accept="image/*">
+            <div id="kopcinja1">
+            <button onclick="nazad7()" class="kopcinja">Назад</button>
+            <button class="kopcinja">Комплетирај го профилот!</button>
+            </div>
+            <div id="div7_2" class="hideContent">
+                <input type="text" placeholder="Напиши нешто...">
+                <button class="kopcinja" type="submit">Барај!</button>
+             </div>
+        </div>
+    <div id="div8" class="hideContent">
+        <button class="btn btn-light">Комплетирај го профилот!</button>
+        <button class="btn btn-light">Назад</button>
+        <div id="div5" class="hideContent">
+        <input type="text" placeholder="Напиши нешто...">
+        <button class="btn btn-light" type="submit">Барај!</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

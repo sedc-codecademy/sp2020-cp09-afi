@@ -1,0 +1,324 @@
+
+* {
+    box-sizing: border-box; 
+
+}
+
+
+
+.section2 {
+  position: relative;
+    background-image: url("./home_page_bez_slika.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* Nav-bar */
+header {
+    background-color: #AA1A75;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    padding-left: 7%;
+    
+}
+.logo-top-left {
+  position: relative;
+    width: 200px;
+    height: 60px;
+    margin-left: 10%;
+}
+.logo-top-left-image {
+    width: 140px;
+    height: auto;
+}
+
+
+ /* NAV-LINKS */
+nav {
+    flex: 1;
+}
+.nav-links {
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style-type: none;  
+    justify-content: space-evenly;
+}
+
+.nav-link1 {
+  position: relative;
+    top: 17px;
+    padding: 40px;
+    margin-left: 600px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link1:hover {
+    color: #4da3b4;
+}
+
+.nav-link2 {
+  position: relative;
+  top: 17px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link2:hover {
+    color: #4da3b4;
+}
+
+
+
+
+/* main part */
+
+
+:root {
+    --white: #fff;
+    --accent-color: #b5838d;
+    --dark-accent-color: #a6757f;
+    --main-color: #6d6875;
+    --dark-main-color: #56505f;
+  }
+  .wave {
+    display: block;
+    animation: waving 3s infinite;
+  }
+  
+  @keyframes waving {
+    0% {
+      transform: rotate(30deg);
+    }
+    50% {
+      transform: trotate(-30deg);
+    }
+    10% {
+      transform: rotate(30deg);
+    }
+  }
+  
+  
+  h1,
+  a  {
+    text-align: center;
+  }
+  
+  button {
+    font-size: 0.8em;
+    color: var(--white);
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 5px;
+    border-width: 0px;
+    text-transform: uppercase;
+  }
+  
+  input {
+    padding: 1em;
+    border-radius: 0px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 95%);
+  }
+  .container {
+      margin-left: 35%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 900px;
+    background:white(1,1,1,0.4);
+    padding: 3.3em;
+    border-radius: 9px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-top: 10px solid #4da3b4;
+  }
+  .text-in-najava{
+
+     position: relative;
+     margin-top: 15px;
+     margin-left: 60px;
+
+  }
+  
+  .signup {
+    position: relative;
+    font-size: 0.8em;
+    color: var(--white);
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 5px;
+    border-width: 0px;
+    text-transform: uppercase;
+    background-color:#AA1A75;
+    margin-bottom: 30px;
+  }
+  .signup:hover {
+    background-color:pink;
+  }
+  
+  .login {
+    position: relative;
+    font-size: 0.8em;
+    color: white;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 5px;
+    border-width: 0px;
+    text-transform: uppercase;
+      margin-top: 30px;
+    background-color:#0187A0;
+  }
+
+  
+  
+  .login:hover {
+    background-color:#4DA3B4;
+  }
+  
+  .disclaimer {
+    font-size: 0.9em;
+  }
+  
+  a {
+    color: var(--main-color);
+    margin-bottom: 30px;
+  }
+  
+  a:hover {
+    color: var(--dark-main-color);
+  }
+  
+
+/* footer */
+
+.footer2{
+  position: relative;
+    margin-top: 80px;
+    background-image: url("./footer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    height: 280px;
+    border:white;
+}
+
+.footer-text-follow-us2 {
+    top: 80px;
+    position: relative;
+    font-size: 19px;
+    color: white;
+    margin-left: 10%;         
+     
+  }
+  
+.logo-footer-text-12 > p { 
+    position: relative;
+    top: 80px;   
+    margin-left: 82%;
+    font-size: 20px;  
+    color:white;
+  }
+
+.logo-footer-text-12 img{
+    position: relative;
+     top: 80px;
+    height: 50px;  
+    color: #4DA3B4;
+    background-color: #4DA3B4;
+    border-radius: 50%;
+  }
+ 
+.instagram2{
+  position: relative;
+  top: -30px;
+    margin-left:10%;
+}
+
+.facebook2 {
+  position: relative;
+  top: -40px;
+}
+
+.footer-text-22 {
+    position: relative;
+    top: 80px;
+    margin-left: 73%; 
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+  .filter-button-div{
+
+    height: 10%;
+ 
+ }
+ 
+ #filter-btn{
+     background-color: #aa1a75;
+     color: white;
+     border-radius: 10px;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     font-size: 19px;
+     height: 35%;
+     width: 7%;
+     margin-top: 20px;
+     margin-left: 88%;
+     
+ }
+ #filters-btn{    
+     border-radius: 10px;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     font-size: 19px;
+     height: 10%;
+     width: 50%;
+     margin-top: 20px;
+     margin-left: 5%;
+     
+ }
+ #img-filter{
+     width: 35%;
+     height: 35%;
+ }
+ 
+ #img-filters{
+     width: 15%;
+     height: 15%;
+ }
+ 
+ .filters-sub{
+     font-size: 22px;
+     margin-left: 5%;
+     color: lightslategray;
+ }
+ .filters-container{
+     height: 72%;
+     border: solid black 1px;
+     background-color: rgb(119, 136, 153, 0.3);
+     margin-right: 0%;
+     margin-left: 80%
+     
+ }
+
+  .allfiltering{
+      display: none;
+  }
+
+
+  .hidecontent {
+    display: none;
+  }
+
+  #hidecontent {
+    display: none;
+  }
+
+  

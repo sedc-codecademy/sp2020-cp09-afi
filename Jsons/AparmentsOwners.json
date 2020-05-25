@@ -1,0 +1,638 @@
+ [
+  {
+  "fullname": "Миле Крстев",
+  "sex": "маж",
+  "age": "30",
+  "email": "mile@yahoo.com",
+  "phoneNumber": "078888777",
+  "adress": "бул. Партизанска бр.42/17 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Карпош2",
+     "price": 250,
+     "internetAccess": true,
+     "internetOpertator": "Телеком",
+     "tvAccess": true,
+     "tvoperator": "Телеком",
+     "area": "51-60m2",
+     "typeOfHeating": "Струја",
+     "rooms": 2,
+     "twoSeparateBedrooms": true,
+     "bedroomsЕquipped": true,
+     "smoking": false,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+  "fullname": "Даме Груевски",
+  "sex": "маж",
+  "age": "56",
+  "email": "dame@yahoo.com",
+  "phoneNumber": "076555777",
+  "adress": "ул. Козара бр.16-1 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Кисела Вода",
+     "price": 150,
+     "internetAccess": true,
+     "internetOpertator": "Телекабел",
+     "tvAccess": true,
+     "tvoperator": "Телекабел",
+     "area": "41-50m2",
+     "typeOfHeating": "Градско парно",
+     "rooms": 2,
+     "twoSeparateBedrooms": false,
+     "bedroomsЕquipped": true,
+     "smoking": false,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+    "fullname": "Златко Калински",
+    "sex": "маж",
+    "age": "65",
+    "email": "zlatko@gmail.com",
+    "phoneNumber": "070312777",
+    "adress": "бул. Партизанска бр.102/17 Скопје",
+    "pictures": [
+      "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+      "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+      "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+    ],
+    "apartment": [
+      {
+        "region": "Влае",
+        "price": 120,
+        "internetAccess": false,
+        "internetOpertator": null,
+        "tvAccess": true,
+        "tvoperator": "A1",
+        "area": "30-40m2",
+        "typeOfHeating": "Нафта",
+        "rooms": 1,
+        "twoSeparateBedrooms": true,
+        "bedroomsЕquipped": true,
+        "smoking": false,
+        "kitchenЕquipped": true,
+        "bathЕquipped": true,
+        "livingRoomЕquipped": true
+      }
+    ]
+  },
+  {
+    "fullname": "Наташа Мешковска",
+    "sex": "жена",
+    "age": "55",
+    "email": "natasa@yahoo.com",
+    "phoneNumber": "075333777",
+    "adress": "бул. Партизанска бр.11/17 Скопје",
+    "pictures": [
+      "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+      "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+      "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+    ],
+    "apartment": [
+      {
+        "region": "Карпош1",
+        "price": 160,
+        "internetAccess": true,
+        "internetOpertator": "Телекабел",
+        "tvAccess": true,
+        "tvoperator": "Телеком",
+        "area": "41-50m2",
+        "typeOfHeating": "Градско Парно",
+        "rooms": 2,
+        "twoSeparateBedrooms": false,
+        "bedroomsЕquipped": true,
+        "smoking": false,
+        "kitchenЕquipped": true,
+        "bathЕquipped": true,
+        "livingRoomЕquipped": true
+      }
+    ]
+  },{
+  "fullname": "Кире Печијаревски",
+  "sex": "маж",
+  "age": "45",
+  "email": "kire@gmail.com",
+  "phoneNumber": "070555444",
+  "adress": "бул. Струшка бр.25 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Центар",
+     "price": 130,
+     "internetAccess": true,
+     "internetOpertator": "Телеком",
+     "tvAccess": true,
+     "tvoperator": "Телеком",
+     "area": "30-40m2",
+     "typeOfHeating": "Струја",
+     "rooms": 1,
+     "twoSeparateBedrooms": false,
+     "bedroomsЕquipped": true,
+     "smoking": false,
+     "kitchenЕquipped": false,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },{
+  "fullname": "Мимоза Цветкова",
+  "sex": "жена",
+  "age": "31",
+  "email": "mimoza@yahoo.com",
+  "phoneNumber": "071222333",
+  "adress": "бул. Илинденска бр.42/2-1 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Тафталиџе",
+     "price": 200,
+     "internetAccess": true,
+     "internetOpertator": "Телеком",
+     "tvAccess": true,
+     "tvoperator": "Телеком",
+     "area": "61-70m2",
+     "typeOfHeating": "Дрва",
+     "rooms": 3,
+     "twoSeparateBedrooms": true,
+     "bedroomsЕquipped": true,
+     "smoking": false,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },{
+  "fullname": "Атанас Костовски",
+  "sex": "маж",
+  "age": "62",
+  "email": "atanas@yahoo.com",
+  "phoneNumber": "070215315",
+  "adress": "ул. Емил Зола бр.41 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Ново Лисиче",
+     "price": 180,
+     "internetAccess": true,
+     "internetOpertator": "Телекабел",
+     "tvAccess": false,
+     "tvoperator": null,
+     "area": "51-60m2",
+     "typeOfHeating": "Градско Парно",
+     "rooms": 2,
+     "twoSeparateBedrooms": false,
+     "bedroomsЕquipped": true,
+     "smoking": false,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },{
+  "fullname": "Зоран Попоски",
+  "sex": "маж",
+  "age": "33",
+  "email": "zoran@yahoo.com",
+  "phoneNumber": "075312612",
+  "adress": "бул. А.Македонску бр.33/17 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Автокоманда",
+     "price": 150,
+     "internetAccess": true,
+     "internetOpertator": "А1",
+     "tvAccess": true,
+     "tvoperator": "А1",
+     "area": "51-60m2",
+     "typeOfHeating": "Струја",
+     "rooms": 2,
+     "twoSeparateBedrooms": false,
+     "bedroomsЕquipped": true,
+     "smoking": true,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },{
+  "fullname": "Зоран Михајлов",
+  "sex": "маж",
+  "age": "44",
+  "email": "zoran@yahoo.com",
+  "phoneNumber": "071895895",
+  "adress": "бул. Србија бр.35/17 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Карпош4",
+     "price": 250,
+     "internetAccess": true,
+     "internetOpertator": "Телеком",
+     "tvAccess": true,
+     "tvoperator": "Телеком",
+     "area": "81-100m2",
+     "typeOfHeating": "Нафта",
+     "rooms": 3,
+     "twoSeparateBedrooms": true,
+     "bedroomsЕquipped": true,
+     "smoking": true,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+  "fullname": "Јана Миткова",
+  "sex": "жена",
+  "age": "29",
+  "email": "jana@gmail.com",
+  "phoneNumber": "070785785",
+  "adress": "ул. Тодор Чангов бр.26 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Аеродром",
+     "price": 240,
+     "internetAccess": false,
+     "internetOpertator": null,
+     "tvAccess": true,
+     "tvoperator": "A1",
+     "area": "71-80m2",
+     "typeOfHeating": "Струја",
+     "rooms": 3,
+     "twoSeparateBedrooms": true,
+     "bedroomsЕquipped": true,
+     "smoking": true,
+     "kitchenЕquipped": false,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": false
+    }
+    ]
+  },
+  {
+  "fullname": "Киро Мојсов",
+  "sex": "маж",
+  "age": "39",
+  "email": "kire@gmail.com",
+  "phoneNumber": "071785785",
+  "adress": "ул. Тодор Чангов бр.129 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Кисела Вода",
+     "price": 110,
+     "internetAccess": false,
+     "internetOpertator": null,
+     "tvAccess": true,
+     "tvoperator": "A1",
+     "area": "41-50m2",
+     "typeOfHeating": "Дрва",
+     "rooms": 3,
+     "twoSeparateBedrooms": false,
+     "bedroomsЕquipped": true,
+     "smoking": true,
+     "kitchenЕquipped": false,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+  "fullname": "Милена Миткова",
+  "sex": "жена",
+  "age": "19",
+  "email": "milena@gmail.com",
+  "phoneNumber": "079785785",
+  "adress": "ул. Прохор Пчињски бр.26 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Влае",
+     "price": 180,
+     "internetAccess": true,
+     "internetOpertator": "A1",
+     "tvAccess": true,
+     "tvoperator": "A1",
+     "area": "61-70m2",
+     "typeOfHeating": "Градско парно",
+     "rooms": 3,
+     "twoSeparateBedrooms": true,
+     "bedroomsЕquipped": true,
+     "smoking": true,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+  "fullname": "Митко Јанкоски",
+  "sex": "маж",
+  "age": "29",
+  "email": "mitko@gmail.com",
+  "phoneNumber": "070279785",
+  "adress": "ул. Едвард Кардељ бр.26 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Ново Лисиче",
+     "price": 200,
+     "internetAccess": true,
+     "internetOpertator": "A1",
+     "tvAccess": true,
+     "tvoperator": "A1",
+     "area": "71-80m2",
+     "typeOfHeating": "Струја",
+     "rooms": 3,
+     "twoSeparateBedrooms": true,
+     "bedroomsЕquipped": true,
+     "smoking": true,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+  "fullname": "Ѓорѓи Колозов",
+  "sex": "маж",
+  "age": "69",
+  "email": "gjoko@gmail.com",
+  "phoneNumber": "075785775",
+  "adress": "ул. Питу Гули бр.26 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Карпош1",
+     "price": 260,
+     "internetAccess": false,
+     "internetOpertator": null,
+     "tvAccess": true,
+     "tvoperator": "A1",
+     "area": "71-80m2",
+     "typeOfHeating": "Струја",
+     "rooms": 3,
+     "twoSeparateBedrooms": true,
+     "bedroomsЕquipped": true,
+     "smoking": true,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+  "fullname": "Жана Миткова",
+  "sex": "жена",
+  "age": "38",
+  "email": "zana@gmail.com",
+  "phoneNumber": "078784455",
+  "adress": "ул. Миле Поп Јорданов бр.12 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Карпош3",
+     "price": 220,
+     "internetAccess": false,
+     "internetOpertator": null,
+     "tvAccess": true,
+     "tvoperator": "A1",
+     "area": "71-80m2",
+     "typeOfHeating": "Градско Парно",
+     "rooms": 2,
+     "twoSeparateBedrooms": false,
+     "bedroomsЕquipped": true,
+     "smoking": false,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+  "fullname": "Билјана Трајкова",
+  "sex": "жена",
+  "age": "49",
+  "email": "biljana@gmail.com",
+  "phoneNumber": "072785785",
+  "adress": "ул. 11 октомври бр.556 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Кисела Вода",
+     "price": 180,
+     "internetAccess": false,
+     "internetOpertator": null,
+     "tvAccess": true,
+     "tvoperator": "Телекабел",
+     "area": "61-70m2",
+     "typeOfHeating": "Струја",
+     "rooms": 3,
+     "twoSeparateBedrooms": true,
+     "bedroomsЕquipped": true,
+     "smoking": false,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+  "fullname": "Влатко Митков",
+  "sex": "жена",
+  "age": "44",
+  "email": "vlatko@gmail.com",
+  "phoneNumber": "075783785",
+  "adress": "ул. Пере Тошев бр.6 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Автокоманда",
+     "price": 140,
+     "internetAccess": false,
+     "internetOpertator": null,
+     "tvAccess": true,
+     "tvoperator": "A1",
+     "area": "41-50m2",
+     "typeOfHeating": "Струја",
+     "rooms": 2,
+     "twoSeparateBedrooms": false,
+     "bedroomsЕquipped": true,
+     "smoking": false,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+  "fullname": "Лазар Попов",
+  "sex": "маж",
+  "age": "39",
+  "email": "lazar@gmail.com",
+  "phoneNumber": "070785785",
+  "adress": "ул. Лондонска бр.26 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Центар",
+     "price": 250,
+     "internetAccess": true,
+     "internetOpertator": "A1",
+     "tvAccess": true,
+     "tvoperator": "A1",
+     "area": "51-60m2",
+     "typeOfHeating": "Градско парно",
+     "rooms": 2,
+     "twoSeparateBedrooms": true,
+     "bedroomsЕquipped": true,
+     "smoking": true,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+  "fullname": "Благоја Алексов",
+  "sex": "маж",
+  "age": "57",
+  "email": "blagoja@gmail.com",
+  "phoneNumber": "075965785",
+  "adress": "ул. Козара бр.6 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Аеродром",
+     "price": 280,
+     "internetAccess": false,
+     "internetOpertator": "Телеком",
+     "tvAccess": true,
+     "tvoperator": "Телеком",
+     "area": "71-80m2",
+     "typeOfHeating": "Градско парно",
+     "rooms": 3,
+     "twoSeparateBedrooms": true,
+     "bedroomsЕquipped": true,
+     "smoking": true,
+     "kitchenЕquipped": true,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": true
+    }
+    ]
+  },
+  {
+  "fullname": "Милош Митков",
+  "sex": "маж",
+  "age": "22",
+  "email": "milos@gmail.com",
+  "phoneNumber": "074785885",
+  "adress": "ул. Ѓорѓи Капчев бр.26 Скопје",
+  "pictures": [
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbathroom.jpg?alt=media&token=5c82ae68-5325-4414-a0d2-195778c32852",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fbedroom.jpg?alt=media&token=1e44d957-0ba5-4afc-a7a3-20af3d76efc4",
+    "https://firebasestorage.googleapis.com/v0/b/afi2020.appspot.com/o/apartmentPicture%2Fliving-room.jpg?alt=media&token=d6abeda3-ff21-4009-8084-ce1f5c21594f"
+  ],
+  "apartment": [
+    {
+     "region": "Карпош4",
+     "price": 140,
+     "internetAccess": false,
+     "internetOpertator": null,
+     "tvAccess": true,
+     "tvoperator": "A1",
+     "area": "61-70m2",
+     "typeOfHeating": "Струја",
+     "rooms": 3,
+     "twoSeparateBedrooms": true,
+     "bedroomsЕquipped": true,
+     "smoking": true,
+     "kitchenЕquipped": false,
+     "bathЕquipped": true,
+     "livingRoomЕquipped": false
+    }
+    ]
+  }
+]
+

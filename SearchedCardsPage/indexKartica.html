@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pagination.js.org/dist/2.1.4/pagination.css"/>
+    <link rel="stylesheet" href="./styleKartica.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo-top-left">
+            <img src="Images/roommates_logo_white.svg" alt="roommates.mk" class="logo-top-left-image">
+        </div>
+
+
+        <div class="box"></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link">Совпаѓања</a></li>
+                <li><a href="#" id = "search-btn" class="nav-link">Пребарај</a></li>
+                <li><a href="#" class="nav-link">Пораки</a></li>
+                <li><a href="#" class="nav-link">Профил</a></li>
+            </ul>
+        </nav>
+        
+        <div class="top-right-user-box">
+            <div class="top-right-house-logo">
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user image" class="img-user">
+            </div>
+
+            <div class="house-icon">
+              <img src="images/tirkizna.png" alt="" class="house-icon-image">
+          </div>
+        </div>
+    </header>
+
+    <div class= "filter-button-div" id="filter-button">
+      
+      <a onclick="filters()" type="button" id="filter" class="kopche-najava"><img src="./Images/filter-icon.svg" id = "img-filter">Филтри</a>
+  
+    </div>
+
+    <div class= "filters-container" id="content">
+      <div class = basic-filters>
+        <div class ="filters-sub"> <img src="./Images/filter-icon.svg" id = "img-filters"> Филтри</div>
+        <div class ="filters-sub"> <img src="./Images/filter-icon.svg" id = "img-filters">Основни филтри</div>
+        <button id ="filters-btn"><img src="./Images/icon-smoker.svg" id = "img-filters">Пушач</button>
+        <button id ="filters-btn"><img src="./Images/icon-nonSmoker.svg" id = "img-filters">Непушач</button>
+        <button id ="filters-btn"><img src="./Images/icon-pet.svg" id = "img-filters">Миленик</button>
+        <button id ="filters-btn"><img src="./Images/icon-noPet.svg" id = "img-filters">Без миленик</button>
+      </div>
+      <div class="interest-filters" id="content2">
+        <div class ="filters-sub"> <img src="./Images/filter-icon.svg" id = "img-filters">Интереси</div>
+        <button id ="filters-btn"><img src="./Images/icon-sport.svg" id = "img-filters">Спортист</button>
+        <button id ="filters-btn"><img src="./Images/icon-movie.svg" id = "img-filters">Филм</button>
+        <button id ="filters-btn"><img src="./Images/icon-music.svg" id = "img-filters">Музика</button>
+        <button id ="filters-btn"><img src="./Images/icon-books.svg" id = "img-filters">Книги</button>
+        <button id ="filters-btn"><img src="./Images/icon-food.svg" id = "img-filters">Здрава храна</button>
+      </div>
+      <div class="montly-payment-filter">
+        <button id ="filters-btn"><img src="./Images/icon-money.svg" id = "img-filters">Месечен износ</button>
+        <label for="range">
+          <input type="range" name="range" id="range" min="0" max="300" step="" value="175"/>
+      </label>
+      
+     <output for="range" class="output"></output>
+        
+        <a onclick="goback()" type="button" id="back" class="kopche-najava"><img src="./Images/filter-icon.svg" id = "img-filter">Back</a>
+
+
+        
+               
+        
+         
+      </div>
+      
+    </div>
+
+    <div class="card-wrapper wrapper test" id="list">
+      <a onclick="prevPage()" href="#" id="btn_prev">Prev</a> 
+      <a onclick="nextPage()" href="#" id="btn_next">Next</a> 
+       <span id="page"></span>
+ 
+      <div class="card card-color-2" id="getthisone">
+        <div class="card-house-icon">
+          <img src="images/tirkizna3.png" alt="" class="card-house-image">
+        </div>
+
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+          <image  class="imageinhouse" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU clip-path="url(#House)" />
+        </svg>
+        
+        <div class="card-body">
+          <h4 class="card-title-2">Марко Марковски</h4>
+          <span class="card-text-2">23, Карпош 3</span><br>
+          <a href="#" class="btn btn-primary">Порака</a>
+        </div>
+      </div>
+
+
+      <div class="card card-color-1">
+        <div class="card-house-icon">
+          <img src="./Images/magenta.png" alt="" class="card-house-image">
+        </div>
+
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+          <image  class="imageinhouse" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU" clip-path="url(#House)" />
+        </svg>
+        
+        <div class="card-body">
+          <h4 class="card-title-1">Марија Митевска</h4>
+          <span class="card-text-1">25, Aеродром</span><br>
+          <a href="#" class="btn btn-primary girl">Порака</a>
+        </div>
+      </div>
+
+       <div class="card card-color-1" >
+        <div class="card-house-icon">
+          <img src="images/magenta.png" alt="" class="card-house-image">
+        </div>
+
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+          <image  class="imageinhouse" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU" clip-path="url(#House)" />
+        </svg>
+        
+        <div class="card-body">
+          <h4 class="card-title-1">Марија Митевска</h4>
+          <span class="card-text-1">25, Aеродром</span><br>
+          <a href="#" class="btn btn-primary girl">Порака</a>
+        </div>
+      </div>
+
+      <div class="card card-color-1" id="filterthiscard">
+        <div class="card-house-icon">
+          <img src="images/magenta.png" alt="" class="card-house-image">
+        </div>
+
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+          <image  class="imageinhouse" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU" clip-path="url(#House)" />
+        </svg>
+        
+        <div class="card-body">
+          <h4 class="card-title-1">Марија Митевска</h4>
+          <span class="card-text-1">25, Aеродром</span><br>
+          <a href="#" class="btn btn-primary girl">Порака</a>
+        </div>
+      </div>
+
+      <div class="card card-color-2" >
+        <div class="card-house-icon">
+          <img src="images/tirkizna3.png" alt="" class="card-house-image">
+        </div>
+
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+          <image  class="imageinhouse" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU clip-path="url(#House)" />
+        </svg>
+        
+        <div class="card-body">
+          <h4 class="card-title-2">Марко Марковски</h4>
+          <span class="card-text-2">23, Карпош 3</span><br>
+          <a href="#" class="btn btn-primary">Порака</a>
+        </div>
+      </div>
+
+      <div class="card card-color-1">
+        <div class="card-house-icon">
+          <img src="images/magenta.png" alt="" class="card-house-image">
+        </div>
+
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+          <image  class="imageinhouse" xlink:href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU" clip-path="url(#House)" />
+        </svg>
+        
+        <div class="card-body">
+          <h4 class="card-title-1">Марија Митевска</h4>
+          <span class="card-text-1">25, Aеродром</span><br>
+          <a href="#" class="btn btn-primary girl">Порака</a>
+        </div>
+      </div>
+
+      <div class="card card-color-2">
+        <div class="card-house-icon">
+          <img src="images/tirkizna3.png" alt="" class="card-house-image">
+        </div>
+
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+          <image  class="imageinhouse" xlink:href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU" clip-path="url(#House)" />
+        </svg>
+        
+        <div class="card-body">
+          <h4 class="card-title-2">Марко Марковски</h4>
+          <span class="card-text-2">23, Карпош 3</span><br>
+          <a href="#" class="btn btn-primary">Порака</a>
+        </div>
+      </div>
+      
+
+      <div class="card card-color-1"  id="filtersecondcard">
+        <div class="card-house-icon">
+          <img src="images/magenta.png" alt="" class="card-house-image">
+        </div>
+        
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+          <clipPath id="House"> 
+            <style>.cls-1{fill:none;stroke:none;stroke-miterlimit:10;stroke-width:8px;}</style>
+            <polygon class="cls-1"  points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+          </clipPath>
+        <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+        <image  class ="imageinhouse"width="200" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU" clip-path="url(#House)" />
+        </svg>
+        
+        <div class="card-body">
+          <h5 class="card-title-1">Марија Митевска</h5>
+          <span class="card-text-1">25, Аеродром</span><br>
+          <a href="#" class="btn btn-primary girl">Порака</a>
+        </div>
+      </div>
+      
+      </div>
+
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Назад</a></li>
+          <ul class="paging-numbers">
+          <li class="page-item-"><a class="page-link" href="#">1</a></li>
+          <li class="page-item-"><a class="page-link" href="#">2</a></li>
+          <li class="page-item-"><a class="page-link" href="#">3</a></li>
+          <li class="page-item-"><a class="page-link" href="#">4</a></li>
+          </ul>
+          <li class="page-item"><a class="page-link" href="#">Следно</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer">
+      <div class ="footer-text-follow-us">
+        <p class="footer-text">FOLLOW US</p>
+      </div>
+      <div class="logo-footer-text-1">
+      <img src="./Images/instagram.svg" class="instagram">
+      <img src="./Images/facebook.svg" class="facebook1">
+      <p class="footer-text-1">2020 Roommates.mk</p>
+      </div>
+      <div class="footer-text-2-Info">
+        <p class="footer-text-2">Mobile App |Terms |Privacy |Contact </p>
+      </div>
+      
+      
+      
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://pagination.js.org/dist/2.1.4/pagination.min.js"></script>
+<script src="./searchCards.js"></script>
+<script src="userRepository.js"></script>
+<div id="list"><div class="wrapper"></div></div>
+
+
+      
+</body>
+</html>

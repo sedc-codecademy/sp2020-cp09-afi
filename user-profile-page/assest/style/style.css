@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 22px;
+    font-family: 'dinpro-bold';
+}
+
+.container-body {
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aa1a75;
+    color: white;
+}
+
+.nav-bar-logo {
+    width: 180px;
+    height: 100px;
+}
+
+.nav-bar-logo-image {
+    width: 170px;
+    height: 110px;
+}
+.nav-bar-invisible-box {
+    width: 100px;
+    height: 100px;
+    flex: 0.9;
+}
+
+/* SOVPAGJANJA */
+.nav-bar-sovpagjanja {
+    border-radius: 12px;
+    width: 150px;
+    height: 60px;
+}
+
+.nav-bar-sovpagjanja:hover {
+    border-radius: 12px;
+    width: 150px;
+    height: 60px;
+    background-color: #a5dce1;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* PREBARAJ */
+.nav-bar-prebaraj {
+    border-radius: 12px;
+    width: 150px;
+    height: 60px;
+}
+
+.nav-bar-prebaraj:hover {
+    border-radius: 12px;
+    width: 150px;
+    height: 60px;
+    background-color: #a5dce1;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* PORAKI */
+.nav-bar-poraki {
+    border-radius: 12px;
+    width: 150px;
+    height: 60px;
+}
+.nav-bar-poraki:hover {
+    border-radius: 12px;
+    width: 150px;
+    height: 60px;
+    background-color: #a5dce1;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* PROFIL */
+.nav-bar-profil {
+    border-radius: 12px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+}
+.nav-bar-profil:hover {
+    background-color: #a5dce1;
+    border-radius: 12px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.nav-bar-tekst {
+    display: flex;    
+    justify-content: center;
+    margin-top: 11%;
+}
+
+/* HOUSE ICON */
+.top-right-user-box {
+    margin-right: 9.3%;
+}
+
+.house-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 5px; /* 2%*/
+    right: 172px; /* 5.4%*/
+}
+.top-right-house-logo {
+    width: 90px;
+    height: 90px;
+    clip-path: polygon(50% 5%, 100% 50%, 86% 50%, 87% 92%, 15% 92%, 15% 50%, 0 50%);
+}
+.img-user {
+    width: 90px;
+    height: 120px;
+}
+
+/* MAIN-CONTENT */
+.main-content {
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: start;
+}
+
+.card-body {
+    margin-left: 35%;
+}
+
+.card-img {
+    width: 400px;
+    height: 560px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* RIGHТ-SIDE */
+.right-side {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.preferences {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3%;
+}
+
+.preference {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.line {
+    width: 100%;
+    margin: auto;
+    margin-left: 3%;
+}
+
+.lists {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.lists-items-1 {
+    list-style-type: none;
+    margin-left: 14%;
+    width: 100%;
+}
+.lists-items-2 {
+    list-style-type: none;
+    margin-left: 5%;
+    width: 100%;
+}
+.lists-items-3 {
+    list-style-type: none;
+    width: 100%;
+    margin-left: -3%;
+}
+
+.right-side-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+}

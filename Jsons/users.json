@@ -1,0 +1,1308 @@
+[
+  {
+    "user": {
+      "fullName": "Трале Тралевски",
+      "age": "25",
+      "sex": "маж",
+      "nationality": "македонsko",
+      "email": "trale123@gmail.com",
+      "phoneNumber": "075-993-555",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "куче",
+          "potentionalRoommatePetIsOkay":true,
+          "roommateOwnerPet": "куче со среден раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": true,
+          "music": true,
+          "movies": true,
+          "videoGames": false,
+          "art": false,
+          "technologies": false,
+          "books": true,
+          "food": true,
+          "healthyFood": true,
+          "veganFood": false,
+          "vegetarian": false,
+          "isActiveSportist": true
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": true,
+      "roomQuestions": [
+        {
+          "region": "Кисела Вода",
+          "howMuchRentAndOverhead": "200-350 evra",
+          "internetAccess": true,
+          "operator": "Телекабел",
+          "tvAccess": true,
+          "tvOperator": "Telekabel",
+          "area": "51-60m2",
+          "typeOfHeating": "Градско парно",
+          "rooms": "2",
+          "twoSeparetedBedrooms": true,
+          "bedroomEquipped": "Делумно",
+          "isSmokingOkay": true,
+          "kitchen": true,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": "Делумно",
+          "isLivingroomEquipped": true
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Mаја Абрамовиќ",
+      "age": "26",
+      "sex": "жена",
+      "nationality": "македонско",
+      "email": "maja26@yahoo.com",
+      "phoneNumber": "078-223-455",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": true,
+          "roommateSmoker": true
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": false,
+          "yourPet": false,
+          "potentionalRoommatePetIsOkay":true,
+          "roommateOwnerPet": "куче со мал раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": true,
+          "videoGames": false,
+          "art": false,
+          "technologies": false,
+          "books": true,
+          "food": true,
+          "healthyFood": false,
+          "veganFood": true,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": false,
+      "roomQuestions": [
+        {
+          "region": "Аеродром",
+          "payment": "100-300 evra",
+          "area": "30-40m2",
+          "typeOfHeating": "Струја",
+          "rooms": "1",
+          "isBedroomSeparated": "Не ми е толку важно",
+          "isBedroomEquipped": true,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": "Делумно",
+          "isSmokingOkay": false
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Столе Столевич",
+      "age": "21",
+      "sex": "маж",
+      "nationality": "србин",
+      "email": "stole_stolevic@outlook.com",
+      "phoneNumber": "077-423-365",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": true,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "куче",
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": false
+        }
+      ],
+      "interests": [
+        {
+          "sport": true,
+          "music": true,
+          "movies": false,
+          "videoGames": true,
+          "art": true,
+          "technologies": true,
+          "books": false,
+          "food": true,
+          "healthyFood": true,
+          "veganFood": true,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": true,
+      "messages": true,
+      "doYouHaveSpace": true,
+      "roomQuestions": [
+        {
+          "region": "Гази Баба",
+          "howMuchRentAndOverhead": "220-380 evra",
+          "internetAccess": true,
+          "operator": "Телеком",
+          "tvAccess": false,
+          "tvOperator": false,
+          "area": "40-50m2",
+          "typeOfHeating": "Сопствено парно",
+          "rooms": "1",
+          "twoSeparetedBedrooms": "Спална соба и дневна која може да биде спална",
+          "bedroomEquipped": false,
+          "isSmokingOkay": false,
+          "kitchen": true,
+          "isKitchenEquipped": false,
+          "isBathroomEquipped": true,
+          "isLivingroomEquipped": "Делумно"
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Силвана Стојановска",
+      "age": "24",
+      "sex": "жена",
+      "nationality": "македонско",
+      "email": "sil_stojanovska@gmail.com",
+      "phoneNumber": "070-153-285",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": true,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "мачка",
+          "potentionalRoommatePetIsOkay":true,
+          "roommateOwnerPet": "мачка"
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": false,
+          "videoGames": false,
+          "art": true,
+          "technologies": false,
+          "books": true,
+          "food": true,
+          "healthyFood": true,
+          "veganFood": true,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": true,
+      "roomQuestions": [
+        {
+          "region": "Центар",
+          "howMuchRentAndOverhead": "300-450 evra",
+          "internetAccess": true,
+          "operator": "А1",
+          "tvAccess": true,
+          "tvOperator": "А1",
+          "area": "71-80m2",
+          "typeOfHeating": "Струја и сопствено парно",
+          "rooms": "повеќе од 4",
+          "twoSeparetedBedrooms": true,
+          "bedroomEquipped": true,
+          "isSmokingOkay": false,
+          "kitchen": true,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": true,
+          "isLivingroomEquipped": true
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Никола Каменовски",
+      "age": "19",
+      "sex": "маж",
+      "nationality": "македонско",
+      "email": "kamen19@yahoo.com",
+      "phoneNumber": "071-223-525",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": false,
+          "yourPet": false,
+          "potentionalRoommatePetIsOkay":true,
+          "roommateOwnerPet": "куче со мал раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": true,
+          "music": true,
+          "movies": true,
+          "videoGames": true,
+          "art": false,
+          "technologies": false,
+          "books": false,
+          "food": true,
+          "healthyFood": false,
+          "veganFood": false,
+          "vegetarian": false,
+          "isActiveSportist": true
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": false,
+      "roomQuestions": [
+        {
+          "region": "Чаир",
+          "payment": "100-250 evra",
+          "area": "30-40m2",
+          "typeOfHeating": "Дрва",
+          "rooms": "1",
+          "isBedroomSeparated": true,
+          "isBedroomEquipped": false,
+          "isKitchenEquipped": false,
+          "isBathroomEquipped": true,
+          "isSmokingOkay": false
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Анастасија Јакимовска",
+      "age": "22",
+      "sex": "жена",
+      "nationality": "македонско",
+      "email": "ane@gmail.com",
+      "phoneNumber": "076-333-025",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": true
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "куче",
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": false
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": true,
+          "videoGames": false,
+          "art": false,
+          "technologies": false,
+          "books": true,
+          "food": true,
+          "healthyFood": true,
+          "veganFood": false,
+          "vegetarian": true,
+          "isActiveSportist": true
+        }
+      ],
+      "questionsForRoommate": true,
+      "messages": true,
+      "doYouHaveSpace": true,
+      "roomQuestions": [
+        {
+          "region": "Карпош",
+          "howMuchRentAndOverhead": "350-400 evra",
+          "internetAccess": true,
+          "operator": "А1",
+          "tvAccess": false,
+          "tvOperator": false,
+          "area": "61-70m2",
+          "typeOfHeating": "Градско парно",
+          "rooms": "3",
+          "twoSeparetedBedrooms": true,
+          "bedroomsEquipped": true,
+          "isSmokingOkay": true,
+          "kitchen": true,
+          "isKitchenEquipped": false,
+          "isBathroomEquipped": false,
+          "isLivingroomEquipped": false
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Мартин Кузмановски",
+      "age": "25",
+      "sex": "маж",
+      "nationality": "македонско",
+      "email": "martin_kuzmanovski95@outlook.com",
+      "phoneNumber": "077-103-226",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": true,
+          "roommateSmoker": true
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "куче",
+          "potentionalRoommatePetIsOkay":true,
+          "roommateOwnerPet": "куче со мал раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": true,
+          "videoGames": true,
+          "art": false,
+          "technologies": true,
+          "books": true,
+          "food": true,
+          "healthyFood": false,
+          "veganFood": true,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": true,
+      "messages": true,
+      "doYouHaveSpace": false,
+      "roomQuestions": [
+        {
+          "region": "Бутел",
+          "payment": "180-250 evra",
+          "area": "41-50m2",
+          "typeOfHeating": "Сопствено парно",
+          "rooms": "2",
+          "isBedroomSeparated": true,
+          "isBedroomEquipped": false,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": false,
+          "isSmokingOkay": true
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Теодора Петроска",
+      "age": "18",
+      "sex": "жена",
+      "nationality": "македонско",
+      "email": "teddy123@yahoo.com",
+      "phoneNumber": "072-058-119",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "мачка",
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": "мачка"
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": true,
+          "videoGames": false,
+          "art": true,
+          "technologies": false,
+          "books": true,
+          "food": true,
+          "healthyFood": true,
+          "veganFood": false,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": true,
+      "roomQuestions": [
+        {
+          "region": "Ѓорче Петров",
+          "howMuchRentAndOverhead": "120-220 evra",
+          "internetAccess": true,
+          "operator": "А1",
+          "tvAccess": true,
+          "tvOperator": "A1",
+          "area": "30-40m2",
+          "typeOfHeating": "Струја",
+          "rooms": "2",
+          "twoSeparetedBedrooms": true,
+          "bedroomsEquipped": false,
+          "isSmokingOkay": false,
+          "kitchen": true,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": true,
+          "isLivingroomEquipped": true
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Андрија Петрович",
+      "age": "26",
+      "sex": "маж",
+      "nationality": "србин",
+      "email": "andrija_petrovic@outlook.com",
+      "phoneNumber": "078-425-867",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+     "preferences": {
+      "smoker": [
+        {
+          "isSmoker": true,
+          "roommateSmoker": true
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": false,
+          "doYouHaveYourOwnPet": false,
+          "yourPet": false,
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": "мачка"
+        }
+      ],
+      "interests": [
+        {
+          "sport": true,
+          "music": true,
+          "movies": true,
+          "videoGames": false,
+          "art": true,
+          "technologies": false,
+          "books": false,
+          "food": true,
+          "healthyFood": false,
+          "veganFood": true,
+          "vegetarian": true,
+          "isActiveSportist": true
+        }
+      ],
+      "questionsForRoommate": true,
+      "messages": true,
+      "doYouHaveSpace": false,
+      "roomQuestions": [
+        {
+           "region": "Кисела Вода",
+          "payment": "250-330 evra",
+          "area": "51-60m2",
+          "typeOfHeating": "Струја и сопствено парно",
+          "rooms": "3",
+          "isBedroomSeparated": false,
+          "isBedroomEquipped": true,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": true,
+          "isSmokingOkay": true
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Ивана Стојановска",
+      "age": "21",
+      "sex": "жена",
+      "nationality": "македонско",
+      "email": "iva98@gmail.com",
+      "phoneNumber": "078-356-773",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
+    },
+     "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": true
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": false,
+          "yourPet": false,
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": "куче со среден раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": true,
+          "videoGames": false,
+          "art": true,
+          "technologies": false,
+          "books": true,
+          "food": true,
+          "healthyFood": true,
+          "veganFood": false,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": true,
+      "roomQuestions": [
+        {
+          "region": "Ѓорче Петров",
+          "howMuchRentAndOverhead": "120-220 evra",
+          "internetAccess": true,
+          "operator": "А1",
+          "tvAccess": true,
+          "tvOperator": "A1",
+          "area": "30-40m2",
+          "typeOfHeating": "Струја",
+          "rooms": "2",
+          "twoSeparetedBedrooms": true,
+          "bedroomsEquipped": false,
+          "isSmokingOkay": false,
+          "kitchen": true,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": true,
+          "isLivingroomEquipped": true
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Иван Панчевски",
+      "age": "28",
+      "sex": "маж",
+      "nationality": "македонско",
+      "email": "ivan_pance@yahoo.com",
+      "phoneNumber": "072-435-955",
+      "student": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": true,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "куче",
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": "куче со мал раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": true,
+          "music": false,
+          "movies": false,
+          "videoGames": false,
+          "art": false,
+          "technologies": true,
+          "books": true,
+          "food": true,
+          "healthyFood": true,
+          "veganFood": true,
+          "vegetarian": false,
+          "isActiveSportist": true
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": true,
+      "roomQuestions": [
+        {
+          "region": "Ѓорче Петров",
+          "howMuchRentAndOverhead": "210-360 evra",
+          "internetAccess": true,
+          "operator": "Телеком",
+          "tvAccess": false,
+          "tvOperator": false,
+          "area": "50-61m2",
+          "typeOfHeating": "Градско парно",
+          "rooms": "4",
+          "twoSeparetedBedrooms": true,
+          "bedroomsEquipped": true,
+          "isSmokingOkay": false,
+          "kitchen": true,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": true,
+          "isLivingroomEquipped": true
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Антонија Петрушевска",
+      "age": "35",
+      "sex": "жена",
+      "nationality": "македонско",
+      "email": "antonija295@gmail.com",
+      "phoneNumber": "077-185-449",
+      "student": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "куче",
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": "мачка"
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": true,
+          "videoGames": false,
+          "art": false,
+          "technologies": true,
+          "books": true,
+          "food": false,
+          "healthyFood": true,
+          "veganFood": true,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": true,
+      "messages": true,
+      "doYouHaveSpace": false,
+      "roomQuestions": [
+        {
+           "region": "Бутел",
+          "payment": "130-300 evra",
+          "area": "30-40m2",
+          "typeOfHeating": "Сопствено парно",
+          "rooms": "1",
+          "isBedroomSeparated": true,
+          "isBedroomEquipped": false,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": true,
+          "isSmokingOkay": false
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Марјан Атанасовски",
+      "age": "29",
+      "sex": "маж",
+      "nationality": "македонско",
+      "email": "marjan92@yahoo.com",
+      "phoneNumber": "075-215-626",
+      "student": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": true,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "мачка",
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": "куче со мал раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": true,
+          "music": true,
+          "movies": false,
+          "videoGames": false,
+          "art": false,
+          "technologies": true,
+          "books": false,
+          "food": true,
+          "healthyFood": false,
+          "veganFood": true,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": false,
+      "roomQuestions": [
+        {
+           "region": "Ѓорче Петров",
+          "payment": "200-400 evra",
+          "area": "71-80m2",
+          "typeOfHeating": "Струја и сопствено парно",
+          "rooms": "4",
+          "isBedroomSeparated": true,
+          "isBedroomEquipped": "Делумно",
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": "Делумно",
+          "isSmokingOkay": true
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Сара Трајчевска",
+      "age": "27",
+      "sex": "жена",
+      "nationality": "македонско",
+      "email": "sara12345@outlook.com",
+      "phoneNumber": "077-525-258",
+      "student": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": true
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": false,
+          "doYouHaveYourOwnPet": false,
+          "yourPet": false,
+          "potentionalRoommatePetIsOkay":true,
+          "roommateOwnerPet": false
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": true,
+          "videoGames": true,
+          "art": false,
+          "technologies": false,
+          "books": true,
+          "food": true,
+          "healthyFood": true,
+          "veganFood": false,
+          "vegetarian": true,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": true,
+      "messages": true,
+      "doYouHaveSpace": true,
+      "roomQuestions": [
+        {
+          "region": "Центар",
+          "howMuchRentAndOverhead": "250-420 evra",
+          "internetAccess": true,
+          "operator": "Телекабел",
+          "tvAccess": true,
+          "tvOperator": "Телекабел",
+          "area": "61-71m2",
+          "typeOfHeating": "Градско парно",
+          "rooms": "1",
+          "twoSeparetedBedrooms": true,
+          "bedroomsEquipped": true,
+          "isSmokingOkay": false,
+          "kitchen": true,
+          "isKitchenEquipped": "Делумно",
+          "isBathroomEquipped": true,
+          "isLivingroomEquipped": true
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Стефан Ристевски",
+      "age": "21",
+      "sex": "маж",
+      "nationality": "македонско",
+      "email": "stefan@outlook.com",
+      "phoneNumber": "072-150-303",
+      "student": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": true,
+          "roommateSmoker": true
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": false,
+          "yourPet": false,
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": "мачка"
+        }
+      ],
+      "interests": [
+        {
+          "sport": true,
+          "music": true,
+          "movies": false,
+          "videoGames": true,
+          "art": false,
+          "technologies": true,
+          "books": false,
+          "food": true,
+          "healthyFood": false,
+          "veganFood": true,
+          "vegetarian": false,
+          "isActiveSportist": true
+        }
+      ],
+      "questionsForRoommate": true,
+      "messages": true,
+      "doYouHaveSpace": false,
+      "roomQuestions": [
+        {
+           "region": "Центар",
+          "payment": "230-350 evra",
+          "area": "51-60m2",
+          "typeOfHeating": "Струја",
+          "rooms": "2",
+          "isBedroomSeparated": "Не ми е толку важно",
+          "isBedroomEquipped": "Делумно",
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": true,
+          "isSmokingOkay": true
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Валентина Костадинова",
+      "age": "38",
+      "sex": "жена",
+      "nationality": "македонско",
+      "email": "kostadinova123@gmail.com",
+      "phoneNumber": "074-221-880",
+      "student": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "куче",
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": "куче со мал раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": true,
+          "videoGames": false,
+          "art": false,
+          "technologies": false,
+          "books": true,
+          "food": true,
+          "healthyFood": true,
+          "veganFood": false,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": true,
+      "roomQuestions": [
+        {
+          "region": "Кисела Вода",
+          "howMuchRentAndOverhead": "320-500 evra",
+          "internetAccess": true,
+          "operator": "А1",
+          "tvAccess": true,
+          "tvOperator": "A1",
+          "area": "71-80m2",
+          "typeOfHeating": "Струја и сопствено парно",
+          "rooms": "Повеќе од 4",
+          "twoSeparetedBedrooms": true,
+          "bedroomsEquipped": true,
+          "isSmokingOkay": false,
+          "kitchen": true,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": true,
+          "isLivingroomEquipped": "Делумно"
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Влатко Здравковски",
+      "age": "31",
+      "sex": "маж",
+      "nationality": "македонско",
+      "email": "vlatko_zdravkovski123@yahoo.com",
+      "phoneNumber": "076-745-915",
+      "student": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": true
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": false,
+          "yourPet": false,
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": "куче со среден раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": true,
+          "music": true,
+          "movies": false,
+          "videoGames": false,
+          "art": false,
+          "technologies": true,
+          "books": false,
+          "food": true,
+          "healthyFood": false,
+          "veganFood": true,
+          "vegetarian": false,
+          "isActiveSportist": true
+        }
+      ],
+      "questionsForRoommate": true,
+      "messages": true,
+      "doYouHaveSpace": true,
+      "roomQuestions": [
+        {
+          "region": "Карпош",
+          "howMuchRentAndOverhead": "350-450 evra",
+          "internetAccess": true,
+          "operator": "Teлекабел",
+          "tvAccess": false,
+          "tvOperator": false,
+          "area": "51-60m2",
+          "typeOfHeating": "Градско Парно",
+          "rooms": "1",
+          "twoSeparetedBedrooms": false,
+          "bedroomsEquipped": true,
+          "isSmokingOkay": true,
+          "kitchen": true,
+          "isKitchenEquipped": false,
+          "isBathroomEquipped": true,
+          "isLivingroomEquipped": false
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Една Мариновиќ",
+      "age": "34",
+      "sex": "жена",
+      "nationality": "македонско",
+      "email": "marinovich@outlook.com",
+      "phoneNumber": "078-338-725",
+      "student": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "куче",
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": "куче со мал раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": true,
+          "videoGames": false,
+          "art": true,
+          "technologies": false,
+          "books": true,
+          "food": true,
+          "healthyFood":true,
+          "veganFood": false,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": false,
+      "roomQuestions": [
+        {
+           "region": "Гази Баба",
+          "payment": "280-350 evra",
+          "area": "30-40m2",
+          "typeOfHeating": "Дрва",
+          "rooms": "1",
+          "isBedroomSeparated": true,
+          "isBedroomEquipped": true,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": false,
+          "isSmokingOkay": false
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Јован Стефановски",
+      "age": "30",
+      "sex": "маж",
+      "nationality": "македонско",
+      "email": "stefanovski_jovan@gmail.com",
+      "phoneNumber": "073-155-222",
+      "student": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": true,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "мачка",
+          "potentionalRoommatePetIsOkay":true,
+          "roommateOwnerPet": "мачка"
+        }
+      ],
+      "interests": [
+        {
+          "sport": true,
+          "music": true,
+          "movies": true,
+          "videoGames": false,
+          "art": true,
+          "technologies": true,
+          "books": true,
+          "food": true,
+          "healthyFood":false,
+          "veganFood": false,
+          "vegetarian": true,
+          "isActiveSportist": true
+        }
+      ],
+      "questionsForRoommate": true,
+      "messages": true,
+      "doYouHaveSpace": false,
+      "roomQuestions": [
+        {
+           "region": "Центар",
+          "payment": "300-320 evra",
+          "area": "61-70m2",
+          "typeOfHeating": "Струја и градско парно",
+          "rooms": "3",
+          "isBedroomSeparated": true,
+          "isBedroomEquipped": true,
+          "isKitchenEquipped": false,
+          "isBathroomEquipped": true,
+          "isSmokingOkay": false
+        }
+      ]
+    }
+  },
+  {
+    "user": {
+      "fullName": "Мартина Ѓорчевска",
+      "age": "42",
+      "sex": "маж",
+      "nationality": "македонско",
+      "email": "gjorcevksa@gmail.com",
+      "phoneNumber": "078-315-108",
+      "student": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": false,
+          "yourPet": false,
+          "potentionalRoommatePetIsOkay":false,
+          "roommateOwnerPet": "мачка"
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": true,
+          "videoGames": false,
+          "art": true,
+          "technologies": false,
+          "books": true,
+          "food": true,
+          "healthyFood": true,
+          "veganFood": false,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": true,
+      "roomQuestions": [
+        {
+          "region": "Центар",
+          "howMuchRentAndOverhead": "300-400 evra",
+          "internetAccess": true,
+          "operator": "Teлеком",
+          "tvAccess": true,
+          "tvOperator": "Телеком",
+          "area": "71-80m2",
+          "typeOfHeating": "Градско Парно",
+          "rooms": "2",
+          "twoSeparetedBedrooms": true,
+          "bedroomsEquipped": "Делумно",
+          "isSmokingOkay": false,
+          "kitchen": true,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": false,
+          "isLivingroomEquipped": true
+        }
+      ]
+    }
+  }
+]
