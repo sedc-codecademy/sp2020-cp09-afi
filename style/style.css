@@ -107,8 +107,9 @@
  font-size: 40px;
  top: 15px;
 font-weight: bold;
- left: 30px;
- width: 460px;
+ left: 110px;
+ text-align-last: center;
+ width: 370px;
  border-radius: 20px;
  box-shadow: 5px 10px 8px #888888;
 
@@ -118,25 +119,25 @@ font-weight: bold;
 }
 
 
-.btn-secondary-2c{
+.btn-secondary-2{
   position: relative;
   font-family: 'DinPro';
-
+text-align-last: center;
  background-color: white;
  color: #AA1A75;
  font-size: 40px;
- top: -75px;
+ top: 14.5px;
  font-weight: bolder;
- left: 590px;
- width: 420px;
+ left: 180px;
+ width:370px;
  border-radius: 20px;
  box-shadow: 5px 10px 8px #888888;
 }
-.btn-secondary-2c:hover {
+.btn-secondary-2:hover {
     color: #4DA3B4;
 
 }
-.dropdown2 > .dropdown-menu {
+#dropdown2 > .dropdown-menu {
 position: relative;
 margin-left: 7%;
 box-shadow: 5px 10px 8px #888888;
@@ -149,6 +150,15 @@ position: relative;
 box-shadow: 5px 10px 8px #888888;
 
 }
+
+#dropdown2 > .dropdown-menu2 {
+  position: relative;
+  margin-left: 7%;
+  box-shadow: 5px 10px 8px #888888;
+  
+  
+  }
+  
 
 
 .dropdown-item {
@@ -177,12 +187,12 @@ box-shadow: 5px 10px 8px #888888;
   font-family: 'DinPro';
 font-weight:bolder;
 position: relative;
-top: -41px;
+top: 131px;
 height: 70px;
 width: 249px;
 color: #AA1A75;
 font-size: 40px;
- left:37%;
+ left:-37%;
 border-radius: 18px;
 box-shadow: 5px 10px 8px #888888;
 background-color: white;

@@ -32,26 +32,43 @@
     
         <div class="search" id="cccc">
           <h1 class="text-insearchbox">Најди цимер по мерка.</h1>
-          <div class="dropdown" id="firstdropdown">
-            <option class="btn btn-secondar dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="selected">
-              Барам цимер со простор 
-          </option>
+
+
+          <select  id="firstdropdown"class="btn btn-secondar dropdown-toggle"  role="button" id="dropdownMenuLink"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="selected">
+         
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <option class="dropdown-item"  value ="1" >Барам цимер</option>
+              <option class="dropdown-item"  value ="1" >Барам цимер со простор</option>
               <option class="dropdown-item"  value ="2">Барам простор</option>
-              <option class="dropdown-item"  value ="3">Барам цимер со простор</option>
+              <option class="dropdown-item"  value ="3">Барам цимер</option>
             </div>
-          </div>
+          </select>
+
+
+
+          <select  id="seconddropdown"class="btn btn-secondary-2 dropdown-toggle"  role="button" id="dropdownMenuLink"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="selected">
+          
+         
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <option class="dropdown-item"  value ="1" >Локација</option>
+              <option class="dropdown-item"  value ="1" >Центар</option>
+              <option class="dropdown-item"  value ="2">Карпош</option>
+              <option class="dropdown-item"  value ="3">Кисела Вода</option>
+            </div>
+          </select>
+
+<!-- 
           <div class="dropdown2">
-            <button class="btn btn-secondary-2c dropdown-toggle" type="button" id="dropdownMenuButtons"
+            
+            <select class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <button class="btn btn-secondary-2 dropdown-toggle" type="button" id="dropdownMenuButtons"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Локација</button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Карпош</a>
-              <a class="dropdown-item" href="#">Кисела Вода</a>
-              <a class="dropdown-item" href="#">Центар</a>
-            </div>
-          </div>
+              <option class="dropdown-item" href="#">Карпош</option>
+              <option class="dropdown-item" href="#">Кисела Вода</option>
+              <option class="dropdown-item" href="#">Центар</option>
+            </select>
+          </div> -->
           <button onclick="location.href ='SearchedCardsPage/indexKartica.html'" type="button" class="btn btn-light-search">Најди</button>
 
         </div>
