@@ -1,25 +1,48 @@
 * {
   box-sizing:border-box;
+  font-family: 'DinPro';
+  margin: 0em;
+  padding: 0em;
+
+
 }
 
+
+@font-face {
+  font-family: 'DinPro';
+  src: url('./DinPRO/DINPro-Cond.otf');
+  src: url('./DinPRO/DINPro-Cond.otf') format('embedded-opentype'),
+       url('./DinPRO/DINPro-Cond.otf') format('truetype'),
+       url('./DinPRO/DINPro-Cond.otf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
 .section1{
+  
      position: relative;
   background-image: url("./photo_image_background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: -46px;
+  overflow: hidden;
 
     }
 
 
 
   .all-content{
+
     position: relative;
-      height: calc(100vh - -2232px);
+      height: calc(100vh - -2782px);
       background: url("./home_page_bez_slika.png");
       background-repeat: no-repeat;
-      background-size: 100%;     
+      background-size: 100%; 
        
   }
 
@@ -27,11 +50,10 @@
    #najava {
      position: relative;
     bottom:160px;
-    left: 68%;
-  font-size: 30px;
+    left: 75%;
+  font-size: 42px;
      color: white;
      position: relative;
-     font-weight: bold;
      border: none;
    }
 
@@ -41,12 +63,11 @@
   }
 
   #registriraj{
-      left: 71%;
+      left: 78%;
       bottom: 160px;
     position: relative;
-    font-size: 30px;
+    font-size: 42px;
     color: white;
-    font-weight: bold;
   }
 
   #registriraj:hover {
@@ -57,19 +78,19 @@
   
 .logo {
   position: relative;
-  top: 95px;
-   max-height: 230px;
+  top: 125px;
+   max-height: 260px;
    margin-left: 10px;
 }
 
 .search {
     position: relative;
-    top: 150px;
+    top: 250px;
   color: white;
   padding: 10px;
- width: 910px;
-  height: 340px;
-  left: 20%;
+ width: 1100px;
+  height: 400px;
+  left: 22%;
   border-radius: 45px;
   font-size: 25px;
   background:rgba(1,1,1,0.3);
@@ -79,14 +100,17 @@
 
 .btn-secondar{
   position: relative;
+  font-family: 'DinPro';
+
  background-color: white;
  color: #AA1A75;
- font-size: 20px;
+ font-size: 40px;
  top: 15px;
 font-weight: bold;
- left: 30px;
- width: 360px;
- border-radius: 18px;
+ left: 110px;
+ text-align-last: center;
+ width: 370px;
+ border-radius: 20px;
  box-shadow: 5px 10px 8px #888888;
 
 }
@@ -95,23 +119,25 @@ font-weight: bold;
 }
 
 
-.btn-secondary-2c{
+.btn-secondary-2{
   position: relative;
+  font-family: 'DinPro';
+text-align-last: center;
  background-color: white;
  color: #AA1A75;
- font-size: 20px;
- top: -45px;
- font-weight: bold;
- left: 490px;
- width: 360px;
- border-radius: 18px;
+ font-size: 40px;
+ top: 14.5px;
+ font-weight: bolder;
+ left: 180px;
+ width:370px;
+ border-radius: 20px;
  box-shadow: 5px 10px 8px #888888;
 }
-.btn-secondary-2c:hover {
+.btn-secondary-2:hover {
     color: #4DA3B4;
 
 }
-.dropdown2 > .dropdown-menu {
+#dropdown2 > .dropdown-menu {
 position: relative;
 margin-left: 7%;
 box-shadow: 5px 10px 8px #888888;
@@ -125,12 +151,21 @@ box-shadow: 5px 10px 8px #888888;
 
 }
 
+#dropdown2 > .dropdown-menu2 {
+  position: relative;
+  margin-left: 7%;
+  box-shadow: 5px 10px 8px #888888;
+  
+  
+  }
+  
+
 
 .dropdown-item {
-  font-family: DINPro-Bold;
-  font-weight: bold;
+  font-family: 'DinPro';
+  font-weight: bolder;
   color: #AA1A75;
-  font-size: 20px;
+  font-size: 30px;
   
 }
 
@@ -138,22 +173,26 @@ box-shadow: 5px 10px 8px #888888;
     color: #4DA3B4;
 }
 .text-insearchbox{
-  font-weight: bold;
-  margin-top: 20px;
   position: relative;
-  left: 19px;
-  font-size: 54px;
+  font-family: 'DinPro';
+  color: white;
+  font-weight: bolder;
+  margin-top: -20px;
+  position: relative;
+  left: 289px;
+  font-size: 66px;
 }
 
 .btn-light-search{
-font-weight: bolder;
+  font-family: 'DinPro';
+font-weight:bolder;
 position: relative;
-top: -15px;
-height: 55px;
-width: 199px;
+top: 131px;
+height: 70px;
+width: 249px;
 color: #AA1A75;
-font-size: 20px;
- left:37%;
+font-size: 40px;
+ left:-37%;
 border-radius: 18px;
 box-shadow: 5px 10px 8px #888888;
 background-color: white;
@@ -165,12 +204,12 @@ background-color: white;
 }
 
 #Layer_1 {
-  top: 400px;
+  top: 630px;
   position: relative;
-  height: 180px;
-  width: 230px;
+  height: 200px;
+  width: 260px;
   padding: 25px;
-  left: 60px;
+  left: 40px;
 
   
 }
@@ -184,44 +223,45 @@ background-color: white;
 
 
 .card-name {
-  font-family: DINPro-Bold ;
+  font-family: 'DinPro';
   position: relative;
 color: black;
-top: 358px;
+top: 576px;
 font-weight: bold;
-font-size: 17px;
-padding: 43px;
+font-size: 26px;
+padding: 57px;
 display: -webkit-inline-flex;
-left: 51px;
+left: 35px;
 
 }
 
 .slogan {
-  font-family: DINPro-Bold;
-  font-weight: bold;
+  font-family: 'DinPro';
+  font-weight: bolder;
 position: relative;
-font-size: 60px;
-margin-left: 500px;
-top: -290px;
+font-size: 97px;
+margin-left: 630px;
+top: -200px;
 }
 
 .slogan1 {
-  font-family: DINPro-Bold ;
-  font-weight: bold;
+  font-family: 'DinPro';
+  font-weight: bolder;
   position: relative;
-font-size: 54px;
-top: -390px;
+font-size: 95px;
+top: -360px;
 color: #4DA3B4;
-margin-left: 680px;
+margin-left: 830px;
 }
 
  
 .cards-columns {
   position: relative;
-  top: 830px;
+  top:1150px;
+  left: 10px;
   float: left;
-  width: 45%;
-  padding: 0 7px;
+  width: 44%;
+  padding: 0 9px;
   }
   
   .card-rows:after {
@@ -234,10 +274,10 @@ margin-left: 680px;
   .info-cards {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
       position: relative;
-      font-family: DINPro-Bold;
-     font-weight: bold;
-      margin-left: 145px;
-      padding: 80px;
+      font-family: 'DinPro';
+      font-weight: bolder;
+      margin-left: 195px;
+      padding: 120px;
       text-align: left;
       color:  rgb(0, 195, 255);
       background-color: white;
@@ -250,10 +290,10 @@ margin-left: 680px;
  
 
   .card-title {
-      font-family: DINPro-Bold;
-      padding-top: 59px;
-      font-size: 33px;
-      left: 59px;
+    font-family: 'DinPro';
+    padding-top: 59px;
+      font-size: 58px;
+      left: 110px;
       position: relative;
       color: #4DA3B4;
       margin-left: 94px;
@@ -262,15 +302,16 @@ margin-left: 680px;
   
   
 .btn-dark-1-registration {
-  font-family: DINPro-Bold;
+  font-family: 'DinPro';
   position: relative;
 background: white;
 color: #AA1A75;
-top: 480px;
-left: 38%;
-font-size: 30px;
-font-weight: bold;
-border-radius: 18px;
+top: 750px;
+left: 40%;
+font-size: 42px;
+font-weight: bolder;
+border-radius: 20px;
+width:  330px;
 box-shadow: 5px 10px 8px #888888;  
 }
 
@@ -280,40 +321,41 @@ box-shadow: 5px 10px 8px #888888;
 
 
 .footer-text {
-  font-family: DINPro-Bold ;
+  font-family: 'DinPro';
   position: relative;
-  top: 825px;
-  font-weight: bold;
-font-size: 14px;
-margin-left: 160px;
+  top: 1200px;
+  font-weight: bolder;
+font-size: 24px;
+margin-left: 215px;
 color: white;
 }
 
 .footer-text-1 {
-  font-family: DINPro-Bold;
-  font-weight: bold;
+  font-family: 'DinPro';
+  font-weight: bolder;
   position: relative;
-  top: 775px;
-font-size: 20px;
-margin-left: 1250px;
+  top: 1120px;
+font-size: 30px;
+margin-left: 1550px;
 color:white;
 }
 
 .footer-text-2 {
-  font-family: DINPro-Bold;
+  font-family: 'DinPro';
+
   position: relative;
-top: 762px;
-font-size: 20px;
-margin-left: 1100px;
+top: 1120px;
+font-size: 30px;
+margin-left: 1400px;
 color: white;
-font-weight: bold;
+font-weight: bolder;
 }
 
 .instagram {
 position: relative;
-top: 840px;
+top: 1200px;
 height: 55px;
-left: 140px;
+left: 190px;
 color: #4DA3B4;
 background-color: #4DA3B4;
 border-radius: 50%;
@@ -321,10 +363,10 @@ border-radius: 50%;
 
 .facebook {
 position: relative;
-top: 840px;
+top: 1200px;
 background-color:#4DA3B4;
 height: 55px;
-left: 150px;
+left: 200px;
 border-radius: 50%;
 }
 
