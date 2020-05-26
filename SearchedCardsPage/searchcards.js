@@ -9,10 +9,10 @@ let getsecondcard = document.getElementById("filtersecondcard");
 
 function filters(){
     
-    filterbtn.style.display ="none";
-    getcard.style.display = "none";
+    filterbtn.style.display = "none";
+    //getcard.style.display = "none";
     allfilter.style.display = "block";
-    getsecondcard.style.display = "none";
+    //getsecondcard.style.display = "none";
 }
 
 
@@ -26,3 +26,4 @@ function goback(){
 $('#range').on("input", function() {
     $('.output').val(this.value +"  eur" );
     }).trigger("change");
+
