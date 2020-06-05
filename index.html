@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./style/user-profile-assets/user-profile-style.css">
   <link rel="stylesheet" href="./style/najava.css">
   <link rel="stylesheet" href="./registration-page/style.css">
+  <link rel="stylesheet" href="./SearchedCardsPage/styleKartica.css">
   <link rel="stylesheet" href="./style/style.css">
 </head>
 
@@ -50,7 +51,7 @@
          
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <option class="dropdown-item"  value ="1" >Локација</option>
-              <option class="dropdown-item"  value ="1" >Центар</option>
+              <option class="dropdown-item"  value ="" >Центар</option>
               <option class="dropdown-item"  value ="2">Карпош</option>
               <option class="dropdown-item"  value ="3">Кисела Вода</option>
             </div>
@@ -67,9 +68,20 @@
               <option class="dropdown-item" href="#">Центар</option>
             </select>
           </div> -->
-          <button onclick="siteRedirect()" type="button" class="btn btn-light-search">Најди</button>
+          <li><a href="#" id = "search-btn" class="btn btn-light-search" >Најди</a></li>
+          <!-- <button type="button" onclick="GetSelectedValue()">Get Selected Value</button> -->
+
+
+          <p id="result"></p>
 
         </div>
+
+
+        
+    <div id="list">
+      <div class="wrapper" >
+      </div>
+    </div>
   
       
               <!-- House Cards -->
@@ -175,6 +187,18 @@
         <p class="card-name">Марко Марковски</p>
         <p class="card-name">Марко Марковски</p>
 
+
+
+
+
+
+
+
+
+
+
+
+
         
   <div class="card-rows" id="bbbb">
           <div class="cards-columns">
@@ -257,6 +281,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+    <script src="https://pagination.js.org/dist/2.1.4/pagination.min.js"></script>
+<script src="./Jsons/users.json"></script>
     <script src="./style/homepage.js"></script>
 
 
