@@ -203,7 +203,14 @@ background-color: white;
     color: #4DA3B4;
 }
 
-#Layer_1 {
+#Layer_1{
+  position: unset;
+  width: 240px;
+  height: 250px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+#Layer_2 {
   top: 400px;
   position: relative;
   height: 350px;
@@ -375,7 +382,7 @@ font-weight: bolder;
 position: relative;
 top: 1500px;
 height: 55px;
-left: 30px;
+left: 230px;
 color: #4DA3B4;
 background-color: #4DA3B4;
 border-radius: 50%;
@@ -386,7 +393,7 @@ position: relative;
 top: 1500px;
 background-color:#4DA3B4;
 height: 55px;
-left: -90px;
+left: 100px;
 border-radius: 50%;
 }
 
