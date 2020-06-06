@@ -8,454 +8,381 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="style/user-profile-assets/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="style/user-profile-assets/user-profile-style.css">
-  <link rel="stylesheet" href="./style/user-profile-assets/user-profile-style.css">
+  <link rel="stylesheet" href="./style/DinPRO/DINPro-Black.otf">
+  <link href="style/user-profile-assets/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet"> 
+   <link rel="stylesheet" href="style/user-profile-assets/user-profile-style.css">
+  <link rel="stylesheet" href="./style/user-profile-assets/user-profile-style.css"> -->
   <link rel="stylesheet" href="./style/najava.css">
   <link rel="stylesheet" href="./registration-page/style.css">
+  <link rel="stylesheet" href="./SearchedCardsPage/styleKartica.css"> 
   <link rel="stylesheet" href="./style/style.css">
 </head>
 
 
 <body>
 
-  <section class="section1" id="section1">
+  <div id="homePage">
+    <section class="section1" id="section1">
 
-  <div class="all-content " id="allcontent">
-
-    <div class="top-buttons" id="reg">
-          <img src="./SearchedCardsPage/Images/roommates_logo_white.svg" class="logo">
-          <a onclick="najava()" type="button" id="najava" class="kopche-najava">Најави се</a>
-          <a onclick="location.href='registration-page/registration-page.html'" type="button" id="registriraj" class="kopche-registriraj">Регистрирај се</a>
-    </div>
+      <div class="all-content " id="allcontent">
     
-        <div class="search" id="cccc">
-          <h1 class="text-insearchbox">Најди цимер по мерка.</h1>
-          <div class="dropdown">
-            <a class="btn btn-secondar dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              БАРАМ ЦИМЕР 
-            </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">Барам цимер</a>
-              <a class="dropdown-item" href="#">Барам простор</a>
-              <a class="dropdown-item" href="#">Барам цимер со простор</a>
-            </div>
-          </div>
-          <div class="dropdown2">
-            <button class="btn btn-secondary-2c dropdown-toggle" type="button" id="dropdownMenuButtons"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> локација</button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Карпош</a>
-              <a class="dropdown-item" href="#">Кисела Вода</a>
-              <a class="dropdown-item" href="#">Центар</a>
-            </div>
-          </div>
-          <button onclick="location.href='SearchedCardsPage/indexKartica.html'" type="button" class="btn btn-light-search">Најди</button>
-
+        <div class="top-buttons" id="reg">
+              <img src="./SearchedCardsPage/Images/roommates_logo_white.svg" class="logo">
+              <a onclick="location.href ='Login-page/najava.html'" type="button" id="najava" class="kopche-najava">Најави се</a>
+              <a onclick="location.href='registration-page/registration-page.html'" type="button" id="registriraj" class="kopche-registriraj">Регистрирај се</a>
         </div>
-  
-      
-              <!-- House Cards -->
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 203.89 171.94"><defs>
-          <clipPath id="House"> 
-          <style>.cls-1{fill:none;stroke:#ab2176;stroke-miterlimit:10;stroke-width:8px;}</style>
-          <polygon class="cls-1"  points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+        
+            <div class="search" id="cccc">
+              <h1 class="text-insearchbox">Најди цимер по мерка.</h1>
+    
+    
+              <select  id="firstdropdown"class="btn btn-secondar dropdown-toggle"  role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="selected">
+             
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <option class="dropdown-item"  value ="SearchedCardsPage/indexKartica.html" >Барам цимер со простор</option>
+                  <option class="dropdown-item"  value ="">Барам простор</option>
+                  <option class="dropdown-item"  value ="SearchedCardsPage/indexKartica.html">Барам цимер</option>
+                </div>
+              </select>
+    
+              <select  id="seconddropdown"class="btn btn-secondary-2 dropdown-toggle"  role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="selected">
+              
+             
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <option class="dropdown-item"  value ="1" >Локација</option>
+                  <option class="dropdown-item"  value ="" >Центар</option>
+                  <option class="dropdown-item"  value ="2">Карпош</option>
+                  <option class="dropdown-item"  value ="3">Кисела Вода</option>
+                </div>
+              </select>
+    
+    <!-- 
+              <div class="dropdown2">
+                
+                <select class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <button class="btn btn-secondary-2 dropdown-toggle" type="button" id="dropdownMenuButtons"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Локација</button>
+                  <option class="dropdown-item" href="#">Карпош</option>
+                  <option class="dropdown-item" href="#">Кисела Вода</option>
+                  <option class="dropdown-item" href="#">Центар</option>
+                </select>
+              </div> -->
+              <li><a href="#" id = "search-btn" class="btn btn-light-search" >Најди</a></li>
+              <!-- <button type="button" onclick="GetSelectedValue()">Get Selected Value</button> -->
+    
+              <!-- <p id="result"></p>
+    
+            </div>
+    
+    
+            
+        <div id="list">
+          <div class="wrapper" >
+          </div>
+        </div> -->
+
+          <div class="allhouses">
+                  <!-- House Cards -->
+            <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 203.89 171.94"><defs>
+              <clipPath id="House"> 
+              <style>.cls-1{fill:none;stroke:#ab2176;stroke-miterlimit:10;stroke-width:8px;}</style>
+              <polygon class="cls-1"  points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+              </clipPath>
+            </defs>
+            <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+            <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+            </svg>
+    
+    
+          <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+            <clipPath id="House">
+    
+            <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+            <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+    
+            </clipPath>
+          </defs>
+          <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+    
+          <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+    
+        </svg>   
+        
+        <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+          <clipPath id="House">
+    
+          <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+          <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+    
           </clipPath>
         </defs>
         <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+    
         <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-        </svg>
-
-
-      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+    
+      </svg>   <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
         <clipPath id="House">
-
+    
         <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
         <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
+    
         </clipPath>
       </defs>
       <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-      <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-
-    </svg>   
     
-    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+      <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+    
+    </svg>   <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
       <clipPath id="House">
-
+    
       <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
       <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
+    
       </clipPath>
     </defs>
     <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
+    
     <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-
-  </svg>   <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+    
+    </svg>  
+    
+    <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
     <clipPath id="House">
-
+    
     <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
     <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
+    
     </clipPath>
-  </defs>
-  <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-  <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-
-</svg>   <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
-  <clipPath id="House">
-
-  <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
-  <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-  </clipPath>
-</defs>
-<polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-<image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-
-</svg>  
-
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
-<clipPath id="House">
-
-<style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
-<polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-</clipPath>
-</defs>
-<polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-<image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-
-</svg> 
+    </defs>
+    <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+    
+    <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+    
+    </svg> 
+    <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+      <clipPath id="House">
+      
+      <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+      <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+      
+      </clipPath>
+      </defs>
+      <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+      
+      <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+      
+      </svg> 
+          </div>
 
 
-
-          <!-- Card names -->
-        <p class="card-name">Мариja Марковска</p>
-        <p class="card-name">Марко Марковски</p>
-        <p class="card-name">Мариja Марковска</p>
-        <p class="card-name">Марко Марковски</p>
-        <p class="card-name">Мариja Марковска</p>
-        <p class="card-name">Марко Марковски</p>
-        
-  <div class="card-rows" id="bbbb">
-          <div class="cards-columns">
-            <ul class="card-title"> Бесплатен акаунт засекогаш. </ul>
-            <div class="info-cards">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-                exercitationem dolores praesentium at omnis ipsam magnam mollitia
-
-                cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
-                optio similique quos eligendi?</p>
+    <div class="allnames">
+    
+              <!-- Card names -->
+            <p class="card-name">Мариja Марковска</p>
+            <p class="card-name">Марко Марковски</p>
+            <p class="card-name">Мариja Марковска</p>
+            <p class="card-name">Марко Марковски</p>
+            <p class="card-name">Мариja Марковска</p>
+            <p class="card-name">Марко Марковски</p>
+            <p class="card-name">Марко Марковски</p>    
             </div>
           </div>
-          <div class="cards-columns">
-            <ul class="card-title">Најди цимер по мерка.</ul>
-            <div class="info-cards">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-                exercitationem dolores praesentium at omnis ipsam magnam mollitia
 
-                cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
-                optio similique quos eligendi?</p>
+            
+      <div class="card-rowss" id="bbbb">
+              <div class="cards-columns">
+                <ul class="card-title"> Бесплатен акаунт засекогаш. </ul>
+                <div class="info-cards">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                    exercitationem dolores praesentium at omnis ipsam magnam mollitia
+    
+                    cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+                    optio similique quos eligendi?</p>
+                </div>
+              </div>
+              <div class="cards-columns">
+                <ul class="card-title">Најди цимер по мерка.</ul>
+                <div class="info-cards">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                    exercitationem dolores praesentium at omnis ipsam magnam mollitia
+    
+                    cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+                    optio similique quos eligendi?</p>
+                </div>
+              </div>
+      
+            <div class="cards-columns">
+              <ul class="card-title">Најди простор по мерка.</ul>
+              <div class="info-cards">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                  exercitationem dolores praesentium at omnis ipsam magnam mollitia
+    
+                  cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+                  optio similique quos eligendi?</p>
+              </div>
             </div>
-          </div>
-  
-        <div class="cards-columns">
-          <ul class="card-title">Најди простор по мерка.</ul>
-          <div class="info-cards">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              exercitationem dolores praesentium at omnis ipsam magnam mollitia
-
-              cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
-              optio similique quos eligendi?</p>
-          </div>
-        </div>
-        <div class="cards-columns">
-          <ul class="card-title">Едноставно и брзо поврзување.</ul>
-          <div class="info-cards">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              exercitationem dolores praesentium at omnis ipsam magnam mollitia
-
-              cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
-              optio similique quos eligendi?</p>
-          </div>
-        </div>
+            <div class="cards-columns">
+              <ul class="card-title">Едноставно и брзо поврзување.</ul>
+              <div class="info-cards">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                  exercitationem dolores praesentium at omnis ipsam magnam mollitia
+    
+                  cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+                  optio similique quos eligendi?</p>
+              </div>
+            </div>
+      </div>   
+    
+            <p class="slogan">Зошто
+            <p class="slogan1">roommates.mk?</p>
+            </p>
+    
+    
+    
+              <p class="footer-text">FOLLOW US</p>
+              <img src="./style/instagram.svg" class="instagram">
+              <img src="./style/facebook.svg" class="facebook">
+              <p class="footer-text-1">2020 Roommates.mk</p>
+              <p class="footer-text-2">Mobile App | Terms | Privacy | Contact </p>
+              <button onclick="location.href='registration-page/registration-page.html'"  type="button" class="btn btn-dark-1-registration">РЕГИСТРИРАЈ СЕ!</button>
+    
+    
+            </div>
+          
+          </section>
   </div>
 
-
-    
-  
-
-
-        <p class="slogan">Зошто
-        <p class="slogan1">roommates.mk?</p>
-        </p>
+  <div id="searhCards">
+    <section class="section2" id="section2">
+    <header>
+      <div class="logo-top-left">
+          <img src="./SearchedCardsPage/Images/roommates_logo_white.svg" alt="roommates.mk" class="logo-top-left-image">
+      </div>
 
 
+      <div class="box"></div>
+      <nav>
+          <ul class="nav-links">
+              <li><a href="#" class="nav-link">Совпаѓања</a></li>
+              <li><a href="#" id = "search-btn-cards" class="nav-link">Пребарај</a></li>
+              <li><a href="#" class="nav-link">Пораки</a></li>
+              <li><a href="#" class="nav-link">Профил</a></li>
+          </ul>
+      </nav>
+      
+      <div class="top-right-user-box">
+          <div class="top-right-house-logo">
+              <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user image" class="img-user">
+          </div>
 
-        <div class="footer">
-          <p class="footer-text">FOLLOW US</p>
-          <img src="./style/instagram.svg" class="instagram">
-          <img src="./style/facebook.svg" class="facebook">
-          <p class="footer-text-1">2020 Roommates.mk</p>
-          <p class="footer-text-2">Mobile App | Terms | Privacy | Contact </p>
-          <button onclick="location.href='registration-page/registration-page.html'"  type="button" class="btn btn-dark-1-registration">РЕГИСТРИРАЈ СЕ!</button>
-
-
+          <div class="house-icon">
+            <img src="./SearchedCardsPage/Images/tirkizna.png" alt="" class="house-icon-image">
         </div>
+      </div>
+  </header>
+
+  <div class= "filter-button-div" id="filter-button">
+    
+    <a onclick="filters()" type="button" id="filter" class="kopche-najava"><img src="./SearchedCardsPage/Images/filter-icon.svg" id = "img-filter">Филтри</a>
+
+  </div>
+
+  <div class= "filters-container" id="content">     
+
+    <div class = basic-filters>
+      <div class ="filters-sub"> <img src="./SearchedCardsPage/Images/filter-icon.svg" id = "img-filters"> Филтри</div>
+      <div class ="filters-sub"> <img src="./SearchedCardsPage/Images/filter-icon.svg" id = "img-filters">Основни филтри</div>
+      <button id ="filters-btn"><img src="./SearchedCardsPage/Images/icon-smoker.svg" id = "img-filters">Пушач</button>
+      <button id ="filters-btn"><img src="./SearchedCardsPage/Images/icon-nonSmoker.svg" id = "img-filters">Непушач</button>
+      <button id ="filters-btn"><img src="./SearchedCardsPage/Images/icon-pet.svg" id = "img-filters">Миленик</button>
+      <button id ="filters-btn"><img src="./SearchedCardsPage/Images/icon-noPet.svg" id = "img-filters">Без миленик</button>
+    </div>
+    <div class="interest-filters" id="content2">
+      <div class ="filters-sub"> <img src="./SearchedCardsPage/Images/filter-icon.svg" id = "img-filters">Интереси</div>
+      <button id ="filters-btn"><img src="./SearchedCardsPage/Images/icon-sport.svg" id = "img-filters">Спортист</button>
+      <button id ="filters-btn"><img src="./SearchedCardsPage/Images/icon-movie.svg" id = "img-filters">Филм</button>
+      <button id ="filters-btn"><img src="./SearchedCardsPage/Images/icon-music.svg" id = "img-filters">Музика</button>
+      <button id ="filters-btn"><img src="./SearchedCardsPage/Images/icon-books.svg" id = "img-filters">Книги</button>
+      <button id ="filters-btn"><img src="./SearchedCardsPage/Images/icon-food.svg" id = "img-filters">Здрава храна</button>
+    </div>
+    <div class="montly-payment-filter">
+      <button id ="filters-btn"><img src="./SearchedCardsPage./Images/icon-money.svg" id = "img-filters">Месечен износ</button>
+      <label for="range">
+        <input type="range" name="range" id="range" min="0" max="300" step="" value="175"/>
+      </label>
+    
+   <output for="range" class="output"></output>
+      
+      <a onclick="goback()" type="button" id="back" class="kopche-najava"><img src="" id = "img-filter">Back</a>      
+       
+    </div>
+    
+  </div>
+
+  <div id="list">
+    <div class="wrapper">
+      
+      
       </div>
       
-      </section>
+    </div>  
 
-
-
-
-
-      <section class="section2">
-
- <div class="hidecontent" id="allnajava">
-      <header>
-        <div class="logo-top-left">
-            <img src="./SearchedCardsPage/Images/roommates_logo_white.svg" alt="roommates.mk" class="logo-top-left-image">
-        </div>
-
-
-        <nav>
-           
-        </nav> 
-    </header>
-
-
-    <div class="container">
-        <h1>Добредојде назад! <span class="wave">👋🏾</span></h1>
-    
-        Емаил:
-        <input type="email" />
-    
-        Лозинка:
-        <input type="password" />
-        <a onclick="login()" type="button" id="login" class="login">Најави се</a>
-        <p class="text-in-najava">Сеуште немаш акаунт?</p>
-        <a onclick="location.href='registration-page/registration-page.html'" type="button" id="signup" class="signup">Регистрирај се</a>
-        <a href="#">Заборави лозинка...</a>
-        <p class="disclaimer">Со користење на Roomates.mk,се согласуваш дека си ги прочитал и разбрал правилата на употреба....</p>
-      </div>
   
-    <div class="footer2">
-        <div class ="footer-text-follow-us2">
-          <p class="footer-text2">FOLLOW US</p>
-        </div>
-        <div class="logo-footer-text-12">
-        <img src="./style/instagram.svg" class="instagram2">
-        <img src="./style/facebook.svg" class="facebook2">
-        <p class="footer-text-12">2020 Roommates.mk</p>
-        </div>
-        <div class="footer-text-2-Info">
-          <p class="footer-text-22">Mobile App |Terms |Privacy |Contact </p>
-        </div>
-        </div>
-        </div>
 
-        </section>
-    
-  <!-- USER PROFILE -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Назад</a></li>
+        <ul class="paging-numbers">
+        <li class="page-item-"><a class="page-link" href="#">1</a></li>
+        <li class="page-item-"><a class="page-link" href="#">2</a></li>
+        <li class="page-item-"><a class="page-link" href="#">3</a></li>
+        <li class="page-item-"><a class="page-link" href="#">4</a></li>
+        </ul>
+        <li class="page-item"><a class="page-link" href="#">Следно</a></li>
+      </ul>
+    </nav>
+  
 
-
-
-
-
-
-
-
-
-
-
-
-  <section class="section3">
-  <div class="container-user-profile" id="hidecontent">
-    
-    <header>
-        <div class="logo-top-left1">
-            <img src="style/user-profile-assets/images/roommates_logo_white.svg" alt="roommates.mk" class="logo-top-left-image1">
-        </div>
-
-
-        <div class="box"></div>
-        <nav>
-            <ul class="nav-links1">
-                <li><a href="#" class="nav-link">Најди цимер</a></li>
-                <li><a href="#" class="nav-link">Пораки</a></li>
-                <li><a href="#" class="nav-link">Мој контакти</a></li>
-            </ul>
-        </nav>
-        
-        <div class="top-right-user-box1">
-            <div class="top-right-house-logo1">
-                <!-- <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user image" class="img-user1"> -->
-            </div>
-            
-            <div class="house-icon1">
-                <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
-                    <defs><style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style></defs>
-                    <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-                </svg> -->
-            </div>
-        </div>
-    </header>
-
-    
-    
-    <div class="main-content">
-        <div class="main-content-image-left">
-            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user profile picture" class="user-profile-picture">
-        </div>
-
-        <div class="main-content-right">
-            <span class="name-surname">Име и Презиме</span>
-
-            <div class="location-box">
-                <i class="fas fa-map-marker-alt location-box-icon"></i>
-                <span class="location-box-text">Локација</span>
-            </div>
-
-            <div class="info-user">
-                <span class="info-user-text">Студент/Работник</span>
-            </div>
-
-            <div class="characteristics">
-                <span class="characteristics-text">Карактеристики</span>
-                <ul class="characteristics-list">
-                    <li class="characteristics-list-item">Текст</li>
-                    <li class="characteristics-list-item">Текст</li>
-                    <li class="characteristics-list-item">Текст</li>
-                    <li class="characteristics-list-item">Текст</li>
-                    <li class="characteristics-list-item">Текст</li>
-                    <li class="characteristics-list-item">Текст</li>
-                </ul>
-            </div>
-
-            <div class="send-message">
-                <i class="fas fa-comment message-icon"></i>
-                <span class="send-message-text">Испрати порака</span>
-            </div>
-
-            <div class="main-content-right-about">
-                <i class="fas fa-user about-icon"></i>
-                <span class="about-text">Опис</span>
-            </div>
-        </div>
+  <div class="footer2">
+    <div class ="footer-text-follow-us2">
+      <p class="footer-text2">FOLLOW US</p>
     </div>
-
-   
-    <br>
-    <hr class="line-1">
-
-    
-
-    <div class="main-content-2">
-        <div class="main-content-2-left">
-            <span class="description">Дескрипција</span>
-
-            <div class="main-content-2-textarea">
-                <textarea rows="16" cols="43" name="comment" form="usrform" class="main-content-2-textarea-text">Внеси текст...</textarea>
-            </div>
-
-            <div class="main-content-2-button">
-                <span class="main-content-2-button-text">Деактивирај Акаунт</span>
-            </div>
-        </div>
-
-        
-        <div class="main-content-2-right">
-            <div class="main-content-2-header">
-                <span class="opacity">Контакт Информации</span>
-            </div>
-
-            <div class="main-content-2-right-left-part">
-                <div class="main-content-2-left-part-phone-number-text">
-                    <span class="main-content-2-left-part">Мобилен:</span>
-                </div>
-
-                <div class="main-content-2-left-part-address-text">
-                    <span class="main-content-2-left-part">Адреса:</span>
-                </div>
-
-                <div class="main-content-2-left-part-email-address-text">
-                    <span class="main-content-2-left-part">Е-маил:</span>
-                </div>
-
-                <div class="main-content-2-left-part-site-text">
-                    <span class="main-content-2-left-part">Сајт:</span>
-                </div>
-                
-                
-
-                <div class="main-content-2-header-2">
-                    <span class="opacity">Основни Информации</span>
-                </div>
-
-                <div class="main-content-2-left-part-birthday-text">
-                    <span class="main-content-2-left-part">Роденден:</span>
-                </div>
-
-                <div class="main-content-2-left-part-gender-text">
-                    <span class="main-content-2-left-part">Пол:</span>
-                </div>
-            </div>
-
-            
-            <div class="main-content-2-right-right-part">
-                <div class="main-content-2-right-part-phone-number">
-                    <span class="main-content-2-right-part">+389 78 442 555</span>
-                </div>
-
-                <div class="main-content-2-right-part-address-text">
-                    <span class="main-content-2-right-part">Ул. Иван Козаров бр.50</span>
-                </div>
-
-                <div class="main-content-2-right-part-email-address-text">
-                    <span class="main-content-2-right-part">user@gmail.com</span>
-                </div>
-
-                <div class="main-content-2-right-part-site-text">
-                    <span class="main-content-2-right-part">www.facebook.com/User/</span>
-                </div>
-
-                
-
-                <div class="main-content-2-right-part-birthday-text">
-                    <span class="main-content-2-right-part">5 Јуни, 1992</span>
-                </div>
-
-                <div class="main-content-2-right-part-gender-text">
-                    <span class="main-content-2-right-part">Маж</span>
-                </div>
-            </div>
-        </div>
+    <div class="logo-footer-text-1">
+    <img src="./SearchedCardsPage/Images/instagram.svg" class="instagram2">
+    <img src="./SearchedCardsPage/Images/facebook.svg" class="facebook2">
+    <p class="footer-text-2">2020 Roommates.mk</p>
     </div>
-</div>
-  </section>
+    <div class="footer-text-2-Info">
+      <p class="footer-text-2">Mobile App |Terms |Privacy |Contact </p>
+    </div>
+  </div>
+
+  </div>
+
+</section>
+
 
 <!-- SCRIPTS -->
-<script src="./style/najava.js"></script>
-<script src="./registration-page/script.js"></script>
 
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
     integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
     crossorigin="anonymous"></script>
+    
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
-    <script src="./style/najava.js"></script>
-    <script src="./registration-page/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://pagination.js.org/dist/2.1.4/pagination.min.js"></script>
+<script src="./Jsons/users.json"></script>
+    <script src="./style/homepage.js"></script>
+    <script src="SearchedCardsPage/userRepository.js"></script>
+    <script src="SearchedCardsPage/searchcards.js"></script>
+
 
 </body>
 
