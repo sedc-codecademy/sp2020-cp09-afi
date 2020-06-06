@@ -4,8 +4,21 @@ let allfilter2 = document.getElementById("content2")
 let filterbtn = document.getElementById("filter-button");
 let getcard = document.getElementById("filterthiscard");
 let getsecondcard = document.getElementById("filtersecondcard");
+let homepage = document.getElementById("homePage");
+let searchCards = document.getElementById("searhCards");
+let search = document.getElementById("search-btn");
 
 
+searchCards.style.display = 'none';
+function showHideDiv(){
+    homepage.style.display = 'none';           
+    searchCards.style.display = 'block';
+}
+
+search.addEventListener("click", function(){
+    showHideDiv();
+    RoomatesDb.getAll();
+});
 
 function filters(){
     
@@ -14,7 +27,6 @@ function filters(){
     allfilter.style.display = "block";
     //getsecondcard.style.display = "none";
 }
-
 
 function goback(){
 
