@@ -8,6 +8,12 @@ let homepage = document.getElementById("homePage");
 let searchCards = document.getElementById("searhCards");
 let search = document.getElementById("search-btn");
 
+let selectLocation = document.getElementById("seconddropdown");
+let selectedLocation = selectLocation.options[selectLocation.selectedIndex].text;
+
+let selectRoomateOrApartment = document.getElementById("firstdropdown");
+let selectedRoomateOrAparment = selectRoomateOrApartment.options[selectRoomateOrApartment.selectedIndex].text;
+
 
 searchCards.style.display = 'none';
 function showHideDiv(){
@@ -17,7 +23,9 @@ function showHideDiv(){
 
 search.addEventListener("click", function(){
     showHideDiv();
+    pagination();
     RoomatesDb.getAll();
+    filterRoomates();
 });
 
 function filters(){
