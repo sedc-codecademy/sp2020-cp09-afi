@@ -19,7 +19,7 @@
 
   #searhCards {
     position: relative;
-    height: calc(100vh - -800px);
+    height: calc(100vh - -870px);
     background: url("./home_page_bez_slika.png");
     background-repeat: no-repeat;
     background-size: 100%; 
@@ -94,8 +94,8 @@ nav {
     width: 130px;
     height: 110px;
     position: absolute;
-    top: 1px; /* 2%*/
-    right: 8.5%; /* 5.4%*/
+    top: -9px; /* 2%*/
+    right: 7.5%; /* 5.4%*/
 }
 .house-icon-image{
     width: 135px;
@@ -371,7 +371,7 @@ color: black;
     height: 300px;
 }
 
-.footer-text-follow-us2 {
+.footer-text-follow-us4 {
     font-family: 'DinPro';
     font-size: 20px;
     color: white;
@@ -380,15 +380,14 @@ color: black;
      
   }
   
-.logo-footer-text-2 > p {   
+.logo-footer-text-4 > p {   
     font-family: 'DinPro';
- 
     margin-left: 82%;
     font-size: 24px;  
     color:white;
   }
 
-.logo-footer-text-1 img{
+.logo-footer-text-4 img{
     font-family: 'DinPro';
 
     height: 50px;  
@@ -402,9 +401,9 @@ color: black;
     margin-left:10%;
 }
 
-.footer-text-2 {
+.footer-text-4 {
     font-family: 'DinPro';
-    margin-left: 73%; 
+    margin-left: 23%; 
     color: white;
     font-weight: bold;
     font-size: 20px;
