@@ -172,14 +172,14 @@ box-shadow: 5px 10px 8px #888888;
 .dropdown-item:hover{
     color: #4DA3B4;
 }
-.text-insearchbox{
+.text-insearchboxx{
   position: relative;
   font-family: 'DinPro';
   color: white;
   font-weight: bolder;
-  margin-top: -20px;
+  margin-top: -10px;
   position: relative;
-  left: 289px;
+  left: 35px;
   font-size: 66px;
 }
 

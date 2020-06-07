@@ -12,10 +12,10 @@
   <link href="style/user-profile-assets/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet"> 
    <link rel="stylesheet" href="style/user-profile-assets/user-profile-style.css">
   <link rel="stylesheet" href="./style/user-profile-assets/user-profile-style.css"> -->
-  <link rel="stylesheet" href="./style/najava.css">
   <link rel="stylesheet" href="./registration-page/style.css">
   <link rel="stylesheet" href="./SearchedCardsPage/styleKartica.css"> 
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./Login-page/najava.css">
 </head>
 
 
@@ -28,12 +28,12 @@
     
         <div class="top-buttons" id="reg">
               <img src="./SearchedCardsPage/Images/roommates_logo_white.svg" class="logo">
-              <a onclick="location.href ='Login-page/najava.html'" type="button" id="najava" class="kopche-najava">Најави се</a>
+              <a type="button" id="najava" class="kopche-najava">Најави се</a>
               <a onclick="location.href='registration-page/registration-page.html'" type="button" id="registriraj" class="kopche-registriraj">Регистрирај се</a>
         </div>
         
             <div class="search" id="cccc">
-              <h1 class="text-insearchbox">Најди цимер по мерка.</h1>
+              <h1 class="text-insearchboxx">Најди цимер по мерка.</h1>
     
     
               <select  id="firstdropdown"class="btn btn-secondar dropdown-toggle"  role="button" id="dropdownMenuLink"
@@ -364,6 +364,54 @@
 
 </section>
 
+<section class="section3">
+
+  <div  id="allnajava">
+       <header>
+         <div class="logo-top-left">
+             <img src="./Login-page/roommates_logo_white2.png" alt="roommates.mk" class="logo-top-left-image">
+         </div>
+ 
+ 
+         <nav>
+            
+         </nav> 
+     </header>
+ 
+ 
+     <div class="container">
+         <h1>Добредојде назад! <span class="wave">👋🏾</span></h1>
+     
+         Емаил:
+         <input type="email" />
+     
+         Лозинка:
+         <input type="password" />
+         <a type="button"  class="login">Најави се</a>
+
+         <p class="text-in-najava">Сеуште немаш акаунт?</p>
+         <a onclick="location.href='../registration-page/registration-page.html'" type="button" id="signup" class="signup">Регистрирај се</a>
+         <a href="#">Заборави лозинка...</a>
+         <p class="disclaimer">Со користење на Roomates.mk,се согласуваш дека си ги прочитал и разбрал правилата на употреба....</p>
+       </div>
+   
+     <div class="footer3">
+         <div class ="footer-text-follow-us3">
+           <p class="footer-text3">FOLLOW US</p>
+         </div>
+         <div class="logo-footer-text-3">
+         <img src="./Login-page/instagram.svg" class="instagram3">
+         <img src="./Login-page/facebook.svg" class="facebook3">
+         <p class="footer-text-3">2020 Roommates.mk</p>
+         </div>
+         <div class="footer-text-2-Info">
+           <p class="footer-text-3">Mobile App |Terms |Privacy |Contact </p>
+         </div>
+         </div>
+         </div>
+ 
+         </section>
+
 
 <!-- SCRIPTS -->
 
@@ -382,6 +430,7 @@
     <script src="./style/homepage.js"></script>
     <script src="SearchedCardsPage/userRepository.js"></script>
     <script src="SearchedCardsPage/searchcards.js"></script>
+    <script src="./Login-page/najava.js"></script>
 
 
 </body>

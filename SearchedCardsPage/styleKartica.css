@@ -380,7 +380,7 @@ color: black;
      
   }
   
-.logo-footer-text-1 > p {   
+.logo-footer-text-2 > p {   
     font-family: 'DinPro';
  
     margin-left: 82%;
@@ -404,7 +404,6 @@ color: black;
 
 .footer-text-2 {
     font-family: 'DinPro';
-
     margin-left: 73%; 
     color: white;
     font-weight: bold;
