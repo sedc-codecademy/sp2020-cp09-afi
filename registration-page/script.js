@@ -307,3 +307,60 @@ function nazad7(){
     div8.style.display = "none";
     div10.style.display ="none";
 }
+
+let slider1 = document.getElementById("myRange1");
+let output1 = document.getElementById("value1");
+
+let slider2 = document.getElementById("myRange2");
+let output2 = document.getElementById("value2");
+
+let slider3 = document.getElementById("myRange3");
+let output3 = document.getElementById("value3");
+
+let slider4 = document.getElementById("myRange4");
+let output4 = document.getElementById("value4");
+
+output1.innerHTML = slider1.value;
+output2.innerHTML = slider2.value;
+output3.innerHTML = slider3.value;
+output4.innerHTML = slider4.value;
+
+slider1.oninput = function(){
+    output1.innerHTML = this.value;
+}
+
+slider1.addEventListener("mousemove", function(){
+    let x = slider1.value;
+    let color = 'linear-gradient(90deg, rgb(128,0,128)' + x + '%, rgb(214,214,214)' + x + '%)';
+    slider1.style.background = color;
+});
+
+slider2.oninput = function(){
+    output2.innerHTML = this.value;
+}
+
+slider2.addEventListener("mousemove", function(){
+    let x = slider2.value;
+    let color = 'linear-gradient(90deg, rgb(128,0,128)' + x + '%, rgb(214,214,214)' + x + '%)';
+    slider2.style.background = color;
+});
+
+slider3.oninput = function(){
+    output3.innerHTML = this.value;
+}
+
+slider3.addEventListener("mousemove", function(){
+    let x = slider3.value;
+    let color = 'linear-gradient(90deg, rgb(128,0,128)' + x + '%, rgb(214,214,214)' + x + '%)';
+    slider3.style.background = color;
+});
+
+slider4.oninput = function(){
+    output4.innerHTML = this.value;
+}
+
+slider4.addEventListener("mousemove", function(){
+    let x = slider4.value;
+    let color = 'linear-gradient(90deg, rgb(128,0,128)' + x + '%, rgb(214,214,214)' + x + '%)';
+    slider4.style.background = color;
+});

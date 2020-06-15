@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Registration page</title>
 </head>
@@ -36,52 +36,62 @@
     <h3>Прикачете до 3 слики!</h3>
     <input type="file" id="prikaci" accept="image/*">
     <h3>Лични информации:</h3>
-    <form class="text-center">
-        <div class="">
-            <div class="form-group">
-                <label for=" name ">
-                <input id="test"type="text " name="name " placeholder="Име: " required>
-              </label>
+    <form>
+        <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label">Име</label>
+            <div class="col-10">
+              <input class="form-control" type="text" placeholder="Име" id="example-text-input">
             </div>
-            <div class="form-group ">
-                <label for="lastname ">
-                <input type="text " name="lastname " placeholder="Презиме: " required>
-            </label>
-            </div>
-            <div class="form-group ">
-                <select name=" " id=" ">
-                <option value="пол " selected disabled>Пол</option>
-                <option value="маж ">Маж</option>
-                <option value="жена ">Жена</option>
-            </select>
-            </div>
-            <div class="form-group ">
-                <label for="age ">
-                <input type="number " name="age " placeholder="Години: " required>
-            </label>
-            </div>
-            <div class="form-group ">
-                <label for="email ">
-                <input type="email " name="email " placeholder="Емаил: " required>
-            </label>
-            </div>
-            <div class="form-group ">
-                <label for="tel ">
-                <input type="tel " name="tel " placeholder="Телефон: " required>
-            </label>
-            </div>
-            <div class="form-group ">
-                <label for="adres ">
-                <input type="text " name="adres " placeholder="Адреса на живеење по лична карта: " required>
-            </label>
+          </div>
+          <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label">Презиме</label>
+            <div class="col-10">
+              <input class="form-control" type="text" placeholder="Презиме" id="example-text-input">
             </div>
         </div>
-    </form>
-    <ul style="list-style-type:none" style="list-style-type:none;">
-        <li><input type="checkbox" name="agree">Се согласувам моите податоци да бидат ко</li>
-        <li><input type="checkbox" name="agree1">Се согласувам за промотивни цели</li>
-        <li><input type="checkbox" name="save">Зачувај ги податоците</li>
-    </ul style="list-style-type:none">
+            <div class="form-group row">
+                <label for="example-number-input" class="col-2 col-form-label">Години</label>
+                <div class="col-10">
+                  <input class="form-control" type="number" value="42" id="example-number-input">
+                </div>
+            </div>
+              <div class="form-group row">
+                <label for="example-email-input" class="col-2 col-form-label">Е-маил:</label>
+                <div class="col-10">
+                  <input class="form-control" type="email" placeholder="vasiot-email@example.com" id="example-email-input">
+                </div>
+                </div>
+            <div class="form-group row">
+                <label for="example-tel-input" class="col-2 col-form-label">Телефон</label>
+                <div class="col-10">
+                  <input class="form-control" type="tel" placeholder="1-(555)-555-5555" id="example-tel-input">
+                </div>
+        </div>
+        <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label">Адреса</label>
+            <div class="col-10">
+              <input class="form-control" type="text" placeholder="Адреса" id="example-text-input">
+            </div>
+          </div>
+      </form>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+            Се согласувам моите податоци да бидат ко
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+            Се согласувам за промотивни цели
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+            Зачувај ги податоците
+        </label>
+      </div>
     <div id="kopcinja1">
         <button onclick="izmeni()" class="kopcinja">Измени!</button>
         <button onclick="prodolzi1()"class="kopcinja" id="prodolzi1">Продолжи</button>
@@ -174,8 +184,11 @@
                     </select>
                 </li>
                 <li>
+                    <div class="slideContainer">
                     Колкав износ за кирија и режиски трошоци?
-                    <input type="range" min="2000" max="30000" value="2000">
+                    <input type="range" min="2000" max="30000" value="2000" id="myRange1" class="slider">
+                    <p>Денари:<span id="value1"></span></p>
+                    </div>
                 </li>
                 <li>
                     Дали во просторот има обезбедено интернет?
@@ -308,8 +321,11 @@
                     </select>
                 </li>
                 <li>
-                    Колкав износ си спремен да плаќаш месечно?
-                    <input type="range" min="2000" max="30000" value="2000">
+                    <div class="slideContainer">
+                        Колкав износ си спремен да плаќаш месечно?
+                        <input type="range" min="2000" max="30000" value="2000" id="myRange2" class="slider">
+                        <p>Денари:<span id="value2"></span></p>
+                    </div>
                 </li>
                 <li>
                     Дали бараш посебна спална соба?
@@ -440,63 +456,61 @@
             <option selected>активен спортист</option>
         </select>
         <li>
-            До колкав износ очекуваш да покрива месечно твојот цимер?
-            <input type="range" min="2000" max="30000" value="2000">
+            <div class="slideContainer">
+                До колкав износ очекуваш да покрива месечно твојот цимер?
+                <input type="range" min="2000" max="30000" value="2000" id="myRange3" class="slider">
+                <p>Денари:<span id="value3"></span></p>
+            </div>
         </li>
         <div id="kopcinja1">
         <button onclick="nazad4()" class="kopcinja">Назад</button>
         <button class="kopcinja">Комплетирај го профилот!</button>
         </div>
         <div id="div15">
-        <input type="text" placeholder="Напиши нешто...">
-        <button class="kopcinja" type="submit">Барај!</button>
         </div>
     </div>
     <!-- Izdavam prostor -->
     <div id="div6" class="hideContent">
         <h1>Издавам Простор</h1>
         <h3>Лични информации:</h3>
-        <form class="text-center">
-            <div class="">
-                <div class="form-group">
-                    <label for=" name ">
-                    <input type="text " name="name " placeholder="Име: " required>
-                  </label>
-                </div>
-                <div class="form-group ">
-                    <label for="lastname ">
-                    <input type="text " name="lastname " placeholder="Презиме: " required>
-                </label>
-                </div>
-                <div class="form-group ">
-                    <select name=" " id=" ">
-                    <option value="пол " selected disabled>Пол</option>
-                    <option value="маж ">Маж</option>
-                    <option value="жена ">Жена</option>
-                </select>
-                </div>
-                <div class="form-group ">
-                    <label for="age ">
-                    <input type="number " name="age " placeholder="Години: " required>
-                </label>
-                </div>
-                <div class="form-group ">
-                    <label for="email ">
-                    <input type="email " name="email " placeholder="Емаил: " required>
-                </label>
-                </div>
-                <div class="form-group ">
-                    <label for="tel ">
-                    <input type="tel " name="tel " placeholder="Телефон: " required>
-                </label>
-                </div>
-                <div class="form-group ">
-                    <label for="adres ">
-                    <input type="text " name="adres " placeholder="Адреса на живеење по лична карта: " required>
-                </label>
+        <form>
+        <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label">Име</label>
+            <div class="col-10">
+              <input class="form-control" type="text" placeholder="Име" id="example-text-input">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label">Презиме</label>
+            <div class="col-10">
+              <input class="form-control" type="text" placeholder="Презиме" id="example-text-input">
+            </div>
+        </div>
+            <div class="form-group row">
+                <label for="example-number-input" class="col-2 col-form-label">Години</label>
+                <div class="col-10">
+                  <input class="form-control" type="number" value="42" id="example-number-input">
                 </div>
             </div>
-        </form>
+              <div class="form-group row">
+                <label for="example-email-input" class="col-2 col-form-label">Е-маил:</label>
+                <div class="col-10">
+                  <input class="form-control" type="email" placeholder="vasiot-email@example.com" id="example-email-input">
+                </div>
+                </div>
+            <div class="form-group row">
+                <label for="example-tel-input" class="col-2 col-form-label">Телефон</label>
+                <div class="col-10">
+                  <input class="form-control" type="tel" placeholder="1-(555)-555-5555" id="example-tel-input">
+                </div>
+        </div>
+        <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label">Адреса</label>
+            <div class="col-10">
+              <input class="form-control" type="text" placeholder="Адреса" id="example-text-input">
+            </div>
+          </div>
+      </form>
         <div id="kopcinja1">
             <button onclick="nazad5()" class="kopcinja">Назад</button>
             <button onclick="prodolzi4()" id="prodolzi2" class="kopcinja">Продолжи</button>
@@ -513,7 +527,11 @@
 
             <li>
                 Колкав е месечниот паушал за изнајмување?
-                <input type="range" min="2000" max="30000" value="2000">
+                <div class="slideContainer">
+                    Колкав износ за кирија и режиски трошоци?
+                    <input type="range" min="2000" max="30000" value="2000" id="myRange4" class="slider">
+                    <p>Денари:<span id="value4"></span></p>
+                    </div>
             </li>
 
             <li>
@@ -652,17 +670,16 @@
             <button class="kopcinja">Комплетирај го профилот!</button>
             </div>
             <div id="div7_2" class="hideContent">
-                <input type="text" placeholder="Напиши нешто...">
-                <button class="kopcinja" type="submit">Барај!</button>
              </div>
         </div>
     <div id="div8" class="hideContent">
-        <button class="btn btn-light">Комплетирај го профилот!</button>
+        <button onclick="prodolzi10()" class="btn btn-light">Комплетирај го профилот!</button>
         <button class="btn btn-light">Назад</button>
         <div id="div5" class="hideContent">
-        <input type="text" placeholder="Напиши нешто...">
-        <button class="btn btn-light" type="submit">Барај!</button>
     </div>
-</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script src="script.js"></script>
+</body>
 </html>
