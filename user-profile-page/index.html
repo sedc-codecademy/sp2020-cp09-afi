@@ -5,47 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome-free-5.13.0-web/css/all.css">
-    <link rel="stylesheet" href="./assets/Fonts/DinPRO/DINPro-Cond.otf">
-    <link rel="stylesheet" href="assets/style/media.css">
-    <link rel="stylesheet" href="assets/style/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/Fonts/DinPRO/DINPro-Cond.otf">
+    <link rel="stylesheet" href="assets/style/user-profile-page-media.css">
+    <link rel="stylesheet" href="assets/style/user-profile-page-style.css">
+    <title>Профил</title>
 </head>
 <body>
-  <div class="container-body">
+  
+  <div class="user-profile-container-body">
       <!-- NAV-BAR -->
-      <div class="nav-bar">
+      <div class="user-profile-nav-bar">
         <a href="../index.html" target="_self">
-        <div class="nav-bar-logo" id="home-page">
-          <img src="assets/images/roommates_logo_white2.png" alt="" class="nav-bar-logo-image">
+        <div class="user-profile-nav-bar-logo" id="home-page">
+          <img src="assets/images/roommates_logo_white2.png" alt="" class="user-profile-nav-bar-logo-image">
         </div>
       </a>
       
-        <div class="nav-bar-invisible-box"></div>
+        <div class="user-profile-nav-bar-invisible-box"></div>
 
-          <div id="nav-bar-link">
-            <a href="#" target="_self" class="nav-bar-links">
-              <div id="sovpagjanja-page"><span class="nav-bar-tekst">Совпаѓања</span></div>
+          <div id="user-profile-nav-bar-link">
+            <a href="#" target="_self" class="user-profile-nav-bar-links">
+              <div id="sovpagjanja-page"><span class="user-profile-nav-bar-tekst">Совпаѓања</span></div>
             </a>
 
-            <a href="#" target="_self" class="nav-bar-links">
-              <div id="perbaraj-page"><span class="nav-bar-tekst">Пребарај</span></div>
+            <a href="#" target="_self" class="user-profile-nav-bar-links">
+              <div id="perbaraj-page"><span class="user-profile-nav-bar-tekst">Пребарај</span></div>
             </a>
-            <a href="#" target="_self" class="nav-bar-links">
-              <div id="poraki-page"><span class="nav-bar-tekst">Пораки</span></div>
+            <a href="#" target="_self" class="user-profile-nav-bar-links">
+              <div id="poraki-page"><span class="user-profile-nav-bar-tekst">Пораки</span></div>
             </a>
-            <a href="../user-profile-page/index.html" target="_self" class="nav-bar-links active">
-              <div id="profil-page"><span class="nav-bar-tekst">Профил</span></div>
+            <a href="../user-profile-page/index.html" target="_self" class="user-profile-nav-bar-links active">
+              <div id="profil-page"><span class="user-profile-nav-bar-tekst">Профил</span></div>
             </a>
           </div>
 
-          <div class="top-right-user-box">
-            <div class="top-right-house-logo">
-                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user image" class="img-user">
+          <div class="user-profile-top-right-user-box">
+            <div class="user-profile-top-right-house-logo">
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user image" class="user-profile-img-user">
             </div>
             
-            <div class="house-icon">
+            <div class="user-profile-house-icon">
                 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
                     <defs><style>.cls-1{fill:none;stroke:#a5dce1;stroke-miterlimit:10;stroke-width:8px;}</style></defs>
                     <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
@@ -55,48 +55,52 @@
       </div>
 
       <!-- MAIN-CONTENT -->
-      <div class="main-content">
+      <div class="user-profile-main-content">
 
         <!-- LEFT-SIDE -->
-        <div class="card mb-3" style="width: 40%; height: 100%;">
+        <div class="card mb-3" style="width: 43%; height: 100%;">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img" alt="image">
+              <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="user-profile-card-img" alt="image">
             </div>
 
             <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title" style="text-align: center;">Опис</h5>
-                <h5 class="card-title">
+              <div class="user-profile-card-body">
+                <br>
+                <h5 class="user-profile-card-title" style="text-align: center;">Опис</h5>
+                
+                <h5 class="user-profile-card-title">
                   <i class="fas fa-user"></i>
-                  Трале Тралевски
+                  <span id="fullName"></span>
                 </h5>
-                <h5 class="card-title">
-                  <i class="fas fa-map-marker-alt"></i>
-                  Скопје
-                </h5>
-                <h5 class="card-title">
+                <h5 class="user-profile-card-title">
                   <i class="fas fa-mars"></i>
-                    Маж
+                    <span id="sex"></span>
                 </h5>
-                <h5 class="card-title">
+                <h5 class="user-profile-card-title">
                   <i class="fas fa-birthday-cake"></i>
-                    25 години
+                    <span id="age"></span> години
                 </h5>
 
+                <h5 class="user-profile-card-title">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span id="address"></span>
+                </h5>
                 
-                <span class="card-text">Кирија: 100<sup>€</sup><sub>месечно</sub></span>
+                <span class="user-profile-card-text">Кирија: <span id="payment"></span><sup>€</sup> месечно</span>
                 <br>
-                <span class="card-text">Бара простор во: Кисела Вода</span>
+                <span class="user-profile-card-text">Бара простор во: <span id="region"></span></span>
                 <br><br>
-                <span class="card-text">Контактирај Цимер</span>
+                <span class="user-profile-card-text">Контактирај Цимер</span>
                 <br>
+                
                 <i class="fas fa-phone-square-alt" style="font-size: 34px; color: #aa1a75;"></i>
-                <span class="user-phone-number">075-993-555</span>
+                <span id="phoneNumber"></span>
                 <br>
                 <i class="fas fa-at" style="font-size: 34px; color: #aa1a75;"></i>
-                <span class="user-email">trale123@gmail.com</span>
+                <span id="email"></span>
                 <br><br>
+
                 <a href="#" target="_self">
                   <button type="button" class="btn btn-primary" style="background-color: #4da3b4; border: none; font-size: 22px;">Едитирај Профил</button>
                 </a>
@@ -106,39 +110,39 @@
         </div>
 
         <!-- RIGHT-SIDE -->
-        <div class="right-side">
-            <h5 class="right-side-header">Преференци</h5>
+        <div class="user-profile-right-side">
+            <h5 class="user-profile-right-side-header">Преференци</h5>
 
-            <div class="preferences">
-              <h4 class="preference">Пушач</h4>
-              <h4 class="preference">Миленичиња</h4>
-              <h4 class="preference">Интереси</h4>
+            <div class="user-profile-preferences">
+              <h4 class="user-profile-preference">Пушач</h4>
+              <h4 class="user-profile-preference">Миленичиња</h4>
+              <h4 class="user-profile-preference">Интереси</h4>
             </div>
 
-            <hr class="line">
+            <hr class="user-profile-line">
 
-          <div class="lists">
+          <div class="user-profile-lists">
             <ul>
-              <li class="lists-items-1">Не пушач</li>
-              <li class="lists-items-1">Цимер не пушач</li>
+              <li class="user-profile-lists-items-1"><span id="isSmoker"></span></li>
+              <li class="user-profile-lists-items-1"><span id="roomMateSmoker"></span></li>
             </ul>
           
             <ul>
-              <li class="lists-items-2">Љубител на миленичиња</li>
-              <li class="lists-items-2">Има милениче</li>
-              <li class="lists-items-2">Куче</li>
-              <li class="lists-items-2">Цимер милениче океј</li>
-              <li class="lists-items-2">Куче со среден раст</li>
+              <li class="user-profile-lists-items-2"><span id="animalLover"></span></li>
+              <li class="user-profile-lists-items-2"><span id="havePet"></span></li>
+              <li class="user-profile-lists-items-2"><span id="userPet"></span></li>
+              <li class="user-profile-lists-items-2"><span id="roomMatePet"></span></li>
+              <li class="user-profile-lists-items-2"><span id="roomMatePetType"></span></li>
             </ul>
           
             <ul>
-              <li class="lists-items-3">Спорт</li>
-              <li class="lists-items-3">Активен спортист</li>
-              <li class="lists-items-3">Музика</li>
-              <li class="lists-items-3">Филмови</li>
-              <li class="lists-items-3">Книги</li>
-              <li class="lists-items-3">Храна</li>
-              <li class="lists-items-3">Здрава храна</li>
+              <li class="user-profile-lists-items-3"><span id="sport"></span></li>
+              <li class="user-profile-lists-items-3"><span id="music"></span></li>
+              <li class="user-profile-lists-items-3"><span id="movies"></span></li>
+              <li class="user-profile-lists-items-3"><span id="books"></span></li>
+              <li class="user-profile-lists-items-3"><span id="food"></span></li>
+              <li class="user-profile-lists-items-3"><span id="healthyFood"></span></li>
+              <li class="user-profile-lists-items-3"><span id="isActiveSportist"></span></li>
             </ul>
             
           </div>
