@@ -114,7 +114,7 @@
       "roomQuestions": [
         {
           "region": "Кисела Вода",
-          "payment": "300 evra",
+          "payment": "300",
           "area": "30-40m2",
           "typeOfHeating": "Струја",
           "rooms": "1",
@@ -370,7 +370,7 @@
       "roomQuestions": [
         {
           "region": "Центар",
-          "howMuchRentAndOverhead": "350 evra",
+          "howMuchRentAndOverhead": "350",
           "internetAccess": true,
           "operator": "А1",
           "tvAccess": false,
