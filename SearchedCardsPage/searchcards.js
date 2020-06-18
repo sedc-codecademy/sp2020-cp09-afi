@@ -4,7 +4,7 @@ let allfilter2 = document.getElementById("content2")
 let filterbtn = document.getElementById("filter-button");
 let getcard = document.getElementById("filterthiscard");
 let getsecondcard = document.getElementById("filtersecondcard");
-let homepage = document.getElementById("homePage");
+let homepage = document.getElementById("all-content-HomePage");
 let searchCards = document.getElementById("searhCards");
 let search = document.getElementById("search-btn");
 

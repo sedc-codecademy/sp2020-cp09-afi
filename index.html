@@ -5,51 +5,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./style/DinPRO/DINPro-Black.otf">
-  <link href="style/user-profile-assets/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet"> 
-   <link rel="stylesheet" href="style/user-profile-assets/user-profile-style.css">
-  <link rel="stylesheet" href="./style/user-profile-assets/user-profile-style.css"> -->
+  <!-- <link href="style/user-profile-assets/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">  -->
   <link rel="stylesheet" href="./registration-page/style.css">
   <link rel="stylesheet" href="./SearchedCardsPage/styleKartica.css"> 
-  <link rel="stylesheet" href="./style/style.css">
-  <link rel="stylesheet" href="./Login-page/najava.css">
+  <link rel="stylesheet" href="./style/All styles/Najavisestyle.css">
+  <link rel="stylesheet" href="style/All styles/Homepagestyle.css">
 </head>
 
 
 <body>
 
-  <div id="homePage">
-    <section class="section1" id="section1">
-
-      <div class="all-content " id="allcontent">
-    
-        <div class="top-buttons" id="reg">
-              <img src="./SearchedCardsPage/Images/roommates_logo_white.svg" class="logo">
-              <a type="button" id="najava" class="kopche-najava">Најави се</a>
-              <a onclick="location.href='registration-page/registration-page.html'" type="button" id="registriraj" class="kopche-registriraj">Регистрирај се</a>
+  <!-- HomePage -->
+    <section class="section1-HomePage">
+      <div class="all-content-HomePage" id="all-content-HomePage">
+        <div class="top-buttons-Homepage">
+              <img src="./style/images/roommates_logo_white2.png" class="logo-HomePage">
+              <a type="button" id="najava-HomePage" class="kopche-najava-HomePage">Најави се</a>
+              <a onclick="location.href='registration-page/registration-page.html'" type="button" id="registriraj-HomePage" class="kopche-registriraj-HomePage">Регистрирај се</a>
         </div>
         
-            <div class="search" id="cccc">
-              <h1 class="text-insearchboxx">Најди цимер по мерка.</h1>
-    
-    
+
+            <div class="search-box-HomePage">
+              <h1 class="text-insearchbox-HomePage">Најди цимер по мерка.</h1>
               <select  id="firstdropdown"class="btn btn-secondar dropdown-toggle"  role="button" id="dropdownMenuLink"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="selected">
-             
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                   <option class="dropdown-item"  value = "true" >Барам цимер со простор</option>
                   <option class="dropdown-item"  value ="apatmentSelect">Барам простор</option>
                   <option class="dropdown-item"  value ="false">Барам цимер</option>
                 </div>
               </select>
-    
               <select  id="seconddropdown"class="btn btn-secondary-2 dropdown-toggle"  role="button" id="dropdownMenuLink"
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="selected">
-              
-             
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                   <option class="dropdown-item"  value ="all" >Локација</option>
                   <option class="dropdown-item"  value ="Центар" >Центар</option>
@@ -57,22 +47,10 @@
                   <option class="dropdown-item"  value ="Кисела Вода">Кисела Вода</option>
                 </div>
               </select>
- 
-              <li><a href="#" id = "search-btn" class="btn btn-light-search" >Најди</a></li>
-              <!-- <button type="button" onclick="GetSelectedValue()">Get Selected Value</button> -->
-    
-              <!-- <p id="result"></p>
-    
-            </div>
-    
-    
-            
-        <div id="list">
-          <div class="wrapper" >
-          </div>
-        </div> -->
+              <li><a href="#" id ="search-btn" class="btn btn-light-search-HomePage" >Најди</a></li>
+          
 
-          <div class="allhouses">
+          <div class="All-Icons-HomePage">
                   <!-- House Cards -->
             <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
              viewBox="0 0 203.89 171.94"><defs>
@@ -82,109 +60,84 @@
               </clipPath>
             </defs>
             <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-            <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+            <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
             </svg>
-    
-    
           <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
             <clipPath id="House">
-    
             <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
             <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-    
             </clipPath>
           </defs>
           <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-    
-          <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-    
+          <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
         </svg>   
-        
         <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
           <clipPath id="House">
-    
           <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
           <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-    
           </clipPath>
         </defs>
         <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-    
-        <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-    
+        <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
       </svg>   <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
         <clipPath id="House">
-    
         <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
         <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-    
         </clipPath>
       </defs>
       <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-    
-      <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-    
+      <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
     </svg>   <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
       <clipPath id="House">
-    
       <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
       <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-    
       </clipPath>
     </defs>
     <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-    
-    <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-    
+    <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
     </svg>  
-    
     <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
     <clipPath id="House">
-    
     <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
     <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-    
     </clipPath>
     </defs>
     <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-    
-    <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-    
+    <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
     </svg> 
     <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
       <clipPath id="House">
-      
       <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
       <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-      
       </clipPath>
       </defs>
       <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-      
-      <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-      
+      <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
       </svg> 
           </div>
 
 
-    <div class="allnames">
-    
+
+
+    <div class="NamesForIcons-HomePage">
               <!-- Card names -->
-            <p class="card-name">Мариja Марковска</p>
-            <p class="card-name">Марко Марковски</p>
-            <p class="card-name">Мариja Марковска</p>
-            <p class="card-name">Марко Марковски</p>
-            <p class="card-name">Мариja Марковска</p>
-            <p class="card-name">Марко Марковски</p>
-            <p class="card-name">Марко Марковски</p>    
+            <p class="card-name-HP">Мариja Марковска</p>
+            <p class="card-name-HP">Марко Марковски</p>
+            <p class="card-name-HP">Мариja Марковска</p>
+            <p class="card-name-HP">Марко Марковски</p>
+            <p class="card-name-HP">Мариja Марковска</p>
+            <p class="card-name-HP">Марко Марковски</p>
+            <p class="card-name-HP">Марко Марковски</p>    
             </div>
           </div>
 
+
+          <!-- Info Cards -->
             
-      <div class="card-rowss" id="bbbb">
-              <div class="cards-columns">
-                <ul class="card-title"> Бесплатен акаунт засекогаш. </ul>
-                <div class="info-cards">
+      <div class="card-rows-HomePage" >
+              <div class="cards-columns-HomePage">
+                <ul class="card-title-HomePage"> Бесплатен акаунт засекогаш. </ul>
+                <div class="info-cards-HomePage">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                     exercitationem dolores praesentium at omnis ipsam magnam mollitia
     
@@ -192,9 +145,9 @@
                     optio similique quos eligendi?</p>
                 </div>
               </div>
-              <div class="cards-columns">
-                <ul class="card-title">Најди цимер по мерка.</ul>
-                <div class="info-cards">
+              <div class="cards-columns-HomePage">
+                <ul class="card-title-HomePage">Најди цимер по мерка.</ul>
+                <div class="info-cards-HomePage">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                     exercitationem dolores praesentium at omnis ipsam magnam mollitia
     
@@ -203,9 +156,9 @@
                 </div>
               </div>
       
-            <div class="cards-columns">
-              <ul class="card-title">Најди простор по мерка.</ul>
-              <div class="info-cards">
+            <div class="cards-columns-HomePage">
+              <ul class="card-title-HomePage">Најди простор по мерка.</ul>
+              <div class="info-cards-HomePage">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                   exercitationem dolores praesentium at omnis ipsam magnam mollitia
     
@@ -213,9 +166,9 @@
                   optio similique quos eligendi?</p>
               </div>
             </div>
-            <div class="cards-columns">
-              <ul class="card-title">Едноставно и брзо поврзување.</ul>
-              <div class="info-cards">
+            <div class="cards-columns-HomePage">
+              <ul class="card-title-HomePage">Едноставно и брзо поврзување.</ul>
+              <div class="info-cards-HomePage">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
                   exercitationem dolores praesentium at omnis ipsam magnam mollitia
     
@@ -225,24 +178,23 @@
             </div>
       </div>   
     
-            <p class="slogan">Зошто
-            <p class="slogan1">roommates.mk?</p>
+            <p class="slogan-HomePage">Зошто
+            <p class="slogan1-HomePage">roommates.mk?</p>
             </p>
     
-    
-    
-              <p class="footer-text">FOLLOW US</p>
-              <img src="./style/instagram.svg" class="instagram">
-              <img src="./style/facebook.svg" class="facebook">
-              <p class="footer-text-1">2020 Roommates.mk</p>
-              <p class="footer-text-2">Mobile App | Terms | Privacy | Contact </p>
-              <button onclick="location.href='registration-page/registration-page.html'"  type="button" class="btn btn-dark-1-registration">РЕГИСТРИРАЈ СЕ!</button>
-    
-    
+    <!-- Footer -->
+              <p class="footer-FollowUs-HomePage">FOLLOW US</p>
+              <img src="./style/images/instagram.svg" class="instagram-HomePage">
+              <img src="./style/images/facebook.svg" class="facebook-HomePage">
+              <p class="footer-Roomates-HomePage">2020 Roommates.mk</p>
+              <p class="footer-Terms-HomePage">Mobile App | Terms | Privacy | Contact </p>
+              <button onclick="location.href='registration-page/registration-page.html'"  type="button" class="btn btn-dark-1-registration-HomePage">РЕГИСТРИРАЈ СЕ!</button>
             </div>
-          
           </section>
-  </div>
+
+
+
+
 
   <div id="searhCards">
     <section class="section2" id="section2">
@@ -318,9 +270,6 @@
       </div>
       
     </div>  
-
-  
-
     <nav aria-label="Page navigation example">
       <ul class="pagination">
         <li class="page-item"><a class="page-link" href="#">Назад</a></li>
@@ -333,8 +282,6 @@
         <li class="page-item"><a class="page-link" href="#">Следно</a></li>
       </ul>
     </nav>
-  
-
   <div class="footer2">
     <div class ="footer-text-follow-us4">
       <p class="footer-text4">FOLLOW US</p>
@@ -348,27 +295,23 @@
       <p class="footer-text-4">Mobile App |Terms |Privacy |Contact </p>
     </div>
   </div>
-
   </div>
-
 </section>
 
-<section class="section3">
 
-  <div  id="allnajava">
-       <header>
-         <div class="logo-top-left">
-             <img src="./Login-page/roommates_logo_white2.png" alt="roommates.mk" class="logo-top-left-image">
+
+
+
+<section class="section3-NajavisePage">
+  <div  id="NajavisePage" class="NajavisePage">
+       <header class="header-NajavisePage">
+         <div class="logo-top-left-NajavisePage">
+             <img src="./style/images/roommates_logo_white2.png" alt="roommates.mk" class="logo-top-left-image-NajavisePage">
          </div>
- 
- 
-         <nav>
-            
-         </nav> 
      </header>
  
  
-     <div class="container">
+     <div class="container-NajavisePage">
          <h1>Добредојде назад! <span class="wave">👋🏾</span></h1>
      
          Емаил:
@@ -376,25 +319,25 @@
      
          Лозинка:
          <input type="password" />
-         <a type="button"  class="login">Најави се</a>
+         <a type="button"  class="login-NajavisePage">Најави се</a>
 
-         <p class="text-in-najava">Сеуште немаш акаунт?</p>
-         <a onclick="location.href='../registration-page/registration-page.html'" type="button" id="signup" class="signup">Регистрирај се</a>
+         <p class="text-in-najava-NajavisePage">Сеуште немаш акаунт?</p>
+         <a onclick="location.href='../registration-page/registration-page.html'" type="button" id="signup" class="signup-NajavisePage">Регистрирај се</a>
          <a href="#">Заборави лозинка...</a>
          <p class="disclaimer">Со користење на Roomates.mk,се согласуваш дека си ги прочитал и разбрал правилата на употреба....</p>
        </div>
    
-     <div class="footer3">
-         <div class ="footer-text-follow-us3">
-           <p class="footer-text3">FOLLOW US</p>
+     <div class="footer-NajavisePage">
+         <div class ="footer-FollowUs-NajavisePage">
+           <p >FOLLOW US</p>
          </div>
-         <div class="logo-footer-text-3">
-         <img src="./Login-page/instagram.svg" class="instagram3">
-         <img src="./Login-page/facebook.svg" class="facebook3">
+         <div class="logo-footer-NajavisePage">
+         <img src="./style/images/instagram.svg" class="instagram-NajavisePage">
+         <img src="./style/images/facebook.svg" class="facebook-NajavisePage">
          <p class="footer-text-3">2020 Roommates.mk</p>
          </div>
          <div class="footer-text-3-Info">
-           <p class="footer-text-3">Mobile App |Terms |Privacy |Contact </p>
+           <p class="footer-Terms-NajavisePage">Mobile App |Terms |Privacy |Contact </p>
          </div>
          </div>
          </div>
@@ -405,21 +348,19 @@
 <!-- SCRIPTS -->
 
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
     integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
     crossorigin="anonymous"></script>
-    
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://pagination.js.org/dist/2.1.4/pagination.min.js"></script>
 <script src="./Jsons/users.json"></script>
-    <script src="./style/homepage.js"></script>
+    <script src="./script/homepage.js"></script>
     <script src="SearchedCardsPage/userRepository.js"></script>
     <script src="SearchedCardsPage/searchcards.js"></script>
-    <script src="./Login-page/najava.js"></script>
+    <script src="./script/najavise.js"></script>
 
 
 </body>
