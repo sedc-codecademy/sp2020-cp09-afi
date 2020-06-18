@@ -4,10 +4,9 @@
       "fullName": "Трале Тралевски",
       "age": "25",
       "sex": "маж",
-      "nationality": "македонsko",
       "email": "trale123@gmail.com",
       "phoneNumber": "075-993-555",
-      "student": true,
+      "address":"ул.11 Октомври бр.22/5 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
     },
     "preferences": {
@@ -47,8 +46,8 @@
       "doYouHaveSpace": true,
       "roomQuestions": [
         {
-          "region": "Кисела Вода",
-          "howMuchRentAndOverhead": "200-350 evra",
+          "region": "Центар",
+          "howMuchRentAndOverhead": "200",
           "internetAccess": true,
           "operator": "Телекабел",
           "tvAccess": true,
@@ -72,10 +71,9 @@
       "fullName": "Mаја Абрамовиќ",
       "age": "26",
       "sex": "жена",
-      "nationality": "македонско",
       "email": "maja26@yahoo.com",
       "phoneNumber": "078-223-455",
-      "student": true,
+      "address":"бул.Србија бр.34/12 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
     },
     "preferences": {
@@ -115,8 +113,8 @@
       "doYouHaveSpace": false,
       "roomQuestions": [
         {
-          "region": "Аеродром",
-          "payment": "100-300 evra",
+          "region": "Кисела Вода",
+          "payment": "300 evra",
           "area": "30-40m2",
           "typeOfHeating": "Струја",
           "rooms": "1",
@@ -134,10 +132,9 @@
       "fullName": "Столе Столевич",
       "age": "21",
       "sex": "маж",
-      "nationality": "србин",
       "email": "stole_stolevic@outlook.com",
       "phoneNumber": "077-423-365",
-      "student": true,
+      "address":"бул.Партизански Одреди бр.103/12 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
     },
     "preferences": {
@@ -177,8 +174,8 @@
       "doYouHaveSpace": true,
       "roomQuestions": [
         {
-          "region": "Гази Баба",
-          "howMuchRentAndOverhead": "220-380 evra",
+          "region": "Aеродром",
+          "howMuchRentAndOverhead": "220",
           "internetAccess": true,
           "operator": "Телеком",
           "tvAccess": false,
@@ -202,10 +199,9 @@
       "fullName": "Силвана Стојановска",
       "age": "24",
       "sex": "жена",
-      "nationality": "македонско",
       "email": "sil_stojanovska@gmail.com",
       "phoneNumber": "070-153-285",
-      "student": true,
+      "address":"ул.Перо Наков бр.25/5 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
     },
     "preferences": {
@@ -245,8 +241,8 @@
       "doYouHaveSpace": true,
       "roomQuestions": [
         {
-          "region": "Центар",
-          "howMuchRentAndOverhead": "300-450 evra",
+          "region": "Чаир",
+          "howMuchRentAndOverhead": "300",
           "internetAccess": true,
           "operator": "А1",
           "tvAccess": true,
@@ -270,10 +266,9 @@
       "fullName": "Никола Каменовски",
       "age": "19",
       "sex": "маж",
-      "nationality": "македонско",
       "email": "kamen19@yahoo.com",
       "phoneNumber": "071-223-525",
-      "student": true,
+      "address":"ул.Тиранска бр.45/17 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
     },
     "preferences": {
@@ -313,8 +308,8 @@
       "doYouHaveSpace": false,
       "roomQuestions": [
         {
-          "region": "Чаир",
-          "payment": "100-250 evra",
+          "region": "Бутел",
+          "payment": "250 evra",
           "area": "30-40m2",
           "typeOfHeating": "Дрва",
           "rooms": "1",
@@ -332,10 +327,9 @@
       "fullName": "Анастасија Јакимовска",
       "age": "22",
       "sex": "жена",
-      "nationality": "македонско",
       "email": "ane@gmail.com",
       "phoneNumber": "076-333-025",
-      "student": true,
+      "address":"ул.Востаничка бр.10/2 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
     },
     "preferences": {
@@ -375,8 +369,8 @@
       "doYouHaveSpace": true,
       "roomQuestions": [
         {
-          "region": "Карпош",
-          "howMuchRentAndOverhead": "350-400 evra",
+          "region": "Центар",
+          "howMuchRentAndOverhead": "350 evra",
           "internetAccess": true,
           "operator": "А1",
           "tvAccess": false,
@@ -400,10 +394,9 @@
       "fullName": "Мартин Кузмановски",
       "age": "25",
       "sex": "маж",
-      "nationality": "македонско",
       "email": "martin_kuzmanovski95@outlook.com",
       "phoneNumber": "077-103-226",
-      "student": true,
+      "address":"ул.Џон Кенеди бр.102/3 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
     },
     "preferences": {
@@ -443,8 +436,8 @@
       "doYouHaveSpace": false,
       "roomQuestions": [
         {
-          "region": "Бутел",
-          "payment": "180-250 evra",
+          "region": "Карпош",
+          "payment": "180",
           "area": "41-50m2",
           "typeOfHeating": "Сопствено парно",
           "rooms": "2",
@@ -462,10 +455,9 @@
       "fullName": "Теодора Петроска",
       "age": "18",
       "sex": "жена",
-      "nationality": "македонско",
       "email": "teddy123@yahoo.com",
       "phoneNumber": "072-058-119",
-      "student": true,
+      "address":"ул.Бутелска бр.42/8 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
     },
     "preferences": {
@@ -505,8 +497,8 @@
       "doYouHaveSpace": true,
       "roomQuestions": [
         {
-          "region": "Ѓорче Петров",
-          "howMuchRentAndOverhead": "120-220 evra",
+          "region": "Бутел",
+          "howMuchRentAndOverhead": "120",
           "internetAccess": true,
           "operator": "А1",
           "tvAccess": true,
@@ -530,10 +522,9 @@
       "fullName": "Андрија Петрович",
       "age": "26",
       "sex": "маж",
-      "nationality": "србин",
       "email": "andrija_petrovic@outlook.com",
       "phoneNumber": "078-425-867",
-      "student": true,
+      "address":"ул.Рузвелтова бр.1/6 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
     },
      "preferences": {
@@ -573,8 +564,8 @@
       "doYouHaveSpace": false,
       "roomQuestions": [
         {
-           "region": "Кисела Вода",
-          "payment": "250-330 evra",
+           "region": "Центар",
+          "payment": "330",
           "area": "51-60m2",
           "typeOfHeating": "Струја и сопствено парно",
           "rooms": "3",
@@ -592,10 +583,9 @@
       "fullName": "Ивана Стојановска",
       "age": "21",
       "sex": "жена",
-      "nationality": "македонско",
       "email": "iva98@gmail.com",
       "phoneNumber": "078-356-773",
-      "student": true,
+      "address":"ул.Вангел Тодорвски бр.100/5 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
     },
      "preferences": {
@@ -635,8 +625,8 @@
       "doYouHaveSpace": true,
       "roomQuestions": [
         {
-          "region": "Ѓорче Петров",
-          "howMuchRentAndOverhead": "120-220 evra",
+          "region": "Аеродром",
+          "howMuchRentAndOverhead": "120",
           "internetAccess": true,
           "operator": "А1",
           "tvAccess": true,
@@ -660,10 +650,9 @@
       "fullName": "Иван Панчевски",
       "age": "28",
       "sex": "маж",
-      "nationality": "македонско",
       "email": "ivan_pance@yahoo.com",
       "phoneNumber": "072-435-955",
-      "student": false,
+      "address":"бул.Илинден бр.10/10 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
     },
     "preferences": {
@@ -703,8 +692,8 @@
       "doYouHaveSpace": true,
       "roomQuestions": [
         {
-          "region": "Ѓорче Петров",
-          "howMuchRentAndOverhead": "210-360 evra",
+          "region": "Карпош",
+          "howMuchRentAndOverhead": "360",
           "internetAccess": true,
           "operator": "Телеком",
           "tvAccess": false,
@@ -728,10 +717,9 @@
       "fullName": "Антонија Петрушевска",
       "age": "35",
       "sex": "жена",
-      "nationality": "македонско",
       "email": "antonija295@gmail.com",
       "phoneNumber": "077-185-449",
-      "student": false,
+      "address":"ул.Антон Попов бр.22/5 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
     },
     "preferences": {
@@ -771,8 +759,8 @@
       "doYouHaveSpace": false,
       "roomQuestions": [
         {
-           "region": "Бутел",
-          "payment": "130-300 evra",
+          "region": "Центар",
+          "payment": "300",
           "area": "30-40m2",
           "typeOfHeating": "Сопствено парно",
           "rooms": "1",
@@ -790,10 +778,9 @@
       "fullName": "Марјан Атанасовски",
       "age": "29",
       "sex": "маж",
-      "nationality": "македонско",
       "email": "marjan92@yahoo.com",
       "phoneNumber": "075-215-626",
-      "student": false,
+      "address":"ул.Моцартова бр.50/4 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
     },
     "preferences": {
@@ -833,8 +820,8 @@
       "doYouHaveSpace": false,
       "roomQuestions": [
         {
-           "region": "Ѓорче Петров",
-          "payment": "200-400 evra",
+           "region": "Кисела Вода",
+          "payment": "200",
           "area": "71-80m2",
           "typeOfHeating": "Струја и сопствено парно",
           "rooms": "4",
@@ -852,10 +839,9 @@
       "fullName": "Сара Трајчевска",
       "age": "27",
       "sex": "жена",
-      "nationality": "македонско",
       "email": "sara12345@outlook.com",
       "phoneNumber": "077-525-258",
-      "student": false,
+      "address":"бул.Борис Трајковски бр.1/3 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
     },
     "preferences": {
@@ -895,8 +881,8 @@
       "doYouHaveSpace": true,
       "roomQuestions": [
         {
-          "region": "Центар",
-          "howMuchRentAndOverhead": "250-420 evra",
+          "region": "Кисела Вода",
+          "howMuchRentAndOverhead": "250",
           "internetAccess": true,
           "operator": "Телекабел",
           "tvAccess": true,
@@ -920,10 +906,9 @@
       "fullName": "Стефан Ристевски",
       "age": "21",
       "sex": "маж",
-      "nationality": "македонско",
       "email": "stefan@outlook.com",
       "phoneNumber": "072-150-303",
-      "student": false,
+      "address":"ул.Цветан Димов бр.33/5 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
     },
     "preferences": {
@@ -964,7 +949,7 @@
       "roomQuestions": [
         {
            "region": "Центар",
-          "payment": "230-350 evra",
+          "payment": "350",
           "area": "51-60m2",
           "typeOfHeating": "Струја",
           "rooms": "2",
@@ -982,10 +967,9 @@
       "fullName": "Валентина Костадинова",
       "age": "38",
       "sex": "жена",
-      "nationality": "македонско",
       "email": "kostadinova123@gmail.com",
       "phoneNumber": "074-221-880",
-      "student": false,
+      "address":"ул.Боро Менков бр.28/10 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
     },
     "preferences": {
@@ -1025,8 +1009,8 @@
       "doYouHaveSpace": true,
       "roomQuestions": [
         {
-          "region": "Кисела Вода",
-          "howMuchRentAndOverhead": "320-500 evra",
+          "region": "Бутел",
+          "howMuchRentAndOverhead": "320",
           "internetAccess": true,
           "operator": "А1",
           "tvAccess": true,
@@ -1050,10 +1034,9 @@
       "fullName": "Влатко Здравковски",
       "age": "31",
       "sex": "маж",
-      "nationality": "македонско",
       "email": "vlatko_zdravkovski123@yahoo.com",
       "phoneNumber": "076-745-915",
-      "student": false,
+      "address":"ул.Народни Херои бр.19/2 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
     },
     "preferences": {
@@ -1093,8 +1076,8 @@
       "doYouHaveSpace": true,
       "roomQuestions": [
         {
-          "region": "Карпош",
-          "howMuchRentAndOverhead": "350-450 evra",
+          "region": "Кисела Вода",
+          "howMuchRentAndOverhead": "250",
           "internetAccess": true,
           "operator": "Teлекабел",
           "tvAccess": false,
@@ -1118,10 +1101,9 @@
       "fullName": "Една Мариновиќ",
       "age": "34",
       "sex": "жена",
-      "nationality": "македонско",
       "email": "marinovich@outlook.com",
       "phoneNumber": "078-338-725",
-      "student": false,
+      "address":"бул.Јане Сандански бр.30/9 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
     },
     "preferences": {
@@ -1161,8 +1143,8 @@
       "doYouHaveSpace": false,
       "roomQuestions": [
         {
-           "region": "Гази Баба",
-          "payment": "280-350 evra",
+           "region": "Центар",
+          "payment": "280",
           "area": "30-40m2",
           "typeOfHeating": "Дрва",
           "rooms": "1",
@@ -1180,10 +1162,9 @@
       "fullName": "Јован Стефановски",
       "age": "30",
       "sex": "маж",
-      "nationality": "македонско",
       "email": "stefanovski_jovan@gmail.com",
       "phoneNumber": "073-155-222",
-      "student": false,
+      "address":"ул.Митрополит Теодосиј Гологанов бр.88/20 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
     },
     "preferences": {
@@ -1223,8 +1204,8 @@
       "doYouHaveSpace": false,
       "roomQuestions": [
         {
-           "region": "Центар",
-          "payment": "300-320 evra",
+           "region": "Аеродром",
+          "payment": "300",
           "area": "61-70m2",
           "typeOfHeating": "Струја и градско парно",
           "rooms": "3",
@@ -1242,10 +1223,9 @@
       "fullName": "Мартина Ѓорчевска",
       "age": "42",
       "sex": "маж",
-      "nationality": "македонско",
       "email": "gjorcevksa@gmail.com",
       "phoneNumber": "078-315-108",
-      "student": false,
+      "address":"ул.Шар Планина бр.1/10 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
     },
     "preferences": {
@@ -1285,8 +1265,8 @@
       "doYouHaveSpace": true,
       "roomQuestions": [
         {
-          "region": "Центар",
-          "howMuchRentAndOverhead": "300-400 evra",
+          "region": "Ѓорче Петров",
+          "howMuchRentAndOverhead": "300",
           "internetAccess": true,
           "operator": "Teлеком",
           "tvAccess": true,
