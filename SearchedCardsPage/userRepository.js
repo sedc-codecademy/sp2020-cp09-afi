@@ -30,10 +30,13 @@ let RoomatesDb = {
 };
 
 function filterRoomates(roomates, selectedLocation, selectedRoomateOrAparment){
+  if(selectedLocation === "Локација"){
+    return roomates.filter(r => selectedRoomateOrAparment == String(r.preferences.doYouHaveSpace)
+    );
+  }
   return roomates.filter(r => selectedLocation === r.preferences.roomQuestions[0].region
     && selectedRoomateOrAparment == String(r.preferences.doYouHaveSpace)
-  );
-  
+  );  
 }
 
 
@@ -81,7 +84,7 @@ function pagination (){
 
 setTimeout(function(){console.log(roomates)}, 10000);
 
-console.log(roomatesList);
+//console.log(roomatesList);
 
 
 
