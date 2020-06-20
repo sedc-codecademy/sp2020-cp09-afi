@@ -201,13 +201,6 @@ background-color: white;
 
 
 
-#Layer_1{
-  position: unset;
-  width: 240px;
-  height: 250px;
-  margin-left: 25px;
-  margin-top: 30px;
-}
 #Layer_2 {
   top: 440px;
   position: relative;

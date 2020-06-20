@@ -18,6 +18,21 @@ kopchenajava.addEventListener("click" ,function(){
 })
 
 
+let userprofilepage = document.querySelector(".user-profile-container-body");
+let logintouserprofilebutton = document.querySelector(".login-NajavisePage");
+let najavisepage = document.getElementById("NajavisePage");
+
+userprofilepage.style.display ="none";
+
+
+logintouserprofilebutton.addEventListener("click",function(){
+
+userprofilepage.style.display = "block";
+najavisepage.style.display = "none";
+
+})
+
+
 
 // function login(){
 
