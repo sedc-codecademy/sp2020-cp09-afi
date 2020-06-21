@@ -53,8 +53,8 @@ function pagination (){
           // if(selectedLocation === roomate.preferences.roomQuestions[0].region.trim()){
             const imageMale = "./SearchedCardsPage/images/tirkizna3.png";
             const imageFemale = "./SearchedCardsPage/images/magenta.png";
-            const colorMale = "card card-color-2";
-            const colorFemale = "card card-color-1";
+            const colorMale = "searchcard card-color-2";
+            const colorFemale = "searchcard card-color-1";
              $('#list .wrapper').append(`<div class="${roomate.user.sex === 'жена' ? colorFemale :colorMale}">
              <div class="card-house-icon">
                <img src="${roomate.user.sex === 'жена' ? imageFemale : imageMale}" alt="" class="card-house-image">
