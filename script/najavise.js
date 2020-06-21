@@ -18,9 +18,28 @@ kopchenajava.addEventListener("click" ,function(){
 })
 
 
+let apartmentrentarprofilepage = document.querySelector(".apartment-profile-container-body");
+let logintoapartmentownerprofilebutton = document.querySelector(".signup-NajavisePage");
+// let najavisepage = document.getElementById("NajavisePage");
+
+apartmentrentarprofilepage.style.display ="none";
+
+
+logintoapartmentownerprofilebutton.addEventListener("click",function(){
+
+apartmentrentarprofilepage.style.display = "block";
+najavisepage.style.display = "none";
+
+})
+
+
+
 let userprofilepage = document.querySelector(".user-profile-container-body");
 let logintouserprofilebutton = document.querySelector(".login-NajavisePage");
 let najavisepage = document.getElementById("NajavisePage");
+
+
+
 
 userprofilepage.style.display ="none";
 
@@ -31,6 +50,10 @@ userprofilepage.style.display = "block";
 najavisepage.style.display = "none";
 
 })
+
+
+
+
 
 
 
