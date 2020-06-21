@@ -287,7 +287,7 @@ color: black;
 }
 .card-title-1{
     font-family: 'DinPro';
-
+    font-size: 24px;
     color: #aa1a75;
     font-weight: bold;
 }
@@ -302,14 +302,13 @@ color: black;
 
 .card-title-2{
     font-family: 'DinPro';
-
+    font-size: 24px;
     color: #4da3b4;
     font-weight: bold;
 }
 
 .card-text-2{
     font-family: 'DinPro';
-
     color: #4da3b4;
     font-weight: bold;
     font-size: 24px;
@@ -325,13 +324,21 @@ color: black;
     height: 200px;
   }
 
-.btn-primary{
+.btn-primary-colorMagenta{
     font-family: 'DinPro';
-
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #aa1a75;
+    
+
 }
 
+.btn-primary-colorBlue{
+    font-family: 'DinPro';
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #007bff;
+}
 
 
 
