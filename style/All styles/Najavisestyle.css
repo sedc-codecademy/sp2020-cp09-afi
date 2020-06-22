@@ -25,6 +25,7 @@
     background-image: url("../images/home_page_bez_slika.png");
     background-size: 70%;
     background-repeat: repeat;
+    overflow: hidden;
 
 }
 
@@ -32,7 +33,7 @@
 .header-NajavisePage {
     background-color: #AA1A75;
     width: 100%;
-    height: 140px;
+    height: 110px;
     display: flex;
     align-items: center;
     padding-left: 7%;
@@ -41,8 +42,8 @@
 
 .logo-top-left-image-NajavisePage{
   width: 160px;
-  height: 150px;
-  margin-left: 60px;
+  height: 120px;
+  margin-left: 20px;
 }
  
 
@@ -104,13 +105,13 @@ font-size: 20px;
   }
   .container-NajavisePage {
       margin-left: 35%;
-    margin-top: 60px;
+    margin-top: 20px;
     font-size: 24px;
     display: flex;
     font-family: 'DinPro';
     flex-direction: column;
-    max-width: 530px;
-    max-height: 1000px;
+    max-width: 500px;
+    max-height: 850px;
     background:white(1,1,1,0.4);
     padding: 3.1em;
     border-radius: 9px;
@@ -122,7 +123,7 @@ font-size: 20px;
      position: relative;
      font-size: 29px;
      font-family: 'DinPro';
-     margin-top: 15px;
+     margin-top: 5px;
      margin-left: 70px;
 
   }
@@ -167,6 +168,7 @@ font-size: 20px;
   }
  
   .disclaimer {
+    margin-top: -20px;
     font-size: 0.9em;
   }
   
@@ -187,7 +189,7 @@ font-size: 20px;
 
 .footer-NajavisePage{
   position: relative;
-    margin-top: 70px;
+    margin-top: 30px;
     background-image: url("../images/footer.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
