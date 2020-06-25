@@ -1,4 +1,4 @@
-
+//najavi se kopche od homepage
 
 let allcontent = document.getElementById("all-content-HomePage");
 let allnajava = document.getElementById("NajavisePage");
@@ -17,6 +17,8 @@ kopchenajava.addEventListener("click" ,function(){
   
 })
 
+// sign up leads you to apartmentprofile
+
 
 let apartmentrentarprofilepage = document.querySelector(".apartment-profile-container-body");
 let logintoapartmentownerprofilebutton = document.querySelector(".signup-NajavisePage");
@@ -33,6 +35,8 @@ najavisepage.style.display = "none";
 })
 
 
+
+// log in leads you to user  profile
 
 let userprofilepage = document.querySelector(".user-profile-container-body");
 let logintouserprofilebutton = document.querySelector(".login-NajavisePage");
@@ -53,6 +57,13 @@ najavisepage.style.display = "none";
 
 
 
+let logo = document.getElementById("logo-image");
+
+logo.addEventListener("click",function(){
+    allnajava.style.display = "none";
+    allcontent.style.display = "block";
+
+})
 
 
 
