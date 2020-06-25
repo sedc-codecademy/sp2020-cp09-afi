@@ -101,26 +101,34 @@
         <h1>Општи информации:</h1>
         <ul style="list-style-type:none">
             <li>Дали си пушач?
+                <div>
                 <input type="radio" name="yes_no">Да
                 <input type="radio" name="yes_no">Не
+                </div>
             </li>
             <li>Дали би пушел цигари само во отворен простор, доколку такво барање има твојот потенцијален цимер?
+                <div>
                 <input type="radio" name="yes_no">Да
                 <input type="radio" name="yes_no">Не
+                </div>
             </li>
             <li>
                 Дали си љубител на животни?
+                <div>
                 <input type="radio" name="yes_no">Да
                 <input type="radio" name="yes_no">Не
+                </div>
             </li>
             <li>
                 Дали имаш свое милениче?
+                <div>
                 <input type="radio" name="yes_no">Да
                 <input type="radio" name="yes_no">Не
+                </div>
             </li>
             <li>
-                Доколку да, какво милениче чуваш?
-                <input type="text" name="pet" placeholder="Милениче:">
+                Доколку да, какво милениче чуваш?               
+                <input type="text" name="pet" placeholder="Милениче:">                
             </li>
             <li>
                 Дали би ти пречело ако твојот потенцијален цимер чува милениче?
@@ -151,8 +159,10 @@
             </li>
             <li>
                 Дали би сакал да му поставиш други прашања на твојот цимер?
+                <div>
                 <input type="radio" name="yes_no">Да
                 <input type="radio" name="yes_no">Не
+                </div>
             </li>
             <li>
                 Доколку да, кои се тие?
@@ -192,8 +202,10 @@
                 </li>
                 <li>
                     Дали во просторот има обезбедено интернет?
+                    <div>
                     <input type="radio" name="yes_no">Да
                     <input type="radio" name="yes_no">Не
+                    </div>
                 </li>
                 <li>
                     На кој оператор е интернетот?
@@ -206,8 +218,10 @@
                 </li>
                 <li>
                     Дали во просторот има телевизија?
+                    <div>
                     <input type="radio" name="yes_no">Да
                     <input type="radio" name="yes_no">Не
+                    </div>
                 </li>
                 <li>
                     На кој оператор е телевизијата?
@@ -273,13 +287,17 @@
                 </li>
                 <li>
                     Дали во просторот е дозволено пушење?
+                    <div>
                     <input type="radio" name="yes_no">Да
                     <input type="radio" name="yes_no">Не
+                    </div>
                 </li>
                 <li>
                     Дали во просторот има кујна?
+                    <div>
                     <input type="radio" name="yes_no">Да
                     <input type="radio" name="yes_no">Не
+                    </div>
                 </li>
                 <li>
                     Дали кујната е комплетно опремена?
@@ -397,8 +415,10 @@
                 </li>
                 <li>
                     Дали бараш простор во кој пушењето на цигари е дозволено?
+                    <div>
                     <input type="radio" name="yes_no">Да
                     <input type="radio" name="yes_no">Не
+                    </div>
                 </li>
             </ul style="list-style-type:none">
         <div id="kopcinja1">
@@ -408,7 +428,7 @@
         </div>
     <div id="div4" class="hideContent">
         <h1>Што бараш?</h1>
-        <ul style="list-style-type:none" style="list-style-type:none;">
+        <ul style="list-style-type:none" class="container">
             <li><input type="checkbox">Барам цимер без простор</li>
             <li><input type="checkbox">Барам цимер со простор</li>
             <li><input type="checkbox">Барам простор</li>
@@ -418,18 +438,21 @@
         </div>
     </div>
     <div id="div10" class="hideContent">
+        <ul style="list-style-type:none">
         <li>
             Дали би ти пречело ако твојот цимер пуши цигари само во отворен?
+            <div>
             <input type="radio" name="yes_no">Да
             <input type="radio" name="yes_no">Не
+            </div>
         </li>
-
         <li>
             Дали твјот цимер треба да е љубител на животни?
+            <div>
             <input type="radio" name="yes_no">Да
             <input type="radio" name="yes_no">Не
+            </div>
         </li>
-
         <li>
             Дали би ти пречело ако твојот потенцијален цимер чува милениче?
             <select>
@@ -440,6 +463,7 @@
                 <option value="">Не, ако е куче со мал раст. </option>
             </select>
         </li>
+        <li>
         Интереси
         <select mul style="list-style-type:none" tiple name="" id="">
             <option selected>спорт</option>
@@ -455,13 +479,15 @@
             <option selected>вегетеријанец</option>
             <option selected>активен спортист</option>
         </select>
+        </li>
         <li>
-            <div class="slideContainer">
+                    <div class="slideContainer">
                 До колкав износ очекуваш да покрива месечно твојот цимер?
                 <input type="range" min="2000" max="30000" value="2000" id="myRange3" class="slider">
                 <p>Денари:<span id="value3"></span></p>
             </div>
         </li>
+        </ul>
         <div id="kopcinja1">
         <button onclick="nazad4()" class="kopcinja">Назад</button>
         <button class="kopcinja">Комплетирај го профилот!</button>
@@ -536,8 +562,10 @@
 
             <li>
                 Дали во просторот има обезбедено интернет?
+                <div>
                 <input type="radio" name="yes_no">Да
                 <input type="radio" name="yes_no">Не
+                </div>
             </li>
             <li>
                 На кој оператор е интернетот?
@@ -550,8 +578,10 @@
             </li>
             <li>
                 Дали во просторот има телевизија?
+                <div>
                 <input type="radio" name="yes_no">Да
                 <input type="radio" name="yes_no">Не
+                </div>
             </li>
             <li>
                 На кој оператор е телевизијата?
@@ -622,14 +652,18 @@
 
             <li>
                 Дали во просторот е дозволено пушење?
+                <div>
                 <input type="radio" name="yes_no">Да
                 <input type="radio" name="yes_no">Не
+                </div>
             </li>
 
             <li>
                 Дали во просторот има кујна?
+                <div>
                 <input type="radio" name="yes_no">Да
                 <input type="radio" name="yes_no">Не
+                </div>
             </li>
             <li>
                 Дали кујната е комплетно опремена?

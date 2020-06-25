@@ -83,7 +83,7 @@ h3 {
     height: 330px;
     border-radius: 45px;
     font-size: 25px;
-    background:rgba(1,1,1,0.3);
+    background:rgba(154, 18, 179, 0.7);
 }
 
 .text-insearchbox {
@@ -146,7 +146,7 @@ h3 {
     width: 910px;
     height: 800px;
     border-radius: 45px;
-    background:rgba(1,1,1,0.3);
+    background:rgba(154, 18, 179, 0.7);
 }
 
 #prikaci {
@@ -179,9 +179,9 @@ h3 {
     margin-left: 7%;
     margin-bottom: 10%;
     width: 910px;
-    height: 550px;
+    height: 630px;
     border-radius: 45px;
-    background:rgba(1,1,1,0.3);
+    background:rgba(154, 18, 179, 0.7);
 }
 
 #div3 {
@@ -194,7 +194,7 @@ h3 {
     width: 910px;
     height: 290px;
     border-radius: 45px;
-    background:rgba(1,1,1,0.3);
+    background:rgba(154, 18, 179, 0.7);
 }
 
 #div3_1 {
@@ -205,9 +205,9 @@ h3 {
     margin-left: 7%;
     margin-bottom: 10%;
     width: 910px;
-    height: 715px;
+    height: 810px;
     border-radius: 45px;
-    background:rgba(1,1,1,0.3);
+    background:rgba(154, 18, 179, 0.7);
 }
 
 #div3_2 {
@@ -218,9 +218,9 @@ h3 {
     margin-left: 7%;
     margin-bottom: 10%;
     width: 910px;
-    height: 510px;
+    height: 530px;
     border-radius: 45px;
-    background:rgba(1,1,1,0.3);
+    background:rgba(154, 18, 179, 0.7);
 }
 
 #div4 {
@@ -231,9 +231,9 @@ h3 {
     margin-left: 7%;
     margin-bottom: 10%;
     width: 910px;
-    height: 280px;
+    height: 260px;
     border-radius: 45px;
-    background:rgba(1,1,1,0.3);
+    background:rgba(154, 18, 179, 0.7);
 }
 
 #div10 {
@@ -244,9 +244,9 @@ h3 {
     margin-left: 7%;
     margin-bottom: 10%;
     width: 910px;
-    height: 370px;
+    height: 385px;
     border-radius: 45px;
-    background:rgba(1,1,1,0.3);
+    background:rgba(154, 18, 179, 0.7);
 }
 
 #div6 {
@@ -259,7 +259,7 @@ h3 {
     width: 910px;
     height: 580px;
     border-radius: 45px;
-    background:rgba(1,1,1,0.3);
+    background:rgba(154, 18, 179, 0.7);
 }
 
 #div7 {
@@ -270,9 +270,9 @@ h3 {
     margin-left: 7%;
     margin-bottom: 10%;
     width: 910px;
-    height: 720px;
+    height: 830px;
     border-radius: 45px;
-    background:rgba(1,1,1,0.3);
+    background:rgba(154, 18, 179, 0.7);
 }
 
 #div7_1 {
@@ -285,7 +285,7 @@ h3 {
     width: 910px;
     height: 200px;
     border-radius: 45px;
-    background:rgba(1,1,1,0.3);
+    background:rgba(154, 18, 179, 0.7);
 }
 
 #div7_2 {
@@ -347,4 +347,13 @@ h3 {
     background: white;
     border-radius: 50%;
     cursor: pointer; 
+}
+
+.form-control {
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
