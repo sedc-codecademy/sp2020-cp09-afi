@@ -65,7 +65,18 @@ logo.addEventListener("click",function(){
 
 })
 
+let registracija = document.querySelector(".section-reg");
+let regbutton = document.getElementById("registriraj-HomePage");
 
+
+registracija.style.display = "none";
+
+regbutton.addEventListener("click",function(){
+
+registracija.style.display = "block";
+allcontent.style.display = "none";
+
+})
 
 
 // function login(){
