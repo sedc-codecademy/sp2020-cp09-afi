@@ -213,6 +213,13 @@ background-color: white;
   
 }
 
+
+.cls-3 {
+  fill: none;
+  stroke: #AA1A75;
+  stroke-miterlimit: 10;
+  stroke-width: 8px;}
+
 .imageinhouse-HomePage {
   position: relative;
   width: 112%;
