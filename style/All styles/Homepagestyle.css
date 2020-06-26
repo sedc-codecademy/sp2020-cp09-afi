@@ -226,22 +226,26 @@ background-color: white;
 
 .card-name-HP{
   font-family: 'DinPro';
-  position: relative;
+  /* position: relative; */
 color: black;
-top: 250px;
+top: 350px;
 font-weight: bold;
 font-size: 24px;
-padding: 80px;
+padding: 52px;
 right: 330px;
-display: inline-flex;
+/* display: inline-flex; */
 
 
 
 }
 
 .NamesForIcons-HomePage {
+  padding: -50px;
+  right: 320px;
+  top: 290px;
   position: relative;
-  display: inline-flex;
+  display: -webkit-box;
+  /* display: inline-flex; */
 
 }
 
