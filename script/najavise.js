@@ -55,7 +55,7 @@ najavisepage.style.display = "none";
 
 })
 
-
+// click on logo and go back to home page
 
 let logo = document.getElementById("logo-image");
 
@@ -64,6 +64,8 @@ logo.addEventListener("click",function(){
     allcontent.style.display = "block";
 
 })
+
+// go to registrasion forms
 
 let registracija = document.querySelector(".section-reg");
 let regbutton = document.getElementById("registriraj-HomePage");
@@ -78,6 +80,19 @@ allcontent.style.display = "none";
 
 })
 
+
+ //second button to register
+
+let registrationbuttonsecone = document.getElementById("reg-second");
+
+
+registrationbuttonsecone.addEventListener("click",function(){
+
+
+    registracija.style.display = "block";
+    allcontent.style.display = "none";
+
+})
 
 // function login(){
 
