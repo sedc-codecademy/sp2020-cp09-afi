@@ -94,16 +94,54 @@ registrationbuttonsecone.addEventListener("click",function(){
 
 })
 
-// function login(){
-
-//     allnajava.style.display = "none";
-//     allprofile.style.display = "block";
-// }
 
 
-// function registriraj(){
+// privacy policy
 
-//     allregistriraj.style.display = "block";
-//     allcontent.style.display ="none";
 
-// }
+let privacypolicy = document.getElementById("section-footer");
+let privacybutton = document.getElementById("privacy");
+
+
+privacypolicy.style.display = "none";
+
+privacybutton.addEventListener("click",function(){
+
+  allcontent.style.display = "none";
+  privacypolicy.style.display = "block";
+
+})
+
+
+//terms
+
+
+let terms = document.getElementById("section-terms");
+let termsbutton = document.getElementById("terms");
+
+
+terms.style.display = "none";
+
+termsbutton.addEventListener("click", function(){
+
+    allcontent.style.display = "none";
+    privacypolicy.style.display = "none";
+    terms.style.display = "block";
+
+})
+
+
+let contacts = document.getElementById("section-contacts");
+let contactsbutton = document.getElementById("Contact");
+
+
+contacts.style.display = "none";
+contactsbutton.addEventListener("click", function(){
+
+
+    contacts.style.display = "block";
+    allcontent.style.display = "none";
+})
+
+
+
