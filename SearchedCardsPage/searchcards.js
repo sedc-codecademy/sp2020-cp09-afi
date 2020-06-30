@@ -68,3 +68,15 @@ $('#range').on("input", function() {
     $('.output').val(this.value +"  eur" );
     }).trigger("change");
 
+
+    $(document).ready(function() {
+        $("button").click(function(){
+            var favorite = [];
+            $.each($("input[name='interest']:checked"), function(){            
+                favorite.push($(this).val());
+            });
+            
+            
+            alert("My interests are: " + favorite.join(", "));
+        });
+    });
