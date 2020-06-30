@@ -5,6 +5,7 @@
       "age": "25",
       "sex": "маж",
       "email": "trale123@gmail.com",
+      "password":"trale123",
       "phoneNumber": "075-993-555",
       "address":"ул.11 Октомври бр.22/5 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
@@ -72,6 +73,7 @@
       "age": "26",
       "sex": "жена",
       "email": "maja26@yahoo.com",
+      "password":"maja26",
       "phoneNumber": "078-223-455",
       "address":"бул.Србија бр.34/12 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
@@ -133,6 +135,7 @@
       "age": "21",
       "sex": "маж",
       "email": "stole_stolevic@outlook.com",
+      "password":"stoleStolevic",
       "phoneNumber": "077-423-365",
       "address":"бул.Партизански Одреди бр.103/12 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
@@ -200,6 +203,7 @@
       "age": "24",
       "sex": "жена",
       "email": "sil_stojanovska@gmail.com",
+      "password":"sil334",
       "phoneNumber": "070-153-285",
       "address":"ул.Перо Наков бр.25/5 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
@@ -267,6 +271,7 @@
       "age": "19",
       "sex": "маж",
       "email": "kamen19@yahoo.com",
+      "password":"kamen19",
       "phoneNumber": "071-223-525",
       "address":"ул.Тиранска бр.45/17 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
@@ -328,6 +333,7 @@
       "age": "22",
       "sex": "жена",
       "email": "ane@gmail.com",
+      "password":"ane225",
       "phoneNumber": "076-333-025",
       "address":"ул.Востаничка бр.10/2 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
@@ -395,6 +401,7 @@
       "age": "25",
       "sex": "маж",
       "email": "martin_kuzmanovski95@outlook.com",
+      "password":"martinK",
       "phoneNumber": "077-103-226",
       "address":"ул.Џон Кенеди бр.102/3 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
@@ -456,6 +463,7 @@
       "age": "18",
       "sex": "жена",
       "email": "teddy123@yahoo.com",
+      "password":"teddy445",
       "phoneNumber": "072-058-119",
       "address":"ул.Бутелска бр.42/8 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
@@ -523,6 +531,7 @@
       "age": "26",
       "sex": "маж",
       "email": "andrija_petrovic@outlook.com",
+      "password":"andrijaP",
       "phoneNumber": "078-425-867",
       "address":"ул.Рузвелтова бр.1/6 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
@@ -584,6 +593,7 @@
       "age": "21",
       "sex": "жена",
       "email": "iva98@gmail.com",
+      "password":"iva98",
       "phoneNumber": "078-356-773",
       "address":"ул.Вангел Тодорвски бр.100/5 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
@@ -651,6 +661,7 @@
       "age": "28",
       "sex": "маж",
       "email": "ivan_pance@yahoo.com",
+      "password":"ivanPance123",
       "phoneNumber": "072-435-955",
       "address":"бул.Илинден бр.10/10 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
@@ -718,6 +729,7 @@
       "age": "35",
       "sex": "жена",
       "email": "antonija295@gmail.com",
+      "password":"antonija295",
       "phoneNumber": "077-185-449",
       "address":"ул.Антон Попов бр.22/5 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
@@ -779,6 +791,7 @@
       "age": "29",
       "sex": "маж",
       "email": "marjan92@yahoo.com",
+      "password":"marjan92",
       "phoneNumber": "075-215-626",
       "address":"ул.Моцартова бр.50/4 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
@@ -840,6 +853,7 @@
       "age": "27",
       "sex": "жена",
       "email": "sara12345@outlook.com",
+      "password":"sara12345",
       "phoneNumber": "077-525-258",
       "address":"бул.Борис Трајковски бр.1/3 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
@@ -907,6 +921,7 @@
       "age": "21",
       "sex": "маж",
       "email": "stefan@outlook.com",
+      "password":"stefan229",
       "phoneNumber": "072-150-303",
       "address":"ул.Цветан Димов бр.33/5 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
@@ -968,6 +983,7 @@
       "age": "38",
       "sex": "жена",
       "email": "kostadinova123@gmail.com",
+      "password":"kostadinova123",
       "phoneNumber": "074-221-880",
       "address":"ул.Боро Менков бр.28/10 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
@@ -1035,6 +1051,7 @@
       "age": "31",
       "sex": "маж",
       "email": "vlatko_zdravkovski123@yahoo.com",
+      "password":"zdravkovski123",
       "phoneNumber": "076-745-915",
       "address":"ул.Народни Херои бр.19/2 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
@@ -1102,6 +1119,7 @@
       "age": "34",
       "sex": "жена",
       "email": "marinovich@outlook.com",
+      "password":"marinovicLego",
       "phoneNumber": "078-338-725",
       "address":"бул.Јане Сандански бр.30/9 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
@@ -1163,6 +1181,7 @@
       "age": "30",
       "sex": "маж",
       "email": "stefanovski_jovan@gmail.com",
+      "password":"jovanStef",
       "phoneNumber": "073-155-222",
       "address":"ул.Митрополит Теодосиј Гологанов бр.88/20 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
@@ -1224,6 +1243,7 @@
       "age": "42",
       "sex": "маж",
       "email": "gjorcevksa@gmail.com",
+      "password":"gjore123",
       "phoneNumber": "078-315-108",
       "address":"ул.Шар Планина бр.1/10 Скопје",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9YVjEHVW6SKrrxQdp4DZG8H4op0trZAigvBMKos80Q5OprtAx&usqp=CAU"
