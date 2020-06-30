@@ -5,6 +5,8 @@ let allnajava = document.getElementById("NajavisePage");
 // let allprofile = document.getElementById("hidecontent");
 // let allregistriraj = document.getElementById("allregistracija");
 let kopchenajava = document.getElementById("najava-HomePage");
+let searchApartmentsa = document.getElementById("getApartmentsSearch");
+
 
 
 
@@ -14,6 +16,7 @@ kopchenajava.addEventListener("click" ,function(){
 
     allnajava.style.display = "block";
     allcontent.style.display = "none";
+    searchApartmentsa.style.display = "none";
   
 })
 
@@ -31,6 +34,8 @@ logintoapartmentownerprofilebutton.addEventListener("click",function(){
 
 apartmentrentarprofilepage.style.display = "block";
 najavisepage.style.display = "none";
+searchApartmentsa.style.display = "none";
+
 
 })
 
@@ -77,6 +82,8 @@ regbutton.addEventListener("click",function(){
 
 registracija.style.display = "block";
 allcontent.style.display = "none";
+searchApartmentsa.style.display = "none";
+
 
 })
 
@@ -91,6 +98,8 @@ registrationbuttonsecone.addEventListener("click",function(){
 
     registracija.style.display = "block";
     allcontent.style.display = "none";
+    searchApartmentsa.style.display = "none";
+
 
 })
 
@@ -109,6 +118,8 @@ privacybutton.addEventListener("click",function(){
 
   allcontent.style.display = "none";
   privacypolicy.style.display = "block";
+  searchApartmentsa.style.display = "none";
+
 
 })
 
@@ -127,6 +138,8 @@ termsbutton.addEventListener("click", function(){
     allcontent.style.display = "none";
     privacypolicy.style.display = "none";
     terms.style.display = "block";
+    searchApartmentsa.style.display = "none";
+
 
 })
 
@@ -141,6 +154,8 @@ contactsbutton.addEventListener("click", function(){
 
     contacts.style.display = "block";
     allcontent.style.display = "none";
+    searchApartmentsa.style.display = "none";
+
 })
 
 

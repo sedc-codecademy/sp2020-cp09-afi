@@ -6,8 +6,10 @@ let getcard = document.getElementById("filterthiscard");
 let getsecondcard = document.getElementById("filtersecondcard");
 let homepage = document.getElementsByClassName("section1-HomePage")[0];
 let searchCards = document.getElementById("searhCards");
-let searchApartments = document.getElementById("searchApartments");
+let searchApartments = document.getElementById("getApartmentsSearch");
 let search = document.getElementById("search-btn");
+let searchApartmentss = document.getElementById("getApartmentsSearch");
+
 
 
 let selectLocation = document.getElementById("seconddropdown");
@@ -20,6 +22,7 @@ function showDivRoomate(){
     homepage.style.display = 'none';  
     searchApartments.style.dysplay = 'none';         
     searchCards.style.display = 'block';
+
 }
 
 function showDivApartment(){
