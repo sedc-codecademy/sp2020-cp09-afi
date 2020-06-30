@@ -4,28 +4,46 @@ let allfilter2 = document.getElementById("content2")
 let filterbtn = document.getElementById("filter-button");
 let getcard = document.getElementById("filterthiscard");
 let getsecondcard = document.getElementById("filtersecondcard");
-let homepage = document.getElementById("all-content-HomePage");
+let homepage = document.getElementsByClassName("section1-HomePage")[0];
 let searchCards = document.getElementById("searhCards");
+let searchApartments = document.getElementById("searchApartments");
 let search = document.getElementById("search-btn");
 
+
 let selectLocation = document.getElementById("seconddropdown");
-let selectedLocation = selectLocation.options[selectLocation.selectedIndex].text;
-
 let selectRoomateOrApartment = document.getElementById("firstdropdown");
-let selectedRoomateOrAparment = selectRoomateOrApartment.options[selectRoomateOrApartment.selectedIndex].text;
 
-
+searchApartments.style.dysplay = 'none';
 searchCards.style.display = 'none';
-function showHideDiv(){
-    homepage.style.display = 'none';           
+
+function showDivRoomate(){
+    homepage.style.display = 'none';  
+    searchApartments.style.dysplay = 'none';         
     searchCards.style.display = 'block';
 }
 
+function showDivApartment(){
+    homepage.style.display = 'none';           
+    searchCards.style.display = 'none';
+    searchApartments.style.dysplay = 'block';
+}
+
 search.addEventListener("click", function(){
-    showHideDiv();
-    pagination();
-    RoomatesDb.getAll();
-    filterRoomates();
+
+    let selectedLocation = selectLocation.options[selectLocation.selectedIndex].value;
+    let selectedRoomateOrAparment = selectRoomateOrApartment.options[selectRoomateOrApartment.selectedIndex].value;
+    if(selectedRoomateOrAparment === "true" || selectedRoomateOrAparment === "false"){
+        showDivRoomate();
+        //paginationInitUsers();
+        RoomatesDb.getAll();
+        //filterRoomates();
+    }else{
+        showDivApartment();
+        //paginationInitUsers();
+        ApartmentsDb.getAll();
+        //filterApartments();
+    }
+    
 });
 
 function filters(){

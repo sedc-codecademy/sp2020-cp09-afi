@@ -1,4 +1,5 @@
 
+
 let searchRoomates = document.getElementById("search-btn-cardss");
 let cardsRoomateDiv = document.getElementsByClassName("wrapper")[0];
 
@@ -13,7 +14,7 @@ let RoomatesDb = {
             .then(res => res.json())
             .then(data => {     
               console.log(data);           
-              // roomates = data;
+              roomates = data;
               let selectedLocation =document.getElementById("seconddropdown").options[selectLocation.selectedIndex].text;
               let selectedRoomateOrAparment =document.getElementById("firstdropdown").options[selectRoomateOrApartment.selectedIndex].value;
               console.log(selectedLocation);
@@ -21,9 +22,7 @@ let RoomatesDb = {
               console.log(String(data[0].preferences.doYouHaveSpace));
               roomatesList = filterRoomates(data, selectedLocation, selectedRoomateOrAparment);
               console.log(roomatesList, "filtered list ");
-              pagination();         
-              
-              
+              paginationInitUsers();                    
             })
             .catch(error => console.log(error));
     },
@@ -41,7 +40,7 @@ function filterRoomates(roomates, selectedLocation, selectedRoomateOrAparment){
 
 
 
-function pagination (){
+function paginationInitUsers (){
   $('#list').pagination({
     dataSource: roomatesList,
     pageSize: 8,
@@ -49,14 +48,12 @@ function pagination (){
         console.log(data, "pagination");
         let wrapper = $('#list .wrapper').empty();
         $.each(data, function (i, roomate) {
-          console.log(roomate.preferences.doYouHaveSpace)
+          
           // if(selectedLocation === roomate.preferences.roomQuestions[0].region.trim()){
             const imageMale = "./SearchedCardsPage/images/tirkizna3.png";
             const imageFemale = "./SearchedCardsPage/images/magenta.png";
-            const colorMale = "searchcard card-color-2";
-            const colorFemale = "searchcard card-color-1";
-            const colorBtnMale = "btn-primary-colorBlue";
-            const colorBtnFemale = "btn-primary-colorMagenta";
+            const colorMale = "card card-color-2";
+            const colorFemale = "card card-color-1";
              $('#list .wrapper').append(`<div class="${roomate.user.sex === 'жена' ? colorFemale :colorMale}">
              <div class="card-house-icon">
                <img src="${roomate.user.sex === 'жена' ? imageFemale : imageMale}" alt="" class="card-house-image">
@@ -70,9 +67,9 @@ function pagination (){
            <image  class ="imageinhouse"width="200" height="200" xlink:href=${roomate.user.image}" clip-path="url(#House)" />
            </svg>            
              <div class="card-body">
-             <h4 class="${roomate.user.sex === 'жена' ? "card-title-1" :"card-title-2"}">${roomate.user.fullName}</h4>
-             <span class="${roomate.user.sex === 'жена' ? "card-text-1" :"card-text-2"}">${roomate.user.age}, ${roomate.preferences.roomQuestions[0].region}</span><br>
-               <a href="#" class="${roomate.user.sex === 'жена' ? colorBtnFemale :colorBtnMale}">Порака</a>
+             <h4 class="card-title-2">${roomate.user.fullName}</h4>
+             <span class="card-text-2">${roomate.user.age}, ${roomate.preferences.roomQuestions[0].region}</span><br>
+               <a href="#" class="btn btn-primary">Порака</a>
              </div>
            </div>`);
           // }
@@ -84,9 +81,9 @@ function pagination (){
 
 // RoomatesDb.getAll();
 
-setTimeout(function(){console.log(roomates)}, 10000);
+//setTimeout(function(){console.log(roomates)}, 10000);
 
-//console.log(roomatesList);
+console.log(roomatesList);
 
 
 
