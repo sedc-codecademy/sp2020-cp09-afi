@@ -49,7 +49,7 @@ function filterApartments(apartments, selectedLocation){
 function paginationInitApartments (apartmentsList){
   $('#list1').pagination({
     dataSource: apartmentsList,
-    pageSize: 8,
+    pageSize: 10,
     callback: function(data, pagination) {                    
         console.log(data, "pagination");
         let wrapper = $('#list1 .wrapper').empty();

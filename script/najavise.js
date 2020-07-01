@@ -61,6 +61,65 @@ najavisepage.style.display = "none";
 })
 
 // click on logo and go back to home page
+let logoatsearchcards = document.querySelector(".searchcard-nav-bar-logo-image");
+let searchcarspage = document.getElementById("searchCards");
+
+logoatsearchcards.addEventListener("click",function(){
+
+
+    searchcarspage.style.display = "none";
+    allcontent.style.display = "block";
+})
+
+
+let najavalogo = document.querySelector(".logo-top-left-image-NajavisePage");
+
+
+najavalogo.addEventListener("click",function(){
+    allnajava.style.display = "none";
+    allcontent.style.display = "block";
+    
+})
+
+    let apartmentsearchlogo = document.querySelector(".apartmentSearch-nav-bar-logo-image");
+    let apartmentsearchpage = document.getElementById("searchApartments");
+
+    apartmentsearchlogo.addEventListener("click",function(){
+
+        apartmentsearchpage.style.display ="none";
+        allcontent.style.display = "block";
+
+        
+    })
+
+
+    let apartmentownerlogo = document.querySelector(".nav-bar-logo-image-apartmentowner");
+
+
+    apartmentownerlogo.addEventListener("click", function(){
+
+        apartmentrentarprofilepage.style.display = "none";
+        allcontent.style.display = "block";
+    })
+
+
+    let termslogo = document.querySelector(".logo-top-left-image-TermsPage");
+
+    termslogo.addEventListener("click",function(){
+
+            terms.style.display = "none";
+            allcontent.style.display = "block";
+
+    })
+
+
+    let contactlogo = document.querySelector(".logo-top-left-image-ContactPage");
+
+    contactlogo.addEventListener("click", function(){
+contacts.style.display = "none";
+allcontent.style.display = "block";
+
+    })
 
 let logo = document.getElementById("logo-image");
 

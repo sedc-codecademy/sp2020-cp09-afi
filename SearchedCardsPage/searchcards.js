@@ -8,7 +8,7 @@ let homepage = document.getElementsByClassName("section1-HomePage")[0];
 let searchCards = document.getElementById("searhCards");
 let searchApartments = document.getElementById("getApartmentsSearch");
 let search = document.getElementById("search-btn");
-let searchApartmentss = document.getElementById("getApartmentsSearch");
+let trys = document.getElementById("searchApartments");
 
 
 
@@ -20,7 +20,8 @@ searchCards.style.display = 'none';
 
 function showDivRoomate(){
     homepage.style.display = 'none';  
-    searchApartments.style.dysplay = 'none';         
+    searchApartments.style.dysplay = 'none';   
+    trys.style.display = "none";      
     searchCards.style.display = 'block';
 
 }
@@ -69,14 +70,17 @@ $('#range').on("input", function() {
     }).trigger("change");
 
 
+    let container = document.querySelector(".filters-container");
     $(document).ready(function() {
-        $("button").click(function(){
+        $("#filters-btn").click(function(){
             var favorite = [];
             $.each($("input[name='interest']:checked"), function(){            
                 favorite.push($(this).val());
             });
             
-            
             alert("My interests are: " + favorite.join(", "));
+            container.style.display = "none";
+
+
         });
     });

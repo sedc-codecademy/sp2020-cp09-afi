@@ -43,7 +43,7 @@ function filterRoomates(roomates, selectedLocation, selectedRoomateOrAparment){
 function paginationInitUsers (){
   $('#list').pagination({
     dataSource: roomatesList,
-    pageSize: 8,
+    pageSize: 10,
     callback: function(data, pagination) {                    
         console.log(data, "pagination");
         let wrapper = $('#list .wrapper').empty();

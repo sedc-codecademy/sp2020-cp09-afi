@@ -253,6 +253,7 @@
 
 
 .card-title-1{
+    font-size: 28px;
     color: #aa1a75;
     font-weight: bold;
 }
@@ -260,10 +261,11 @@
 .card-text-1{
     color: #aa1a75;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .card-title-2{
+    font-size: 28px;
     color: #4da3b4;
     font-weight: bold;
 }
@@ -271,7 +273,7 @@
 .card-text-2{
     color: #4da3b4;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
 } */
 
  .imageinhouse {
@@ -291,6 +293,9 @@
    } 
 
  .btn-primary{
+     font-size: 24px;
+     height: 45px;
+     width: 90px;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
