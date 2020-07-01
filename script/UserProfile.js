@@ -20,33 +20,32 @@ for (let i = 0; i < navBarLinks.length; i++) {
   });
 }
 
-// Call JSON
-function callApi(){
-  fetch('https://raw.githubusercontent.com/sedc-codecademy/sp2020-cp09-afi/develop/Jsons/users.json')
-  .then((res) => res.json())
-  .then((data) => {
-    
-    // Add full name from json
-    document.getElementById('fullName').innerHTML = data[0].user.fullName;
+function logIn (roomates){
+  for(const roomate of roomates){
+      if(userName.value === roomate.user.email && password.value === roomate.user.password){
+          console.log("succses");
+    document.getElementById('profilePic').innerHTML = `<img  src=${roomate.user.image} class="user-profile-card-img" alt="image">`
+          // Add full name from json
+    document.getElementById('fullName').innerHTML = roomate.user.fullName;
     // Add sex
-    document.getElementById('sex').innerHTML = data[0].user.sex;
+    document.getElementById('sex').innerHTML = roomate.user.sex;
     // Add age
-    document.getElementById('age').innerHTML = data[0].user.age;
+    document.getElementById('age').innerHTML = roomate.user.age;
     // Add location
-    document.getElementById('address').innerHTML = data[0].user.address;
+    document.getElementById('address').innerHTML = roomate.user.address;
     // Add payment
-    document.getElementById('payment').innerHTML = data[0].preferences.roomQuestions[0].howMuchRentAndOverhead;
+    document.getElementById('payment').innerHTML = roomate.preferences.roomQuestions[0].howMuchRentAndOverhead;
     // Add region
-    document.getElementById('region').innerHTML = data[0].preferences.roomQuestions[0].region;
+    document.getElementById('region').innerHTML = roomate.preferences.roomQuestions[0].region;
     // Add Phone Number
-    document.getElementById('phoneNumber').innerHTML = data[0].user.phoneNumber;
+    document.getElementById('phoneNumber').innerHTML = roomate.user.phoneNumber;
     // Add Email address
-    document.getElementById('email').innerHTML = data[0].user.email;
+    document.getElementById('email').innerHTML = roomate.user.email;
 
     // Preferences
     // Smoker
-    let userIsSmokerVal = data[0].preferences.smoker[0].isSmoker;
-    let roomMateSmokerVal = data[0].preferences.smoker[0].roommateSmoker;
+    let userIsSmokerVal = roomate.preferences.smoker[0].isSmoker;
+    let roomMateSmokerVal = roomate.preferences.smoker[0].roommateSmoker;
 
     if(userIsSmokerVal){
       document.getElementById('isSmoker').innerHTML = "Пушач";
@@ -65,11 +64,11 @@ function callApi(){
     }
 
     // Pets
-    let areYouAnimalLoverVal = data[0].preferences.pets[0].areYouAnimalLover;
-    let doYouHaveYourOwnPetVal = data[0].preferences.pets[0].doYouHaveYourOwnPet;
-    let userPetVal = data[0].preferences.pets[0].yourPet;
-    let roomMateOwnerPetVal = data[0].preferences.pets[0].potentionalRoommatePetIsOkay;
-    let roomMateOwnerPetTypeVal = data[0].preferences.pets[0].roommateOwnerPet;
+    let areYouAnimalLoverVal = roomate.preferences.pets[0].areYouAnimalLover;
+    let doYouHaveYourOwnPetVal = roomate.preferences.pets[0].doYouHaveYourOwnPet;
+    let userPetVal = roomate.preferences.pets[0].yourPet;
+    let roomMateOwnerPetVal = roomate.preferences.pets[0].potentionalRoommatePetIsOkay;
+    let roomMateOwnerPetTypeVal = roomate.preferences.pets[0].roommateOwnerPet;
 
     if(areYouAnimalLoverVal){
       document.getElementById('animalLover').innerHTML = "Љубител на миленичиња";
@@ -98,13 +97,13 @@ function callApi(){
     }
 
     // Interests
-    let sportVal = data[0].preferences.interests[0].sport;
-    let musicVal = data[0].preferences.interests[0].music;
-    let moviesVal = data[0].preferences.interests[0].movies;
-    let booksVal = data[0].preferences.interests[0].books;
-    let foodVal = data[0].preferences.interests[0].food;
-    let healthyFoodVal = data[0].preferences.interests[0].healthyFood;
-    let isActiveSportistVal = data[0].preferences.interests[0].isActiveSportist;
+    let sportVal = roomate.preferences.interests[0].sport;
+    let musicVal = roomate.preferences.interests[0].music;
+    let moviesVal = roomate.preferences.interests[0].movies;
+    let booksVal = roomate.preferences.interests[0].books;
+    let foodVal = roomate.preferences.interests[0].food;
+    let healthyFoodVal = roomate.preferences.interests[0].healthyFood;
+    let isActiveSportistVal = roomate.preferences.interests[0].isActiveSportist;
 
     if(sportVal){
       document.getElementById('sport').innerHTML = "Спорт";
@@ -134,7 +133,18 @@ function callApi(){
       document.getElementById('isActiveSportist').innerHTML = "Активен спортист";
     }
 
+      }
+  }    
+}
+
+// Call JSON
+function callApi(){
+  fetch('https://raw.githubusercontent.com/sedc-codecademy/sp2020-cp09-afi/develop/Jsons/users.json')
+  .then((res) => res.json())
+  .then((data) => {
+    roomates = data;
+    console.log(roomates)
+    logIn (roomates);
   })
   .catch((err) => console.log(err));
 }
-callApi();

@@ -6,7 +6,8 @@ let allnajava = document.getElementById("NajavisePage");
 // let allregistriraj = document.getElementById("allregistracija");
 let kopchenajava = document.getElementById("najava-HomePage");
 let searchApartmentsa = document.getElementById("getApartmentsSearch");
-
+let userName = document.getElementById("emailIpnut");
+let password = document.getElementById("passwordInput");
 
 
 
@@ -54,7 +55,7 @@ userprofilepage.style.display ="none";
 
 
 logintouserprofilebutton.addEventListener("click",function(){
-
+callApi();
 userprofilepage.style.display = "block";
 najavisepage.style.display = "none";
 
