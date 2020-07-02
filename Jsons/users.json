@@ -519,6 +519,68 @@
       ]
     }
   },
+    {
+    "user": {
+      "fullName": "Мартин Кузмановски",
+      "age": "25",
+      "sex": "маж",
+      "nationality": "македонско",
+      "email": "martin_kuzmanovski95@outlook.com",
+      "phoneNumber": "077-103-226",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": true,
+          "roommateSmoker": true
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": true,
+          "yourPet": "куче",
+          "potentionalRoommatePetIsOkay":true,
+          "roommateOwnerPet": "куче со мал раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": false,
+          "music": true,
+          "movies": true,
+          "videoGames": true,
+          "art": false,
+          "technologies": true,
+          "books": true,
+          "food": true,
+          "healthyFood": false,
+          "veganFood": true,
+          "vegetarian": false,
+          "isActiveSportist": false
+        }
+      ],
+      "questionsForRoommate": true,
+      "messages": true,
+      "doYouHaveSpace": false,
+      "roomQuestions": [
+        {
+          "region": "Бутел",
+          "payment": "180-250 evra",
+          "area": "41-50m2",
+          "typeOfHeating": "Сопствено парно",
+          "rooms": "2",
+          "isBedroomSeparated": true,
+          "isBedroomEquipped": false,
+          "isKitchenEquipped": true,
+          "isBathroomEquipped": false,
+          "isSmokingOkay": true
+        }
+      ]
+    }
+  },
   {
     "user": {
       "fullName": "Теодора Петроска",
