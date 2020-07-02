@@ -80,6 +80,7 @@ $('#range').on("input", function() {
             
             alert("My interests are: " + favorite.join(", "));
             container.style.display = "none";
+            filterbtn.style.display = "block";
 
 
         });
