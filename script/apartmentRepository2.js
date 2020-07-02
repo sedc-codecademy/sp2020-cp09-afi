@@ -67,11 +67,11 @@ function paginationInitApartments (apartmentsList){
                <polygon class="cls-5"  points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
              </clipPath>
            <polygon class="cls-5" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-           <image  class ="imageinhouse" xlink:href="${apartment.pictures[0]}" clip-path="url(#Houses)" />
+           <image  class ="imageinhouse" xlink:href="${apartment.pictures[1]}" clip-path="url(#Houses)" />
            </svg>            
              <div class="card-body">
-             <h4 class="card-title-2">${apartment.apartment[0].region}</h4>
-             <span class="card-text-2">${apartment.apartment[0].price} ЕУР</span><br>
+             <h4 class="card-title-2">Локација: ${apartment.apartment[0].region}</h4>
+             <span class="card-text-2">Кирија: ${apartment.apartment[0].price} €</span><br>
                <a href="#" class="btn btn-primary">Порака</a>
              </div>
            </div>`);         
