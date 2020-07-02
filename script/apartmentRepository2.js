@@ -58,10 +58,10 @@ function paginationInitApartments (apartmentsList){
             const imageFemale = "./SearchedCardsPage/images/magenta.png";
             const colorMale = "card card-color-2";
             const colorFemale = "card card-color-1";
-             $('#list1 .wrapper').append(`<div class="card card-color-2">
-             <div class="card-house-icon">
-               <img src="./SearchedCardsPage/images/tirkizna3.png" alt="" class="card-house-image">
-             </div>
+            $('#list1 .wrapper').append(`<div class="${apartment.sex === 'жена' ? colorFemale :colorMale}">
+            <div class="card-house-icon">
+              <img src="${apartment.sex === 'жена' ? imageFemale : imageMale}" alt="" class="card-house-image">
+            </div>
              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
              <clipPath id="Houses"> 
                <polygon class="cls-5"  points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>

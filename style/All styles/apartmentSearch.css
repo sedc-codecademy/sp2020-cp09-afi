@@ -385,3 +385,68 @@
     margin-top: 20px;
     margin-left: 5%;
 }
+
+
+.footer-ApartmentSearch{
+    position: relative;
+      margin-top: 30px;
+      background-image: url("../images/footer.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-size: cover;
+      height: 300px;
+      border:white;
+  }
+  
+  .footer-FollowUs-ApartmentSearch {
+      top: 90px;
+      position: relative;
+      font-family: 'DinPro';
+  font-weight: bold;
+      font-size: 24px;
+      color: white;
+      margin-left: 11%;         
+       
+    }
+    
+  .logo-footer-ApartmentSearch > p { 
+      position: relative;
+      font-family: 'DinPro';
+  font-weight: bold;
+      top: 50px;   
+      margin-left: 78%;
+      font-size: 30px;  
+      color:white;
+    }
+  
+  .logo-footer-ApartmentSearch img{
+      position: relative;
+       top: 100px;
+      height: 50px;  
+      color: #4DA3B4;
+      background-color: #4DA3B4;
+      border-radius: 50%;
+    }
+   
+  .instagram-ApartmentSearch{
+    position: relative;
+    top: -10px;
+      margin-left:10%;
+  }
+  
+  .facebook-ApartmentSearch {
+    position: relative;
+    top: -50px;
+  }
+  
+  .footer-Terms-ApartmentSearch{
+      position: relative;
+      font-family: 'DinPro';
+  font-weight: bold;
+      top: 60px;
+      margin-left: 71%; 
+      color:white;
+      font-size: 30px;
+    }
+  
+  
