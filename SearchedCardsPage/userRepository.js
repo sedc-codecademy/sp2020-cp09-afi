@@ -59,12 +59,11 @@ function paginationInitUsers (){
                <img src="${roomate.user.sex === 'жена' ? imageFemale : imageMale}" alt="" class="card-house-image">
              </div>
              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
-             <clipPath id="House"> 
-               <style>.cls-1{fill:none;stroke:none;stroke-miterlimit:10;stroke-width:8px;}</style>
-               <polygon class="cls-1"  points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+             <clipPath id="Houses"> 
+               <polygon class="cls-5"  points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
              </clipPath>
-           <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-           <image  class ="imageinhouse"width="200" height="200" xlink:href=${roomate.user.image}" clip-path="url(#House)" />
+           <polygon class="cls-5" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+           <image  class ="imageinhouse" xlink:href=${roomate.user.image}" clip-path="url(#Houses)" />
            </svg>            
              <div class="card-body">
              <h4 class="card-title-2">${roomate.user.fullName}</h4>
