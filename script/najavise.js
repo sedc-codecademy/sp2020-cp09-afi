@@ -11,6 +11,15 @@ let password = document.getElementById("passwordInput");
 
 
 
+
+let logonuserprofile = document.querySelector(".user-profile-nav-bar-logo-image");
+
+logonuserprofile.addEventListener("click", function(){
+
+allcontent.style.display = "block";
+userprofilepage.style.display = "none";
+
+})
 allnajava.style.display = "none";
 
 kopchenajava.addEventListener("click" ,function(){
