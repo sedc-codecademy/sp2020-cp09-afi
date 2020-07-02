@@ -15,6 +15,8 @@ let div7_2 = document.getElementById("div7_2");
 let div8 = document.getElementById("div8");
 let div10 = document.getElementById("div10");
 
+let apartmentUser =[];
+
 function baramcimer(){
     reg.style.display = "none";
     div1.style.display = "block";
@@ -39,6 +41,8 @@ function prodolzi1(){
     div5.style.display = "none";
     div6.style.display = "none";
     div7.style.display = "none";
+
+
 };
 
 function prodolzi2(){
@@ -116,6 +120,9 @@ function izdavam(){
     div4.style.display = "none";
     div6.style.display = "block";
     div7.style.display = "none";
+
+
+
 }
 
 function prodolzi4(){
@@ -131,6 +138,27 @@ function prodolzi4(){
     div7_1.style.display ="none";
     div7_2.style.display = "none";
     div8.style.display = "none";
+
+    let name = document.getElementById("ime").value;
+    let prezime = document.getElementById("prezime.text.input").value;
+    let godini = document.getElementById("godini.text.input").value;
+    let email = document.getElementById("email.text.input").value;
+    let telefon = document.getElementById("telefon.input").value;
+    let adresa = document.getElementById("adresa.input").value;
+
+    apartmentUser.push({
+        firstname: name,
+        lastname: prezime,
+        fullname: name + prezime,
+        godini: godini,
+        email: email,
+        telefon: telefon,
+        adresa: adresa
+    })
+
+    console.log(apartmentUser)
+
+
 }
 
 function prodolzi5(){
@@ -146,6 +174,44 @@ function prodolzi5(){
     div7_1.style.display ="block";
     div7_2.style.display = "block";
     div8.style.display = "none";
+
+    let opstina = document.getElementById("opstina").value
+    let internet = document.getElementById("internet.1").value
+    let net = document.getElementById("net").value
+    let televizija_1 = document.getElementById("televizija.1").value
+    let televizija = document.getElementById("televizija").value
+    let kvadratura = document.getElementById("kvadratura").value
+    let greenje = document.getElementById("greenje").value
+    let broj_na_sobi = document.getElementById("broj.na.sobi").value
+    let spalna_soba = document.getElementById("spalna.soba").value
+    let spalnasoba_oprema = document.getElementById("spalnasoba.oprema").value
+    let pushenje = document.getElementById("pushenje").value
+    let kujna = document.getElementById("kujna1").value
+    let kujna_oprema = document.getElementById("kujna.oprema").value
+    let wc_oprema = document.getElementById("wc.oprema").value
+    let dnevna_oprema = document.getElementById("dnevna.oprema").value
+
+    apartmentUser.push({
+        opstina: opstina,
+        internet: internet,
+        net: net,
+        televizija1: televizija_1,
+        televizija: televizija,
+        kvadratura: kvadratura,
+        greenje: greenje,
+        broj_na_sobi: broj_na_sobi,
+        spalna_soba: spalna_soba,
+        spalnasoba_oprema: spalnasoba_oprema,
+        pushenje: pushenje,
+        kujna: kujna,
+        kujna_oprema: kujna_oprema,
+        wc_oprema:  wc_oprema,
+        dnevna_oprema: dnevna_oprema,       
+
+    })
+
+    console.log(apartmentUser);
+
 }
 
 function prodolzi6(){
@@ -274,6 +340,7 @@ function nazad5(){
     div7_2.style.display = "none";
     div8.style.display = "none";
     div10.style.display ="none";
+    
 }
 
 function nazad6(){
@@ -364,3 +431,34 @@ slider4.addEventListener("mousemove", function(){
     let color = 'linear-gradient(90deg, rgb(128,0,128)' + x + '%, rgb(214,214,214)' + x + '%)';
     slider4.style.background = color;
 });
+
+
+let apart_profile_page = document.querySelector(".apartment-profile-container-body");
+
+
+let complete_profile_btn = document.getElementById("completeApartbtn");
+
+function completeProfile(){
+    console.log("yeey");
+    apart_profile_page.style.display = "block";   
+     div7_1.style.display = "none";
+     addDataFromRegForm(apartmentUser) 
+}
+
+let fullName1 = document.getElementById("fullName1");
+let region1 = document.getElementById("region1");
+let price1 = document.getElementById("price1");
+let area1 = document.getElementById("area1");
+let phoneNumber1 = document.getElementById("phoneNumber1");
+function addDataFromRegForm(apartmentUser){
+    fullName1.innerHTML = apartmentUser[0].fullname;
+    region1.innerHTML = apartmentUser[1].opstina;
+    //price1.innerHTML = apartmentUser[0].price;
+    area1.innerHTML = apartmentUser[1].kvadratura;
+} 
+
+
+function kompletiraj(){
+    // account_object
+    // document.getElementById('prikazi_ime').innerHTML(account_object.firstname)
+}
