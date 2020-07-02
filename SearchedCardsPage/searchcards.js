@@ -10,7 +10,7 @@ let searchApartments = document.getElementById("getApartmentsSearch");
 let search = document.getElementById("search-btn");
 let trys = document.getElementById("searchApartments");
 let footerapartmentsearch = document.querySelector(".footer-ApartmentSearch");
-
+let navapartmentssearch = document.querySelector(".apartments-top-right-user-box");
 
 
 let selectLocation = document.getElementById("seconddropdown");
@@ -19,6 +19,8 @@ let selectRoomateOrApartment = document.getElementById("firstdropdown");
 searchApartments.style.dysplay = 'none';
 searchCards.style.display = 'none';
 footerapartmentsearch.style.display = "none";
+navapartmentssearch.style.display = "none";
+
 function showDivRoomate(){
     homepage.style.display = 'none';  
     searchApartments.style.dysplay = 'none';   
@@ -30,6 +32,7 @@ function showDivRoomate(){
 function showDivApartment(){
     homepage.style.display = 'none';           
     searchCards.style.display = 'none';
+    navapartmentssearch.style.display = "block";
     searchApartments.style.dysplay = 'block';
     footerapartmentsearch.style.display = "block";
 }
