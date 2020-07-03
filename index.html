@@ -1119,37 +1119,37 @@
                 <div class="form-group row">
                     <label for="example-text-input" class="col-2 col-form-label">Име</label>
                     <div class="col-10">
-                      <input class="form-control" type="text" placeholder="Име" id="example-text-input">
+                      <input class="form-control" type="text" placeholder="Име" id="firstName">
                     </div>
                   </div>
                   <div class="form-group row">
                     <label for="example-text-input" class="col-2 col-form-label">Презиме</label>
                     <div class="col-10">
-                      <input class="form-control" type="text" placeholder="Презиме" id="example-text-input">
+                      <input class="form-control" type="text" placeholder="Презиме" id="lastName">
                     </div>
                 </div>
                     <div class="form-group row">
                         <label for="example-number-input" class="col-2 col-form-label">Години</label>
                         <div class="col-10">
-                          <input class="form-control" type="number" value="42" id="example-number-input">
+                          <input class="form-control" type="number" value="42" id="age1">
                         </div>
                     </div>
                       <div class="form-group row">
                         <label for="example-email-input" class="col-2 col-form-label">Е-маил:</label>
                         <div class="col-10">
-                          <input class="form-control" type="email" placeholder="vasiot-email@example.com" id="example-email-input">
+                          <input class="form-control" type="email" placeholder="vasiot-email@example.com" id="email1">
                         </div>
                         </div>
                     <div class="form-group row">
                         <label for="example-tel-input" class="col-2 col-form-label">Телефон</label>
                         <div class="col-10">
-                          <input class="form-control" type="tel" placeholder="1-(555)-555-5555" id="example-tel-input">
+                          <input class="form-control" type="tel" placeholder="1-(555)-555-5555" id="phone">
                         </div>
                 </div>
                 <div class="form-group row">
                     <label for="example-text-input" class="col-2 col-form-label">Адреса</label>
                     <div class="col-10">
-                      <input class="form-control" type="text" placeholder="Адреса" id="example-text-input">
+                      <input class="form-control" type="text" placeholder="Адреса" id="address1">
                     </div>
                   </div>
               </form>
@@ -1181,8 +1181,8 @@
                 <ul style="list-style-type:none">
                     <li>Дали си пушач?
                         <div>
-                        <input type="radio" name="yes_no">Да
-                        <input type="radio" name="yes_no">Не
+                        <input id = "smokerTrue" type="radio" name="yes_no" >Да
+                        <input id = "smokerFalse"type="radio" name="yes_no">Не
                         </div>
                     </li>
                     <li>Дали би пушел цигари само во отворен простор, доколку такво барање има твојот потенцијален цимер?
@@ -1194,25 +1194,25 @@
                     <li>
                         Дали си љубител на животни?
                         <div>
-                        <input type="radio" name="yes_no">Да
+                        <input id = "areYouAnimalLover"type="radio" name="yes_no">Да
                         <input type="radio" name="yes_no">Не
                         </div>
                     </li>
                     <li>
                         Дали имаш свое милениче?
                         <div>
-                        <input type="radio" name="yes_no">Да
+                        <input id = "doYouHaveYourOwnPet"type="radio" name="yes_no">Да
                         <input type="radio" name="yes_no">Не
                         </div>
                     </li>
                     <li>
                         Доколку да, какво милениче чуваш?               
-                        <input type="text" name="pet" placeholder="Милениче:">                
+                        <input id = "yourPet" type="text" name="pet" placeholder="Милениче:">                
                     </li>
                     <li>
                         Дали би ти пречело ако твојот потенцијален цимер чува милениче?
                         <select mul style="list-style-type:none" tiple>
-                            <option value="da">Да</option>
+                            <option id = "roomatePet" value="da">Да</option>
                             <option value="ne">Не</option>
                             <option value="ne1">Не, ако е мачка!</option>
                             <option value="ne2">Не, ако е куче со среден раст!</option>
@@ -1221,7 +1221,7 @@
                     </li>
                     <li>
                         Интереси:
-                        <select mul style="list-style-type:none" tiple>
+                        <select id="interests"mul style="list-style-type:none" tiple>
                             <option value="">Спорт</option>
                             <option value="">Филм</option>
                             <option value="">Музика</option>
@@ -1569,7 +1569,7 @@
                 </ul>
                 <div id="kopcinja1">
                 <button onclick="nazad4()" class="kopcinja">Назад</button>
-                <button class="kopcinja">Комплетирај го профилот!</button>
+                <button id ="completeRegUser"class="kopcinja">Комплетирај го профилот!</button>
                 </div>
                 <div id="div15">
                 </div>
@@ -1616,6 +1616,7 @@
                   </div>
                 </div>
             </form>
+            
               <div id="kopcinja1">
                   <button onclick="nazad5()" class="kopcinja">Назад</button>
                   <button onclick="prodolzi4()" id="prodolzi2" class="kopcinja">Продолжи</button>

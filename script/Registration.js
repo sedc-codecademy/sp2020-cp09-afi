@@ -16,6 +16,7 @@ let div8 = document.getElementById("div8");
 let div10 = document.getElementById("div10");
 
 let apartmentUser =[];
+let roomateUser =[];
 
 function baramcimer(){
     reg.style.display = "none";
@@ -42,12 +43,33 @@ function prodolzi1(){
     div6.style.display = "none";
     div7.style.display = "none";
 
+    let nameUser = document.getElementById("firstName").value;
+    let lastNameUser = document.getElementById("lastName").value;
+    let ageUser = document.getElementById("age1").value;
+    let emailUser = document.getElementById("email1").value;
+    let phoneUser = document.getElementById("phone").value;
+    let address1 = document.getElementById("address");
+    let picture1 = "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+    
 
+
+roomateUser.push({
+    firstname: nameUser,
+    lastname: lastNameUser,
+    fullname: nameUser + " " + lastNameUser,
+    age: ageUser,
+    email: emailUser,
+    phone: phoneUser,
+    adress: address1,
+    picture: picture1,
+    
+});
+console.log(roomateUser);
 };
 
 function prodolzi2(){
     reg.style.display = "none";
-    div1.style.display = "none";
+    div1.style.display = "none"
     div2.style.display = "none";
     div3.style.display = "block";
     div3_1.style.display = "none";
@@ -56,7 +78,152 @@ function prodolzi2(){
     div5.style.display = "none";
     div6.style.display = "none";
     div7.style.display = "none";
+
+    let isSmoker = document.getElementById("smokerTrue").checked;
+    let areYouAnimalLover = document.getElementById("areYouAnimalLover").checked;
+    let doYouHaveYourOwnPet = document.getElementById("doYouHaveYourOwnPet").checked;
+    let yourPet = document.getElementById("yourPet").value;
+    let roomatePet = document.getElementById("roomatePet").checked;
+    let e = document.getElementById("interests");
+    var interestInput = e.options[e.selectedIndex].text;
+
+
+
+    roomateUser.push({
+        isSmoker : isSmoker,
+        areYouAnimalLover: areYouAnimalLover,
+        doYouHaveYourOwnPet : doYouHaveYourOwnPet,
+        yourPet : yourPet,
+        roomatePet : roomatePet,
+        interestInput : interestInput
+        
+        
+    });
+    console.log(roomateUser);
 };
+
+let comletRegUserBtn = document.getElementById("completeRegUser");
+
+
+comletRegUserBtn.addEventListener("click", function(){
+    completeProfileUser()
+})
+
+function completeProfileUser(){
+    console.log("yeey");
+    userprofilepage.style.display = "block";   
+     div10.style.display = "none";
+    document.getElementById('profilePic').innerHTML = `<img  src=${roomateUser[0].picture} class="user-profile-card-img" alt="image">`
+          // Add full name from json
+    document.getElementById('fullName').innerHTML = roomateUser[0].fullname;
+    // Add sex
+    //document.getElementById('sex').innerHTML = roomateUser[0].picture1.sex;
+    // Add age
+    document.getElementById('age').innerHTML = roomateUser[0].age;
+    // Add location
+    document.getElementById('address').innerHTML = roomateUser[0].adress;
+    // Add payment
+    //document.getElementById('payment').innerHTML = roomate.preferences.roomQuestions[0].howMuchRentAndOverhead;
+    // Add region
+    //document.getElementById('region').innerHTML = roomate.preferences.roomQuestions[0].region;
+    // Add Phone Number
+    document.getElementById('phoneNumber').innerHTML = roomateUser[0].phone;
+    // Add Email address
+    document.getElementById('email').innerHTML = roomateUser[0].email;
+
+    // Preferences
+    // Smoker
+    // let userIsSmokerVal = roomate.preferences.smoker[0].isSmoker;
+    // let roomMateSmokerVal = roomate.preferences.smoker[0].roommateSmoker;
+
+    // if(userIsSmokerVal){
+    //   document.getElementById('isSmoker').innerHTML = "Пушач";
+    // }
+
+    // if(!userIsSmokerVal){
+    //   document.getElementById('isSmoker').innerHTML = "Не пушач";
+    // }
+
+    // if(roomMateSmokerVal){
+    //   document.getElementById('roomMateSmoker').innerHTML = "Цимер е пушач";
+    // }
+
+    // if(!roomMateSmokerVal){
+    //   document.getElementById('roomMateSmoker').innerHTML = "Цимер не пушач";
+    // }
+
+    // // Pets
+    // let areYouAnimalLoverVal = roomate.preferences.pets[0].areYouAnimalLover;
+    // let doYouHaveYourOwnPetVal = roomate.preferences.pets[0].doYouHaveYourOwnPet;
+    // let userPetVal = roomate.preferences.pets[0].yourPet;
+    // let roomMateOwnerPetVal = roomate.preferences.pets[0].potentionalRoommatePetIsOkay;
+    // let roomMateOwnerPetTypeVal = roomate.preferences.pets[0].roommateOwnerPet;
+
+    // if(areYouAnimalLoverVal){
+    //   document.getElementById('animalLover').innerHTML = "Љубител на миленичиња";
+    // }
+
+    // if(!areYouAnimalLoverVal){
+    //   document.getElementById('animalLover').innerHTML = "Не е љубител на миленичиња";
+    // }
+
+    // if(doYouHaveYourOwnPetVal){
+    //   document.getElementById('havePet').innerHTML = "Има милениче";
+    //   document.getElementById('userPet').innerHTML = userPetVal;
+    // }
+
+    // if(!doYouHaveYourOwnPetVal){
+    //   document.getElementById('havePet').innerHTML = "Heма милениче";
+    // }
+
+    // if(roomMateOwnerPetVal){
+    //   document.getElementById('roomMatePet').innerHTML = "Цимер милениче океј";
+    //   document.getElementById('roomMatePetType').innerHTML = roomMateOwnerPetTypeVal;
+    // }
+
+    // if(!roomMateOwnerPetVal){
+    //   document.getElementById('roomMatePet').innerHTML = "Цимер милениче не е океј";
+    // }
+
+    // // Interests
+    // let sportVal = roomate.preferences.interests[0].sport;
+    // let musicVal = roomate.preferences.interests[0].music;
+    // let moviesVal = roomate.preferences.interests[0].movies;
+    // let booksVal = roomate.preferences.interests[0].books;
+    // let foodVal = roomate.preferences.interests[0].food;
+    // let healthyFoodVal = roomate.preferences.interests[0].healthyFood;
+    // let isActiveSportistVal = roomate.preferences.interests[0].isActiveSportist;
+
+    // if(sportVal){
+    //   document.getElementById('sport').innerHTML = "Спорт";
+    // }
+
+    // if(musicVal){
+    //   document.getElementById('music').innerHTML = "Музика";
+    // }
+
+    // if(moviesVal){
+    //   document.getElementById('movies').innerHTML = "Филмови";
+    // }
+
+    // if(booksVal){
+    //   document.getElementById('books').innerHTML = "Kниги";
+    // }
+
+    // if(foodVal){
+    //   document.getElementById('food').innerHTML = "Храна";
+    // }
+
+    // if(healthyFoodVal){
+    //   document.getElementById('healthyFood').innerHTML = "Здрава храна";
+    // }
+
+    // if(isActiveSportistVal){
+    //   document.getElementById('isActiveSportist').innerHTML = "Активен спортист";
+    // }
+     
+}
+
 
 function da(){
     reg.style.display = "none";
