@@ -20,10 +20,13 @@ for (let i = 0; i < navBarLinks.length; i++) {
   });
 }
 
+let errorInputMsg = document.getElementById("errorInputMsg");
 function logIn (roomates){
   for(const roomate of roomates){
       if(userName.value === roomate.user.email && password.value === roomate.user.password){
           console.log("succses");
+          userprofilepage.style.display = "block";
+          najavisepage.style.display = "none";
     document.getElementById('profilePic').innerHTML = `<img  src=${roomate.user.image} class="user-profile-card-img" alt="image">`
           // Add full name from json
     document.getElementById('fullName').innerHTML = roomate.user.fullName;
@@ -133,6 +136,9 @@ function logIn (roomates){
       document.getElementById('isActiveSportist').innerHTML = "Активен спортист";
     }
 
+      }
+      else{
+        errorInputMsg.style.display = "block";
       }
   }    
 }

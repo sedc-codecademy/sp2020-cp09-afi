@@ -65,8 +65,6 @@ userprofilepage.style.display ="none";
 
 logintouserprofilebutton.addEventListener("click",function(){
 callApi();
-userprofilepage.style.display = "block";
-najavisepage.style.display = "none";
 
 })
 
