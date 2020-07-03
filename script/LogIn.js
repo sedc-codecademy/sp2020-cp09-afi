@@ -229,3 +229,108 @@ contactsbutton.addEventListener("click", function(){
 
 
 
+//goback from privacu 
+
+let privacybuttonback = document.querySelector(".btn-success1");
+
+
+privacybuttonback.addEventListener("click", function(){
+
+privacypolicy.style.display = "none";
+allcontent.style.display = "block";
+
+})
+
+//goback from terms 
+
+
+let termsbuttonback = document.querySelector(".btn-success2");
+
+termsbuttonback.addEventListener("click", function(){
+
+terms.style.display = "none";
+allcontent.style.display = "block";
+
+})
+
+
+
+let contactbuttonback = document.querySelector(".btn-success3");
+
+contactbuttonback.addEventListener("click", function(){
+
+contacts.style.display = "none";
+allcontent.style.display = "block";
+
+})
+
+
+
+let searchcardsbuttonback = document.querySelector(".btn-success4");
+let searchrommates = document.querySelector(".section2");
+let homepagetoback = document.querySelector(".section1-HomePage");
+
+searchcardsbuttonback.addEventListener("click", function(){
+
+    searchrommates.style.display ="none";
+    homepagetoback.style.display = "block";
+
+
+})
+
+
+let apartmentsearchgoback = document.querySelector(".btn-success5");
+
+apartmentsearchgoback.addEventListener("click", function(){
+
+apartmentsearchpage.style.display = "none";
+homepagetoback.style.display ="block";
+
+
+
+})
+
+
+let logingoback = document.querySelector(".btn-success6");
+
+
+logingoback.addEventListener("click",function(){
+
+najavisepage.style.display = "none";
+allcontent.style.display = "block";
+
+
+})
+
+
+let userprofilegoback = document.querySelector(".btn-success7");
+
+
+userprofilegoback.addEventListener("click", function(){
+
+userprofilepage.style.display = "none";
+allcontent.style.display = "block";
+
+})
+
+
+let apartmentownergoback = document.querySelector(".btn-success8");
+
+apartmentownergoback.addEventListener("click",function(){
+
+
+apartmentrentarprofilepage.style.display = "none";
+allcontent.style.display = "block";
+
+})
+
+
+let registrasiongoback = document.querySelector(".btn-success9");
+
+
+registrasiongoback.addEventListener("click", function(){
+
+registracija.style.display = "none";
+allcontent.style.display = "block";
+
+})

@@ -23,17 +23,17 @@
      display: none;
  }
  
- #filter{
+ /* #filter{
      background-color: #aa1a75;
      color: white;
      border-radius: 10px;
      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
      font-size: 19px;
      height: 35%;
-     width: 7%;
-     margin-top: 20px;
-     margin-left: 88%;    
- }
+     width: 5%;
+     margin-top: 25px;
+     margin-left: 70%;    
+ } */
  #filters-btn{    
      border-radius: 10px;
      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -364,18 +364,20 @@
 }
 
 
-#filter{
-    background-color: #aa1a75;
+.btn-success5{
+    background-color:#12bbd4;
     color: white;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    font-size: 19px;
-    height: 35%;
-    width: 7%;
-    margin-top: 20px;
-    margin-left: 88%;
+    font-size: 24px;
+    height: 40%;
+    width: 6%;
+    margin-top: 30px;
+    margin-left: 100px;    
+
     
 }
+
 #filters-btn{    
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
