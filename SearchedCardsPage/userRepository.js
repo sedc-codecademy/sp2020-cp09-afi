@@ -68,8 +68,9 @@ function paginationInitUsers (){
              <div class="card-body">
              <h4 class="card-title-2">${roomate.user.fullName}</h4>
              <span class="card-text-2">${roomate.user.age}, ${roomate.preferences.roomQuestions[0].region}</span><br>
-               <a href="#" class="btn btn-primary">Порака</a>
-             </div>
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+             Порака
+           </button>             </div>
            </div>`);
           // }
           
@@ -84,9 +85,17 @@ function paginationInitUsers (){
 
 console.log(roomatesList);
 
+//for messages
 
-
-
+// $('#exampleModal').on('show.bs.modal', function (event) {
+//   var button = $(event.relatedTarget) // Button that triggered the modal
+//   var recipient = button.data('whatever') // Extract info from data-* attributes
+//   // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+//   // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+//   var modal = $(this)
+//   modal.find('.modal-title').text('New message to ' + recipient)
+//   modal.find('.modal-body input').val(recipient)
+// })
 
 
   // function createUserCard(roomates, element) {

@@ -34,7 +34,7 @@
      margin-top: 25px;
      margin-left: 70%;    
  } */
- #filters-btn{    
+ /* #filters-btn{    
      border-radius: 10px;
      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
      font-size: 19px;
@@ -43,7 +43,7 @@
      margin-top: 20px;
      margin-left: 5%;
      
- }
+ } */
  #img-filter{
      width: 35%;
      height: 35%;
@@ -378,7 +378,7 @@
     
 }
 
-#filters-btn{    
+/* #filters-btn{    
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     font-size: 19px;
@@ -386,7 +386,7 @@
     width: 50%;
     margin-top: 20px;
     margin-left: 5%;
-}
+} */
 
 
 .footer-ApartmentSearch{
