@@ -55,12 +55,20 @@ search.addEventListener("click", function(){
     
 });
 
+let getwrap = document.querySelector(".wrapper");
+
 function filters(){
     
     filterbtn.style.display = "none";
     //getcard.style.display = "none";
     allfilter.style.display = "block";
     //getsecondcard.style.display = "none";
+     getwrap.style.opacity = .5;
+     allfilter.style.opacity = 1;
+
+    
+
+    
 }
 
 function goback(){
@@ -86,6 +94,7 @@ $('#range').on("input", function() {
             alert("My interests are: " + favorite.join(", "));
             container.style.display = "none";
             filterbtn.style.display = "block";
+            getwrap.style.opacity = 1;
 
 
         });

@@ -265,16 +265,19 @@ allcontent.style.display = "block";
 
 
 let searchcardsbuttonback = document.querySelector(".btn-success4");
-let searchrommates = document.querySelector(".section2");
+let searchrommates = document.getElementById("searhCards");
 let homepagetoback = document.querySelector(".section1-HomePage");
 
 searchcardsbuttonback.addEventListener("click", function(){
 
     searchrommates.style.display ="none";
-    homepagetoback.style.display = "block";
+      homepagetoback.style.display = "block";
 
 
 })
+
+
+
 
 
 let apartmentsearchgoback = document.querySelector(".btn-success5");

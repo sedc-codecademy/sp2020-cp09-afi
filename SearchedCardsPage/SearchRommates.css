@@ -32,7 +32,8 @@
 
 
 .container {
-    max-width: 640px;
+    max-width: 540px;
+    
     font-size: 28px;
     
 }
@@ -216,7 +217,7 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
 #content {
     top: 180px;
     display: none;
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(156, 154, 154);
 }
 
 #filter{
@@ -237,8 +238,8 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     font-size: 24px;
-    height: 35%;
-    width: 22%;
+    height: 55px;
+    width: 105px;
     
 }
 #img-filter{
@@ -266,7 +267,7 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
     background-color: rgb(119, 136, 153, 0.3);
     z-index: 999;
     right: 0;
-    width: 30%;
+    width: 20%;
 }
 
 .label-range[for=range] {
