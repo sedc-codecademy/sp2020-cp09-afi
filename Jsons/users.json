@@ -329,6 +329,68 @@
   },
   {
     "user": {
+      "fullName": "Никола Николовски",
+      "age": "19",
+      "sex": "маж",
+      "nationality": "македонско",
+      "email": "kamen19@yahoo.com",
+      "phoneNumber": "071-223-525",
+      "student": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSyN367yKgvGa9rtsHFQNJc9DSIIlm5lFywc7wWhNjteE-xRuC-&usqp=CAU"
+    },
+    "preferences": {
+      "smoker": [
+        {
+          "isSmoker": false,
+          "roommateSmoker": false
+        }
+      ],
+      "pets": [
+        {
+          "areYouAnimalLover": true,
+          "doYouHaveYourOwnPet": false,
+          "yourPet": false,
+          "potentionalRoommatePetIsOkay":true,
+          "roommateOwnerPet": "куче со мал раст"
+        }
+      ],
+      "interests": [
+        {
+          "sport": true,
+          "music": true,
+          "movies": true,
+          "videoGames": true,
+          "art": false,
+          "technologies": false,
+          "books": false,
+          "food": true,
+          "healthyFood": false,
+          "veganFood": false,
+          "vegetarian": false,
+          "isActiveSportist": true
+        }
+      ],
+      "questionsForRoommate": false,
+      "messages": false,
+      "doYouHaveSpace": false,
+      "roomQuestions": [
+        {
+          "region": "Чаир",
+          "payment": "100-250 evra",
+          "area": "30-40m2",
+          "typeOfHeating": "Дрва",
+          "rooms": "1",
+          "isBedroomSeparated": true,
+          "isBedroomEquipped": false,
+          "isKitchenEquipped": false,
+          "isBathroomEquipped": true,
+          "isSmokingOkay": false
+        }
+      ]
+    }
+  },
+  {
+    "user": {
       "fullName": "Анастасија Јакимовска",
       "age": "22",
       "sex": "жена",
