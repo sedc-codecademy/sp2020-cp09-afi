@@ -174,12 +174,28 @@ $('#range').on("input", function() {
             $.each($("input[name='interest']:checked"), function(){            
                 favorite.push($(this).val());
             });
+            //tuka gi filtrirash roomates
+            roomatesList = roomatesList.filter(function(mate) {
+              //staticki filter za pushac
+              if(favorite.includes('Пушач')) {
+                return mate.preferences.smoker[0].isSmoker;
+              }
+              //za sekoj nareden filter
+              else if(favorite.includes('Непушач')) {
+                return !mate.preferences.smoker[0].isSmoker
+              }
+            })
+            //ovaa funkcija ti gi refreshika kartickite
+            paginationInitUsers();
             
-            alert("My interests are: " + favorite.join(", "));
+            console.log(favorite)
+            console.log('tuka ima ')
+            console.log(roomatesList);
+            // alert("My interests are: " + favorite.join(", "));
             container.style.display = "none";
             filterbtn.style.display = "block";
             getwrap.style.opacity = 1;
-
-
-        });
+            
+            
+          });
     });
