@@ -116,7 +116,7 @@ ul.ks-cboxtags li input[type="checkbox"]:focus + label {
 
   #searhCards {
     position: relative;
-    height: calc(100vh - -700px);
+    /* height: calc(100vh); */
     background: url("./home_page_bez_slika.png");
     background-repeat: no-repeat;
     background-size: 100%; 
@@ -473,7 +473,7 @@ color: black;
 }
 
 .footer-searchcard{
-    position: relative;
+    position:static;
     top: -135px;
     font-family: 'DinPro';
     border: solid white;
