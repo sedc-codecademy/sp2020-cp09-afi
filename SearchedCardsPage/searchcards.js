@@ -56,7 +56,7 @@ search.addEventListener("click", function(){
 });
 
 let roomatesList3 = [];
-let selectedLocation1 = "Центар";
+let selectedLocation1 = "Аеродром";
 
 let RoomatesDb3 = {
     getAll: function() {
@@ -68,8 +68,8 @@ let RoomatesDb3 = {
               console.log(data);           
               roomates = data;
               
-              roomatesList3 = filterRoomates(data, selectedLocation1);
-              console.log(roomatesList, "filtered list ");
+              roomatesList3 = filterRoomates3(data, selectedLocation1);
+              console.log(roomatesList3, "filtered list ");
               paginationInitUsers3();                    
             })
             .catch(error => console.log(error));
@@ -77,7 +77,8 @@ let RoomatesDb3 = {
 };
 
 function filterRoomates3(roomates, selectedLocation1){
-    return roomates.filter(r => selectedLocation1 === r.preferences.roomQuestions[0].region    
+    
+    return roomates.filter(roomate => selectedLocation1 === roomate.preferences.roomQuestions[0].region    
   );  
 }
 

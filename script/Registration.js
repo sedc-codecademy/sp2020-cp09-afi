@@ -43,8 +43,8 @@ function prodolzi1(){
     let emailUser = document.getElementById("email1").value;
     let password = document.getElementById("password1").value;
     let phoneUser = document.getElementById("phone").value;
-    let address1 = document.getElementById("address1").value;
-    let picture1 = "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";    
+    let address1 = document.getElementById("address1").value; 
+    let picture1 = "https://images.pexels.com/photos/220453/pexels-pto-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";   
 
 
 roomateUser.push({
