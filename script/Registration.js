@@ -41,9 +41,10 @@ function prodolzi1(){
     let lastNameUser = document.getElementById("lastName").value;
     let ageUser = document.getElementById("age1").value;
     let emailUser = document.getElementById("email1").value;
+    let password = document.getElementById("password1").value;
     let phoneUser = document.getElementById("phone").value;
-    let address1 = document.getElementById("address1").value;
-    let picture1 = "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";    
+    let address1 = document.getElementById("address1").value; 
+    // let picture1 = "https://images.pexels.com/photos/220453/pexels-pto-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";   
 
 
 roomateUser.push({
@@ -54,7 +55,8 @@ roomateUser.push({
     email: emailUser,
     phone: phoneUser,
     address1: address1,
-    picture: picture1,    
+    picture: picture1,
+    password: password,   
 });
 console.log(roomateUser);
 };
@@ -96,7 +98,22 @@ function completeProfileUser(){
     userprofilepage.style.display = "block";   
      div10.style.display = "none";
      sectionReg.style.display = "none";
-    document.getElementById('profilePic').innerHTML = `<img  src=${roomateUser[0].picture} class="user-profile-card-img" alt="image">`
+    var file = document.querySelector('#prikaci').files[0];
+     const toBase64 = file => new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = error => reject(error);
+    });
+    
+    async function LoadProfilePicture() {
+       const file = document.querySelector('#prikaci').files[0];
+    //    console.log(await toBase64(file));
+        roomateUser[0].picture = await toBase64(file);
+       document.getElementById('profilePic').innerHTML = `<img  src=${roomateUser[0].picture} class="user-profile-card-img" alt="image">`;
+    }
+    LoadProfilePicture();
+
     document.getElementById('fullName').innerHTML = roomateUser[0].fullname;
     document.getElementById('sex').innerHTML = "маж";
     document.getElementById('age').innerHTML = roomateUser[0].age;
@@ -131,11 +148,11 @@ function completeProfileUser(){
     let doYouHaveYourOwnPetVal1 = roomateUser[1].doYouHaveYourOwnPet;
     let userPetVal1 = roomateUser[1].yourPet;
     
-    if(areYouAnimalLoverVal1){
+    if(!areYouAnimalLoverVal1){
       document.getElementById('animalLover').innerHTML = "Љубител на миленичиња";
     }
 
-    if(!areYouAnimalLoverVal1){
+    if(areYouAnimalLoverVal1){
       document.getElementById('animalLover').innerHTML = "Не е љубител на миленичиња";
     }
 

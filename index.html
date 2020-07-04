@@ -44,15 +44,14 @@
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                   <option class="dropdown-item"  value ="all" >Локација</option>
                   <option class="dropdown-item"  value ="Центар" >Центар</option>
-                  <option class="dropdown-item"  value ="Карпош">Карпош</option>
-                  <option class="dropdown-item"  value ="Тафталиџе">Тафталиџе</option>
+                  <option class="dropdown-item"  value ="Карпош1">Карпош 1</option>
+                  <option class="dropdown-item"  value ="Карпош2">Карпош 3</option>
+                  <option class="dropdown-item"  value ="Карпош4">Карпош 4</option>
+                  <option class="dropdown-item"  value ="Карпош4">Карпош 4</option>
                   <option class="dropdown-item"  value ="Ново Лисиче">Ново Лисиче</option>
                   <option class="dropdown-item"  value ="Автокоманда">Автокоманда</option>
-                  <option class="dropdown-item"  value ="Карпош4">Карпош 4</option>
-                  <option class="dropdown-item"  value ="Карпош2">Карпош 2</option>
-                  <option class="dropdown-item"  value ="Карпош3">Карпош 3</option>
-
-
+                  <option class="dropdown-item"  value ="Кисела Вода">Кисела Вода</option>
+                  <option class="dropdown-item"  value ="Влае">Влае</option>
                 </div>
               </select>
               <li><a href="#" id ="search-btn" class="btn btn-light-search-HomePage" >Најди</a></li>
@@ -321,7 +320,7 @@
 
           <div id="searchcard-nav-bar-link">
             <a href="#" target="_self" class="searchcard-nav-bar-links">
-              <div id="sovpagjanja-page"><span class="searchcard-nav-bar-tekst">Совпаѓања</span></div>
+              <div id="sovpagjanja-page3"><span class="searchcard-nav-bar-tekst">Совпаѓања</span></div>
             </a>
 
             <a href="" class="searchcard-nav-bar-links 1">
@@ -476,7 +475,7 @@
       <div id="apartmentSearch-nav-bar-link">
         <a href="#" target="_self" class="
         apartmentSearch-nav-bar-links">
-          <div id="sovpagjanja-page"><span class="apartmentSearch-nav-bar-tekst">Совпаѓања</span></div>
+          <div id="sovpagjanja-page4"><span class="apartmentSearch-nav-bar-tekst">Совпаѓања</span></div>
         </a>
 
         <a href=""  class="apartmentSearch-nav-bar-links 2">
@@ -741,7 +740,7 @@
                       <br><br>
       
                       <a href="#" target="_self">
-                        <button type="button" class="btn btn-primary" style="background-color: #4da3b4; border: none; font-size: 22px;">Едитирај Профил</button>
+                        <button type="button" class="btn btn-primary" style="background-color: #4da3b4; border: none; font-size: 22px;">Едитирај</button>
                       </a>
                     </div>
                   </div>
@@ -812,7 +811,7 @@
         
                   <div id="nav-bar-link-apartmentowner">
                     <a href="#" target="_self" class="nav-bar-links-apartmentowner">
-                      <div id="sovpagjanja-page"><span class="nav-bar-tekst-apartmentowner">Совпаѓања</span></div>
+                      <div id="sovpagjanja-page2"><span class="nav-bar-tekst-apartmentowner">Совпаѓања</span></div>
                     </a>
         
                     <a href=""  class="nav-bar-links-apartmentowner 6">
@@ -1108,7 +1107,7 @@
             <h1>Барам цимер/простор:</h1>
             <h3>Креирање на профил</h3>
             <h3>Прикачете до 3 слики!</h3>
-            <input type="file" id="prikaci" accept="image/*">
+            <input type="file" id="prikaci" accept="image/*" multiple>
             <h3>Лични информации:</h3>
             <form>
                 <div class="form-group row">
@@ -1135,6 +1134,14 @@
                           <input class="form-control" type="email" placeholder="vasiot-email@example.com" id="email1">
                         </div>
                         </div>
+                    <div class="form-group row">
+                          <label for="example-email-input" class="col-2 col-form-label">Лозинка:</label>
+                          <div class="col-10">
+                            <input class="form-control" type="email" placeholder="*Лозинката да треба да содржи најмалку 6 карактери од кои минимум 1 бројка" id="password1">
+                            
+                          </div>
+                    </div>  
+
                     <div class="form-group row">
                         <label for="example-tel-input" class="col-2 col-form-label">Телефон</label>
                         <div class="col-10">
@@ -1817,6 +1824,7 @@
     <script src="SearchedCardsPage/searchcards.js"></script>
     <script src="SearchedCardsPage/userRepository.js"></script>
     <script src="./script/apartmentRepository2.js"></script>
+    <script src="SearchedCardsPage/searchApartments.js"></script>
     <script src="./script/LogIn.js"></script>
     <script src="./script/UserProfile.js"></script>
     <script src="./script/ApartmentOwner.js"></script>
