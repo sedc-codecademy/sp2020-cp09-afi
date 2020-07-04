@@ -55,6 +55,10 @@ search.addEventListener("click", function(){
     
 });
 
+function perfectMatch(){
+    
+}
+
 let getwrap = document.querySelector(".wrapper");
 
 function filters(){
