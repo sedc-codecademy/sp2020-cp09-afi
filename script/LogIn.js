@@ -335,3 +335,45 @@ registracija.style.display = "none";
 allcontent.style.display = "block";
 
 })
+
+
+let prebaraj = document.querySelector(".searchcard-nav-bar-links 1")
+
+prebaraj.addEventListener("click",function(){
+
+searchcarspage.style.display = "none";
+allcontent.style.display = "block";
+
+})
+
+
+let prebaraj2 = document.querySelector("apartmentSearch-nav-bar-links 2")
+
+prebaraj2.addEventListener("click",function(){
+
+    apartmentsearchpage.style.display = "none";
+    allcontent.style.displaym= "block";
+
+})
+
+
+let prebaraj3 = document.querySelector(".user-profile-nav-bar-links 4")
+
+
+prebaraj3.addEventListener("click",function(){
+
+userprofilepage.style.display = "none";
+allcontent.style.display = "block";
+
+})
+
+
+let prebaraj4 = document.querySelector(".nav-bar-links-apartmentowner 6");
+
+
+prebaraj4.addEventListener("click",function(){
+
+apartmentrentarprofilepage.style.display = "none";
+allcontent.style.display = "block";
+
+})
