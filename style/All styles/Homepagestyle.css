@@ -402,6 +402,8 @@ border-radius: 50%;
 
 
 .btn-success1{
+  position: relative;
+  top:20px;
   background-color:#12bbd4;
   color: white;
   border-radius: 10px;
@@ -409,13 +411,14 @@ border-radius: 50%;
   font-size: 24px;
   height: 40%;
   width: 6%;
-  margin-top: 30px;
-  margin-left: 100px;    
+  margin-left: 170px;       
 
   
 }
 
 .btn-success2{
+  position: relative;
+  top:20px;
   background-color:#12bbd4;
   color: white;
   border-radius: 10px;
@@ -423,8 +426,7 @@ border-radius: 50%;
   font-size: 24px;
   height: 40%;
   width: 6%;
-  margin-top: 30px;
-  margin-left: 100px;    
+  margin-left: 170px;      
 
   
 }
@@ -432,6 +434,8 @@ border-radius: 50%;
 
 
 .btn-success3{
+  position: relative;
+  top:20px;
   background-color:#12bbd4;
   color: white;
   border-radius: 10px;
@@ -439,14 +443,15 @@ border-radius: 50%;
   font-size: 24px;
   height: 40%;
   width: 6%;
-  margin-top: 30px;
-  margin-left: 100px;    
+  margin-left: 170px;    
 
   
 }
 
 
 .btn-success6{
+  position: relative;
+  top:20px;
   background-color:#12bbd4;
   color: white;
   border-radius: 10px;
@@ -454,13 +459,14 @@ border-radius: 50%;
   font-size: 24px;
   height: 40%;
   width: 6%;
-  top: 30px;
-  margin-left: 100px;    
+  margin-left: 170px;      
 
   
 }
 
 .btn-success7{
+  position: relative;
+  top:20px;
   background-color:#12bbd4;
   color: white;
   border-radius: 10px;
@@ -468,13 +474,14 @@ border-radius: 50%;
   font-size: 24px;
   height: 40%;
   width: 6%;
-  top: 30px;
-  margin-left: 100px;    
+  margin-left: 30px;        
 
   
 }
 
 .btn-success8{
+  position: relative;
+  top:20px;
   background-color:#12bbd4;
   color: white;
   border-radius: 10px;
@@ -482,13 +489,14 @@ border-radius: 50%;
   font-size: 24px;
   height: 40%;
   width: 6%;
-  top: 30px;
-  margin-left: 100px;    
+  margin-left: 30px;       
 
   
 }
 
 .btn-success9{
+  position: relative;
+  top: 20px;
   background-color:#12bbd4;
   color: white;
   border-radius: 10px;
@@ -496,8 +504,7 @@ border-radius: 50%;
   font-size: 24px;
   height: 40%;
   width: 6%;
-top: 30px;
-  margin-left: 100px;    
+  margin-left: 170px;       
 
   
 }
