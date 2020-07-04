@@ -133,11 +133,11 @@ function completeProfileUser(){
     let doYouHaveYourOwnPetVal1 = roomateUser[1].doYouHaveYourOwnPet;
     let userPetVal1 = roomateUser[1].yourPet;
     
-    if(areYouAnimalLoverVal1){
+    if(!areYouAnimalLoverVal1){
       document.getElementById('animalLover').innerHTML = "Љубител на миленичиња";
     }
 
-    if(!areYouAnimalLoverVal1){
+    if(areYouAnimalLoverVal1){
       document.getElementById('animalLover').innerHTML = "Не е љубител на миленичиња";
     }
 

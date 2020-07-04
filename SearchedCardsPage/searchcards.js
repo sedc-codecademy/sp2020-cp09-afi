@@ -56,7 +56,7 @@ search.addEventListener("click", function(){
 });
 
 let roomatesList3 = [];
-
+let selectedLocation1 = "Центар";
 
 let RoomatesDb3 = {
     getAll: function() {
@@ -68,7 +68,7 @@ let RoomatesDb3 = {
               console.log(data);           
               roomates = data;
               
-              roomatesList3 = filterRoomates(data, selectedLocation, selectedRoomateOrAparment);
+              roomatesList3 = filterRoomates(data, selectedLocation1);
               console.log(roomatesList, "filtered list ");
               paginationInitUsers3();                    
             })
@@ -76,9 +76,8 @@ let RoomatesDb3 = {
     },
 };
 
-function filterRoomates3(roomates, selectedLocation, selectedRoomateOrAparment){
-    return roomates.filter(r => selectedLocation === r.preferences.roomQuestions[0].region
-    && selectedRoomateOrAparment == String(r.preferences.doYouHaveSpace)
+function filterRoomates3(roomates, selectedLocation1){
+    return roomates.filter(r => selectedLocation1 === r.preferences.roomQuestions[0].region    
   );  
 }
 
@@ -86,7 +85,7 @@ function filterRoomates3(roomates, selectedLocation, selectedRoomateOrAparment){
 
 function paginationInitUsers3 (){
   $('#list').pagination({
-    dataSource: roomatesList,
+    dataSource: roomatesList3,
     pageSize: 10,
     callback: function(data, pagination) {                    
         console.log(data, "pagination");
@@ -136,7 +135,7 @@ let perfectMatchList = [];
 let perfectMatchBtn1 = document.getElementById('sovpagjanja-page1');
 //let perfectMatchBtn2 = document.getElementById('sovpagjanja-page2');
 let perfectMatchBtn3 = document.getElementById('sovpagjanja-page3');
-//let perfectMatchBtn4 = document.getElementById('sovpagjanja-page4');
+
 
 let RoomatesDb2 = {
     getAll: function() {
