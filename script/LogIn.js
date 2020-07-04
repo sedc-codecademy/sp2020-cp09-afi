@@ -1,5 +1,13 @@
 //najavi se kopche od homepage
 
+
+
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
+
+
 let allcontent = document.getElementById("all-content-HomePage");
 let allnajava = document.getElementById("NajavisePage");
 // let allprofile = document.getElementById("hidecontent");
@@ -377,3 +385,4 @@ apartmentrentarprofilepage.style.display = "none";
 allcontent.style.display = "block";
 
 })
+
