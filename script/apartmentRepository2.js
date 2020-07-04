@@ -72,11 +72,12 @@ function paginationInitApartments (apartmentsList){
              <div class="card-body">
              <h4 class="card-title-2">Локација: ${apartment.apartment[0].region}</h4>
              <span class="card-text-2">Кирија: ${apartment.apartment[0].price} €</span><br>
-             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
              Порака
            </button> 
              </div>
            </div>`);         
+
         });
       }
      });
