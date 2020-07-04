@@ -38,7 +38,12 @@ function logIn (roomates){
     // Add location
     document.getElementById('address').innerHTML = roomate.user.address;
     // Add payment
-    document.getElementById('payment').innerHTML = roomate.preferences.roomQuestions[0].howMuchRentAndOverhead;
+    if(roomate.preferences.roomQuestions[0].howMuchRentAndOverhead){
+      document.getElementById('payment').innerHTML = roomate.preferences.roomQuestions[0].howMuchRentAndOverhead;
+    }
+    else {
+      document.getElementById('payment').innerHTML = roomate.preferences.roomQuestions[0].payment;
+    }
     // Add region
     document.getElementById('region').innerHTML = roomate.preferences.roomQuestions[0].region;
     // Add Phone Number
