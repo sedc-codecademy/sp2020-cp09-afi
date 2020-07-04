@@ -27,6 +27,7 @@ function logIn (roomates){
           console.log("succses");
           userprofilepage.style.display = "block";
           najavisepage.style.display = "none";
+    document.getElementById('logoPicUser').innerHTML = `<img  src=${roomate.user.image} alt="user image" class="user-profile-img-user">`
     document.getElementById('profilePic').innerHTML = `<img  src=${roomate.user.image} class="user-profile-card-img" alt="image">`
           // Add full name from json
     document.getElementById('fullName').innerHTML = roomate.user.fullName;
