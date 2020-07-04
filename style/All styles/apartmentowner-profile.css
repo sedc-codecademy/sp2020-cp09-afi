@@ -18,6 +18,15 @@ body {
          url('../Fonts/DinPRO/DINPro-Cond.otf') format('svg');
 }
 
+.d-block {
+    position: relative;
+    display: inline-flex;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    display: contents;
+}
+
 .apartment-profile-container-body {
     width: 100%;
     overflow: hidden;
