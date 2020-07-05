@@ -54,6 +54,10 @@ function paginationInitUsers (){
             const imageFemale = "./SearchedCardsPage/images/magenta.png";
             const colorMale = "card card-color-2";
             const colorFemale = "card card-color-1";
+            const colorMaleTitle ="card-title-2";
+            const colorFemaleTitle ="card-title-1";
+            const colorMaleRegion = "card-text-2";
+            const colorFemaleRegion = "card-text-1";
              $('#list .wrapper').append(`<div class="${roomate.user.sex === 'жена' ? colorFemale :colorMale}">
              <div class="card-house-icon">
                <img src="${roomate.user.sex === 'жена' ? imageFemale : imageMale}" alt="" class="card-house-image">
@@ -66,8 +70,8 @@ function paginationInitUsers (){
            <image  class ="imageinhouse" xlink:href=${roomate.user.image}" clip-path="url(#Houses)" />
            </svg>            
              <div class="card-body">
-             <h4 class="card-title-2">${roomate.user.fullName}</h4>
-             <span class="card-text-2">${roomate.user.age}, ${roomate.preferences.roomQuestions[0].region}</span><br>
+             <h4 class="${roomate.user.sex === 'жена' ? colorFemaleTitle :colorMaleTitle}">${roomate.user.fullName}</h4>
+             <span class="${roomate.user.sex === 'жена' ? colorFemaleRegion :colorMaleRegion}">${roomate.user.age}, ${roomate.preferences.roomQuestions[0].region}</span><br>
              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
              Порака
            </button>             </div>
@@ -97,47 +101,3 @@ console.log(roomatesList);
 //   modal.find('.modal-body input').val(recipient)
 // })
 
-
-  // function createUserCard(roomates, element) {
-    
-  //     for (const roomate of roomates) {
-  //         console.log(roomate.user)
-  //         const imageMale = "images/tirkizna3.png";
-  //         const imageFemale = "images/magenta.png";
-  //         const colorMale = "card card-color-2";
-  //         const colorFemale = "card card-color-1";
-  //         element.innerHTML += `<div class="${roomate.user.sex === 'жена' ? colorFemale :colorMale}">
-  //         <div class="card-house-icon">
-  //           <img src="${roomate.user.sex === 'жена' ? imageFemale : imageMale}" alt="" class="card-house-image">
-  //         </div>
-
-  //         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
-  //           <image  class="imageinhouse" xlink:href="${roomate.user.image}" clip-path="url(#House)" />
-  //         </svg>
-          
-  //         <div class="card-body">
-  //           <h4 class="card-title-2">${roomate.user.fullName}</h4>
-  //           <span class="card-text-2">23, Карпош 3</span><br>
-  //           <a href="#" class="btn btn-primary">Порака</a>
-  //         </div>
-  //       </div>`
-              
-  //     }
-  // };
-
-
-
-
-
-//    $.getJSON('https://raw.githubusercontent.com/sedc-codecademy/sp2020-cp09-afi/develop/Jsons/users.json', function (json) {
-//     $('#list').pagination({
-//         dataSource: json.Product,
-//         pageSize: 2,
-//         callback: function(data, pagination) {
-//             var wrapper = $('#list .wrapper').empty();
-//             $.each(data, function (i, f) {
-//                 $('#list .wrapper').append('<ul><li>Key1: ' + f.Key1 + '</li></ul>');
-//             });
-//         }
-//     });
-// });
