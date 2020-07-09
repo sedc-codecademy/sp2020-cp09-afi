@@ -324,6 +324,9 @@ $('#range').on("input", function() {
             
             else if(favorite.includes('Подреди по цена од највисока')) {
               return apartmentsList.sort((apartment1, apartment2) => apartment2.apartment[0].price - apartment1.apartment[0].price);
+            }
+            else{
+              return apartmentsList;
             }                            
           })
           
@@ -340,11 +343,11 @@ $('#range').on("input", function() {
   });
 
   let apartmentCard = document.getElementById("apartmentCard");
-
-  apartmentCard.addEventListener("click", function(){
+  console.log(apartmentCard);
+  apartmentCard.addEventListener("click", function(event){
 
     alert("You clicked the DIV element!");
     searchApartments.style.display = 'none';
     homepage.style.display = 'none'; 
-  }, false)
+  });
 

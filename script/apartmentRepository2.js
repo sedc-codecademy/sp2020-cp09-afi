@@ -58,7 +58,7 @@ function paginationInitApartments (apartmentsList){
             const imageFemale = "./SearchedCardsPage/images/magenta.png";
             const colorMale = "card card-color-2";
             const colorFemale = "card card-color-1";
-            $('#list1 .wrapper').append(`<div class="${apartment.sex === 'жена' ? colorFemale :colorMale}" >
+            $('#list1 .wrapper').append(`<div class="${apartment.sex === 'жена' ? colorFemale :colorMale}" id = "apartmentCard">
             <div class="card-house-icon">
               <img src="${apartment.sex === 'жена' ? imageFemale : imageMale}" alt="" class="card-house-image">
             </div>
@@ -72,7 +72,7 @@ function paginationInitApartments (apartmentsList){
              <div class="card-body" >
              <h4 class="card-title-2">Локација: ${apartment.apartment[0].region}</h4>
              <span class="card-text-2">Кирија: ${apartment.apartment[0].price} €</span><br>
-             <button type="button" id = "apartmentCard" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
              Порака
            </button> 
              </div>
