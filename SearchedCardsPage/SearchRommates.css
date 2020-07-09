@@ -524,6 +524,12 @@ color: black;
   }
 
 
+  #img-filters-search {
+      position: relative;
+    width: 30px;
+    height: 40px;
+  }
+
   .paginationjs{line-height:1.6;font-family:Marmelad,"Lucida Grande",Arial,"Hiragino Sans GB",Georgia,sans-serif;font-size:14px;box-sizing:initial}.paginationjs:after{display:table;content:" ";clear:both}.paginationjs 
   .paginationjs-pages{display: flex;
     justify-content: space-around;
