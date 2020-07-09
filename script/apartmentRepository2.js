@@ -58,7 +58,7 @@ function paginationInitApartments (apartmentsList){
             const imageFemale = "./SearchedCardsPage/images/magenta.png";
             const colorMale = "card card-color-2";
             const colorFemale = "card card-color-1";
-            $('#list1 .wrapper').append(`<div class="${apartment.sex === 'жена' ? colorFemale :colorMale}">
+            $('#list1 .wrapper').append(`<div class="${apartment.sex === 'жена' ? colorFemale :colorMale}" >
             <div class="card-house-icon">
               <img src="${apartment.sex === 'жена' ? imageFemale : imageMale}" alt="" class="card-house-image">
             </div>
@@ -69,10 +69,10 @@ function paginationInitApartments (apartmentsList){
            <polygon class="cls-5" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
            <image  class ="imageinhouse" xlink:href="${apartment.pictures[1]}" clip-path="url(#Houses)" />
            </svg>            
-             <div class="card-body">
+             <div class="card-body" >
              <h4 class="card-title-2">Локација: ${apartment.apartment[0].region}</h4>
              <span class="card-text-2">Кирија: ${apartment.apartment[0].price} €</span><br>
-             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+             <button type="button" id = "apartmentCard" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
              Порака
            </button> 
              </div>

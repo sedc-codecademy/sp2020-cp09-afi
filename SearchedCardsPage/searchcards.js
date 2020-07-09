@@ -309,7 +309,7 @@ $('#range').on("input", function() {
 
     //apartments filters
     
-
+    let container1 = document.getElementById("content2");
     $(document).ready(function() {
       $("#filters-btn1").click(function(){
           var favorite = [];
@@ -333,8 +333,18 @@ $('#range').on("input", function() {
           console.log('tuka ima ')
           console.log(apartmentsList);
           //alert("My interests are: " + favorite.join(", "));
-          container.style.display = "none";
+          container1.style.display = "none";
           filterbtnApart.style.display = "block";
           getwrap.style.opacity = 1;            
         });
   });
+
+  let apartmentCard = document.getElementById("apartmentCard");
+
+  apartmentCard.addEventListener("click", function(){
+
+    alert("You clicked the DIV element!");
+    searchApartments.style.display = 'none';
+    homepage.style.display = 'none'; 
+  }, false)
+
