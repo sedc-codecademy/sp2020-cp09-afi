@@ -317,13 +317,13 @@ $('#range').on("input", function() {
               favorite.push($(this).val());
           });
           
-          apartmentsList = apartmentsList.sort(function() {            
+          apartmentsList = apartmentsList.filter(function() {            
             if(favorite.includes('Подреди по цена од најниска')) {
-              return roomatesList.sort((apartment1, apartment2) => apartment1.apartment[0].price - apartment2.apartment[0].price);
+              return apartmentsList.sort((apartment1, apartment2) => apartment1.apartment[0].price - apartment2.apartment[0].price);
             }
             
             else if(favorite.includes('Подреди по цена од највисока')) {
-              return roomatesList.sort((apartment1, apartment2) => apartment2.apartment[0].price - apartment1.apartment[0].price);
+              return apartmentsList.sort((apartment1, apartment2) => apartment2.apartment[0].price - apartment1.apartment[0].price);
             }                            
           })
           
