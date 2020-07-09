@@ -2,6 +2,7 @@
 let allfilter = document.getElementById("content");
 let allfilter2 = document.getElementById("content2")
 let filterbtn = document.getElementById("filter-button");
+let filterbtnApart = document.getElementById("filter-button-Apart");
 let getcard = document.getElementById("filterthiscard");
 let getsecondcard = document.getElementById("filtersecondcard");
 let homepage = document.getElementsByClassName("section1-HomePage")[0];
@@ -21,6 +22,7 @@ searchApartments.style.dysplay = 'none';
 searchCards.style.display = 'none';
 footerapartmentsearch.style.display = "none";
 navapartmentssearch.style.display = "none";
+allfilter2.style.display = "none";
 
 function showDivRoomate(){
     homepage.style.display = 'none';  
@@ -223,18 +225,21 @@ function paginationInitPerfectMatch (){
 
 let getwrap = document.querySelector(".wrapper");
 
-function filters(){
-    
+function filters(){    
     filterbtn.style.display = "none";
     //getcard.style.display = "none";
     allfilter.style.display = "block";
     //getsecondcard.style.display = "none";
      getwrap.style.opacity = .5;
-     allfilter.style.opacity = 1;
-
-    
-
-    
+     allfilter.style.opacity = 1;   
+}
+function filters2(){    
+  filterbtnApart.style.display = "none";
+  //getcard.style.display = "none";
+  allfilter2.style.display = "block";
+  //getsecondcard.style.display = "none";
+   getwrap.style.opacity = .5;
+   allfilter.style.opacity = 1;   
 }
 
 function goback(){
@@ -266,6 +271,27 @@ $('#range').on("input", function() {
               else if(favorite.includes('Непушач')) {
                 return !mate.preferences.smoker[0].isSmoker
               }
+              else if(favorite.includes('Миленик')) {
+                return mate.preferences.pets[0].doYouHaveYourOwnPet;
+              }              
+              else if(favorite.includes('Без Миленик')) {
+                return !mate.preferences.pets[0].doYouHaveYourOwnPet;
+              }
+              else if(favorite.includes('Спортист')) {
+                return !mate.preferences.interests[0].sport;
+              }
+              else if(favorite.includes('Филм')) {
+                return !mate.preferences.interests[0].movies;
+              }
+              else if(favorite.includes('Музика')) {
+                return !mate.preferences.interests[0].music;
+              }
+              else if(favorite.includes('Книги')) {
+                return !mate.preferences.interests[0].books;
+              }
+              else if(favorite.includes('Здрава храна')) {
+                return !mate.preferences.interests[0].healthyFood;
+              }                
             })
             //ovaa funkcija ti gi refreshika kartickite
             paginationInitUsers();
@@ -273,11 +299,42 @@ $('#range').on("input", function() {
             console.log(favorite)
             console.log('tuka ima ')
             console.log(roomatesList);
-            // alert("My interests are: " + favorite.join(", "));
+            //alert("My interests are: " + favorite.join(", "));
             container.style.display = "none";
             filterbtn.style.display = "block";
-            getwrap.style.opacity = 1;
-            
-            
+            getwrap.style.opacity = 1;            
           });
     });
+
+
+    //apartments filters
+    
+
+    $(document).ready(function() {
+      $("#filters-btn1").click(function(){
+          var favorite = [];
+          $.each($("input[name='interest']:checked"), function(){            
+              favorite.push($(this).val());
+          });
+          
+          apartmentsList = apartmentsList.sort(function() {            
+            if(favorite.includes('Подреди по цена од најниска')) {
+              return roomatesList.sort((apartment1, apartment2) => apartment1.apartment[0].price - apartment2.apartment[0].price);
+            }
+            
+            else if(favorite.includes('Подреди по цена од највисока')) {
+              return roomatesList.sort((apartment1, apartment2) => apartment2.apartment[0].price - apartment1.apartment[0].price);
+            }                            
+          })
+          
+          paginationInitApartments(apartmentsList);
+          
+          console.log(favorite)
+          console.log('tuka ima ')
+          console.log(apartmentsList);
+          //alert("My interests are: " + favorite.join(", "));
+          container.style.display = "none";
+          filterbtnApart.style.display = "block";
+          getwrap.style.opacity = 1;            
+        });
+  });
