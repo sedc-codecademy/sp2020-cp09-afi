@@ -308,6 +308,8 @@ $('#range').on("input", function() {
 
 
     //apartments filters
+
+
     
     let container1 = document.getElementById("content2");
     $(document).ready(function() {
@@ -348,6 +350,6 @@ $('#range').on("input", function() {
 
     alert("You clicked the DIV element!");
     searchApartments.style.display = 'none';
-    homepage.style.display = 'none'; 
+    homepage.style.display = 'block'; 
   });
 
