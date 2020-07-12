@@ -277,7 +277,7 @@ function prodolzi4(){
     apartmentUser.push({
         firstname: name,
         lastname: prezime,
-        fullname: name + prezime,
+        fullname: name + " " + prezime,
         godini: godini,
         email: email,
         telefon: telefon,
@@ -562,7 +562,8 @@ let complete_profile_btn = document.getElementById("completeApartbtn");
 
 function completeProfile(){
     console.log("yeey");
-    apart_profile_page.style.display = "block";   
+    apart_profile_page.style.display = "block";
+    sectionReg.style.display = "none";   
      div7_1.style.display = "none";
      addDataFromRegForm(apartmentUser) 
 }
@@ -572,12 +573,34 @@ let region1 = document.getElementById("region1");
 let price1 = document.getElementById("price1");
 let area1 = document.getElementById("area1");
 let phoneNumber1 = document.getElementById("phoneNumber1");
+var file1 = document.querySelector('#prikaci').files[0];
+     const toBase64 = file => new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = error => reject(error);
+    });
+async function LoadApartmentPicture() {
+    const file1 = document.querySelector('#prikaci1').files[0];
+    const file2 = document.querySelector('#prikaci1').files[1];
+    const file3 = document.querySelector('#prikaci1').files[2];
+     console.log(await toBase64(file1));
+ apartmentUser[0].picture = await toBase64(file1);
+ apartmentUser[1].picture = await toBase64(file2);
+ apartmentUser[2].picture = await toBase64(file3);
+    document.getElementById('pic1').innerHTML = `<img  src=${apartmentUser[0].picture} class="user-profile-card-img" alt="image">`;
+    document.getElementById('pic1').innerHTML = `<img  src=${apartmentUser[1].picture} class="user-profile-card-img" alt="image">`;
+    document.getElementById('pic1').innerHTML = `<img  src=${apartmentUser[2].picture} class="user-profile-card-img" alt="image">`;
+ }
+ LoadApartmentPicture();
 function addDataFromRegForm(apartmentUser){
     fullName1.innerHTML = apartmentUser[0].fullname;
     region1.innerHTML = apartmentUser[1].opstina;
     //price1.innerHTML = apartmentUser[0].price;
     area1.innerHTML = apartmentUser[1].kvadratura;
 } 
+
+
 
 
 function kompletiraj(){
