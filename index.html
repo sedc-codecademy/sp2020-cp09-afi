@@ -5,457 +5,1823 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="style/user-profile-assets/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="style/user-profile-assets/user-profile-style.css">
-  <link rel="stylesheet" href="./style/user-profile-assets/user-profile-style.css">
-  <link rel="stylesheet" href="./style/najava.css">
-  <link rel="stylesheet" href="./registration-page/style.css">
-  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/DinPRO/DINPro-Black.otf">
+  <link rel="stylesheet" href="./style/All styles/Registration.css">
+  <link rel="stylesheet" href="./SearchedCardsPage/SearchRommates.css"> 
+  <link rel="stylesheet" href="style/All styles/user-profile-page-style.css">
+  <link rel="stylesheet" href="./style/All styles/LogIn.css">
+  <link rel="stylesheet" href="style/All styles/Homepagestyle.css">
+  <link rel="stylesheet" href="style/fontawesome-free-5.13.0-web/css/all.css">
+  <link rel="stylesheet" href="./style/All styles/apartmentowner-profile.css">
+  <link rel="stylesheet" href="./style/All styles/apartmentSearch.css">
 </head>
 
-
 <body>
-
-  <section class="section1" id="section1">
-
-  <div class="all-content " id="allcontent">
-
-    <div class="top-buttons" id="reg">
-          <img src="./SearchedCardsPage/Images/roommates_logo_white.svg" class="logo">
-          <a onclick="najava()" type="button" id="najava" class="kopche-najava">Најави се</a>
-          <a onclick="location.href='registration-page/registration-page.html'" type="button" id="registriraj" class="kopche-registriraj">Регистрирај се</a>
-    </div>
-    
-        <div class="search" id="cccc">
-          <h1 class="text-insearchbox">Најди цимер по мерка.</h1>
-          <div class="dropdown">
-            <a class="btn btn-secondar dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              БАРАМ ЦИМЕР 
-            </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">Барам цимер</a>
-              <a class="dropdown-item" href="#">Барам простор</a>
-              <a class="dropdown-item" href="#">Барам цимер со простор</a>
-            </div>
-          </div>
-          <div class="dropdown2">
-            <button class="btn btn-secondary-2c dropdown-toggle" type="button" id="dropdownMenuButtons"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> локација</button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Карпош</a>
-              <a class="dropdown-item" href="#">Кисела Вода</a>
-              <a class="dropdown-item" href="#">Центар</a>
-            </div>
-          </div>
-          <button onclick="location.href='SearchedCardsPage/indexKartica.html'" type="button" class="btn btn-light-search">Најди</button>
-
+  <!-- HomePage -->
+    <section class="section1-HomePage">
+      <div class="all-content-HomePage" id="all-content-HomePage">
+        <div class="top-buttons-Homepage">
+              <img src="./style/images/roommates_logo_white2.png" class="logo-HomePage">
+              <a type="button" id="najava-HomePage" class="kopche-najava-HomePage">Најави се</a>
+              <a type="button" id="registriraj-HomePage" class="kopche-registriraj-HomePage">Регистрирај се</a>
         </div>
-  
-      
-              <!-- House Cards -->
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 203.89 171.94"><defs>
-          <clipPath id="House"> 
-          <style>.cls-1{fill:none;stroke:#ab2176;stroke-miterlimit:10;stroke-width:8px;}</style>
-          <polygon class="cls-1"  points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+        
+
+            <div class="search-box-HomePage">
+              <h1 class="text-insearchbox-HomePage">Најди цимер по мерка.</h1>
+              <select  id="firstdropdown"class="btn btn-secondar dropdown-toggle"  role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="selected">
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <option class="dropdown-item"  value = "true" >Барам цимер со простор</option>
+                  <option class="dropdown-item"  value ="apatmentSelect">Барам простор</option>
+                  <option class="dropdown-item"  value ="false">Барам цимер</option>
+                </div>
+              </select>
+              <select  id="seconddropdown"class="btn btn-secondary-2 dropdown-toggle"  role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" value="selected">
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <option class="dropdown-item"  value ="all" >Локација</option>
+                  <option class="dropdown-item"  value ="Центар" >Центар</option>
+                  <option class="dropdown-item"  value ="Карпош1">Карпош 1</option>
+                  <option class="dropdown-item"  value ="Карпош2">Карпош 3</option>
+                  <option class="dropdown-item"  value ="Карпош4">Карпош 4</option>
+                  <option class="dropdown-item"  value ="Карпош4">Карпош 4</option>
+                  <option class="dropdown-item"  value ="Ново Лисиче">Ново Лисиче</option>
+                  <option class="dropdown-item"  value ="Автокоманда">Автокоманда</option>
+                  <option class="dropdown-item"  value ="Кисела Вода">Кисела Вода</option>
+                  <option class="dropdown-item"  value ="Влае">Влае</option>
+                </div>
+              </select>
+              <li><a href="#" id ="search-btn" class="btn btn-light-search-HomePage" >Најди</a></li>
+          
+
+          <div class="All-Icons-HomePage">
+                  <!-- House Cards -->
+            <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 203.89 171.94"><defs>
+              <clipPath id="House"> 
+              <style>.cls-2{fill:none;stroke:#ab2176;stroke-miterlimit:10;stroke-width:8px;}</style>
+              <polygon class="cls-3"  points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+              </clipPath>
+            </defs>
+            <polygon class="cls-3" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+            <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQjEn0u63iO2HEszhCsK6-3vljYHQ9Cegcew&usqp=CAU clip-path="url(#House)" />
+            </svg>
+          <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+            <clipPath id="House">
+            <style>.cls-2{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+            <polygon class="cls-3" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+            </clipPath>
+          </defs>
+          <polygon class="cls-2" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+          <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
+        </svg>   
+        <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+          <clipPath id="House">
+          <style>.cls-2{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+          <polygon class="cls-2" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
           </clipPath>
         </defs>
-        <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-        <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-        </svg>
-
-
-      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+        <polygon class="cls-3" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+        <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSft1n_UztFSbiPLLNGNl5Yw8OAC8vPLojO-A&usqp=CAU clip-path="url(#House)" />
+      </svg>   <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
         <clipPath id="House">
-
-        <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
-        <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
+        <style>.cls-2{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+        <polygon class="cls-3" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
         </clipPath>
       </defs>
-      <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-      <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-
-    </svg>   
-    
-    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+      <polygon class="cls-2" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+      <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPAyp_5FqIrCZmObVR1kM7J2dcGuuDPeApkg&usqp=CAU clip-path="url(#House)" />
+    </svg>   <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
       <clipPath id="House">
-
-      <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
-      <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
+      <style>.cls-2{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+      <polygon class="cls-2" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
       </clipPath>
     </defs>
-    <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-    <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-
-  </svg>   <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+    <polygon class="cls-3" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+    <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLgqS-x9WCoPCj_ZiOchRRwtlqpjmGpn_vsA&usqp=CAU clip-path="url(#House)" />
+    </svg>  
+    <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
     <clipPath id="House">
-
-    <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
-    <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
+    <style>.cls-2{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+    <polygon class="cls-3" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
     </clipPath>
-  </defs>
-  <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-  <image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-
-</svg>   <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
-  <clipPath id="House">
-
-  <style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
-  <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-  </clipPath>
-</defs>
-<polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-<image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-
-</svg>  
-
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
-<clipPath id="House">
-
-<style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
-<polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-</clipPath>
-</defs>
-<polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-
-<image  class ="imageinhouse"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKhY13rebw8JNfsCXC0kYPYBu5t6jhRSYR7QJblfUhfz4YOLZI&usqp=CAU" clip-path="url(#House)" />
-
-</svg> 
+    </defs>
+    <polygon class="cls-2" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+    <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAlVTUejfqE9fjVZzX0FooDyAHQ99q3Fbl8g&usqp=CAU clip-path="url(#House)" />
+    </svg> 
+    <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94"><defs>
+      <clipPath id="House">
+      <style>.cls-2{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style>
+      <polygon class="cls-2" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+      </clipPath>
+      </defs>
+      <polygon class="cls-2" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+      <image  class ="imageinhouse-HomePage"width="210" height="200" xlink:href=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTV5HB5ZyY6fo0IL47aGdJtaohfU2N0JdxBKA&usqp=CAU clip-path="url(#House)" />
+      </svg> 
+          </div>
 
 
 
-          <!-- Card names -->
-        <p class="card-name">Мариja Марковска</p>
-        <p class="card-name">Марко Марковски</p>
-        <p class="card-name">Мариja Марковска</p>
-        <p class="card-name">Марко Марковски</p>
-        <p class="card-name">Мариja Марковска</p>
-        <p class="card-name">Марко Марковски</p>
-        
-  <div class="card-rows" id="bbbb">
-          <div class="cards-columns">
-            <ul class="card-title"> Бесплатен акаунт засекогаш. </ul>
-            <div class="info-cards">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-                exercitationem dolores praesentium at omnis ipsam magnam mollitia
 
-                cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
-                optio similique quos eligendi?</p>
+    <div class="NamesForIcons-HomePage">
+              <!-- Card names -->
+            <p class="card-name-HP">Мариja Марковска</p>
+            <p class="card-name-HP">Марко Марковски</p>
+            <p class="card-name-HP">Ангела Колевска</p>
+            <p class="card-name-HP">Александар Павлов</p>
+            <p class="card-name-HP">Вероника Стоилков</p>
+            <p class="card-name-HP">Петар Ангеловски</p>
+            <p class="card-name-HP">Никола Николовски</p>    
             </div>
           </div>
-          <div class="cards-columns">
-            <ul class="card-title">Најди цимер по мерка.</ul>
-            <div class="info-cards">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-                exercitationem dolores praesentium at omnis ipsam magnam mollitia
 
-                cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
-                optio similique quos eligendi?</p>
+
+          <!-- Info Cards -->
+            
+      <div class="card-rows-HomePage" >
+              <div class="cards-columns-HomePage">
+                <ul class="card-title-HomePage"> Бесплатен акаунт засекогаш. </ul>
+                <div class="info-cards-HomePage">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                    exercitationem dolores praesentium at omnis ipsam magnam mollitia
+    
+                    cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+                    optio similique quos eligendi?</p>
+                </div>
+              </div>
+              <div class="cards-columns-HomePage">
+                <ul class="card-title-HomePage">Најди цимер по мерка.</ul>
+                <div class="info-cards-HomePage">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                    exercitationem dolores praesentium at omnis ipsam magnam mollitia
+    
+                    cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+                    optio similique quos eligendi?</p>
+                </div>
+              </div>
+      
+            <div class="cards-columns-HomePage">
+              <ul class="card-title-HomePage">Најди простор по мерка.</ul>
+              <div class="info-cards-HomePage">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                  exercitationem dolores praesentium at omnis ipsam magnam mollitia
+    
+                  cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+                  optio similique quos eligendi?</p>
+              </div>
             </div>
-          </div>
+            <div class="cards-columns-HomePage">
+              <ul class="card-title-HomePage">Едноставно и брзо поврзување.</ul>
+              <div class="info-cards-HomePage">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+                  exercitationem dolores praesentium at omnis ipsam magnam mollitia
+    
+                  cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
+                  optio similique quos eligendi?</p>
+              </div>
+            </div>
+      </div>   
+    
+            <p class="slogan-HomePage">Зошто
+            <p class="slogan1-HomePage">roommates.mk?</p>
+            </p>
+    
+    <!-- Footer -->
+
+              <p class="footer-FollowUs-HomePage">FOLLOW US</p>
+              <img src="./style/images/instagram.svg" class="instagram-HomePage">
+              <img src="./style/images/facebook.svg" class="facebook-HomePage">
+              <p class="footer-Roomates-HomePage">2020 Roommates.mk © </p>
+              <p class="footer-Terms-HomePage"> <a type="button" id="mobile-app">Mobile App |</a> <a type="button" id="terms">Terms |</a> <a type="button" id="privacy" >Privacy |</a> <a type="button" id="Contact">Contact |</a></p>
+              <button id="reg-second" type="button" class="btn btn-dark-1-registration-HomePage">РЕГИСТРИРАЈ СЕ!</button>
+            </div>
+          </section>
+
+
+          <section id="section-footer">
+            <header class="header-PrivacyPage">
+              <div class="logo-top-left-PrivacyPage">
+                  <img src="./style/images/roommates_logo_white2.png" alt="roommates.mk" class="logo-top-left-image-PrivacyPage" id="logo-image">
+              </div>
+          </header>
+    
+                 
+            <div class="container1">
+              <button type="button" class="btn btn-success1">Назад</button>
+
+              <h1 class="mt-5">Roommates.MK</h1>
+              <hr/>
+              <h2 class="mt-5">Privacy Policy</h2>
+              <hr />
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quasi excepturi quae, ducimus accusamus culpa tenetur suscipit nostrum nam! Velit libero aperiam voluptatem temporibus id dolorum neque repellendus adipisci earum?
+              </p>
+              <p>This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+              </p>
+              <p>If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with
+                anyone except as described in this Privacy Policy.
+              </p>
+              <p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Poubelle unless otherwise defined in this Privacy Policy.
+              </p>
+              <p><strong>Information Collection and Use</strong></p>
+              <p>For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+              </p>
+              <p>The app does use third party services that may collect information used to identify you.</p>
+              <p><strong>Cookies</strong></p>
+              <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+              </p>
+              <p>This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know
+                when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+              </p>  
+              <p><strong>Changes to This Privacy Policy</strong></p>
+              <p> I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after
+                they are posted on this page.
+              </p>
+              <p><strong>Contact Us</strong></p>
+              <p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me.
+              </p>
+            </div>
+          </section>
+
+
+
+          <section id="section-terms">
   
-        <div class="cards-columns">
-          <ul class="card-title">Најди простор по мерка.</ul>
-          <div class="info-cards">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              exercitationem dolores praesentium at omnis ipsam magnam mollitia
+            <header class="header-TermsPage">
+              <div class="logo-top-left-TermsPage">
+                  <img src="./style/images/roommates_logo_white2.png" alt="roommates.mk" class="logo-top-left-image-TermsPage" id="logo-image">
+              </div>
+          </header>
+          <button type="button" class="btn btn-success2">Назад</button>
 
-              cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
-              optio similique quos eligendi?</p>
-          </div>
-        </div>
-        <div class="cards-columns">
-          <ul class="card-title">Едноставно и брзо поврзување.</ul>
-          <div class="info-cards">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              exercitationem dolores praesentium at omnis ipsam magnam mollitia
+            &nbsp;
+<div id="sig" style="min-width: 300px; max-width:800px; min-height: 82px; line-height: 18px; margin: auto; padding: 50px; margin-top:50px; font-size: 132px; color: #333333;">
+  <span style="font-size:42px; color: #E62188; text-decoration: none;"><strong>Roommates.MK Terms and Conditions</strong></span></br>
 
-              cupiditate ullam quae aliquid voluptas veniam ratione, inventore natus
-              optio similique quos eligendi?</p>
-          </div>
+  </br>
+  <p style=" font-size: 21px; color: #333333; text-decoration: none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+  <br>
+  </br>
+  <p style=" font-size: 20px; color: #333333; text-decoration: none;">© Roommates.MK
+    </br><a href="https://www.google.it/maps/place/Carlorattiassociati+S.R.L./@45.062398,7.707512,17z/data=!3m1!4b1!4m2!3m1!1s0x4788729757d76f45:0x4f45a6f1ea92e712?hl=it" ; style="font-size: 20px; color: #333333; text-decoration: none;"> Lorem Lorem Lorem Lorem  - Skopje, North Macedonia </a><br>
+  </p>
+</div>
+          </section>
+
+
+
+
+          <section id="section-contacts">  
+            <header class="header-ContactPage">
+              <div class="logo-top-left-ContactPage">
+                  <img src="./style/images/roommates_logo_white2.png" alt="roommates.mk" class="logo-top-left-image-ContactPage" id="logo-image">
+              </div>
+          </header>
+          <button type="button" class="btn btn-success3">Назад</button>
+
+
+            <div class="container2">  
+              <form id="contact" action="" method="post">
+                <h3>Quick Contact</h3>
+                <h4>Contact us today, and get reply with in 24 hours!</h4>
+                <fieldset>
+                  <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                  <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+              </form>
+              </div>
+          </section>
+
+
+  <div id="searhCards">
+
+    <section class="section2" id="section2">
+      <div class="searchcard-nav-bar">
+        <a href target="_self">
+        <div class="searchcard-nav-bar-logo" id="home-page">
+          <img src="./style/images/roommates_logo_white2.png" alt="" class="searchcard-nav-bar-logo-image">
         </div>
+      </a>
+      
+        <div class="searchcard-nav-bar-invisible-box"></div>
+
+          <div id="searchcard-nav-bar-link">
+            <a href="#" target="_self" class="searchcard-nav-bar-links">
+              <div id="sovpagjanja-page3"><span class="searchcard-nav-bar-tekst">Совпаѓања</span></div>
+            </a>
+
+            <a href="" class="searchcard-nav-bar-links 1">
+              <div id="perbaraj-page"><span class="searchcard-nav-bar-tekst">Пребарај</span></div>
+            </a>
+            <a href="#" target="_self" class="searchcard-nav-bar-links">
+              <div id="poraki-page"><span class="searchcard-nav-bar-tekst">Пораки</span></div>
+            </a>
+            <a href="../user-profile-page/index.html" target="_self" class="searchcard-nav-bar-links active">
+              <div id="profil-page"><span class="searchcard-nav-bar-tekst">Профил</span></div>
+            </a>
+          </div>
+
+          <div class="searchcard-top-right-user-box">
+            <div class="searchcard-top-right-house-logo">
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user image" class="searchcard-img-user">
+            </div>
+            
+            <div class="searchcard-house-icon">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+                    <defs><style>.cls-1{fill:none;stroke:#a5dce1;stroke-miterlimit:10;stroke-width:8px;}</style></defs>
+                    <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+                </svg>
+            </div>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-success4">Назад</button>
+
+      <div class= "filter-button-div" id="filter-button">
+    
+        <a onclick="filters()" type="button" id="filter" class="kopche-najava"><img src="./SearchedCardsPage/Images/filter-icon.svg" id = "img-filter">Филтри</a>
+    
+      </div>
+
+        <div class= "filters-container " id="content">     
+    
+        <div class="container">
+          <div class = basic-filters>
+    
+          <ul class="ks-cboxtags">
+      <form>
+            <h3>Филтри:</h3>
+            <li><input type="checkbox" id="checkboxOne" value="Пушач" name="interest"><label for="checkboxOne">ПУШАЧ <img src="./SearchedCardsPage/Images/icon - smoker.svg " id="img-filters"></label></li>
+            <li><input type="checkbox" id="checkboxThree" value="Непушач" name="interest"><label for="checkboxThree" >НЕПУШАЧ<img src="./SearchedCardsPage/Images/icon -non smoker.svg " id="img-filters"></label></li>
+            <li><input  type="checkbox" id="checkboxFour" value="Миленик" name="interest"><label for="checkboxFour" >МИЛЕНИК<img src="./SearchedCardsPage/Images/icon- pet.svg " id="img-filters"></label></li>
+            <li><input type="checkbox" id="checkboxFive" value="Без Миленик" name="interest"><label for="checkboxFive">БЕЗ МИЛЕНИК<img src="./SearchedCardsPage/Images/icon-noPet.svg " id="img-filters"></label></li>
+    
+            <h4>Интереси:</h4>
+            <li><input type="checkbox" id="checkboxTwo" value="Спортист" name ="interest"><label for="checkboxTwo" >СПОРТИСТ<img src="./SearchedCardsPage/Images/icon- sport.svg" id="img-filters"></label></li>       
+             <li><input type="checkbox" id="checkboxSix" value="Филм" name ="interest"><label for="checkboxSix" >ФИЛМ<img src="./SearchedCardsPage/Images/icon-movie.svg " id="img-filters"></label></li>
+            <li><input type="checkbox" id="checkboxSeven" value="Музика" name ="interest"><label for="checkboxSeven" >МУЗИКА<img src="./SearchedCardsPage/Images/icon-music.svg " id="img-filters"></label></li>
+            <li><input type="checkbox" id="checkboxEight" value="Книги" name ="interest"><label for="checkboxEight" >КНИГИ<img src="./SearchedCardsPage/Images/icon-books.svg " id="img-filters"></label></li>
+            <li><input type="checkbox" id="checkboxNine" value="Здрава храна" name ="interest"><label for="checkboxNine" >ЗДРАВА ХРАНА<img src="./SearchedCardsPage/Images/icon-food.svg " id="img-filters"></label></li>
+    
+            <hr>
+            <button type="button" id="filters-btn"><img src="https://img.icons8.com/material/64/000000/search--v1.png" id="img-filters-search">ПРЕБАРАЈ </button>
+        </form>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Нова Порака</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">До:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Порака:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Затвори</button>
+        <button type="button" class="btn btn-primary">Испрати</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <div id="list">
+    <div class="wrapper">
+      
+      
+      </div>
+      
+    </div>  
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <!-- <li class="page-item"><a class="page-link" href="#">Назад</a></li> -->
+        <ul class="paging-numbers">
+        <!-- <li class="page-item-"><a class="page-link" href="#">1</a></li>
+        <li class="page-item-"><a class="page-link" href="#">2</a></li>
+        <li class="page-item-"><a class="page-link" href="#">3</a></li>
+        <li class="page-item-"><a class="page-link" href="#">4</a></li> -->
+        </ul>
+        <!-- <li class="page-item"><a class="page-link" href="#">Следно</a></li> -->
+      </ul>
+    </nav>
+  <div class="footer-searchcard">
+    <div class ="footer-text-follow-us-searchcard">
+      <p class="footer-text4">FOLLOW US</p>
+    </div>
+    <div class="logo-footer-text-searchcard">
+    <img src="./SearchedCardsPage/Images/instagram.svg" class="instagram-searchcard">
+    <img src="./SearchedCardsPage/Images/facebook.svg" class="facebook2">
+    <p class="footer-text-2">2020 Roommates.mk ©</p>
+    </div>
+    <div class="footer-text--Info">
+      <p class="footer-text-searchcard">Mobile App |Terms |Privacy |Contact </p>
+    </div>
+  </div>
   </div>
 
 
-    
+
+
+
+
+<section id="getApartmentsSearch">
+
+<div id="searchApartments">
+  <div class="
+  apartmentSearch-profile-nav-bar">
+    <a href="" target="_self">
+    <div class="
+    apartmentSearch-nav-bar-logo" id="home-page">
+      <img src="./style/images/roommates_logo_white2.png" alt="" class="apartmentSearch-nav-bar-logo-image">
+    </div>
+  </a> 
   
+    <div class=" apartmentSearch-nav-bar-invisible-box"></div>
 
+      <div id="apartmentSearch-nav-bar-link">
+        <a href="#" target="_self" class="
+        apartmentSearch-nav-bar-links">
+          <div id="sovpagjanja-page4"><span class="apartmentSearch-nav-bar-tekst">Совпаѓања</span></div>
+        </a>
 
-        <p class="slogan">Зошто
-        <p class="slogan1">roommates.mk?</p>
-        </p>
+        <a href=""  class="apartmentSearch-nav-bar-links 2">
+          <div id="perbaraj-page"><span class="apartmentSearch-nav-bar-tekst">Пребарај</span></div>
+        </a>
+        <a href="#" target="_self" class="apartmentSearch-nav-bar-links">
+          <div id="poraki-page"><span class="apartmentSearch-nav-bar-tekst">Пораки</span></div>
+        </a>
+        <a href="../user-profile-page/index.html" target="_self" class="apartmentSearch-nav-bar-links active">
+          <div id="profil-page"><span class="apartmentSearch-nav-bar-tekst">Профил</span></div>
+        </a>
+      </div> 
 
-
-
-        <div class="footer">
-          <p class="footer-text">FOLLOW US</p>
-          <img src="./style/instagram.svg" class="instagram">
-          <img src="./style/facebook.svg" class="facebook">
-          <p class="footer-text-1">2020 Roommates.mk</p>
-          <p class="footer-text-2">Mobile App | Terms | Privacy | Contact </p>
-          <button onclick="location.href='registration-page/registration-page.html'"  type="button" class="btn btn-dark-1-registration">РЕГИСТРИРАЈ СЕ!</button>
-
-
+      <div class="apartments-top-right-user-box">
+        <div class="apartments-top-right-house-logo">
+            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user image" class="apartments-img-user">
         </div>
-      </div>
-      
-      </section>
-
-
-
-
-
-      <section class="section2">
-
- <div class="hidecontent" id="allnajava">
-      <header>
-        <div class="logo-top-left">
-            <img src="./SearchedCardsPage/Images/roommates_logo_white.svg" alt="roommates.mk" class="logo-top-left-image">
+        
+        <div class="apartments-house-icon">
+            <svg id="Layer_3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+                <defs><style>.cls-1{fill:none;stroke:#a5dce1;stroke-miterlimit:10;stroke-width:8px;}</style></defs>
+                <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+            </svg>
         </div>
+    </div>
+
+  </div> 
+  <button type="button" class="btn btn-success5">Назад</button>
+
+  <div class= "filter-button-div" id="filter-button-Apart">
+    
+    <a onclick="filters2()" type="button" id="filter" class="kopche-najava"><img src="./SearchedCardsPage/Images/filter-icon.svg" id = "img-filter">Филтри</a>
+
+  </div>
 
 
-        <nav>
-           
-        </nav> 
-    </header>
-
+    <div class= "filters-container" id="content2">     
 
     <div class="container">
-        <h1>Добредојде назад! <span class="wave">👋🏾</span></h1>
+      <div class = basic-filters>
+
+      <ul class="ks-cboxtags">
+  <form>
+        <h3>Филтри:</h3>
+        <li><input type="checkbox" id="checkboxTen" value="Подреди по цена од најниска" name="interest"><label for="checkboxTen">Подреди по цена од најниска <img src="./SearchedCardsPage/Images/download.svg" id="img-filters"></label></li>
+        <li><input type="checkbox" id="checkboxEleven" value="Подреди по цена од највисока" name="interest"><label for="checkboxEleven" >Подреди по цена од највисока<img src="./SearchedCardsPage/Images/upload.svg" id="img-filters"></label></li>
+        
+
+        <hr>
+        <button type="button" id="filters-btn1"><img src="https://img.icons8.com/material/64/000000/search--v1.png" id="img-filters-search">Пребарај</button>
+    </form>
+      </ul>
+    </div>
+    </div>
+  </div>
+
+
+
+
+
+
+ <div id="list1">
+  <div class="wrapper"> 
     
-        Емаил:
-        <input type="email" />
     
-        Лозинка:
-        <input type="password" />
-        <a onclick="login()" type="button" id="login" class="login">Најави се</a>
-        <p class="text-in-najava">Сеуште немаш акаунт?</p>
-        <a onclick="location.href='registration-page/registration-page.html'" type="button" id="signup" class="signup">Регистрирај се</a>
-        <a href="#">Заборави лозинка...</a>
-        <p class="disclaimer">Со користење на Roomates.mk,се согласуваш дека си ги прочитал и разбрал правилата на употреба....</p>
+     </div>
+
+  </div>  
+  <div class="footer-ApartmentSearch">
+    <div class ="footer-FollowUs-ApartmentSearch">
+      <p >FOLLOW US</p>
+    </div>
+    <div class="logo-footer-NajavisePage">
+    <img src="./style/images/instagram.svg" class="instagram-ApartmentSearch">
+    <img src="./style/images/facebook.svg" class="facebook-ApartmentSearch">
+    <p class="footer-text-32">2020 Roommates.mk</p>
+    </div>
+    <div class="footer-text-3-Info2">
+      <p class="footer-Terms-ApartmentSearch">Mobile App |Terms |Privacy |Contact </p>
+    </div>
+    </div> 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Нова Порака</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-  
-    <div class="footer2">
-        <div class ="footer-text-follow-us2">
-          <p class="footer-text2">FOLLOW US</p>
-        </div>
-        <div class="logo-footer-text-12">
-        <img src="./style/instagram.svg" class="instagram2">
-        <img src="./style/facebook.svg" class="facebook2">
-        <p class="footer-text-12">2020 Roommates.mk</p>
-        </div>
-        <div class="footer-text-2-Info">
-          <p class="footer-text-22">Mobile App |Terms |Privacy |Contact </p>
-        </div>
-        </div>
-        </div>
-
-        </section>
-    
-  <!-- USER PROFILE -->
-
-
-
-
-
-
-
-
-
-
-
-
-  <section class="section3">
-  <div class="container-user-profile" id="hidecontent">
-    
-    <header>
-        <div class="logo-top-left1">
-            <img src="style/user-profile-assets/images/roommates_logo_white.svg" alt="roommates.mk" class="logo-top-left-image1">
-        </div>
-
-
-        <div class="box"></div>
-        <nav>
-            <ul class="nav-links1">
-                <li><a href="#" class="nav-link">Најди цимер</a></li>
-                <li><a href="#" class="nav-link">Пораки</a></li>
-                <li><a href="#" class="nav-link">Мој контакти</a></li>
-            </ul>
-        </nav>
-        
-        <div class="top-right-user-box1">
-            <div class="top-right-house-logo1">
-                <!-- <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user image" class="img-user1"> -->
-            </div>
-            
-            <div class="house-icon1">
-                <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
-                    <defs><style>.cls-1{fill:none;stroke:#3c818f;stroke-miterlimit:10;stroke-width:8px;}</style></defs>
-                    <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
-                </svg> -->
-            </div>
-        </div>
-    </header>
-
-    
-    
-    <div class="main-content">
-        <div class="main-content-image-left">
-            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user profile picture" class="user-profile-picture">
-        </div>
-
-        <div class="main-content-right">
-            <span class="name-surname">Име и Презиме</span>
-
-            <div class="location-box">
-                <i class="fas fa-map-marker-alt location-box-icon"></i>
-                <span class="location-box-text">Локација</span>
-            </div>
-
-            <div class="info-user">
-                <span class="info-user-text">Студент/Работник</span>
-            </div>
-
-            <div class="characteristics">
-                <span class="characteristics-text">Карактеристики</span>
-                <ul class="characteristics-list">
-                    <li class="characteristics-list-item">Текст</li>
-                    <li class="characteristics-list-item">Текст</li>
-                    <li class="characteristics-list-item">Текст</li>
-                    <li class="characteristics-list-item">Текст</li>
-                    <li class="characteristics-list-item">Текст</li>
-                    <li class="characteristics-list-item">Текст</li>
-                </ul>
-            </div>
-
-            <div class="send-message">
-                <i class="fas fa-comment message-icon"></i>
-                <span class="send-message-text">Испрати порака</span>
-            </div>
-
-            <div class="main-content-right-about">
-                <i class="fas fa-user about-icon"></i>
-                <span class="about-text">Опис</span>
-            </div>
-        </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">До:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Порака:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Затвори</button>
+        <button type="button" class="btn btn-primary">Испрати</button>
+      </div>
     </div>
-
-   
-    <br>
-    <hr class="line-1">
-
-    
-
-    <div class="main-content-2">
-        <div class="main-content-2-left">
-            <span class="description">Дескрипција</span>
-
-            <div class="main-content-2-textarea">
-                <textarea rows="16" cols="43" name="comment" form="usrform" class="main-content-2-textarea-text">Внеси текст...</textarea>
-            </div>
-
-            <div class="main-content-2-button">
-                <span class="main-content-2-button-text">Деактивирај Акаунт</span>
-            </div>
-        </div>
-
-        
-        <div class="main-content-2-right">
-            <div class="main-content-2-header">
-                <span class="opacity">Контакт Информации</span>
-            </div>
-
-            <div class="main-content-2-right-left-part">
-                <div class="main-content-2-left-part-phone-number-text">
-                    <span class="main-content-2-left-part">Мобилен:</span>
-                </div>
-
-                <div class="main-content-2-left-part-address-text">
-                    <span class="main-content-2-left-part">Адреса:</span>
-                </div>
-
-                <div class="main-content-2-left-part-email-address-text">
-                    <span class="main-content-2-left-part">Е-маил:</span>
-                </div>
-
-                <div class="main-content-2-left-part-site-text">
-                    <span class="main-content-2-left-part">Сајт:</span>
-                </div>
-                
-                
-
-                <div class="main-content-2-header-2">
-                    <span class="opacity">Основни Информации</span>
-                </div>
-
-                <div class="main-content-2-left-part-birthday-text">
-                    <span class="main-content-2-left-part">Роденден:</span>
-                </div>
-
-                <div class="main-content-2-left-part-gender-text">
-                    <span class="main-content-2-left-part">Пол:</span>
-                </div>
-            </div>
-
-            
-            <div class="main-content-2-right-right-part">
-                <div class="main-content-2-right-part-phone-number">
-                    <span class="main-content-2-right-part">+389 78 442 555</span>
-                </div>
-
-                <div class="main-content-2-right-part-address-text">
-                    <span class="main-content-2-right-part">Ул. Иван Козаров бр.50</span>
-                </div>
-
-                <div class="main-content-2-right-part-email-address-text">
-                    <span class="main-content-2-right-part">user@gmail.com</span>
-                </div>
-
-                <div class="main-content-2-right-part-site-text">
-                    <span class="main-content-2-right-part">www.facebook.com/User/</span>
-                </div>
-
-                
-
-                <div class="main-content-2-right-part-birthday-text">
-                    <span class="main-content-2-right-part">5 Јуни, 1992</span>
-                </div>
-
-                <div class="main-content-2-right-part-gender-text">
-                    <span class="main-content-2-right-part">Маж</span>
-                </div>
-            </div>
-        </div>
-    </div>
+  </div>
 </div>
-  </section>
+
+</div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
+<section class="section3-NajavisePage">
+  <div  id="NajavisePage" class="NajavisePage">
+       <header class="header-NajavisePage">
+         <div class="logo-top-left-NajavisePage">
+             <img src="./style/images/roommates_logo_white2.png" alt="roommates.mk" class="logo-top-left-image-NajavisePage" id="logo-image">
+         </div>
+     </header>
+ 
+     <button type="button" class="btn btn-success6">Назад</button>
+
+     <div class="container-NajavisePage">
+         <h1>Добредојде назад! <span class="wave">👋🏾</span></h1>
+     
+         Емаил:
+         <input id = "emailIpnut" type="email" />
+     
+         Лозинка:
+         <input id = "passwordInput" type="password" />
+         <span id="errorInputMsg">*Внесете точен емаил и лозинка</span>
+         <a type="button"  class="login-NajavisePage">Најави се</a>
+
+         <p class="text-in-najava-NajavisePage">Сеуште немаш акаунт?</p>
+         <a type="button" id="signup" class="signup-NajavisePage">Регистрирај се</a>
+         <a href="#">Заборави лозинка...</a>
+         <p class="disclaimer">Со користење на Roomates.mk,се согласуваш дека си ги прочитал и разбрал правилата на употреба....</p>
+       </div>
+   
+     <div class="footer-NajavisePage">
+         <div class ="footer-FollowUs-NajavisePage">
+           <p >FOLLOW US</p>
+         </div>
+         <div class="logo-footer-NajavisePage">
+         <img src="./style/images/instagram.svg" class="instagram-NajavisePage">
+         <img src="./style/images/facebook.svg" class="facebook-NajavisePage">
+         <p class="footer-text-3">2020 Roommates.mk</p>
+         </div>
+         <div class="footer-text-3-Info">
+           <p class="footer-Terms-NajavisePage">Mobile App |Terms |Privacy |Contact </p>
+         </div>
+         </div>
+         </div>
+ 
+         </section>
+
+
+         <section id="section4" class="section4">
+
+          <div class="user-profile-container-body">
+            <!-- NAV-BAR -->
+            <div class="user-profile-nav-bar">
+              <a href target="_self">
+              <div class="user-profile-nav-bar-logo" id="home-page">
+                <img src="./style/images/roommates_logo_white2.png" alt="" class="user-profile-nav-bar-logo-image">
+              </div>
+            </a>
+            
+              <div class="user-profile-nav-bar-invisible-box"></div>
+      
+                <div id="user-profile-nav-bar-link">
+                  <a id="perfectMatchBtn" href="#" target="_self" class="user-profile-nav-bar-links">
+                    <div id="sovpagjanja-page1"><span class="user-profile-nav-bar-tekst">Совпаѓања</span></div>
+                  </a>
+      
+                  <a href=""  class="user-profile-nav-bar-links 4">
+                    <div id="perbaraj-page"><span class="user-profile-nav-bar-tekst">Пребарај</span></div>
+                  </a>
+                  <a href="#" target="_self" class="user-profile-nav-bar-links">
+                    <div id="poraki-page"><span class="user-profile-nav-bar-tekst">Пораки</span></div>
+                  </a>
+                  <a href="../user-profile-page/index.html" target="_self" class="user-profile-nav-bar-links active">
+                    <div id="profil-page"><span class="user-profile-nav-bar-tekst">Профил</span></div>
+                  </a>
+                </div>
+      
+                <div class="user-profile-top-right-user-box">
+                  <div id = logoPicUser class="user-profile-top-right-house-logo">
+                      <!-- <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user image" class="user-profile-img-user"> -->
+                  </div>
+                  
+                  <div class="user-profile-house-icon">
+                      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+                          <defs><style>.cls-1{fill:none;stroke:#a5dce1;stroke-miterlimit:10;stroke-width:8px;}</style></defs>
+                          <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+                      </svg>
+                  </div>
+              </div>
+            </div>
+            <button type="button" class="btn btn-success7">Назад</button>
+
+      
+            <!-- MAIN-CONTENT -->
+            <div class="user-profile-main-content">
+      
+              <!-- LEFT-SIDE -->
+              <div class="card mb-3" style="width: 43%; height: 100%;">
+                <div class="row no-gutters">
+                  <div id = "profilePic" class="col-md-4">
+                    
+                  </div>
+      
+                  <div class="col-md-8">
+                    <div class="user-profile-card-body">
+                      <br>
+                      <h5 class="user-profile-card-title" style="text-align: center;">Опис</h5>
+                      
+                      <h5 class="user-profile-card-title">
+                        <i class="fas fa-user"></i>
+                        <span id="fullName"></span>
+                      </h5>
+                      <h5 class="user-profile-card-title">
+                        <i class="fas fa-mars"></i>
+                          <span id="sex"></span>
+                      </h5>
+                      <h5 class="user-profile-card-title">
+                        <i class="fas fa-birthday-cake"></i>
+                          <span id="age"></span> години
+                      </h5>
+      
+                      <h5 class="user-profile-card-title">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span id="address"></span>
+                      </h5>
+                      
+                      <span class="user-profile-card-text">Кирија: <span id="payment"></span><sup>€</sup> месечно</span>
+                      <br>
+                      <span class="user-profile-card-text">Бара простор во: <span id="region"></span></span>
+                      <br><br>
+                      <span class="user-profile-card-text">Контактирај Цимер</span>
+                      <br>
+                      
+                      <i class="fas fa-phone-square-alt" style="font-size: 34px; color: #aa1a75;"></i>
+                      <span id="phoneNumber"></span>
+                      <br>
+                      <i class="fas fa-at" style="font-size: 34px; color: #aa1a75;"></i>
+                      <span id="email"></span>
+                      <br><br>
+      
+                      <a href="#" target="_self">
+                        <button type="button" class="btn btn-primary" style="background-color: #4da3b4; border: none; font-size: 22px;">Едитирај</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- RIGHT-SIDE -->
+              <div class="user-profile-right-side">
+                  <h5 class="user-profile-right-side-header">Преференци</h5>
+      
+                  <div class="user-profile-preferences">
+                    <h4 class="user-profile-preference">Пушач</h4>
+                    <h4 class="user-profile-preference">Миленичиња</h4>
+                    <h4 class="user-profile-preference">Интереси</h4>
+                  </div>
+      
+                  <hr class="user-profile-line">
+      
+                <div class="user-profile-lists">
+                  <ul>
+                    <li class="user-profile-lists-items-1"><span id="isSmoker"></span></li>
+                    <li class="user-profile-lists-items-1"><span id="roomMateSmoker"></span></li>
+                  </ul>
+                
+                  <ul>
+                    <li class="user-profile-lists-items-2"><span id="animalLover"></span></li>
+                    <li class="user-profile-lists-items-2"><span id="havePet"></span></li>
+                    <li class="user-profile-lists-items-2"><span id="userPet"></span></li>
+                    <li class="user-profile-lists-items-2"><span id="roomMatePet"></span></li>
+                    <li class="user-profile-lists-items-2"><span id="roomMatePetType"></span></li>
+                  </ul>
+                
+                  <ul>
+                    <li class="user-profile-lists-items-3"><span id="sport"></span></li>
+                    <li class="user-profile-lists-items-3"><span id="music"></span></li>
+                    <li class="user-profile-lists-items-3"><span id="movies"></span></li>
+                    <li class="user-profile-lists-items-3"><span id="books"></span></li>
+                    <li class="user-profile-lists-items-3"><span id="food"></span></li>
+                    <li class="user-profile-lists-items-3"><span id="healthyFood"></span></li>
+                    <li class="user-profile-lists-items-3"><span id="isActiveSportist"></span></li>
+                  </ul>
+                  
+                </div>
+              </div>
+      
+            </div>
+          </div>
+
+         </section>
+
+
+         <section 5 class="section5" id="section5">
+
+
+
+          <!-- <div class="apartment-profile-container-body"> -->
+            <!-- NAV-BAR -->
+            <div class="apartment-profile-container-body">
+              <!-- NAV-BAR -->
+              <div class="nav-bar-apartmentowner">
+                <a href target="_self">
+                <div class="nav-bar-logo-apartmentowner" id="home-page">
+                  <img src="style/images/roommates_logo_white2.png" alt="" class="nav-bar-logo-image-apartmentowner">
+                </div>
+              </a>
+              
+                <div class="apartment-profile-nav-bar-invisible-box"></div>
+        
+                  <div id="nav-bar-link-apartmentowner">
+                    <a href="#" target="_self" class="nav-bar-links-apartmentowner">
+                      <div id="sovpagjanja-page2"><span class="nav-bar-tekst-apartmentowner">Совпаѓања</span></div>
+                    </a>
+        
+                    <a href=""  class="nav-bar-links-apartmentowner 6">
+                      <div id="perbaraj-page"><span class="nav-bar-tekst-apartmentowner">Пребарај</span></div>
+                    </a>
+                    <a href="#" target="_self" class="nav-bar-links-apartmentowner">
+                      <div id="poraki-page"><span class="nav-bar-tekst-apartmentowner">Пораки</span></div>
+                    </a>
+                    <a href="../user-profile-page/index.html" target="_self" class="nav-bar-links-apartmentowner active">
+                      <div id="profil-page"><span class="nav-bar-tekst-apartmentowner">Профил</span></div>
+                    </a>
+                  </div>
+        
+                  <div class="apartment-profile-top-right-user-box">
+                    <div class="top-right-house-logo-apartmentowner">
+                        <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="user image" class="img-user-apartmentowner">
+                    </div>
+                    
+                    <div class="apartment-profile-house-icon">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.89 171.94">
+                            <defs><style>.cls-1{fill:none;stroke:#a5dce1;stroke-miterlimit:10;stroke-width:8px;}</style></defs>
+                            <polygon class="cls-1" points="9.66 96.25 35.27 96.25 35.27 167.94 167.13 167.94 167.13 96.25 194.01 96.25 100.41 5.61 9.66 96.25"/>
+                        </svg>
+                    </div>
+                </div>
+              </div>
+              <button type="button" class="btn btn-success8">Назад</button>
+
+              <!-- MAIN-CONTENT -->
+              <div class="apartment-profile-main-content">
+        
+                <!-- LEFT-SIDE -->
+                
+                <div class="card mb-3" style="width: 40%; height: 100%;">
+                  <div class="row no-gutters">
+                    <div class="col-md-4">
+                      <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-apartmentowner" alt="image">
+                    </div>
+        
+                    <div class="col-md-8">
+                      <div class="card-body-apartmentowner">
+                        <h5 class="card-title-apartmentowner" style="text-align: center;">Опис</h5>
+                        <h5 class="card-title-apartmentowner">
+                          <i class="fas fa-user"></i>
+                          <span id="fullName1"></span>
+                        </h5>
+                        <h5 class="card-title-apartmentowner">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <span id="region1"></span>
+                        </h5>
+                       
+        
+                        
+                        <span class="card-text" id="area1"></span>
+                        <br>
+                        <span class="card-text" id="price1"><sup>€</sup><sub>месечно</sub></span>
+                        <br>
+                        <span class="card-text" id="naselba"></span>
+                        <br><br>
+                        <span class="card-text">Контактирај Сопственик</span>
+                        <br>
+                        <i class="fas fa-phone-square-alt" style="font-size: 34px; color: #aa1a75;"></i>
+                        <span class="user-phone-number" id="phoneNumber1"></span>
+                        <br>
+                        <i class="fas fa-at" style="font-size: 34px; color: #aa1a75;"></i>
+                        <span class="user-email" id="email2"></span>
+                        <br><br>
+                        <a href="#" target="_self">
+                          <button type="button" class="btn btn-primary-apartmentowner" style="background-color: #4da3b4; border: none; font-size: 22px;">Деактивирај Оглас</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <!-- RIGHT-SIDE -->
+                <div class="right-side-apartmentowner">
+        
+        
+        
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img id = "pic1" class="d-block w-100" src="https://i0.wp.com/cdn.home-designing.com/wp-content/uploads/2014/06/marble-finish-room-divider.jpeg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img id = "pic2" class="d-block w-100" src="https://q-cf.bstatic.com/images/hotel/max1024x768/237/237506686.jpg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img id = "pic3" class="d-block w-100" src="https://q-cf.bstatic.com/images/hotel/max1024x768/158/158264600.jpg" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+        
+        
+                  
+                    <h5 class="right-side-header-apartmentowner">Преференци</h5>
+        
+                    <div class="preferences-apartmentowner">
+                      <h4 class="preference-apartmentowner">Oпшти информации</h4>
+                      <h4 class="preference-apartmentowner">Информации за простор</h4>
+                      
+                    </div>
+        
+                    <hr class="line-apartmentowner">
+        
+                  <div class="lists-apartmentowner">
+                    <ul>
+                      
+                      <li class="lists-items-1">Не дозволено пушење</li>
+                      <li class="lists-items-1">Нe се дозволени миленичиња</li>
+                      <li class="lists-items-1">Тип на греење: парно/струја</li>
+                      <li class="lists-items-1">Оператор интернет: Телеком</li>
+                      <li class="lists-items-1">Оператор телевизија: Телеком</li>
+                    </ul>
+                    <ul>
+                      <li class="lists-items-2">Број на соби: 4</li>
+                      <li class="lists-items-2">Кујна целосно опремена</li>
+                      <li class="lists-items-2">Wc целосно опремено</li>
+                      <li class="lists-items-2">Дневен простор делумно опремен</li>
+                      <li class="lists-items-2">Два балкона</li>
+                      <li class="lists-items-2">Спална соба целосно опремена</li>
+        
+                    </ul>
+        
+                  
+                        
+                    
+                  </div>
+                </div>
+        
+              </div>
+            </div>
+            
+      
+            <!-- MAIN-CONTENT -->
+            <!-- <div class="apartment-profile-main-content"> -->
+      
+              <!-- LEFT-SIDE -->
+              
+              <!-- <div class="card mb-3" style="width: 40%; height: 100%;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-apartmentowner" alt="image">
+                  </div>
+      
+                  <div class="col-md-8">
+                    <div class="card-body-apartmentowner">
+                      <h5 class="card-title-apartmentowner" style="text-align: center;">Опис</h5>
+                      <h5 class="card-title-apartmentowner">
+                        <i class="fas fa-user"></i>
+                        Трале Тралевски
+                      </h5>
+                      <h5 class="card-title-apartmentowner">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Скопје
+                      </h5>
+                      -->
+      
+                      
+                      <!-- <span class="card-text">Квадратура: 100m²</span>
+                      <br>
+                      <span class="card-text">Кирија: 100<sup>€</sup><sub>месечно</sub></span>
+                      <br>
+                      <span class="card-text">Издава простор во: Кисела Вода</span>
+                      <br><br>
+                      <span class="card-text">Контактирај Сопственик</span>
+                      <br>
+                      <i class="fas fa-phone-square-alt" style="font-size: 34px; color: #aa1a75;"></i>
+                      <span class="user-phone-number">075-993-555</span>
+                      <br>
+                      <i class="fas fa-at" style="font-size: 34px; color: #aa1a75;"></i>
+                      <span class="user-email">trale123@gmail.com</span>
+                      <br><br>
+                      <a href="#" target="_self">
+                        <button type="button" class="btn btn-primary-apartmentowner" style="background-color: #4da3b4; border: none; font-size: 22px;">Деактивирај Оглас</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+      
+              <!-- RIGHT-SIDE -->
+              <!-- <div class="right-side-apartmentowner"> -->
+      
+      
+      
+<!--       
+      
+                  
+      <div id="demo" class="carousel slide" data-ride="carousel"> -->
+      
+        <!-- Indicators -->
+        <!-- <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul> -->
+        
+        <!-- The slideshow -->
+        <!-- <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../../Desktop/user-profile-page/OIP.jfif" alt="Los Angeles" width="1100" height="500">
+            <img src="../../Desktop/user-profile-page/OIP.jfif" alt="Los Angeles"  class="carousel-image">
+          </div>
+          <div class="carousel-item">
+            <img src="https://s.yimg.com/uu/api/res/1.2/DdytqdFTgtQuxVrHLDdmjQ--~B/aD03MTY7dz0xMDgwO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2019-11/7b5b5330-112b-11ea-a77f-7c019be7ecae" alt="Chicago"  class="carousel-image">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1573935146153-f6322e84d1e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="New York"  class="carousel-image">
+          </div>
+        </div> 
+        
+        <!-- Left and right controls -->
+        <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div> -->
+      
+      
+                
+                  <!-- <h5 class="right-side-header-apartmentowner">Преференци</h5> -->
+      
+                  <!-- <div class="preferences-apartmentowner">
+                    <h4 class="preference-apartmentowner">Oпшти информации</h4>
+                    <h4 class="preference-apartmentowner">Информации за простор</h4>
+                    
+                  </div>
+      
+                  <hr class="line-apartmentowner">
+      
+                <div class="lists-apartmentowner">
+                  <ul>
+                     -->
+                    <!-- <li class="lists-items-1">Не дозволено пушење</li>
+                    <li class="lists-items-1">Нe се дозволени миленичиња</li>
+                    <li class="lists-items-1">Тип на греење: парно/струја</li>
+                    <li class="lists-items-1">Оператор интернет: Телеком</li>
+                    <li class="lists-items-1">Оператор телевизија: Телеком</li>
+                  </ul>
+                  <ul>
+                    <li class="lists-items-2">Број на соби: 4</li>
+                    <li class="lists-items-2">Кујна целосно опремена</li>
+                    <li class="lists-items-2">Wc целосно опремено</li>
+                    <li class="lists-items-2">Дневен простор делумно опремен</li>
+                    <li class="lists-items-2">Два балкона</li>
+                    <li class="lists-items-2">Спална соба целосно опремена</li>
+      
+                  </ul>
+      
+                
+                       -->
+                  
+                <!-- </div>
+              </div> -->
+      
+            </div>
+         </section>
+
+
+         <section class="section-reg">
+
+
+          <button type="button" class="btn btn-success9">Back</button>
+
+          <div id="theback" class="containerreg text-center">
+            <div id="reg" class="registracija">
+                  <h1 class="text-insearchbox">Регистрација</h1>
+                    <div class="register">
+                        <button onclick="baramcimer()" type="button" id="baram" class="baramcimer">Барам цимер простор</button>
+                    </div>
+                    <div class="register">
+                        <button onclick="izdavam()" type="button" id="izdavam" class="baramcimer">Издавам простор</button>
+                    </div>
+                </div>
+            <div id="div1" class="hideContent">
+            <h1>Барам цимер/простор:</h1>
+            <h3>Креирање на профил</h3>
+            <h3>Прикачете слика!</h3>
+            <input type="file" id="prikaci" accept="image/*" multiple>
+            <h3>Лични информации:</h3>
+            <form>
+                <div class="form-group row">
+                    <label for="example-text-input" class="col-2 col-form-label">Име</label>
+                    <div class="col-10">
+                      <input class="form-control" type="text" placeholder="Име" id="firstName">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="example-text-input" class="col-2 col-form-label">Презиме</label>
+                    <div class="col-10">
+                      <input class="form-control" type="text" placeholder="Презиме" id="lastName">
+                    </div>
+                </div>
+                    <div class="form-group row">
+                        <label for="example-number-input" class="col-2 col-form-label">Години</label>
+                        <div class="col-10">
+                          <input class="form-control" type="number" value="42" id="age1">
+                        </div>
+                    </div>
+                      <div class="form-group row">
+                        <label for="example-email-input" class="col-2 col-form-label">Е-маил:</label>
+                        <div class="col-10">
+                          <input class="form-control" type="email" placeholder="vasiot-email@example.com" id="email1">
+                        </div>
+                        </div>
+                    <div class="form-group row">
+                          <label for="example-email-input" class="col-2 col-form-label">Лозинка:</label>
+                          <div class="col-10">
+                            <input class="form-control" type="email" placeholder="*Лозинката да треба да содржи најмалку 6 карактери од кои минимум 1 бројка" id="password1">
+                            
+                          </div>
+                    </div>  
+
+                    <div class="form-group row">
+                        <label for="example-tel-input" class="col-2 col-form-label">Телефон</label>
+                        <div class="col-10">
+                          <input class="form-control" type="tel" placeholder="1-(555)-555-5555" id="phone">
+                        </div>
+                </div>
+                <div class="form-group row">
+                    <label for="example-text-input" class="col-2 col-form-label">Адреса</label>
+                    <div class="col-10">
+                      <input class="form-control" type="text" placeholder="Адреса" id="address1">
+                    </div>
+                  </div>
+              </form>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Се согласувам моите податоци да бидат ко
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Се согласувам за промотивни цели
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Зачувај ги податоците
+                </label>
+              </div>
+            <div id="kopcinja1">
+                <button onclick="izmeni()" class="kopcinja">Измени!</button>
+                <button onclick="prodolzi1()"class="kopcinja" id="prodolzi1">Продолжи</button>
+            </div>
+            </div>
+            <div id="div2" class="hideContent">
+                <h1>Општи информации:</h1>
+                <ul style="list-style-type:none">
+                    <li>Дали си пушач?
+                        <div>
+                        <input id = "smokerTrue" type="radio" name="yes_no" >Да
+                        <input id = "smokerFalse"type="radio" name="yes_no">Не
+                        </div>
+                    </li>
+                    <li>Дали би пушел цигари само во отворен простор, доколку такво барање има твојот потенцијален цимер?
+                        <div>
+                        <input type="radio" name="yes_no">Да
+                        <input type="radio" name="yes_no">Не
+                        </div>
+                    </li>
+                    <li>
+                        Дали си љубител на животни?
+                        <div>
+                        <input id = "areYouAnimalLover"type="radio" name="yes_no">Да
+                        <input type="radio" name="yes_no">Не
+                        </div>
+                    </li>
+                    <li>
+                        Дали имаш свое милениче?
+                        <div>
+                        <input id = "doYouHaveYourOwnPet"type="radio" name="yes_no">Да
+                        <input type="radio" name="yes_no">Не
+                        </div>
+                    </li>
+                    <li>
+                        Доколку да, какво милениче чуваш?               
+                        <input id = "yourPet" type="text" name="pet" placeholder="Милениче:">                
+                    </li>
+                    <li>
+                        Дали би ти пречело ако твојот потенцијален цимер чува милениче?
+                        <select mul style="list-style-type:none" tiple>
+                            <option id = "roomatePet" value="da">Да</option>
+                            <option value="ne">Не</option>
+                            <option value="ne1">Не, ако е мачка!</option>
+                            <option value="ne2">Не, ако е куче со среден раст!</option>
+                            <option value="ne3">Не, ако е куче со мал раст!</option>
+                        </select>
+                    </li>
+                    <li>
+                        Интереси:
+                        <select id="interests"mul style="list-style-type:none" tiple>
+                            <option value="">Спорт</option>
+                            <option value="">Филм</option>
+                            <option value="">Музика</option>
+                            <option value="">Уметност</option>
+                            <option value="">Видео игри</option>
+                            <option value="">Технологија</option>
+                            <option value="">Книги</option>
+                            <option value="">Храна</option>
+                            <option value="">Здрава исхрана</option>
+                            <option value="">Веганска исхрана</option>
+                            <option value="">Вегетеријанец</option>
+                            <option value="">Активен спортист</option>
+                        </select>
+                    </li>
+                    <li>
+                        Дали би сакал да му поставиш други прашања на твојот цимер?
+                        <div>
+                        <input type="radio" name="yes_no">Да
+                        <input type="radio" name="yes_no">Не
+                        </div>
+                    </li>
+                    <li>
+                        Доколку да, кои се тие?
+                        <input type="text" placeholder="Прашање">
+                    </li>
+                </ul style="list-style-type:none">
+                <div id="kopcinja1">
+                    <button onclick="nazad1()" class="kopcinja">Назад</button>
+                    <button onclick="prodolzi2()" id="prodolzi2" class="kopcinja">Продолжи</button>
+                </div>
+            </div>
+            <div id="div3" class="hideContent">
+                <h1>Прашања поврзани со просторот</h1>
+                <p>Дали имаш простор?</p>
+                <div id="kopcinja1">
+                    <button onclick="da()" class="kopcinja">Да</button>
+                    <button onclick="ne()" class="kopcinja">Не</button>
+                </div>
+                <div id="kopcinja1">
+                    <button onclick="nazad2()" class="kopcinja">Назад</button>
+                </div>
+            </div>
+                <div id="div3_1" class="hideContent">
+                    <!-- Prasanja dokolku kliknal DA -->
+                    <ul style="list-style-type:none">
+                        <li>Во кој регион се наоѓа?
+                            <select mul style="list-style-type:none" tiple>
+                                <option selected disabled>Општина</option>
+                            </select>
+                        </li>
+                        <li>
+                            <div class="slideContainer">
+                            Колкав износ за кирија и режиски трошоци?
+                            <input type="range" min="2000" max="30000" value="2000" id="myRange1" class="slider">
+                            <p>Денари:<span id="value1"></span></p>
+                            </div>
+                        </li>
+                        <li>
+                            Дали во просторот има обезбедено интернет?
+                            <div>
+                            <input type="radio" name="yes_no">Да
+                            <input type="radio" name="yes_no">Не
+                            </div>
+                        </li>
+                        <li>
+                            На кој оператор е интернетот?
+                            <select>
+                                <option value="" selected disabled>Провајдер:</option>
+                                <option value="">Телеком</option>
+                                <option value="">Телекабел</option>
+                                <option value="">А1</option>
+                            </select>
+                        </li>
+                        <li>
+                            Дали во просторот има телевизија?
+                            <div>
+                            <input type="radio" name="yes_no">Да
+                            <input type="radio" name="yes_no">Не
+                            </div>
+                        </li>
+                        <li>
+                            На кој оператор е телевизијата?
+                            <select>
+                                <option value="" selected disabled>Провајдер:</option>
+                                <option value="">Телеком</option>
+                                <option value="">Телекабел</option>
+                                <option value="">А1</option>
+                            </select>
+                        </li>
+                        <li>
+                            Колкава квадратура е просторот?
+                            <select>
+                                <option value="" selected disabled>m²</option>
+                                <option value="">30-40m²</option>
+                                <option value="">41-50m²</option>
+                                <option value="">51-60m²</option>
+                                <option value="">61-70m²</option>
+                                <option value="">71-80m²</option>
+                                <option value="">81-90m²</option>
+                                <option value="">91-100m²</option>
+                            </select>
+                        </li>
+                        <li>
+                            Каков тип на греење има во просторот?
+                            <select>
+                                <option value="" selected disabled>Тип на греење:</option>
+                                <option value="">Струја</option>
+                                <option value="">Градско парно</option>
+                                <option value="">Сопствено парно</option>
+                                <option value="">Струја и сопствено парно</option>
+                                <option value="">Нафта</option>
+                                <option value="">Дрва</option>
+                            </select>
+                        </li>
+                        <li>
+                            Колку соби има просторот?
+                            <select>
+                                <option value="" selected disabled>Број на соби:</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">Повеќе од 4</option>
+                            </select>
+                        </li>
+                        <li>
+                            Дали во просторот има две посебни спални соби?
+                            <select>
+                                <option value="">Да</option>
+                                <option value="">Не</option>
+                                <option value="">Спална</option>
+                                <option value="">Дневна која може да биде и спална</option>
+                            </select>
+                        </li>
+                        <li>
+                            Доколку се спални соби, дали се комплетно опремени?
+                            <select>
+                                <option value="">Да</option>
+                                <option value="">Не</option>
+                                <option value="">Делумно</option>
+                            </select>
+                        </li>
+                        <li>
+                            Дали во просторот е дозволено пушење?
+                            <div>
+                            <input type="radio" name="yes_no">Да
+                            <input type="radio" name="yes_no">Не
+                            </div>
+                        </li>
+                        <li>
+                            Дали во просторот има кујна?
+                            <div>
+                            <input type="radio" name="yes_no">Да
+                            <input type="radio" name="yes_no">Не
+                            </div>
+                        </li>
+                        <li>
+                            Дали кујната е комплетно опремена?
+                            <select>
+                                <option value="">Да</option>
+                                <option value="">Не</option>
+                                <option value="">Делумно</option>
+                            </select>
+                        </li>
+                        <li>
+                            Дали тоалетот е комплетно опремен?
+                            <select>
+                                <option value="">Да</option>
+                                <option value="">Не</option>
+                                <option value="">Делумно</option>
+                            </select>
+                        </li>
+                        <li>
+                            Дали дневната соба е комплетно опремена?
+                            <select>
+                                <option value="">Да</option>
+                                <option value="">Не</option>
+                                <option value="">Делумно</option>
+                            </select>
+                        </li>
+                    </ul style="list-style-type:none">
+                <div id="kopcinja1">
+                    <button onclick="nazad3_1()" class="kopcinja">Назад</button>
+                    <button onclick="prodolzi3()" id="prodolzi2" class="kopcinja">Продолжи</button>
+                </div>
+                </div>
+                <div id="div3_2" class="hideContent">
+                    <!-- Prasanja dokolku kliknal NE -->
+                    <ul style="list-style-type:none">
+                        <li>
+                            Во кој регион бараш?
+                            <select id = "regionUser" mul style="list-style-type:none" tiple>
+                              <option selected disabled>Општина</option>
+                              <option value="Аеродром">Аеродром</option>
+                              <option value="Центар">Центар</option>
+                              <option value="Кисела Вода">Кисела Вода</option>
+                              <option value="Гази Баба">Гази Баба</option>
+                            </select>
+                        </li>
+                        <li>
+                            <div class="slideContainer">
+                                Колкав износ си спремен да плаќаш месечно?
+                                <input type="range" min="2000" max="30000" value="2000" id="myRange2" class="slider">
+                                <p>Денари:<span id="value2"></span></p>
+                            </div>
+                        </li>
+                        <li>
+                            Дали бараш посебна спална соба?
+                            <select>
+                                <option value="">Да</option>
+                                <option value="">Не</option>
+                                <option value="">Не ми е толку важно</option>
+                            </select>
+                        </li>
+                        <li>
+                            Колкава квадратура на простор бараш?
+                            <select>
+                                <option value="" selected disabled>m²</option>
+                                <option value="">30-40m²</option>
+                                <option value="">41-50m²</option>
+                                <option value="">51-60m²</option>
+                                <option value="">61-70m²</option>
+                                <option value="">71-80m²</option>
+                                <option value="">81-90m²</option>
+                                <option value="">91-100m²</option>
+                            </select>
+                        </li>
+                        <li>
+                            Каков тип на греење преферираш?
+                            <select>
+                                <option value="" selected disabled>Тип на греење:</option>
+                                <option value="">Струја</option>
+                                <option value="">Градско парно</option>
+                                <option value="">Сопствено парно</option>
+                                <option value="">Струја и сопствено парно</option>
+                                <option value="">Нафта</option>
+                                <option value="">Дрва</option>
+                            </select>
+                        </li>
+                        <li>
+                            Колку соби би сакал да има во просторот?
+                            <select>
+                                <option value="" selected disabled>Број на соби:</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">Повеќе од 4</option>
+                            </select>
+                        </li>
+                        <li>
+                            Дали треба кујната да биде целосно опремена?
+                            <select>
+                                <option value="">Да</option>
+                                <option value="">Не</option>
+                                <option value="">Делумно</option>
+                            </select>
+                        </li>
+                        <li>
+                            Дали треба спалната да биде целосно опремена?
+                            <select>
+                                <option value="">Да</option>
+                                tion value="">Не</option>
+                                <option value="">Делумно</option>
+                            </select>
+                        </li>
+                        <li>
+                            Дали тоалетот треба да биде целосно опремен?
+                            <select>
+                                <option value="">Да</option>
+                                <option value="">Не</option>
+                                <option value="">Делумно</option>
+                            </select>
+                        </li>
+                        <li>
+                            Дали бараш простор во кој пушењето на цигари е дозволено?
+                            <div>
+                            <input type="radio" name="yes_no">Да
+                            <input type="radio" name="yes_no">Не
+                            </div>
+                        </li>
+                    </ul style="list-style-type:none">
+                <div id="kopcinja1">
+                    <button onclick="nazad3_2()" class="kopcinja">Назад</button>
+                    <button onclick="prodolzi3_1()" id="prodolzi2" class="kopcinja">Продолжи</button>
+                </div>
+                </div>
+            <div id="div4" class="hideContent">
+                <h1>Што бараш?</h1>
+                <ul style="list-style-type:none" class="container">
+                    <li><input type="checkbox">Барам цимер без простор</li>
+                    <li><input type="checkbox">Барам цимер со простор</li>
+                    <li><input type="checkbox">Барам простор</li>
+                </ul style="list-style-type:none">
+                <div id="kopcinja1">
+                    <button onclick="prodolzi6()" id="prodolzi2" class="kopcinja">Продолжи</button>
+                </div>
+            </div>
+            <div id="div10" class="hideContent">
+                <ul style="list-style-type:none">
+                <li>
+                    Дали би ти пречело ако твојот цимер пуши цигари само во отворен?
+                    <div>
+                    <input type="radio" name="yes_no">Да
+                    <input type="radio" name="yes_no">Не
+                    </div>
+                </li>
+                <li>
+                    Дали твјот цимер треба да е љубител на животни?
+                    <div>
+                    <input type="radio" name="yes_no">Да
+                    <input type="radio" name="yes_no">Не
+                    </div>
+                </li>
+                <li>
+                    Дали би ти пречело ако твојот потенцијален цимер чува милениче?
+                    <select>
+                        <option value="">Да</option>
+                        <option value="">Не</option>
+                        <option value="">Не ако е мачка </option>
+                        <option value="">Не, ако е куче со среден раст </option>
+                        <option value="">Не, ако е куче со мал раст. </option>
+                    </select>
+                </li>
+                <li>
+                Интереси
+                <select mul style="list-style-type:none" tiple name="" id="">
+                    <option selected>спорт</option>
+                    <option selected>филм</option>
+                    <option selected>музика</option>
+                    <option selected>уметност</option>
+                    <option selected>видеоигри</option>
+                    <option selected>технологија</option>
+                    <option selected>храна</option>
+                    <option selected>книги</option>
+                    <option selected>здрава исхрана</option>
+                    <option selected>веганска исхрана</option>
+                    <option selected>вегетеријанец</option>
+                    <option selected>активен спортист</option>
+                </select>
+                </li>
+                <li>
+                            <div class="slideContainer">
+                        До колкав износ очекуваш да покрива месечно твојот цимер?
+                        <input type="range" min="2000" max="30000" value="2000" id="myRange3" class="slider">
+                        <p>Денари:<span id="value3"></span></p>
+                    </div>
+                </li>
+                </ul>
+                <div id="kopcinja1">
+                <button onclick="nazad4()" class="kopcinja">Назад</button>
+                <button id ="completeRegUser"class="kopcinja">Комплетирај го профилот!</button>
+                </div>
+                <div id="div15">
+                </div>
+            </div>
+            <!-- Izdavam prostor -->
+            <div id="div6" class="hideContent">
+              <h1>Издавам Простор</h1>
+              <h3>Лични информации:</h3>
+              <form>
+              <div class="form-group row">
+                  <label for="example-text-input" class="col-2 col-form-label">Име</label>
+                  <div class="col-10">
+                    <input class="form-control" type="text" placeholder="Име" id="ime" value="">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="example-text-input" class="col-2 col-form-label">Презиме</label>
+                  <div class="col-10">
+                    <input class="form-control" type="text" placeholder="Презиме" id="prezime.text.input">
+                  </div>
+              </div>
+                  <div class="form-group row">
+                      <label for="example-number-input" class="col-2 col-form-label">Години</label>
+                      <div class="col-10">
+                        <input class="form-control" type="number" value="42" id="godini.text.input">
+                      </div>
+                  </div>
+                    <div class="form-group row">
+                      <label for="example-email-input" class="col-2 col-form-label">Е-маил:</label>
+                      <div class="col-10">
+                        <input class="form-control" type="email" placeholder="vasiot-email@example.com" id="email.text.input">
+                      </div>
+                      </div>
+                  <div class="form-group row">
+                      <label for="example-tel-input" class="col-2 col-form-label">Телефон</label>
+                      <div class="col-10">
+                        <input class="form-control" type="tel" placeholder="1-(555)-555-5555" id="telefon.input">
+                      </div>
+              </div>
+              <div class="form-group row">
+                  <label for="example-text-input" class="col-2 col-form-label">Адреса</label>
+                  <div class="col-10">
+                    <input class="form-control" type="text" placeholder="Адреса" id="adresa.input">
+                  </div>
+                </div>
+            </form>
+            
+              <div id="kopcinja1">
+                  <button onclick="nazad5()" class="kopcinja">Назад</button>
+                  <button onclick="prodolzi4()" id="prodolzi2" class="kopcinja">Продолжи</button>
+              </div>
+          </div>
+      
+              <div id="div7" class="hideContent">
+              <ul style="list-style-type:none">
+                  <li>Во кој регион се наоѓа?
+                      <select id="opstina" mul style="list-style-type:none" tiple>
+                          <option selected disabled>Општина</option>
+                          <option value="Аеродром">Аеродром</option>
+                          <option value="Центар">Центар</option>
+                          <option value="Кисела Вода">Кисела Вода</option>
+                          <option value="Гази Баба">Гази Баба</option>
+                      </select>
+                  </li>
+      
+                  <li>
+                      Колкав е месечниот паушал за изнајмување?
+                      <div class="slideContainer">
+                          Колкав износ за кирија и режиски трошоци?
+                          <input type="range" min="2000" max="30000" value="2000" id="myRange4" class="slider">
+                          <p>Денари:<span id="value4"></span></p>
+                          </div>
+                  </li>
+      
+                  <li>
+                      Дали во просторот има обезбедено интернет?
+                      <div id="internet.1">
+                      <input type="radio" value="internet.da" name="yes_no">Да
+                      <input type="radio" value="internet.ne" name="yes_no">Не
+                      </div>
+                  </li>
+                  <li>
+                      На кој оператор е интернетот?
+                      <select id="net">
+                          <option value="provajder" selected disabled>Провајдер:</option>
+                          <option value="telekom">Телеком</option>
+                          <option value="telekom">Телекабел</option>
+                          <option value="a1">А1</option>
+                      </select>
+                  </li>
+                  <li>
+                      Дали во просторот има телевизија?
+                      <div id="televizija.1">
+                      <input type="radio" value="televizija.da" name="yes_no">Да
+                      <input type="radio" value="televizija.ne" name="yes_no">Не
+                      </div>
+                  </li>
+                  <li>
+                      На кој оператор е телевизијата?
+                      <select id="televizija">
+                          <option value="provajder1" selected disabled>Провајдер:</option>
+                          <option value="telekom1">Телеком</option>
+                          <option value="telekabel1">Телекабел</option>
+                          <option value="a1.1">А1</option>
+                      </select>
+                  </li>
+      
+                  <li>
+                      Колкава квадратура е просторот?
+                      <select id="kvadratura">
+                          <option value="" selected disabled>m²</option>
+                          <option value="30-40">30-40m²</option>
+                          <option value="41-50">41-50m²</option>
+                          <option value="51-60">51-60m²</option>
+                          <option value="61-70">61-70m²</option>
+                          <option value="71-80">71-80m²</option>
+                          <option value="81-90">81-90m²</option>
+                          <option value="91-100">91-100m²</option>
+                      </select>
+                  </li>
+      
+                  <li>
+                      Каков тип на греење има во просторот?
+                      <select id="greenje">
+                          <option value="tip na greenje" selected disabled>Тип на греење:</option>
+                          <option value="struja">Струја</option>
+                          <option value="gradsko.parno">Градско парно</option>
+                          <option value="sopstveno.parno">Сопствено парно</option>
+                          <option value="struja.parno">Струја и сопствено парно</option>
+                          <option value="nafta">Нафта</option>
+                          <option value="drva">Дрва</option>
+                      </select>
+                  </li>
+      
+                  <li>
+                      Колку соби има во просторот?
+                      <select id="broj.na.sobi">
+                          <option value="broj.na.sobi" selected disabled>Број на соби:</option>
+                          <option value="broj.na.soba.1">1</option>
+                          <option value="broj.na.soba2">2</option>
+                          <option value="broj.na.soba.3">3</option>
+                          <option value="broj.na.soba.4">4</option>
+                          <option value="poveke.sobi">Повеќе од 4</option>
+                      </select>
+                  </li>
+      
+                  <li>
+                      Дали во просторот има две спални соби?
+                      <select id="spalna.soba">
+                          <option value="spalna.da">Да</option>
+                          <option value="spalna.ne">Не</option>
+                          <option value="spalna.kombo">Спална и дневна која може да биде спална</option>
+                      </select>
+                  </li>
+      
+                  <li>
+                      Доколку се посебни спални соби, дали се комплетно опремени?
+                      <select id="spalnasoba.oprema">
+                          <option value="posebna.da">Да</option>
+                          <option value="posebna.ne">Не</option>
+                          <option value="delumno.spalna">Делумно</option>
+                      </select>
+                  </li>
+      
+                  <li>
+                      Дали во просторот е дозволено пушење?
+                      <div id="pushenje">
+                      <input type="radio" value="pushenje.da" name="yes_no">Да
+                      <input type="radio" value="pushenje.ne" name="yes_no">Не
+                      </div>
+                  </li>
+      
+                  <li>
+                      Дали во просторот има кујна?
+                      <div id="kujna1">
+                      <input type="radio" value="kujna.da" name="yes_no">Да
+                      <input type="radio" value="kujna.ne" name="yes_no">Не
+                      </div>
+                  </li>
+                  <li>
+                      Дали кујната е комплетно опремена?
+                      <select id="kujna.oprema">
+                          <option value="kujna.da">Да</option>
+                          <option value="kujna.ne">Не</option>
+                          <option value="kujna.delumno">Делумно</option>
+                      </select>
+                  </li>
+      
+                  <li>
+                      Дали купатилото е комплетно опремено?
+                      <select id="wc.oprema">
+                          <option value="wc.da">Да</option>
+                          <option value="wc.ne">Не</option>
+                          <option value="wc.delumno">Делумно</option>
+                      </select>
+                  </li>
+      
+                  <li>
+                      Дали дневната е комплетно опремена?
+                      <select id="dnevna.oprema">
+                          <option value="dnevna.da">Да</option>
+                          <option value="dnevna.ne">Не</option>
+                          <option value="dnevna.delumno">Делумно</option>
+                      </select>
+                  </li>
+                  <div id="kopcinja1">
+                      <button onclick="nazad6()" class="kopcinja">Назад</button>
+                      <button onclick="prodolzi5()" id="prodolzi2" class="kopcinja">Продолжи</button>
+                  </div>
+              </div>
+                <div id="div7_1" class="hideContent">
+                    <h3>Прикачи фотографии</h3>
+                    <input type="file" id="prikaci1" multiple accept="image/*">
+                    <div id="kopcinja1">
+                    <button onclick="nazad7()" class="kopcinja">Назад</button>
+                    <button onclick="completeProfile()" class="kopcinja" id="completeApartbtn">Комплетирај го профилот!</button>
+                    </div>
+                    <div id="div7_2" class="hideContent">
+                     </div>
+                </div>
+            <div id="div8" class="hideContent">
+                <button onclick="prodolzi10()" class="btn btn-light">Комплетирај го профилот!</button>
+                <button class="btn btn-light">Назад</button>
+                <div id="div5" class="hideContent">
+            </div>
+            </div>
+            </div>
+
+
+         </section>
+
 
 <!-- SCRIPTS -->
-<script src="./style/najava.js"></script>
-<script src="./registration-page/script.js"></script>
 
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
     integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-    <script src="./style/najava.js"></script>
-    <script src="./registration-page/script.js"></script>
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+     crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://pagination.js.org/dist/2.1.4/pagination.min.js"></script>
+<script src="./Jsons/users.json"></script>
+    <script src="./script/homepage.js"></script>
+    <script src="SearchedCardsPage/searchcards.js"></script>
+    <script src="SearchedCardsPage/userRepository.js"></script>
+    <script src="./script/apartmentRepository2.js"></script>
+    <script src="SearchedCardsPage/searchApartments.js"></script>
+    <script src="./script/LogIn.js"></script>
+    <script src="./script/UserProfile.js"></script>
+    <script src="./script/ApartmentOwner.js"></script>
+    <script src="./script/Registration.js"></script>
+
 
 </body>
 

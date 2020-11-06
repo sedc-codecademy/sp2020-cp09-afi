@@ -1,0 +1,512 @@
+* {
+  box-sizing:border-box;
+  font-family: 'DinPro';
+  margin: 0em;
+  padding: 0em;
+
+
+}
+
+
+@font-face {
+  font-family: 'DinPro';
+  src: url('./DinPRO/DINPro-Cond.otf');
+  src: url('./DinPRO/DINPro-Cond.otf') format('embedded-opentype'),
+       url('./DinPRO/DINPro-Cond.otf') format('truetype'),
+       url('./DinPRO/DINPro-Cond.otf') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.section1-HomePage{
+  
+     position: absolute;
+  background-image: url("../images/photo_image_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: -56px;
+  overflow: hidden;
+
+    }
+
+
+
+  .all-content-HomePage{
+
+    position: relative;
+      height: calc(100vh - -2740px);
+      background: url("../images/home_page_bez_slika.png");
+      background-repeat: no-repeat;
+      background-size: 100%; 
+       
+  }
+
+
+   #najava-HomePage {
+    top: 10px;
+    left: 55%;
+     font-size: 42px;
+     color: white;
+     position: relative;
+     border: none;
+     cursor: pointer;
+   }
+
+  #najava-HomePage:hover{
+      color:#4DA3B4 ;
+      text-decoration: none;
+  }
+
+  #registriraj-HomePage{
+      left: 60%;
+      top: 10px;
+    position: relative;
+    font-size: 42px;
+    color: white;
+    cursor: pointer;
+  }
+
+  #registriraj-HomePage:hover {
+      color: #4DA3B4;
+      text-decoration: none;
+  }
+  
+  
+.logo-HomePage {
+  position: relative;
+  top: 145px;
+   max-height: 260px;
+   left: 780px;
+}
+
+.search-box-HomePage {
+    position: relative;
+    top: 250px;
+  color: white;
+  padding: 10px;
+ width: 1100px;
+  height: 400px;
+  left: 22%;
+  border-radius: 45px;
+  font-size: 25px;
+  background:rgba(1,1,1,0.3);
+
+
+}
+
+/* DropDowns */
+
+.btn-secondar{
+  position: relative;
+  font-family: 'DinPro';
+ background-color: white;
+ color: #AA1A75;
+ font-size: 40px;
+ top: 15px;
+font-weight: bold;
+ left: 110px;
+ text-align-last: center;
+ width: 370px;
+ border-radius: 20px;
+ box-shadow: 5px 10px 8px #888888;
+
+}
+.btn-secondar:hover {
+    color: #4DA3B4;
+}
+
+
+.btn-secondary-2{
+  position: relative;
+  font-family: 'DinPro';
+text-align-last: center;
+ background-color: white;
+ color: #AA1A75;
+ font-size: 40px;
+ top: 14.5px;
+ font-weight: bolder;
+ left: 180px;
+ width:370px;
+ border-radius: 20px;
+ box-shadow: 5px 10px 8px #888888;
+}
+.btn-secondary-2:hover {
+    color: #4DA3B4;
+
+}
+#dropdown2 > .dropdown-menu {
+position: relative;
+margin-left: 7%;
+box-shadow: 5px 10px 8px #888888;
+
+
+}
+
+.dropdown > .dropdown-menu{
+position: relative;
+box-shadow: 5px 10px 8px #888888;
+
+}
+
+#dropdown2 > .dropdown-menu2 {
+  position: relative;
+  margin-left: 7%;
+  box-shadow: 5px 10px 8px #888888;
+  
+  
+  }
+  
+
+
+.dropdown-item {
+  font-family: 'DinPro';
+  font-weight: bolder;
+  color: #AA1A75;
+  font-size: 30px;
+  
+}
+
+.dropdown-item:hover{
+    color: #4DA3B4;
+}
+.text-insearchbox-HomePage{
+  position: relative;
+  font-family: 'DinPro';
+  color: white;
+  font-weight: bolder;
+  margin-top: -10px;
+  position: relative;
+  left: 35px;
+  font-size: 66px;
+}
+
+.btn-light-search-HomePage{
+  font-family: 'DinPro';
+font-weight:bolder;
+position: relative;
+top: 51px;
+height: 70px;
+width: 249px;
+color: #AA1A75;
+font-size: 40px;
+ left:34%;
+border-radius: 18px;
+box-shadow: 5px 10px 8px #888888;
+background-color: white;
+
+}
+
+.btn-light-search-HomePage:hover {
+    color: #4DA3B4;
+}
+
+
+
+#Layer_2 {
+  top: 440px;
+  position: relative;
+  height: 350px;
+  width: 240px;
+  padding: 40px;
+  left: -320px;
+  display: inline-flex;
+
+  
+}
+
+
+.cls-3 {
+  fill: none;
+  stroke: #AA1A75;
+  stroke-miterlimit: 10;
+  stroke-width: 8px;}
+
+.imageinhouse-HomePage {
+  position: relative;
+  width: 112%;
+  height: 102%;
+}
+.All-Icons-HomePage{
+  position: relative;
+  display: inline-flex;
+}
+
+
+.card-name-HP{
+  font-family: 'DinPro';
+  /* position: relative; */
+color: black;
+top: 350px;
+font-weight: bold;
+font-size: 24px;
+padding: 52px;
+right: 330px;
+/* display: inline-flex; */
+
+
+
+}
+
+.NamesForIcons-HomePage {
+  padding: -50px;
+  right: 320px;
+  top: 290px;
+  position: relative;
+  display: -webkit-box;
+  /* display: inline-flex; */
+
+}
+
+.slogan-HomePage {
+  font-family: 'DinPro';
+  font-weight: bolder;
+position: relative;
+font-size: 97px;
+margin-left: 645px;
+top: 80px;
+color: black;
+}
+
+.slogan1-HomePage{
+  font-family: 'DinPro';
+  font-weight: bolder;
+  position: relative;
+font-size: 95px;
+top: -80px;
+color: #4DA3B4;
+margin-left: 850px;
+}
+
+
+.cards-columns-HomePage {
+  position: relative;
+  top:1500px;
+  left: -15px;
+  float: left;
+  width: 44%;
+  padding: 10 9px;
+  }
+  
+  .card-rows-HomePage:after {
+  content: "";
+  display: table;
+  clear: both;
+
+  } 
+  
+  
+  .info-cards-HomePage {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+      position: relative;
+      font-family: 'DinPro';
+      font-weight: bolder;
+      margin-left: 215px;
+      padding: 70px;
+      text-align: left;
+      color:  rgb(0, 195, 255);
+      background-color: white;
+      opacity: 0.5;
+      border-radius: 8%;
+      box-shadow: 5px 10px 8px #888888;
+  
+
+  }
+
+  .info-cards-HomePage > p {
+    font-size: 30px;
+  }
+  
+ 
+
+  .card-title-HomePage {
+    font-family: 'DinPro';
+    padding-top: 89px;
+      font-size: 54px;
+      left: 230px;
+      position: relative;
+      color: #4DA3B4;
+      margin-left: 14px;
+      font-weight: bold;
+  }
+  
+  
+.btn-dark-1-registration-HomePage {
+  font-family: 'DinPro';
+  position: relative;
+background: white;
+color: #AA1A75;
+top: 1050px;
+left: 38%;
+font-size: 42px;
+font-weight: bolder;
+border-radius: 20px;
+width:  330px;
+box-shadow: 5px 10px 8px #888888;  
+}
+
+.btn-dark-1-registration-HomePage:hover {
+    color: #4DA3B4;
+}
+
+
+.footer-FollowUs-HomePage{
+  font-family: 'DinPro';
+  position: relative;
+  top: 1420px;
+  font-weight: bolder;
+font-size: 25px;
+margin-left: 179px;
+color: white;
+}
+
+.footer-Roomates-HomePage{
+  font-family: 'DinPro';
+  font-weight: bolder;
+  position: relative;
+  top: 1350px;
+font-size: 30px;
+color:white;
+right: -1490px;
+}
+
+.footer-Terms-HomePage {
+  font-family: 'DinPro';
+  position: relative;
+top: 1350px;
+font-size: 30px;
+right: -650px;
+margin-left: 694px;
+color: white;
+font-weight: bolder;
+}
+
+
+.instagram-HomePage {
+position: relative;
+top: 1450px;
+height: 55px;
+left: 230px;
+color: #4DA3B4;
+background-color: #4DA3B4;
+border-radius: 50%;
+}
+
+.facebook-HomePage {
+position: relative;
+top: 1450px;
+background-color:#4DA3B4;
+height: 55px;
+left: 100px;
+border-radius: 50%;
+}
+
+
+
+.btn-success1{
+  position: relative;
+  top:20px;
+  background-color:#12bbd4;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 24px;
+  height: 40%;
+  width: 6%;
+  margin-left: 170px;       
+
+  
+}
+
+.btn-success2{
+  position: relative;
+  top:20px;
+  background-color:#12bbd4;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 24px;
+  height: 40%;
+  width: 6%;
+  margin-left: 170px;      
+
+  
+}
+
+
+
+.btn-success3{
+  position: relative;
+  top:20px;
+  background-color:#12bbd4;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 24px;
+  height: 40%;
+  width: 6%;
+  margin-left: 170px;    
+
+  
+}
+
+
+.btn-success6{
+  position: relative;
+  top:20px;
+  background-color:#12bbd4;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 24px;
+  height: 40%;
+  width: 6%;
+  margin-left: 170px;      
+
+  
+}
+
+.btn-success7{
+  position: relative;
+  top:20px;
+  background-color:#12bbd4;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 24px;
+  height: 40%;
+  width: 6%;
+  margin-left: 30px;        
+
+  
+}
+
+.btn-success8{
+  position: relative;
+  top:20px;
+  background-color:#12bbd4;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 24px;
+  height: 40%;
+  width: 6%;
+  margin-left: 30px;       
+
+  
+}
+
+.btn-success9{
+  position: relative;
+  top: 20px;
+  background-color:#12bbd4;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-size: 24px;
+  height: 40%;
+  width: 6%;
+  margin-left: 170px;       
+
+  
+}
