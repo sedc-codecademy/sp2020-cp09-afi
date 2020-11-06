@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Roomates.DataAccess\Roomates.DataAccess.csproj" />
+    <ProjectReference Include="..\Roomates.DataModel\Roomates.DataModel.csproj" />
+    <ProjectReference Include="..\Roomates.Models\Roomates.Models.csproj" />
+  </ItemGroup>
+
+</Project>

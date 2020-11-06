@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.DataModel\bin\Debug\netstandard2.0\Roomates.DataModel.deps.json
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.DataModel\bin\Debug\netstandard2.0\Roomates.DataModel.dll
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.DataModel\obj\Debug\netstandard2.0\Roomates.DataModel.csprojAssemblyReference.cache
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.DataModel\obj\Debug\netstandard2.0\Roomates.DataModel.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.DataModel\obj\Debug\netstandard2.0\Roomates.DataModel.AssemblyInfo.cs
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.DataModel\bin\Debug\netstandard2.0\Roomates.DataModel.pdb
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.DataModel\obj\Debug\netstandard2.0\Roomates.DataModel.dll
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.DataModel\obj\Debug\netstandard2.0\Roomates.DataModel.pdb
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.DataModel\obj\Debug\netstandard2.0\Roomates.DataModel.csproj.CoreCompileInputs.cache

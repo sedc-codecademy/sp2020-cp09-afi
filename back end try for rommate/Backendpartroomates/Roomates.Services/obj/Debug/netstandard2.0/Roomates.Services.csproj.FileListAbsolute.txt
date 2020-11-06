@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\bin\Debug\netstandard2.0\Roomates.Services.deps.json
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\bin\Debug\netstandard2.0\Roomates.Services.dll
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\obj\Debug\netstandard2.0\Roomates.Services.csprojAssemblyReference.cache
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\obj\Debug\netstandard2.0\Roomates.Services.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\obj\Debug\netstandard2.0\Roomates.Services.AssemblyInfo.cs
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\bin\Debug\netstandard2.0\Roomates.DataAccess.dll
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\bin\Debug\netstandard2.0\Roomates.DataModel.dll
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\bin\Debug\netstandard2.0\Roomates.Models.dll
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\bin\Debug\netstandard2.0\Roomates.Services.pdb
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\bin\Debug\netstandard2.0\Roomates.DataAccess.pdb
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\bin\Debug\netstandard2.0\Roomates.DataModel.pdb
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\bin\Debug\netstandard2.0\Roomates.Models.pdb
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\obj\Debug\netstandard2.0\Roomates.Services.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\obj\Debug\netstandard2.0\Roomates.Services.csproj.CopyComplete
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\obj\Debug\netstandard2.0\Roomates.Services.dll
+C:\Users\User\Desktop\back end try for rommate\Backendpartroomates\Roomates.Services\obj\Debug\netstandard2.0\Roomates.Services.pdb
